@@ -48,6 +48,7 @@ pe <- read_csv(
     cod_dep_inei,
     cod_dep_reniec,
     iso_3166_2_code,
+    date,
     confirmed,
     deaths,
     recovered,
