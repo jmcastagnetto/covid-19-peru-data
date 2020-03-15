@@ -2,7 +2,7 @@ library(tidyverse)
 library(ISOcodes)
 
 # fuente: https://github.com/CONCYTEC/ubigeo-peru
-ubigeos <- read_csv("equivalencia-ubigeos-oti-concytec.csv")
+ubigeos <- read_csv("equivalencia-ubigeos-oti-concytec.csv.gz")
 
 pe_iso_3166_2 <- ISO_3166_2 %>%
   filter(str_detect(Code, "PE-")) %>%
