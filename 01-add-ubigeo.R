@@ -21,7 +21,7 @@ pe <- read_csv(
   ) %>%
   left_join(
     ubigeos %>%
-      filter(!is.na(desc_dep_inei)) %>%
+      filter(!is.na(desc_dep_inei) & !is.na(cod_dep_inei) & !is.na(cod_dep_reniec)) %>%
       select(desc_dep_inei, cod_dep_inei, cod_dep_reniec) %>%
       distinct(),
     by = c("region" = "desc_dep_inei")
