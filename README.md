@@ -1,5 +1,11 @@
-Fuente: https://twitter.com/Minsa_Peru
-Última actualización: 2020-03-15, 16:02h
+**Fuente**: https://twitter.com/Minsa_Peru
+
+**Última actualización**: 2020-03-15
+
+**Notas**
+
+- UBIGEOS de https://github.com/CONCYTEC/ubigeo-peru
+
 
 Estructura:
 
@@ -11,3 +17,6 @@ Estructura:
 - deaths: Decesos
 - recovered: Recuperados
 - discarded_cases: Casos descartados
+- cod_dep_inei: UBIGEO del departamenteo (INEI)
+- cod_dep_reniec: UBIGEO del departamenteo (RENIEC)
+
