@@ -1,7 +1,14 @@
 library(tidyverse)
+library(ISOcodes)
 
 # fuente: https://github.com/CONCYTEC/ubigeo-peru
 ubigeos <- read_csv("equivalencia-ubigeos-oti-concytec.csv")
+
+pe_iso_3166_2 <- ISO_3166_2 %>%
+  filter(str_detect(Code, "PE-")) %>%
+  mutate(
+    Name = str_to_upper(iconv(Name, to='ASCII//TRANSLIT'))
+  )
 
 pe <- read_csv(
   "covid-19-peru-data.csv",
@@ -25,9 +32,30 @@ pe <- read_csv(
       select(desc_dep_inei, cod_dep_inei, cod_dep_reniec) %>%
       distinct(),
     by = c("region" = "desc_dep_inei")
+  ) %>%
+  left_join(
+    pe_iso_3166_2 %>%
+      select(Code, Name) %>%
+      rename(
+        iso_3166_2_code = Code
+      ),
+    by = c("region" = "Name")
+  ) %>%
+  select(
+    country,
+    iso3c,
+    region,
+    cod_dep_inei,
+    cod_dep_reniec,
+    iso_3166_2_code,
+    confirmed,
+    deaths,
+    recovered,
+    discarded_cases
   )
 
 write_csv(
   pe,
   path = "covid-19-peru-data-con-ubigeos.csv"
 )
+
