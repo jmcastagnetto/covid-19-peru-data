@@ -7,6 +7,8 @@ ubigeos <- read_csv("equivalencia-ubigeos-oti-concytec.csv")
 pe_iso_3166_2 <- ISO_3166_2 %>%
   filter(str_detect(Code, "PE-")) %>%
   mutate(
+    Name = ifelse(Name == "Cusco [Cuzco]", "Cusco", Name), # fix weirdness with Cusco
+    Name = ifelse(Name == "El Callao", "Callao", Name), # and weirdness with Callao
     Name = str_to_upper(iconv(Name, to='ASCII//TRANSLIT'))
   )
 
