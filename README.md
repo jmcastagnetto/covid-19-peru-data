@@ -6,6 +6,8 @@
 
 - Códigos de UBIGEO de https://github.com/CONCYTEC/ubigeo-peru
 - Códigos ISO-3166-2, usando el paquete en R `ISOcodes`: https://cran.r-project.org/package=ISOcodes
+- Mapa preliminar usando el paquete `mapview` en: https://castagnetto.site/peru/peru-covid-19-map.html
+
 
 **Estructura**:
 
@@ -20,4 +22,3 @@
 - deaths: Decesos
 - recovered: Recuperados
 - discarded_cases: Casos descartados
-

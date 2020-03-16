@@ -1,0 +1,63 @@
+---
+title: "Mapa de los casos confirmados en Perú por región"
+date: "Actualizado al 2020-03-15"
+output: html_document
+---
+
+```{r echo=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE
+)
+
+library(tidyverse)
+library(rnaturalearth)
+library(mapview)
+
+pe_sf <- ne_states(country = "peru", returnclass = "sf") %>%
+  select(
+    iso_3166_2,
+    geometry
+  )
+
+covid_pe <- read_csv(
+  "covid-19-peru-data-con-ubigeos.csv"
+) %>%
+  filter(!is.na(iso_3166_2_code)) %>%
+  select(region, iso_3166_2_code, date, confirmed)
+
+
+pe_map_data <- merge(
+  pe_sf,
+  covid_pe,
+  by.x = "iso_3166_2",
+  by.y = "iso_3166_2_code"
+)
+
+
+pe_map <-   mapview(
+  pe_map_data,
+  zcol = "region",
+  layer.name = "Base",
+  legend = FALSE
+)
+
+fechas <- as.character(sort(unique(pe_map_data$date)))
+
+for (d in sort(unique(pe_map_data$date))) {
+  layer_name <- as.character(unique(pe_map_data[pe_map_data$date == d, ]$date))[1]
+  pe_map <- pe_map +
+    mapview(
+      pe_map_data %>% filter(date == d),
+      zcol = "confirmed",
+      layer.name = layer_name,
+      legend = TRUE
+    )
+}
+```
+```{r echo=FALSE}
+pe_map
+```
+
+- Datos en: https://github.com/jmcastagnetto/covid-19-peru-data
+- Fuente original: Tweets del [@Minsa_peru](https://twitter.com/Minsa_Peru)
