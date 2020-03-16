@@ -12,6 +12,30 @@ pe_iso_3166_2 <- ISO_3166_2 %>%
     Name = str_to_upper(iconv(Name, to='ASCII//TRANSLIT'))
   )
 
+inei_poblacion <- read_csv("inei-pob_03.csv") %>%
+  filter(!is.na(Departamento)) %>%
+  filter(!Departamento %in% c("Total", "Provincia de Lima 3/", "Región Lima 4/")) %>%
+  select("Departamento", "2017") %>%
+  mutate(
+    Departamento = str_remove(Departamento, " \\d/") %>%
+      str_trim(),
+    Departamento = if_else(Departamento == "Prov. Const. del Callao", "Callao", Departamento),
+    Departamento = str_to_upper(iconv(Departamento, to='ASCII//TRANSLIT'))
+  ) %>%
+  rename(
+    pob_2017 = `2017`
+  ) %>%
+  mutate(
+    pob_2017 = str_trim(pob_2017) %>% str_remove_all(" ") %>% as.numeric()
+  ) %>%
+  left_join(
+    ubigeos %>%
+      filter(!is.na(desc_dep_inei) & !is.na(cod_dep_inei) & !is.na(cod_dep_reniec)) %>%
+      select(desc_dep_inei, cod_dep_inei) %>%
+      distinct(),
+    by = c("Departamento" = "desc_dep_inei")
+  )
+
 pe <- read_csv(
   "covid-19-peru-data.csv",
   col_types = cols(
@@ -43,6 +67,11 @@ pe <- read_csv(
       ),
     by = c("region" = "Name")
   ) %>%
+  left_join(
+    inei_poblacion %>%
+      select(cod_dep_inei, pob_2017),
+    by = c("cod_dep_inei")
+  ) %>%
   select(
     country,
     iso3c,
@@ -54,7 +83,8 @@ pe <- read_csv(
     confirmed,
     deaths,
     recovered,
-    discarded_cases
+    discarded_cases,
+    pob_2017
   )
 
 write_csv(
