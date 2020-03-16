@@ -1,8 +1,9 @@
 ---
-title: "Mapa de los casos confirmados en Perú por región"
-date: "Actualizado al 2020-03-15"
+title: "Gráficos de los casos de COVID-18 en el Perú"
+date: "Actualizado al 2020-03-16"
 output: html_document
 ---
+
 
 ```{r echo=FALSE, include=FALSE}
 knitr::opts_chunk$set(
@@ -13,6 +14,7 @@ knitr::opts_chunk$set(
 library(tidyverse)
 library(rnaturalearth)
 library(mapview)
+library(patchwork)
 
 pe_sf <- ne_states(country = "peru", returnclass = "sf") %>%
   select(
@@ -55,9 +57,69 @@ for (d in sort(unique(pe_map_data$date))) {
     )
 }
 ```
+
+## Mapa de casos por región
+
 ```{r echo=FALSE}
 pe_map
 ```
+
+## Gráfico de casos por región
+
+```{r echo=FALSE}
+ggplot(covid_pe,
+  aes(x = date, y = confirmed, color = region)) +
+  geom_point(show.legend = FALSE) +
+  geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
+  facet_wrap(~region, scales = "free_y", ncol = 3) +
+  theme_minimal() +
+  labs(
+    y = "Casos Confirmados",
+    x = "",
+    title = "COVID-19: Casos Confirmados por region en el Perú",
+    subtitle = "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru",
+    caption = paste0("Actualizado el ", lubridate::now(tzone = "UTC"), " UTC // @jmcastagnetto, Jesús M. Castagnetto")
+  )
+```
+
+## Gráficos de casos confirmados y descartados en todo el Perú
+
+```{r echo=FALSE,fig.width=12}
+covid_pe <- read_csv(
+  "covid-19-peru-data-con-ubigeos.csv"
+) %>%
+  filter(is.na(iso_3166_2_code)) %>%
+  select(date, confirmed, discarded_cases)
+
+p1 <- ggplot(covid_pe,
+       aes(x = date, y = confirmed)) +
+  geom_point(show.legend = FALSE) +
+  geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
+  theme_minimal() +
+  labs(
+    y = "Número de casos",
+    x = "",
+    title = "COVID-19: Casos confirmados en el Perú",
+    subtitle = "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru",
+    caption = paste0("Actualizado el ", lubridate::now(tzone = "UTC"), " UTC // @jmcastagnetto, Jesús M. Castagnetto")
+  )
+
+p2 <- ggplot(covid_pe,
+             aes(x = date, y = discarded_cases)) +
+  geom_point(show.legend = FALSE) +
+  geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
+  theme_minimal() +
+  labs(
+    y = "Número de casos descartados",
+    x = "",
+    title = "COVID-19: Casos descartados en el Perú",
+    subtitle = "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru",
+    caption = paste0("Actualizado el ", lubridate::now(tzone = "UTC"), " UTC // @jmcastagnetto, Jesús M. Castagnetto")
+  )
+
+p1 + p2
+```
+
 
 - Datos en: https://github.com/jmcastagnetto/covid-19-peru-data
 - Fuente original: Tweets del [@Minsa_peru](https://twitter.com/Minsa_Peru)
