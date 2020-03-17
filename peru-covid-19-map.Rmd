@@ -1,5 +1,5 @@
 ---
-title: "Gráficos de los casos de COVID-18 en el Perú"
+title: "Gráficos de los casos de COVID-19 en el Perú"
 date: "Actualizado al 2020-03-16"
 output: html_document
 ---
