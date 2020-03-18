@@ -1,0 +1,260 @@
+---
+title: "COVID-19 en Perú (v0.1) "
+#author: "[Jesus M. Castagnetto]"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(patchwork)
+library(DT)
+library(echarts4r)
+library(echarts4r.maps)
+library(showtext)
+
+font_add_google("Inconsolata", "inconsolata")
+font_add_google("Lato", "lato")
+
+showtext_auto()
+
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  echo = FALSE
+)
+
+last_updated <- paste0(
+  "Actualizado el ",
+  lubridate::now(tzone = "UTC"), 
+  " UTC"
+)
+
+jmc <- "@jmcastagnetto, Jesús M. Castagnetto"
+minsa <- "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru"
+
+covid_pe <- read_csv("covid-19-peru-data.csv") %>% 
+  filter(is.na(region)) %>% 
+  select(-region, -deaths, -recovered)
+
+covid_regions_pe <- read_csv(
+  "covid-19-peru-data.csv"
+) %>%
+  filter(!is.na(region)) %>% 
+  select(region, date, confirmed)
+
+cur_theme <- theme(
+  plot.margin = unit(rep(1, 4), "cm"),
+  plot.title = element_text(family = "lato"),
+  plot.subtitle = element_text(family = "lato"),
+  plot.caption = element_text(family = "inconsolata")
+)
+```
+
+# Gráficos totales
+
+## Columna izquierda {data-width="60%"}
+
+### Casos Confirmados
+
+```{r}
+ggplot(covid_pe,
+       aes(x = date, y = confirmed)) +
+  geom_point() +
+  geom_line() +
+  theme_minimal() +
+  labs(
+    y = "Casos Confirmados",
+    x = "",
+    title = "COVID-19: Casos totales confirmados en el Perú",
+    subtitle = minsa,
+    caption = paste0(last_updated, " // ", jmc)
+  ) +
+  cur_theme
+```
+
+## Columna derecha {data-width="40%"}
+
+### Casos probados: confirmados y rechazados
+
+```{r fig.width=12}
+df <- covid_pe %>% 
+  rename(
+    Confirmados = confirmed,
+    Descartados = discarded_cases
+  ) %>% 
+  pivot_longer(
+    cols = c("Confirmados", "Descartados"),
+    names_to = "Casos probados",
+    values_to = "cases"
+  ) %>% 
+  select(
+    date, `Casos probados`, cases
+  )
+
+ggplot(df, 
+       aes(x = date, y = cases, fill = `Casos probados`)) +
+  geom_col() +
+  theme_minimal() +
+  labs(
+    y = "Número de casos",
+    x = "",
+    title = "COVID-19: Casos totales probados en el Perú",
+    subtitle = minsa,
+    caption = paste0(last_updated, "\n", jmc)
+  ) +
+  cur_theme
+```
+
+### Nuevos casos totales
+
+```{r fig.width=10}
+df2 <- covid_pe %>% 
+  mutate(
+    new_conf = confirmed - lag(confirmed),
+    new_disc = discarded_cases - lag(discarded_cases),
+    new_tot = new_conf + new_disc
+  ) %>%
+  filter(!is.na(new_conf))
+
+pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
+  geom_point() +
+  geom_line() +
+  theme_minimal() +
+  labs(
+    y = "Casos confirmados",
+    x = "",
+    title = "COVID-19: Nuevos casos confirmados (Perú)",
+    subtitle = minsa,
+    caption = paste0(last_updated, "\n", jmc)
+  ) +
+  cur_theme
+
+pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
+  geom_point() +
+  geom_line() +
+  theme_minimal() +
+  labs(
+    y = "Casos confirmados",
+    x = "",
+    title = "COVID-19: Nuevos casos probados totales (Perú)",
+    subtitle = minsa,
+    caption = paste0(last_updated, "\n", jmc)
+  ) +
+  cur_theme
+
+pt1 + pt2
+```
+
+
+
+
+# Gráficos por regiones
+
+## Columna izquierda {data-width="60%"}
+
+### Casos confirmados por región
+
+```{r echo=FALSE}
+map_df <- covid_regions_pe %>% 
+  select(region, date, confirmed)
+
+map_df %>% 
+  group_by(date) %>% 
+  e_charts(region, timeline=TRUE) %>%
+  em_map("Peru") %>% 
+  e_map(confirmed, map = "Peru") %>% 
+  e_visual_map(min = 1, max = 100) %>% 
+  e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
+  e_title(
+    text = "Mapa interactivo de casos por región", 
+    subtext = "Fuente original: Tweets del MINSA https://twitter.com/Minsa_Peru"
+  ) %>% 
+  e_theme("infographic")
+```
+
+## Column right {data-width="40%"}
+
+### Evolución de casos por región
+
+```{r echo=FALSE}
+cpr_df <- covid_regions_pe %>% 
+  mutate(
+    label = glue::glue("{region}: {confirmed} ({date})")
+  )
+cpr <- ggplot(cpr_df,
+  aes(x = date, y = confirmed, color = region)) +
+  geom_point(show.legend = FALSE) +
+  geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
+  facet_wrap(~region, scales = "free_y", ncol = 4) +
+  theme_minimal() +
+  labs(
+    y = "Casos Confirmados",
+    x = "",
+    title = "COVID-19: Casos Confirmados por region en el Perú",
+    subtitle = minsa,
+    caption = paste0(last_updated, "\n", jmc)
+  ) +
+  cur_theme
+cpr
+```
+
+# Datos
+
+## Column {.tabset}
+
+### Totales
+
+```{r results="asis"}
+tab_opts <- list(
+    language = list(
+      search = "Filtrar:",
+      url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'
+      ),
+    className = "dt-center",
+    searchHighlight = TRUE,
+    pageLength = 20,
+    lengthMenu = c(10, 20, 30, 40, 50),
+    dom = 'Blfrtip',
+    buttons = c('csv', 'excel')
+  )
+
+datatable(
+  covid_pe,
+  colnames = c("País", "Código ISO", "Fecha", "Número de casos confirmados", "Número de casos descartados"),
+  class = "cell-border stripe",
+  extensions = c("Buttons", "Responsive"),
+  options = tab_opts,
+  caption = paste0(minsa, " // ", last_updated, " // ", jmc)
+)
+```
+
+
+### Por región
+
+```{r results="asis"}
+datatable(
+  covid_regions_pe,
+  colnames = c("Departamento", "Fecha", "Número de casos confirmados"),
+  class = "cell-border stripe",
+  extensions = c("Buttons", "Responsive"),
+  options = tab_opts,
+  caption = paste0(minsa, " // ", last_updated, " // ", jmc)
+)
+```
+
+#  Acerca de esta visualización
+
+## Columna única
+
+- **Fuente**: Tweets del MINSA https://twitter.com/Minsa_Peru
+- **Datos y código**: https://github.com/jmcastagnetto/covid-19-peru-data/
+
+
+[`r icon::fa("twitter")`](https://twitter.com/jmcastagnetto)
+[`r icon::fa("github")`](https://github.com/jmcastagnetto')
+[`r icon::fa("home")`](https://castagnetto.site')
+Jesús M. Castagnetto, Ph.D.

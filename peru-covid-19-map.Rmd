@@ -62,7 +62,7 @@ for (d in sort(unique(pe_map_data$date))) {
 
 ## Mapa interactivo de casos confirmados por región
 
-```{r echo=FALSE}
+```{r echo=FALSE,out.width=10}
 covid_reg_pe <- read_csv(
   "covid-19-peru-data.csv"
 ) %>% 
