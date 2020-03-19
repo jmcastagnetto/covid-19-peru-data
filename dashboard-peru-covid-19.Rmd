@@ -162,7 +162,7 @@ ggplotly(pt1)
 #gpt
 ```
 
-### Otros nuevos
+### Nuevos casos probados totales
 
 ```{r}
 ggplotly(pt2)
