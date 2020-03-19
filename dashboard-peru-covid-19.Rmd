@@ -115,7 +115,7 @@ ggplotly(bar_plot)
 
 ## Columna derecha {data-width="40%"}
 
-### Nuevos casos cofnirmados totales
+### Nuevos casos confirmados totales
 
 ```{r fig.width=10}
 df2 <- covid_pe %>% 
