@@ -15,6 +15,7 @@ library(DT)
 library(echarts4r)
 library(echarts4r.maps)
 library(showtext)
+library(plotly)
 
 font_add_google("Inconsolata", "inconsolata")
 font_add_google("Lato", "lato")
@@ -50,7 +51,8 @@ cur_theme <- theme(
   plot.margin = unit(rep(1, 4), "cm"),
   plot.title = element_text(family = "lato"),
   plot.subtitle = element_text(family = "lato"),
-  plot.caption = element_text(family = "inconsolata")
+  plot.caption = element_text(family = "inconsolata"),
+  legend.position = "none"
 )
 ```
 
@@ -61,7 +63,7 @@ cur_theme <- theme(
 ### Casos Confirmados
 
 ```{r}
-ggplot(covid_pe,
+pe_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
   geom_point() +
   geom_line() +
@@ -74,9 +76,10 @@ ggplot(covid_pe,
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
+ggplotly(pe_plot)
 ```
 
-## Columna derecha {data-width="40%"}
+
 
 ### Casos probados: confirmados y rechazados
 
@@ -95,7 +98,7 @@ df <- covid_pe %>%
     date, `Casos probados`, cases
   )
 
-ggplot(df, 
+bar_plot <- ggplot(df, 
        aes(x = date, y = cases, fill = `Casos probados`)) +
   geom_col() +
   theme_minimal() +
@@ -107,7 +110,10 @@ ggplot(df,
     caption = paste0(last_updated, "\n", jmc)
   ) +
   cur_theme
+ggplotly(bar_plot)
 ```
+
+## Columna derecha {data-width="40%"}
 
 ### Nuevos casos totales
 
@@ -122,7 +128,7 @@ df2 <- covid_pe %>%
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
   geom_point() +
-  geom_line() +
+  geom_segment(aes(xend = date, yend = 0)) +
   theme_minimal() +
   labs(
     y = "Casos confirmados",
@@ -134,11 +140,11 @@ pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
   cur_theme
 
 pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
-  geom_point() +
-  geom_line() +
+  geom_point(color = "blue") +
+  geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal() +
   labs(
-    y = "Casos confirmados",
+    y = "Casos probados",
     x = "",
     title = "COVID-19: Nuevos casos probados totales (Perú)",
     subtitle = minsa,
@@ -146,7 +152,20 @@ pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
   ) +
   cur_theme
 
-pt1 + pt2
+ggplotly(pt1)
+# gpt2 <- ggplotly(pt2)
+# 
+# p1 <- pt1 + pt2
+# ggplotly(p1)
+# 
+# gpt <- subplot(gpt1, gpt2)
+#gpt
+```
+
+### Otros nuevos
+
+```{r}
+ggplotly(pt2)
 ```
 
 
@@ -154,7 +173,7 @@ pt1 + pt2
 
 # Gráficos por regiones
 
-## Columna izquierda {data-width="60%"}
+## Columna izquierda {data-width="50%"}
 
 ### Casos confirmados por región
 
@@ -176,7 +195,7 @@ map_df %>%
   e_theme("infographic")
 ```
 
-## Column right {data-width="40%"}
+## Column right {data-width="50%"}
 
 ### Evolución de casos por región
 
@@ -199,7 +218,8 @@ cpr <- ggplot(cpr_df,
     caption = paste0(last_updated, "\n", jmc)
   ) +
   cur_theme
-cpr
+#cpr
+ggplotly(cpr)
 ```
 
 # Datos
