@@ -36,18 +36,28 @@ fit.gompertz <- function(data, time){
 model1 <- fit.gompertz(df$confirmed, df$t)
 summary(model1)
 AIC(model1)
+coefs <- coefficients(model1)
+changepoint <- coefs[1] / exp(1)
 
 df$preds <- predict(model1)
 
-ts <- seq(0, 90)
+# predict up to 7 days
+ts <- seq(0, max(df$t) + 7)
 future <- predict(model1, newdata = data.frame(t = ts))
-coefs <- coefficients(model1)
-changepoint <- coefs[1] / exp(1)
+
+df2 <- data.frame(t = ts, pred = future)
+
 ggplot(df, aes(x = t)) +
   geom_point(aes(y = confirmed)) +
-  geom_line(data = data.frame(t = ts, future = future),
-            aes(x = t, y = future), color = "red") +
-  geom_line(aes(y = preds))
+  geom_line(data = df2,
+            aes(x = t, y = pred),
+            color = "red",
+            linetype = "dashed") +
+  annotate(geom = "point", x = max(df2$t), y = last(df2$pred), color = "red") +
+  annotate(geom = "text",
+           x = max(df2$t) + 1, y = last(df2$pred),
+           label = floor(last(df2$pred)), color = "red") +
+  geom_line(aes(y = preds), color = "black")
 
 # worse case scenario
 mfactor <- 30 # multiplier of "real" infected cases
