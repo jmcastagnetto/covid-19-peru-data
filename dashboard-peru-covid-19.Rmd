@@ -81,7 +81,7 @@ ggplotly(pe_plot)
 
 
 
-### Casos analizados clínicamente: confirmados y rechazados
+### Casos tamizados: confirmados y rechazados
 
 ```{r fig.width=12}
 df <- covid_pe %>% 
@@ -91,21 +91,21 @@ df <- covid_pe %>%
   ) %>% 
   pivot_longer(
     cols = c("Confirmados", "Descartados"),
-    names_to = "Casos analizados clínicamente",
+    names_to = "Casos tamizados",
     values_to = "cases"
   ) %>% 
   select(
-    date, `Casos analizados clínicamente`, cases
+    date, `Casos tamizados`, cases
   )
 
 bar_plot <- ggplot(df, 
-       aes(x = date, y = cases, fill = `Casos analizados clínicamente`)) +
+       aes(x = date, y = cases, fill = `Casos tamizados`)) +
   geom_col() +
   theme_minimal() +
   labs(
     y = "Número de casos",
     x = "",
-    title = "COVID-19: Casos totales analizados clínicamente en el Perú",
+    title = "COVID-19: Casos totales tamizados en el Perú",
     subtitle = minsa,
     caption = paste0(last_updated, "\n", jmc)
   ) +
@@ -115,7 +115,7 @@ ggplotly(bar_plot)
 
 ## Columna derecha {data-width="40%"}
 
-### Nuevos casos totales
+### Nuevos casos cofnirmados totales
 
 ```{r fig.width=10}
 df2 <- covid_pe %>% 
@@ -144,9 +144,9 @@ pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
   geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal() +
   labs(
-    y = "Casos analizados clínicamente",
+    y = "Casos tamizados",
     x = "",
-    title = "COVID-19: Nuevos casos analizados clínicamente totales (Perú)",
+    title = "COVID-19: Nuevos casos tamizados totales (Perú)",
     subtitle = minsa,
     caption = paste0(last_updated, "\n", jmc)
   ) +
@@ -162,7 +162,7 @@ ggplotly(pt1)
 #gpt
 ```
 
-### Nuevos casos analizados clínicamente totales
+### Nuevos casos tamizados totales
 
 ```{r}
 ggplotly(pt2)
