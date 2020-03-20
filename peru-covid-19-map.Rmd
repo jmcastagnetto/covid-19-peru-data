@@ -4,6 +4,8 @@ date: "Actualizado al 2020-03-16"
 output: html_document
 ---
 
+Hay un dashboard con mas información: https://castagnetto.site/peru/dashboard-peru-covid-19.html
+
 
 ```{r echo=FALSE, include=FALSE}
 knitr::opts_chunk$set(
