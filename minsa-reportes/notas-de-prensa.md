@@ -1,6 +1,6 @@
 ## Generales
 
-- [Número de nuevos casos de COVID – 19 está dentro de la curva esperada por autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades)
+- [Número de nuevos casos de COVID – 19 está dentro de la curva esperada por autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades) 2020-03-19
 - [Ministerio de Salud informa sobre resultado del procesamiento de muestras por coronavirus COVID-19](https://www.gob.pe/institucion/minsa/noticias/94105-ministerio-de-salud-informa-sobre-resultado-del-procesamiento-de-muestras-por-coronavirus-covid-19) 2020-03-07
 - [Minsa brinda recomendaciones para la atención de una persona con coronavirus en casa](https://www.gob.pe/institucion/minsa/noticias/94095-minsa-brinda-recomendaciones-para-la-atencion-de-una-persona-con-coronavirus-en-casa) 2020-03-07
 - [Minsa procesó 107 muestras por coronavirus COVID-19 y todas tienen resultado negativo](https://www.gob.pe/institucion/minsa/noticias/85332-minsa-proceso-107-muestras-por-coronavirus-covid-19-y-todas-tienen-resultado-negativo) 2020-03-04
