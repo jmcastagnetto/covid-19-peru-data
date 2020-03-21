@@ -34,7 +34,7 @@
   - Hombre, 47 años, viaje a España, asma, obesidad, ingreso por insuficiencia respiratoria y shock séptico, falleció en hospital, Lima
   - Hombre, 69 años, viaje a España, ingreso por cuadro respiratorio, falleció en domicilio, Lima
 - [Minsa lamenta el sensible fallecimiento de una persona por infección por COVID-19 (Comunicado N°22)](https://www.gob.pe/institucion/minsa/noticias/109639-minsa-lamenta-el-sensible-fallecimiento-de-una-persona-por-infeccion-por-covid-19-comunicado-n-22) 2020-03-20
-  - Mujer, 75 años, viaje a España, ingreso por insuficiencia respiratoria y neuomía el 2020-03-19, falleció en hospital, Lima
+  - Mujer, 75 años, viaje a España, ingreso por insuficiencia respiratoria y neumonía el 2020-03-19, falleció en hospital, Lima
 - [Minsa lamenta el sensible fallecimiento de una persona por infección por COVID-19 (Comunicado N°25)](https://www.gob.pe/institucion/minsa/noticias/109778-minsa-lamenta-el-sensible-fallecimiento-de-una-persona-por-infeccion-por-covid-19-comunicado-n-25) 2020-03-21
   - Hombre, 83 años, contacto con familiar procedente de Europa, ingreso por insuficiencia respiratoria y neumonía, falleció en hospital, Piura
 
