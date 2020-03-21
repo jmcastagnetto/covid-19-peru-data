@@ -1,0 +1,6 @@
+"fecha","sexo","edad","región","viaje","contacto","contacto_origen","lugar_fallecimiento","insuf_resp","neumonia","otros_sintomas","factores"
+"2020-03-19",78,"hombre","Lima",,,,"hospital",1,,,
+"2020-03-19",47,"hombre","Lima","España",,,"hospital",1,,"shock séptico","asma;obesidad"
+"2020-03-19",69,"hombre","Lima","España",,,"casa",1,,,
+"2020-03-20",75,"mujer","Lima","España",,,"hospital",1,,,
+"2020-03-21",83,"hombre","Lima",,"familiar","Europa","hostpital",1,1,,
