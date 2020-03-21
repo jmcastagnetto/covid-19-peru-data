@@ -1,6 +1,8 @@
-**Fuente**: https://twitter.com/Minsa_Peru
+**Fuente*: 
+- https://twitter.com/Minsa_Peru
+- https://www.gob.pe/busquedas?contenido[]=noticias&institucion[]=minsa&reason=sheet&sheet=1
 
-**Última actualización**: 2020-03-16
+**Última actualización**: 2020-03-21
 
 **Notas**
 
