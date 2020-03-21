@@ -10,6 +10,7 @@
 
 ## Casos confirmados
 
+- [Minsa: El Perú presenta 318 personas diagnosticadas y 5 fallecidas por COVID-19 (Comunicado N°27)](https://www.gob.pe/institucion/minsa/noticias/109792-minsa-el-peru-presenta-318-personas-diagnosticadas-y-5-fallecidas-por-covid-19-comunicado-n-27) 2020-03-21
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 263 y se han producido 4 fallecidos (Comunicado N° 23)](https://www.gob.pe/institucion/minsa/noticias/109657-minsa-casos-confirmados-por-coronavirus-covid-19-son-263-y-se-han-producido-4-fallecidos-comunicado-n-23) 2020-03-20
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 145 (Comunicado N°17)](https://www.gob.pe/institucion/minsa/noticias/109467-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-145-comunicado-n-17) 2020-03-18 
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 117 (Comunicado N° 15)](https://www.gob.pe/institucion/minsa/noticias/109438-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-117-comunicado-n-15) 2020-03-17

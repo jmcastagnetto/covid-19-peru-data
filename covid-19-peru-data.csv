@@ -36,9 +36,9 @@
 "Peru","PER","Ica",2020-03-16,1,0,0,
 "Peru","PER","La Libertad",2020-03-16,1,0,0,
 "Peru","PER","Lambayeque",2020-03-16,3,0,0,
-"Peru","PER","Lima",2020-03-16,70,0,0,
+"Peru","PER","Lima",2020-03-16,70,0,1,
 "Peru","PER","Piura",2020-03-16,2,0,0,
-"Peru","PER",,2020-03-16,86,0,0,2229
+"Peru","PER",,2020-03-16,86,0,1,2229
 "Peru","PER","Ancash",2020-03-17,1,0,0,
 "Peru","PER","Arequipa",2020-03-17,2,0,0,
 "Peru","PER","Callao",2020-03-17,4,0,0,
@@ -72,11 +72,11 @@
 "Peru","PER","Ica",2020-03-19,1,0,0,
 "Peru","PER","La Libertad",2020-03-19,2,0,0,
 "Peru","PER","Lambayeque",2020-03-19,6,0,0,
-"Peru","PER","Lima",2020-03-19,194,0,0,
+"Peru","PER","Lima",2020-03-19,194,3,0,
 "Peru","PER","Piura",2020-03-19,2,0,0,
 "Peru","PER","Loreto",2020-03-19,11,0,0,
 "Peru","PER","Madre de Dios",2020-03-19,1,0,0,
-"Peru","PER",,2020-03-19,234,0,0,3607
+"Peru","PER",,2020-03-19,234,3,0,3607
 "Peru","PER","Junín",2020-03-20,9,0,0,
 "Peru","PER","Ancash",2020-03-20,4,0,0,
 "Peru","PER","Arequipa",2020-03-20,3,0,0,
@@ -86,8 +86,22 @@
 "Peru","PER","Ica",2020-03-20,1,0,0,
 "Peru","PER","La Libertad",2020-03-20,2,0,0,
 "Peru","PER","Lambayeque",2020-03-20,6,0,0,
-"Peru","PER","Lima",2020-03-20,212,0,0,
+"Peru","PER","Lima",2020-03-20,212,4,0,
 "Peru","PER","Piura",2020-03-20,2,0,0,
 "Peru","PER","Loreto",2020-03-20,12,0,0,
 "Peru","PER","Madre de Dios",2020-03-20,1,0,0,
-"Peru","PER",,2020-03-20,263,0,0,4035
+"Peru","PER",,2020-03-20,263,4,0,4035
+"Peru","PER","Junín",2020-03-21,10,0,0,
+"Peru","PER","Ancash",2020-03-21,4,0,0,
+"Peru","PER","Arequipa",2020-03-21,4,0,0,
+"Peru","PER","Callao",2020-03-21,6,0,0,
+"Peru","PER","Cusco",2020-03-21,4,0,0,
+"Peru","PER","Huánuco",2020-03-21,2,0,0,
+"Peru","PER","Ica",2020-03-21,1,0,0,
+"Peru","PER","La Libertad",2020-03-21,5,0,0,
+"Peru","PER","Lambayeque",2020-03-21,8,0,0,
+"Peru","PER","Lima",2020-03-21,241,4,0,
+"Peru","PER","Piura",2020-03-21,18,1,0,
+"Peru","PER","Loreto",2020-03-21,14,0,0,
+"Peru","PER","Madre de Dios",2020-03-21,1,0,0,
+"Peru","PER",,2020-03-21,318,5,0,6209
