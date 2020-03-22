@@ -1,3 +1,5 @@
+RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
+
 ## Generales
 
 - [Número de nuevos casos de COVID – 19 está dentro de la curva esperada por autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades) 2020-03-19
