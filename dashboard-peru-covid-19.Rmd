@@ -5,6 +5,8 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    includes:
+      in_header: _ga.html
 ---
 
 ```{r setup, include=FALSE}
