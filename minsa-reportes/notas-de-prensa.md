@@ -25,7 +25,7 @@ RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
 - [Minsa: Se elevaron a nueve los casos positivos por coronavirus COVID-19 tras analizarse 318 muestras](https://www.gob.pe/institucion/minsa/noticias/108939-minsa-se-elevaron-a-nueve-los-casos-positivos-por-coronavirus-covid-19-tras-analizarse-318-muestras) 2020-03-09
 - [Casos confirmados de coronavirus son importados y no existe transmisión comunitaria](https://www.gob.pe/institucion/minsa/noticias/94121-casos-confirmados-de-coronavirus-son-importados-y-no-existe-transmision-comunitaria) 2020-03-08
 - [Minsa procesó 219 muestras por coronavirus COVID-19 y 6 resultaron positivas](https://www.gob.pe/institucion/minsa/noticias/108938-minsa-proceso-219-muestras-por-coronavirus-covid-19-y-6-resultaron-positivas) 2020-03-07
-- [https://www.gob.pe/institucion/minsa/noticias/108937-minsa-proceso-155-muestras-por-coronavirus-covid-19-y-una-resulto-positivo](https://www.gob.pe/institucion/minsa/noticias/108937-minsa-proceso-155-muestras-por-coronavirus-covid-19-y-una-resulto-positivo) 2020-03-06
+- [Minsa procesó 155 muestras por coronavirus COVID-19 y una resultó positivo](https://www.gob.pe/institucion/minsa/noticias/108937-minsa-proceso-155-muestras-por-coronavirus-covid-19-y-una-resulto-positivo) 2020-03-06
 
 ## Recuperados
 
