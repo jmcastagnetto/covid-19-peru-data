@@ -69,6 +69,9 @@ pe_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
   geom_point() +
   geom_line() +
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
+  annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1,
+           label = "Inicio de la\ncuarentena", color = "blue") +
   theme_minimal() +
   labs(
     y = "Casos Confirmados",
@@ -78,7 +81,7 @@ pe_plot <- ggplot(covid_pe,
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
-ggplotly(pe_plot)
+ggiraph::girafe(ggobj = pe_plot)
 ```
 
 ### Casos Confirmados (Escala logarítmica)
@@ -87,7 +90,10 @@ ggplotly(pe_plot)
 pelog_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
   geom_point() +
-  geom_smooth(method = "lm") +
+  geom_smooth(method = "lm", color = "red") +
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
+  annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1, 
+           label = "Inicio de la\ncuarentena", color = "blue") +
   scale_y_log10() +
   annotation_logticks(sides = "l") +
   theme_minimal() +
@@ -99,7 +105,7 @@ pelog_plot <- ggplot(covid_pe,
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
-pelog_plot
+ggiraph::girafe(ggobj = pelog_plot)
 ```
 
 ### Casos tamizados: confirmados y rechazados
@@ -368,7 +374,7 @@ df2 <- data.frame(t = ts, pred = future)
 gompertz_pred <- ggplot(df, aes(x = t)) +
   geom_point(aes(y = confirmed)) +
   geom_vline(xintercept = 10, color = "blue", alpha = 0.5, size = 2) +
-  annotate(geom = "text", x = 8, y = 400, label = "Inicio de cuarentena", hjust = 1, color = "blue") +
+  annotate(geom = "text", x = 8, y = 400, label = "Inicio de la\ncuarentena", hjust = 1, color = "blue") +
   geom_line(data = df2,
             aes(x = t, y = pred),
             color = "red",
