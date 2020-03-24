@@ -33,6 +33,7 @@ RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
 
 ## Fallecimientos
 
+- [Minsa lamenta informar el sensible fallecimiento de dos personas por infección con COVID-19 (Comunicado N°30)](https://www.gob.pe/institucion/minsa/noticias/109930-minsa-lamenta-informar-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-30) 2020-03-24
 - [Minsa lamenta el sensible fallecimiento del primer paciente a causa de infección COVID-19 (Comunicado N°20)](https://www.gob.pe/institucion/minsa/noticias/109580-minsa-lamenta-el-sensible-fallecimiento-del-primer-paciente-a-causa-de-infeccion-covid-19-comunicado-n-20) 2020-03-19
   - Hombre, 78 años, hipertensión, ingresó 2020-03-17 por insuficiencia respiratoria severa, falleció en hospital, Lima
 - [Minsa lamenta el sensible fallecimiento de dos personas por infección por COVID-19 (Comunicado N°21)](https://www.gob.pe/institucion/minsa/noticias/109603-minsa-lamenta-el-sensible-fallecimiento-de-dos-personas-por-infeccion-por-covid-19-comunicado-n-21) 2020-03-19
