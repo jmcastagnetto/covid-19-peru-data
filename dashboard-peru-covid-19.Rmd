@@ -60,9 +60,9 @@ cur_theme <- theme(
 
 # Gráficos totales
 
-## Columna izquierda {data-width="60%"}
+## Columna izquierda {.tabset}
 
-### Casos Confirmados
+### Casos Confirmados (Escala normal)
 
 ```{r}
 pe_plot <- ggplot(covid_pe,
@@ -81,7 +81,26 @@ pe_plot <- ggplot(covid_pe,
 ggplotly(pe_plot)
 ```
 
+### Casos Confirmados (Escala logarítmica)
 
+```{r}
+pelog_plot <- ggplot(covid_pe,
+       aes(x = date, y = confirmed)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  scale_y_log10() +
+  annotation_logticks(sides = "l") +
+  theme_minimal() +
+  labs(
+    y = "Casos Confirmados\n(Escala logarítmica)",
+    x = "",
+    title = "COVID-19: Casos totales confirmados en el Perú",
+    subtitle = minsa,
+    caption = paste0(last_updated, " // ", jmc)
+  ) +
+  cur_theme
+pelog_plot
+```
 
 ### Casos tamizados: confirmados y rechazados
 
@@ -115,7 +134,7 @@ bar_plot <- ggplot(df,
 ggplotly(bar_plot)
 ```
 
-## Columna derecha {data-width="40%"}
+## Columna derecha
 
 ### Nuevos casos confirmados totales
 
