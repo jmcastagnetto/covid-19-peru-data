@@ -18,6 +18,8 @@ library(echarts4r)
 library(echarts4r.maps)
 library(showtext)
 library(plotly)
+library(ggiraph)
+library(ggiraphExtra)
 
 font_add_google("Inconsolata", "inconsolata")
 font_add_google("Lato", "lato")
@@ -67,10 +69,10 @@ cur_theme <- theme(
 ```{r}
 pe_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
-  geom_point() +
+  geom_point_interactive(aes(tooltip = confirmed)) +
   geom_line() +
-  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
-  annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1,
+  geom_vline_interactive(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
+  annotate_interactive(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1,
            label = "Inicio de la\ncuarentena", color = "blue") +
   theme_minimal() +
   labs(
@@ -81,7 +83,13 @@ pe_plot <- ggplot(covid_pe,
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
-ggiraph::girafe(ggobj = pe_plot)
+
+girafe(
+  ggobj = pe_plot,
+  options = list(
+    opts_zoom(max = 5)
+  )
+)
 ```
 
 ### Casos Confirmados (Escala logarítmica)
@@ -89,8 +97,9 @@ ggiraph::girafe(ggobj = pe_plot)
 ```{r}
 pelog_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
-  geom_point() +
-  geom_smooth(method = "lm", color = "red") +
+  geom_smooth_interactive(aes(tooltip="línea ideal", data_id="smooth"),
+                          method = "lm", color = "red") +
+  geom_point_interactive(aes(tooltip = confirmed)) +
   geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
   annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1, 
            label = "Inicio de la\ncuarentena", color = "blue") +
@@ -105,7 +114,14 @@ pelog_plot <- ggplot(covid_pe,
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
-ggiraph::girafe(ggobj = pelog_plot)
+
+girafe(
+  ggobj = pelog_plot,
+  options = list(
+    opts_zoom(max = 5)
+  )
+)
+
 ```
 
 ### Casos tamizados: confirmados y rechazados
@@ -180,13 +196,6 @@ pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
   cur_theme
 
 ggplotly(pt1)
-# gpt2 <- ggplotly(pt2)
-# 
-# p1 <- pt1 + pt2
-# ggplotly(p1)
-# 
-# gpt <- subplot(gpt1, gpt2)
-#gpt
 ```
 
 ### Nuevos casos tamizados totales
