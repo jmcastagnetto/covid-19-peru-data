@@ -12,6 +12,7 @@ RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
 
 ## Casos confirmados
 
+- [Minsa: Casos confirmados por coronavirus COVID-19 son 480 en Perú (Comunicado N°33)](https://www.gob.pe/institucion/minsa/noticias/110065-minsa-casos-confirmados-por-coronavirus-covid-19-son-480-en-peru-comunicado-n-33) 2020-03-25
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 416 en Perú (Comunicado N°31)](https://www.gob.pe/institucion/minsa/noticias/109942-minsa-casos-confirmados-por-coronavirus-covid-19-son-416-en-peru-comunicado-n-31) 2020-03-24
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 395 en Perú (Comunicado N°29)](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29) 2020-03-23
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 363 en Perú (Comunicado N° 28)](https://www.gob.pe/institucion/minsa/noticias/109810-minsa-casos-confirmados-por-coronavirus-covid-19-son-363-en-peru-comunicado-n-28) 2020-03-22
@@ -34,6 +35,9 @@ RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
 
 ## Fallecimientos
 
+- [Minsa lamenta el sensible fallecimiento de dos personas por infección con Covid-19 (Comunicado N°32)](https://www.gob.pe/institucion/minsa/noticias/110050-minsa-lamenta-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-32) 2020-03-25
+  - Hombre, 76 años, nacionalidad mexicana, insuficiencia respiratoria y comorbilidad, diabetes y enfermedad cardíaca preexistente, falleció en hospital, Cusco
+  - Home, 94 años, insuficiencia renal y bronquitis crónica, diabetes, falleció en hospital, Lima
 - [Minsa lamenta informar el sensible fallecimiento de dos personas por infección con COVID-19 (Comunicado N°30)](https://www.gob.pe/institucion/minsa/noticias/109930-minsa-lamenta-informar-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-30) 2020-03-24
   - Hombre, 38 años, obesidad, ingresó 2020-03-22 por insuficiencia respiratoria, falleció en hospital, Lima
   - Mujer, 66 años, ingresó por insuficiencia respiratoria aguda y neumonía, falleció en hospital, La Libertad
