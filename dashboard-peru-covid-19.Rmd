@@ -423,7 +423,8 @@ gompertz_pred <- ggplot(df, aes(x = t)) +
   cur_theme +
   labs(
     y = "Número de casos confirmados",
-    x = "Días desde el primer caso (inicio: 2020-03-06)"
+    x = "Días desde el primer caso (inicio: 2020-03-06)",
+    title = paste("Actualizado el", lubridate::now(tzone = "UTC"), "UTC")
   )
 ggplotly(gompertz_pred)
 ```
