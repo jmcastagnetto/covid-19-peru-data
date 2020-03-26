@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.2) "
+title: "COVID-19 en Perú (v0.3) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
@@ -330,7 +330,7 @@ df <- read_csv("covid-19-peru-data.csv") %>%
 
 # Ref: http://www.statsathome.com/2017/06/07/fitting-non-linear-groth-curves-in-r/
 # Ref: https://arxiv.org/pdf/2003.05447.pdf
-fit.gompertz <- function(data, time){
+fit.gompertz <- function(data, time, start = NULL){
   d <- data.frame(y=data, t=time)
 
   # Must have at least 3 datapoints at different times
@@ -338,17 +338,20 @@ fit.gompertz <- function(data, time){
 
   # Pick starting values ###
   i <- which.max(diff(d$y))
-  starting.values <- c(a=max(d$y),
-                       mu=max(diff(d$y))/(d[i+1,"t"]-d[i, "t"]),
-                       lambda=i)
-  # print("Starting Values for Optimization: ")
-  # print(starting.values)
+  if (is.null(start)) {
+    starting.values <- c(a=max(d$y),
+                         mu=max(diff(d$y))/(d[i+1,"t"]-d[i, "t"]),
+                         lambda=i)
+  } else {
+    starting.values = start
+  }
+#  print("Starting Values for Optimization: ")
+#  print(starting.values)
   ##########################
 
   formula.gompertz <- "y~a*exp(-exp(mu*exp(1)/a*(lambda-t)+1))"
   nls(formula.gompertz, d, starting.values)
 }
-
 
 # modelo usando los primeros 12 días, 2 días mas luego del
 # inicio de la cuarentena
@@ -356,13 +359,18 @@ df0 <- df %>% filter(t <= 12)
 model0 <- fit.gompertz(df0$confirmed, df0$t)
 
 # modelo usando todos los datos disponibles
-model1 <- fit.gompertz(df$confirmed, df$t)
+start <- c(a = 1000, mu = 50, lambda = 9)  # to avoid singular gradient
+model1 <- fit.gompertz(df$confirmed, df$t, start = start)
 summary(model1)
+
+df_prev <- df %>% 
+  slice(-nrow(df))
+model_prev <- fit.gompertz(df_prev$confirmed, df_prev$t, start = start)
 ```
 
 Además, esta ecuación tiene un valor de **AIC** de `r AIC(model1)`.
 
-El gráfico que acompaña a este modelo, presenta (<span style="color: red">**en rojo**</span>) la extrapolación a 7 días de la curva actual. Además, se muestra, <span style="color:orange">**en color naranja**</span>, la curva extrapolada usando los datos de los primeros 12 días desde el primer caso confirmado (que fue el 20202-03-06).
+El gráfico que acompaña a este modelo, presenta (<span style="color: red">**en rojo**</span>) la extrapolación a 7 días de la curva actual. Además, se muestra, <span style="color:orange">**en color naranja**</span>, la curva extrapolada usando los datos de los primeros 12 días desde el primer caso confirmado (que fue el 20202-03-06). Y como referencia, en <span style="color:darkgray">**en gris oscuro**</span> se muestra la curva estimada con los datos hasta el día anterior.
 
 ## Columna derecha {data-width="60%"}
 
@@ -378,6 +386,9 @@ df$preds <- predict(model1)
 ts <- seq(0, max(df$t) + 7)
 future <- predict(model1, newdata = data.frame(t = ts))
 
+future_prev <- predict(model_prev, newdata = data.frame(t = ts0))
+df_prev2 <- data.frame(t = ts0, pred = future_prev)
+
 df2 <- data.frame(t = ts, pred = future)
 
 gompertz_pred <- ggplot(df, aes(x = t)) +
@@ -391,13 +402,25 @@ gompertz_pred <- ggplot(df, aes(x = t)) +
   annotate(geom = "point", x = max(df2$t), y = last(df2$pred), color = "red") +
   annotate(geom = "text",
            x = max(df2$t) + .5, y = last(df2$pred),
-           label = paste("Estimado:\n", floor(last(df2$pred))), color = "red", hjust = 0) +
-  annotate(geom = "text", x = 20.5, y = 500, label = "Curva actual", color = "red", hjust = 0) +
+           label = floor(last(df2$pred)), color = "red", hjust = 0) +
+  annotate(geom = "text", x = 25, y = 750, label = "Curva actual", color = "red", hjust = 0) +
   geom_line(aes(y = preds), color = "black") +
+  annotate(geom = "text", x = 25, y = 550, label = "Curva anterior",
+           color = "darkgray", hjust = 0) +
+  geom_line(data = df_prev2, aes(x = t, y = pred), color = "darkgray", linetype = "dotted") +
+  annotate(geom = "point", x = max(df_prev2$t), y = last(df_prev2$pred), color = "darkgray") +
+  annotate(geom = "text",
+           x = max(df_prev2$t) + .5, y = last(df_prev2$pred),
+           label = floor(last(df_prev2$pred)), color = "darkgray", hjust = 0) +
   geom_line(data = df0_2, aes(x = t, y = pred), color = "orange") +
+  annotate(geom = "point", x = max(df0_2$t), y = max(df0_2$pred), color = "orange") +
+  annotate(geom = "text", x = max(df0_2$t) + .5, y = max(df0_2$pred), 
+           label = floor(last(df0_2$pred)),
+           hjust = 0, color = "orange") +
   annotate(geom = "text", x = 19.5, y = 750, label = "Curva usando los\nprimeros 12 días", 
            color = "orange", hjust = 1) +
   theme_minimal() +
+  cur_theme +
   labs(
     y = "Número de casos confirmados",
     x = "Días desde el primer caso (inicio: 2020-03-06)"
