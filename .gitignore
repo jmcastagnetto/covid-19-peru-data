@@ -39,3 +39,4 @@ vignettes/*.pdf
 .Renviron
 
 _ga.html
+synctoaws.sh
