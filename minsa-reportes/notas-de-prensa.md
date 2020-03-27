@@ -53,6 +53,6 @@ RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
 - [Minsa lamenta el sensible fallecimiento de dos personas por infección con Covid-19 (Comunicado N°32)](https://www.gob.pe/institucion/minsa/noticias/110050-minsa-lamenta-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-32) 2020-03-25
   - Hombre, 76 años, nacionalidad mexicana, insuficiencia respiratoria y comorbilidad, diabetes y enfermedad cardíaca preexistente, falleció en hospital, Cusco
   - Home, 94 años, insuficiencia renal y bronquitis crónica, diabetes, falleció en hospital, Lima
-- [Minsa lamenta informar el sensible fallecimiento de dos personas por infección con COVID-19 (Comunicado N°35)] 2020-03-27
+- [Minsa lamenta informar el sensible fallecimiento de dos personas por infección con COVID-19 (Comunicado N°35)](https://www.gob.pe/institucion/minsa/noticias/111529-minsa-lamenta-informar-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-35) 2020-03-27
   - Hombre, 56 años, insuficiencia respiratoria aguda-grave, ingresó el 2020-03-26 y falleció el mismo día en el hospital, La Libertad
   - Hombre, 65 años, ingresó el 2020-03-21, falleció el 2020-03-26, Lima
