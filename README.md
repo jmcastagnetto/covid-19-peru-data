@@ -1,10 +1,11 @@
 Fuentes
 -------
 
--   <https://twitter.com/Minsa_Peru>
--   <https://www.gob.pe/busquedas?contenido>\[\]=noticias&institucion\[\]=minsa&reason=sheet&sheet=1
+-   [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
+-   [Noticias del
+    MINSA](https://www.gob.pe/busquedas?contenido%5B%5D=noticias&institucion%5B%5D=minsa&reason=sheet&sheet=1)
 
-**Última actualización**: 2020-03-27 21:37:43 UTC
+**Última actualización**: 2020-03-27 21:40:07 UTC
 
 Notas
 -----
