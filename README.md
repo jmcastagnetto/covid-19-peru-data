@@ -5,7 +5,7 @@ Fuentes
 -   [Noticias del
     MINSA](https://www.gob.pe/busquedas?contenido%5B%5D=noticias&institucion%5B%5D=minsa&reason=sheet&sheet=1)
 
-**Última actualización**: 2020-03-27 21:40:07 UTC
+**Última actualización**: 2020-03-27 21:41:48 UTC
 
 Notas
 -----
@@ -73,8 +73,8 @@ Estructura de los archivos CSV
 Información empleada para recolectar los datos
 ----------------------------------------------
 
-RSS:
-<https://www.gob.pe/busquedas.rss?contenido>\[\]=noticias&institucion\[\]=minsa
+[RSS de Noticias del
+MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
 Generales
 ---------

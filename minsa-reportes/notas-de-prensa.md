@@ -1,4 +1,4 @@
-RSS: https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa
+[RSS de Noticias del MINSA](https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa)
 
 ## Generales
 
