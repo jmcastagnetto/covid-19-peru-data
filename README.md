@@ -11,6 +11,7 @@
 - Mapa preliminar usando el paquete `mapview` en: https://castagnetto.site/peru/peru-covid-19-map.html
 - Datos de población por departamento (al 2017): https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/
 - El [reporte N°29 del MINSA](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29) corrige el número de casos confirmados en Huánuco del [reporte N° 28](https://www.gob.pe/institucion/minsa/noticias/109810-minsa-casos-confirmados-por-coronavirus-covid-19-son-363-en-peru-comunicado-n-28)
+- El dataset de JHU (https://github.com/CSSEGISandData/COVID-19), indica que Perú tiene 14 recuperados el día 2020-03-26
 
 **Estructura**:
 
