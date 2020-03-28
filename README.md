@@ -7,7 +7,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-03-28 21:31:31 UTC
+**Última actualización**: 2020-03-28 21:36:31 UTC
 
 Notas
 -----
@@ -28,6 +28,12 @@ Notas
 -   En el dashboard se han agregado gráficos de la trayectoria total de
     casos, gráficos del número de recuperados y fallecidos, y un mapa
     con la densidad (casos por millón de personas) por región.
+
+Visualizaciones
+---------------
+
+-   [Dashboard interactivo sobre COVID-19 en el
+    Perú](https://castagnetto.site/peru/dashboard-peru-covid-19.html)
 
 Estructura de los archivos CSV
 ------------------------------
