@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.3) "
+title: "COVID-19 en Perú (v0.4) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
@@ -43,13 +43,17 @@ minsa <- "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru"
 
 covid_pe <- read_csv("covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
-  select(-region, -deaths, -recovered)
+  select(-region)
 
 covid_regions_pe <- read_csv(
-  "covid-19-peru-data.csv"
+  "covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(region)) %>% 
-  select(region, date, confirmed)
+  select(region, date, confirmed, pob_2017) %>% 
+  distinct() %>% 
+  mutate(
+    confirmed_per_million = confirmed * 1e6 / pob_2017
+  )
 
 cur_theme <- theme(
   plot.margin = unit(rep(1, 4), "cm"),
@@ -92,36 +96,34 @@ girafe(
 )
 ```
 
-### Casos Confirmados (Escala logarítmica)
+### Trayectoria de Casos Confirmados
 
 ```{r}
-pelog_plot <- ggplot(covid_pe,
-       aes(x = date, y = confirmed)) +
-  geom_smooth_interactive(aes(tooltip="línea ideal", data_id="smooth"),
-                          method = "lm", color = "red") +
-  geom_point_interactive(aes(tooltip = confirmed)) +
-  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
-  annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1, 
-           label = "Inicio de la\ncuarentena", color = "blue") +
+traj_df <- covid_pe %>% 
+  select(date, confirmed) %>% 
+  mutate(
+    new_confirmed = confirmed - lag(confirmed, 7)
+  ) %>% 
+  filter(!is.na(new_confirmed))
+
+pelog_plot <- ggplot(traj_df,
+       aes(x = confirmed, y = new_confirmed)) +
+  geom_point() +
+  geom_line() +
+  scale_x_log10() +
   scale_y_log10() +
-  annotation_logticks(sides = "l") +
+  annotation_logticks() +
   theme_minimal() +
   labs(
-    y = "Casos Confirmados\n(Escala logarítmica)",
-    x = "",
-    title = "COVID-19: Casos totales confirmados en el Perú",
+    y = "Nuevos casos confirmados\n(luego de 7 días)",
+    x = "Casos confirmados",
+    title = "COVID-19: Trayectoria de los casos confirmados en el Perú",
     subtitle = minsa,
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
-girafe(
-  ggobj = pelog_plot,
-  options = list(
-    opts_zoom(max = 5)
-  )
-)
-
+pelog_plot
 ```
 
 ### Casos tamizados: confirmados y rechazados
@@ -153,12 +155,68 @@ bar_plot <- ggplot(df,
     caption = paste0(last_updated, "\n", jmc)
   ) +
   cur_theme
+
 ggplotly(bar_plot)
 ```
 
+### Casos recuperados y fallecimientos
+
+```{r}
+recdth <- covid_pe %>% 
+  select(date, recovered, deaths) %>% 
+  rename(
+    Recuperados = recovered,
+    Fallecidos = deaths
+  ) %>% 
+  pivot_longer(
+    cols = c(Recuperados, Fallecidos),
+    names_to = "Estado",
+    values_to = "cases"
+  ) %>% 
+  filter(!is.na(cases)) %>% 
+  mutate(
+    label = paste0(Estado, ": ", cases)
+  )
+
+rd_plot <- ggplot(recdth, aes(x = date, y = cases, group = Estado, fill = Estado)) +
+  geom_col_interactive(aes(tooltip = label), 
+                           position = "dodge", width = 0.5) +
+  #geom_line() +
+  theme_minimal() +
+  labs(
+    y = "Número de personas",
+    x = "",
+    title = "COVID-19: Recuperados y fallecidos en Perú",
+    subtitle = minsa,
+    caption = paste0(last_updated, "\n", jmc)
+  ) + 
+  cur_theme
+
+girafe(
+  ggobj = rd_plot,
+  options = list(
+    opts_zoom(max = 5)
+  )
+)
+#ggplotly(rd_plot)
+```
+
+
+
 ## Columna derecha
 
-### Nuevos casos confirmados totales
+### Nuevos casos confirmados totalesmap_df %>% 
+  group_by(date) %>% 
+  e_charts(region, timeline=TRUE) %>%
+  em_map("Peru") %>% 
+  e_map(confirmed, map = "Peru") %>% 
+  e_visual_map(min = 1, max = 100) %>% 
+  e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
+  e_title(
+    text = "Mapa interactivo de casos por región", 
+    subtext = "Fuente original: Tweets del MINSA https://twitter.com/Minsa_Peru"
+  ) %>% 
+
 
 ```{r fig.width=10}
 df2 <- covid_pe %>% 
@@ -207,20 +265,26 @@ ggplotly(pt2)
 
 # Gráficos por regiones
 
-## Columna izquierda {data-width="50%"}
+## Columna izquierda {.tabset}
 
 ### Casos confirmados por región
 
 ```{r echo=FALSE}
 map_df <- covid_regions_pe %>% 
-  select(region, date, confirmed)
+  select(region, date, confirmed) %>% 
+  mutate(
+    region = str_to_title(region) %>% 
+      str_replace("Huanuco", "Huánuco") %>% 
+      str_replace("Junin", "Junín") %>% 
+      str_replace("De Dios", "de Dios")
+  )
 
 map_df %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   em_map("Peru") %>% 
   e_map(confirmed, map = "Peru") %>% 
-  e_visual_map(min = 1, max = 100) %>% 
+  e_visual_map(min = 1, max = 1000) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
     text = "Mapa interactivo de casos por región", 
@@ -229,7 +293,34 @@ map_df %>%
   e_theme("infographic")
 ```
 
-## Column right {data-width="50%"}
+### Densidad de casos por región
+
+```{r echo=FALSE}
+map_df2 <- covid_regions_pe %>% 
+  select(region, date, confirmed_per_million) %>% 
+  mutate(
+    region = str_to_title(region) %>% 
+      str_replace("Huanuco", "Huánuco") %>% 
+      str_replace("Junin", "Junín") %>% 
+      str_replace("De Dios", "de Dios")
+  )
+
+map_df2 %>% 
+  group_by(date) %>% 
+  e_charts(region, timeline=TRUE) %>%
+  em_map("Peru") %>% 
+  e_map(confirmed_per_million, map = "Peru") %>% 
+  e_visual_map(min = 1, max = 100) %>% 
+  e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
+  e_title(
+    text = "Mapa de densidad casos por región (casos por millón)", 
+    subtext = "Fuente original: Tweets del MINSA https://twitter.com/Minsa_Peru"
+  ) %>% 
+  e_theme("infographic")
+```
+
+
+## Column right
 
 ### Evolución de casos por región
 
