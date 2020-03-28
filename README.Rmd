@@ -6,6 +6,7 @@ output: md_document
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
 - [Noticias del MINSA](https://www.gob.pe/busquedas?contenido[]=noticias&institucion[]=minsa&reason=sheet&sheet=1)
+  - [RSS de Noticias del MINSA](https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa)
 
 **Última actualización**: `r lubridate::now(tzone = "UTC")` UTC
 
