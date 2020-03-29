@@ -52,7 +52,7 @@ covid_regions_pe <- read_csv(
   select(region, date, confirmed, pob_2017) %>% 
   distinct() %>% 
   mutate(
-    confirmed_per_million = confirmed * 1e6 / pob_2017
+    confirmed_per_million = round(confirmed * 1e6 / pob_2017, 2)
   )
 
 cur_theme <- theme(
@@ -266,7 +266,8 @@ map_df <- covid_regions_pe %>%
     region = str_to_title(region) %>% 
       str_replace("Huanuco", "Huánuco") %>% 
       str_replace("Junin", "Junín") %>% 
-      str_replace("De Dios", "de Dios")
+      str_replace("De Dios", "de Dios") %>% 
+      str_replace("Martin", "Martín")
   )
 
 map_df %>% 
@@ -359,7 +360,11 @@ tab_opts <- list(
 
 datatable(
   covid_pe,
-  colnames = c("País", "Código ISO", "Fecha", "Número de casos confirmados", "Número de casos descartados"),
+  colnames = c("País", "Código ISO", "Fecha", 
+               "Número de casos confirmados", 
+               "Número de fallecimientos",
+               "Número de casos recuperados",
+               "Número de casos descartados"),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
   options = tab_opts,
@@ -373,7 +378,11 @@ datatable(
 ```{r results="asis"}
 datatable(
   covid_regions_pe,
-  colnames = c("Departamento", "Fecha", "Número de casos confirmados"),
+  colnames = c("Departamento", "Fecha", 
+               "Número de casos confirmados",
+               "Población (INEI, 2017)",
+               "Número de casos por cada millón de personas"
+               ),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
   options = tab_opts,
