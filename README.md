@@ -7,7 +7,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-03-30 00:40:14 UTC
+**Última actualización**: 2020-03-30 19:46:01 UTC
 
 Notas
 -----
@@ -196,6 +196,10 @@ Casos confirmados
     en el Perú (Comunicado
     N° 40)](https://www.gob.pe/institucion/minsa/noticias/111590-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-852-en-el-peru-comunicado-n-40)
     2020-03-29
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 asciende a 950 en
+    el Perú (Comunicado
+    N°41)](https://www.gob.pe/institucion/minsa/noticias/111623-minsa-casos-confirmados-por-coronavirus-covid-19-asciende-a-950-en-el-peru-comunicado-n-41)
+    2020-03-30
 
 Recuperados
 -----------
