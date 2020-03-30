@@ -1,12 +1,12 @@
 ## Generales
 
+- [Ministra de Salud exhortó a directores regionales implementar Plan Nacional por alerta mundial ante el COVID-19](https://www.gob.pe/institucion/minsa/noticias/84982-ministra-de-salud-exhorto-a-directores-regionales-implementar-plan-nacional-por-alerta-mundial-ante-el-covid-19) 2020-02-25
+- [Ninguno de los 54 casos investigados ha resultado positivo por coronavirus](https://www.gob.pe/institucion/minsa/noticias/85190-ninguno-de-los-54-casos-investigados-ha-resultado-positivo-por-coronavirus) 2020-02-28
+- [Ministerio de Salud aclara algunos mitos respecto al nuevo coronavirus Covid-19](https://www.gob.pe/institucion/minsa/noticias/85213-ministerio-de-salud-aclara-algunos-mitos-respecto-al-nuevo-coronavirus-covid-19) 2020-02-29
+- [Minsa procesó 107 muestras por coronavirus COVID-19 y todas tienen resultado negativo](https://www.gob.pe/institucion/minsa/noticias/85332-minsa-proceso-107-muestras-por-coronavirus-covid-19-y-todas-tienen-resultado-negativo) 2020-03-04
 - [Ministerio de Salud informa sobre resultado del procesamiento de muestras por coronavirus COVID-19](https://www.gob.pe/institucion/minsa/noticias/94105-ministerio-de-salud-informa-sobre-resultado-del-procesamiento-de-muestras-por-coronavirus-covid-19) 2020-03-07
 - [Minsa brinda recomendaciones para la atención de una persona con coronavirus en casa](https://www.gob.pe/institucion/minsa/noticias/94095-minsa-brinda-recomendaciones-para-la-atencion-de-una-persona-con-coronavirus-en-casa) 2020-03-07
-- [Minsa procesó 107 muestras por coronavirus COVID-19 y todas tienen resultado negativo](https://www.gob.pe/institucion/minsa/noticias/85332-minsa-proceso-107-muestras-por-coronavirus-covid-19-y-todas-tienen-resultado-negativo) 2020-03-04
 - [Número de nuevos casos de COVID – 19 está dentro de la curva esperada por autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades) 2020-03-19
-- [Ministra de Salud exhortó a directores regionales implementar Plan Nacional por alerta mundial ante el COVID-19](https://www.gob.pe/institucion/minsa/noticias/84982-ministra-de-salud-exhorto-a-directores-regionales-implementar-plan-nacional-por-alerta-mundial-ante-el-covid-19) 2020-02-25
-- [Ministerio de Salud aclara algunos mitos respecto al nuevo coronavirus Covid-19](https://www.gob.pe/institucion/minsa/noticias/85213-ministerio-de-salud-aclara-algunos-mitos-respecto-al-nuevo-coronavirus-covid-19) 2020-02-29
-- [Ninguno de los 54 casos investigados ha resultado positivo por coronavirus](https://www.gob.pe/institucion/minsa/noticias/85190-ninguno-de-los-54-casos-investigados-ha-resultado-positivo-por-coronavirus) 2020-02-28
 
 ## Casos confirmados
 
@@ -29,11 +29,13 @@
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 580 en Perú (Comunicado N°34)](https://www.gob.pe/institucion/minsa/noticias/111476-minsa-casos-confirmados-por-coronavirus-covid-19-son-580-en-peru-comunicado-n-34) 2020-03-26
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 635 en Perú (Comunicado N°36)](https://www.gob.pe/institucion/minsa/noticias/111543-minsa-casos-confirmados-por-coronavirus-covid-19-son-635-en-peru-comunicado-n-36) 2020-03-27
 - [Minsa: Casos confirmados por coronavirus COVID-19 asciende a 671 en el Perú (Comunicado N°38)](https://www.gob.pe/institucion/minsa/noticias/111568-minsa-casos-confirmados-por-coronavirus-covid-19-asciende-a-671-en-el-peru-comunicado-n-38) 2020-03-28
+- [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 852 en el Perú (Comunicado N° 40)](https://www.gob.pe/institucion/minsa/noticias/111590-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-852-en-el-peru-comunicado-n-40) 2020-03-29
 
 ## Recuperados
 
 - [Paciente cero con coronavirus fue dado de alta tras respetar aislamiento domiciliario recomendado](https://www.gob.pe/institucion/minsa/noticias/108961-paciente-cero-con-coronavirus-fue-dado-de-alta-tras-respetar-aislamiento-domiciliario-recomendado) 2020-03-16
 - [Minsa: Casos confirmados por coronavirus COVID-19 son 635 en Perú (Comunicado N°36)](https://www.gob.pe/institucion/minsa/noticias/111543-minsa-casos-confirmados-por-coronavirus-covid-19-son-635-en-peru-comunicado-n-36) 2020-03-27 (menciona el número de pacientes con alta)
+- [Minsa anuncia que 16 pacientes ya se han recuperado del Covid-19](https://www.gob.pe/institucion/minsa/noticias/111581-minsa-anuncia-que-16-pacientes-ya-se-han-recuperado-del-covid-19) 2020-03-28
 
 ## Fallecimientos
 
@@ -61,3 +63,6 @@
   - Hombre, 43 años, insuficiencia respiratoria, sepsis y neumonía, obesidad, falleció en el hospital el 2020-03-27, Lima
   - Hombre, 64 años, procedente de Hong Kong, falleció en su domicilio el 2020-03-27, Cusco
   - Mujer, 60 años, insuficiencia respiratoria, shock séptico y neumonía, falleció en el hospital el 2020-03-27, Callao
+- [Minsa lamenta el sensible fallecimiento de dos personas por infección con COVID-19 (Comunicado N° 39)](https://www.gob.pe/institucion/minsa/noticias/111587-minsa-lamenta-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-39) 2020-03-29
+  - Hombre, 91 años, neumonía, enfermedad renal crónica, falleción en el hospital el 2020-03-27, Lima
+  - Mujer, 66 años, neumonía, obesidad mórbida, falleción en hospital el 2020-03-28, Ancash

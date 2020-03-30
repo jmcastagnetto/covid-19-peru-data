@@ -7,23 +7,25 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-03-28 21:36:31 UTC
+**Última actualización**: 2020-03-30 00:40:14 UTC
 
 Notas
 -----
 
--   Códigos de UBIGEO de <https://github.com/CONCYTEC/ubigeo-peru>
+-   Códigos de UBIGEO de
+    <a href="https://github.com/CONCYTEC/ubigeo-peru" class="uri">https://github.com/CONCYTEC/ubigeo-peru</a>
 -   Códigos ISO-3166-2, usando el paquete en R `ISOcodes`:
-    <https://cran.r-project.org/package=ISOcodes>
+    <a href="https://cran.r-project.org/package=ISOcodes" class="uri">https://cran.r-project.org/package=ISOcodes</a>
 -   Mapa preliminar usando el paquete `mapview` en:
-    <https://castagnetto.site/peru/peru-covid-19-map.html>
+    <a href="https://castagnetto.site/peru/peru-covid-19-map.html" class="uri">https://castagnetto.site/peru/peru-covid-19-map.html</a>
 -   Datos de población por departamento (al 2017):
-    <https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/>
+    <a href="https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/" class="uri">https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/</a>
 -   El [reporte N°29 del
     MINSA](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29)
     corrige el número de casos confirmados en Huánuco del [reporte N°
     28](https://www.gob.pe/institucion/minsa/noticias/109810-minsa-casos-confirmados-por-coronavirus-covid-19-son-363-en-peru-comunicado-n-28)
--   El dataset de JHU (<https://github.com/CSSEGISandData/COVID-19>),
+-   El dataset de JHU
+    (<a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>),
     indica que Perú tiene 14 recuperados el día 2020-03-26
 -   En el dashboard se han agregado gráficos de la trayectoria total de
     casos, gráficos del número de recuperados y fallecidos, y un mapa
@@ -87,6 +89,21 @@ Información empleada para recolectar los datos
 Generales
 ---------
 
+-   [Ministra de Salud exhortó a directores regionales implementar Plan
+    Nacional por alerta mundial ante el
+    COVID-19](https://www.gob.pe/institucion/minsa/noticias/84982-ministra-de-salud-exhorto-a-directores-regionales-implementar-plan-nacional-por-alerta-mundial-ante-el-covid-19)
+    2020-02-25
+-   [Ninguno de los 54 casos investigados ha resultado positivo por
+    coronavirus](https://www.gob.pe/institucion/minsa/noticias/85190-ninguno-de-los-54-casos-investigados-ha-resultado-positivo-por-coronavirus)
+    2020-02-28
+-   [Ministerio de Salud aclara algunos mitos respecto al nuevo
+    coronavirus
+    Covid-19](https://www.gob.pe/institucion/minsa/noticias/85213-ministerio-de-salud-aclara-algunos-mitos-respecto-al-nuevo-coronavirus-covid-19)
+    2020-02-29
+-   [Minsa procesó 107 muestras por coronavirus COVID-19 y todas tienen
+    resultado
+    negativo](https://www.gob.pe/institucion/minsa/noticias/85332-minsa-proceso-107-muestras-por-coronavirus-covid-19-y-todas-tienen-resultado-negativo)
+    2020-03-04
 -   [Ministerio de Salud informa sobre resultado del procesamiento de
     muestras por coronavirus
     COVID-19](https://www.gob.pe/institucion/minsa/noticias/94105-ministerio-de-salud-informa-sobre-resultado-del-procesamiento-de-muestras-por-coronavirus-covid-19)
@@ -95,25 +112,10 @@ Generales
     coronavirus en
     casa](https://www.gob.pe/institucion/minsa/noticias/94095-minsa-brinda-recomendaciones-para-la-atencion-de-una-persona-con-coronavirus-en-casa)
     2020-03-07
--   [Minsa procesó 107 muestras por coronavirus COVID-19 y todas tienen
-    resultado
-    negativo](https://www.gob.pe/institucion/minsa/noticias/85332-minsa-proceso-107-muestras-por-coronavirus-covid-19-y-todas-tienen-resultado-negativo)
-    2020-03-04
 -   [Número de nuevos casos de COVID – 19 está dentro de la curva
     esperada por
     autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades)
     2020-03-19
--   [Ministra de Salud exhortó a directores regionales implementar Plan
-    Nacional por alerta mundial ante el
-    COVID-19](https://www.gob.pe/institucion/minsa/noticias/84982-ministra-de-salud-exhorto-a-directores-regionales-implementar-plan-nacional-por-alerta-mundial-ante-el-covid-19)
-    2020-02-25
--   [Ministerio de Salud aclara algunos mitos respecto al nuevo
-    coronavirus
-    Covid-19](https://www.gob.pe/institucion/minsa/noticias/85213-ministerio-de-salud-aclara-algunos-mitos-respecto-al-nuevo-coronavirus-covid-19)
-    2020-02-29
--   [Ninguno de los 54 casos investigados ha resultado positivo por
-    coronavirus](https://www.gob.pe/institucion/minsa/noticias/85190-ninguno-de-los-54-casos-investigados-ha-resultado-positivo-por-coronavirus)
-    2020-02-28
 
 Casos confirmados
 -----------------
@@ -190,6 +192,10 @@ Casos confirmados
     el Perú (Comunicado
     N°38)](https://www.gob.pe/institucion/minsa/noticias/111568-minsa-casos-confirmados-por-coronavirus-covid-19-asciende-a-671-en-el-peru-comunicado-n-38)
     2020-03-28
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 852
+    en el Perú (Comunicado
+    N° 40)](https://www.gob.pe/institucion/minsa/noticias/111590-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-852-en-el-peru-comunicado-n-40)
+    2020-03-29
 
 Recuperados
 -----------
@@ -202,6 +208,9 @@ Recuperados
     (Comunicado
     N°36)](https://www.gob.pe/institucion/minsa/noticias/111543-minsa-casos-confirmados-por-coronavirus-covid-19-son-635-en-peru-comunicado-n-36)
     2020-03-27 (menciona el número de pacientes con alta)
+-   [Minsa anuncia que 16 pacientes ya se han recuperado del
+    Covid-19](https://www.gob.pe/institucion/minsa/noticias/111581-minsa-anuncia-que-16-pacientes-ya-se-han-recuperado-del-covid-19)
+    2020-03-28
 
 Fallecimientos
 --------------
@@ -275,3 +284,11 @@ Fallecimientos
         domicilio el 2020-03-27, Cusco
     -   Mujer, 60 años, insuficiencia respiratoria, shock séptico y
         neumonía, falleció en el hospital el 2020-03-27, Callao
+-   [Minsa lamenta el sensible fallecimiento de dos personas por
+    infección con COVID-19 (Comunicado
+    N° 39)](https://www.gob.pe/institucion/minsa/noticias/111587-minsa-lamenta-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-39)
+    2020-03-29
+    -   Hombre, 91 años, neumonía, enfermedad renal crónica, falleción
+        en el hospital el 2020-03-27, Lima
+    -   Mujer, 66 años, neumonía, obesidad mórbida, falleción en
+        hospital el 2020-03-28, Ancash
