@@ -7,7 +7,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-03-30 19:46:01 UTC
+**Última actualización**: 2020-03-30 20:26:22 UTC
 
 Notas
 -----
@@ -292,7 +292,25 @@ Fallecimientos
     infección con COVID-19 (Comunicado
     N° 39)](https://www.gob.pe/institucion/minsa/noticias/111587-minsa-lamenta-el-sensible-fallecimiento-de-dos-personas-por-infeccion-con-covid-19-comunicado-n-39)
     2020-03-29
-    -   Hombre, 91 años, neumonía, enfermedad renal crónica, falleción
-        en el hospital el 2020-03-27, Lima
+    -   Hombre, 91 años, neumonía, enfermedad renal crónica, falleció en
+        el hospital el 2020-03-27, Lima
     -   Mujer, 66 años, neumonía, obesidad mórbida, falleción en
         hospital el 2020-03-28, Ancash
+-   [El Ministerio de Salud lamenta informar el sensible fallecimiento
+    de seis personas por infección con COVID-19
+    (Comunicado 42)](https://www.gob.pe/institucion/minsa/noticias/111625-el-ministerio-de-salud-lamenta-informar-el-sensible-fallecimiento-de-seis-personas-por-infeccion-con-covid-19-comunicado-42)
+    2020-03-30
+    -   Hombre, 63 años, neumonía, obesidad, comorbilidad, diabetes
+        mellitus y tuberculosis previa, falleció en el hospital el
+        2020-03-30, Loreto.
+    -   Mujer, 58 años, neumonía, antecedentes de neumonía, falleció en
+        el hospital el 2020-03-29, Callao.
+    -   Hombre, 56 años, obesidad, falleció en el hospital el
+        2020-03-30, Loreto.
+    -   Mujer, 81 años, neumonía, shock séptico, diabetes mellitus,
+        falleció en el hospital el 2020-03-28, Lima.
+    -   Mujer, 76 años, neumonía, antecedentes de HTA y desnutrición
+        crónica, ingresó el 2020-03-26, falleció en el hospital el
+        2020-03-29. Lima
+    -   Mujer, 76 años, neumonía, enfermedaes preexistentes, ingresó el
+        2020-03-26, falleció en el hospital el 2020-03-29. Lima
