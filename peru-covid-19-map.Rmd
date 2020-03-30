@@ -30,7 +30,7 @@ pe_sf <- ne_states(country = "peru", returnclass = "sf") %>%
   )
 
 covid_pe <- read_csv(
-  "covid-19-peru-data-con-ubigeos.csv"
+  "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(iso_3166_2_code)) %>%
   select(region, iso_3166_2_code, date, confirmed)
@@ -69,7 +69,7 @@ for (d in sort(unique(pe_map_data$date))) {
 
 ```{r echo=FALSE,out.width=10}
 covid_reg_pe <- read_csv(
-  "covid-19-peru-data.csv"
+  "datos/covid-19-peru-data.csv"
 ) %>% 
   filter(!is.na(region)) %>%
   select(region, date, confirmed)
@@ -118,7 +118,7 @@ ggplot(covid_pe,
 
 ```{r echo=FALSE,fig.width=12}
 covid_pe <- read_csv(
-  "covid-19-peru-data-con-ubigeos.csv"
+  "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(is.na(iso_3166_2_code)) %>%
   select(date, confirmed, discarded_cases)

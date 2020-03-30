@@ -2,7 +2,7 @@ library(tidyverse)
 library(ISOcodes)
 
 # fuente: https://github.com/CONCYTEC/ubigeo-peru
-ubigeos <- read_csv("equivalencia-ubigeos-oti-concytec.csv.gz")
+ubigeos <- read_csv("datos/equivalencia-ubigeos-oti-concytec.csv.gz")
 
 pe_iso_3166_2 <- ISO_3166_2 %>%
   filter(str_detect(Code, "PE-")) %>%
@@ -12,7 +12,7 @@ pe_iso_3166_2 <- ISO_3166_2 %>%
     Name = str_to_upper(iconv(Name, to='ASCII//TRANSLIT'))
   )
 
-inei_poblacion <- read_csv("inei-pob_03.csv") %>%
+inei_poblacion <- read_csv("datos/inei-pob_03.csv") %>%
   filter(!is.na(Departamento)) %>%
   filter(!Departamento %in% c("Total", "Provincia de Lima 3/", "Región Lima 4/")) %>%
   select("Departamento", "2017") %>%
@@ -37,7 +37,7 @@ inei_poblacion <- read_csv("inei-pob_03.csv") %>%
   )
 
 pe <- read_csv(
-  "covid-19-peru-data.csv",
+  "datos/covid-19-peru-data.csv",
   col_types = cols(
     country = col_character(),
     iso3c = col_character(),
@@ -89,6 +89,6 @@ pe <- read_csv(
 
 write_csv(
   pe,
-  path = "covid-19-peru-data-con-ubigeos.csv"
+  path = "datos/covid-19-peru-data-con-ubigeos.csv"
 )
 

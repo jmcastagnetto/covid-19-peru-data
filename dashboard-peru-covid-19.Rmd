@@ -41,12 +41,12 @@ last_updated <- paste0(
 jmc <- "@jmcastagnetto, Jesús M. Castagnetto"
 minsa <- "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru"
 
-covid_pe <- read_csv("covid-19-peru-data.csv") %>% 
+covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
   select(-region)
 
 covid_regions_pe <- read_csv(
-  "covid-19-peru-data-con-ubigeos.csv"
+  "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(region)) %>% 
   select(region, date, confirmed, pob_2017) %>% 
@@ -408,7 +408,7 @@ Donde los parámetros a ajustar son **a**, **mu** ($\mu$) y **lambda** ($\lambda
 El resultado de usar todos los datos disponibles se ven a continuación.
 
 ```{r comment=""}
-df <- read_csv("covid-19-peru-data.csv") %>%
+df <- read_csv("datos/covid-19-peru-data.csv") %>%
   filter(is.na(region)) %>%
   select(-region, -deaths, -recovered) %>% 
   mutate(
