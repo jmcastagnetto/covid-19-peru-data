@@ -7,7 +7,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-03-30 20:26:22 UTC
+**Última actualización**: 2020-03-31 21:59:49 UTC
 
 Notas
 -----
@@ -200,6 +200,10 @@ Casos confirmados
     el Perú (Comunicado
     N°41)](https://www.gob.pe/institucion/minsa/noticias/111623-minsa-casos-confirmados-por-coronavirus-covid-19-asciende-a-950-en-el-peru-comunicado-n-41)
     2020-03-30
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1065
+    en el Perú (Comunicado
+    N°44)](https://www.gob.pe/institucion/minsa/noticias/111653-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1065-en-el-peru-comunicado-n-44)
+    2020-03-31
 
 Recuperados
 -----------
@@ -314,3 +318,21 @@ Fallecimientos
         2020-03-29. Lima
     -   Mujer, 76 años, neumonía, enfermedaes preexistentes, ingresó el
         2020-03-26, falleció en el hospital el 2020-03-29. Lima
+-   [Minsa lamenta el sensible fallecimiento de seis personas por
+    infección con COVID-19 (Comunicado
+    N°45)](https://www.gob.pe/institucion/minsa/noticias/111655-minsa-lamenta-el-sensible-fallecimiento-de-seis-personas-por-infeccion-con-covid-19-comunicado-n-45)
+    2020-03-31
+    -   Hombre, 26 años, neumonía, asma y obesidad, ingresó el
+        2020-03-29, falleció en el hospital el 2020-03-29, Callao.
+    -   Mujer, 74 años, neumomía, insuficiencia renal crónica y cirrosis
+        hepática, ingresó el 2020-03-29, falleció en el hospital el
+        2020-03-29, Lima.
+    -   Hombre, 46 años, neumonía crónica, lumbalgia y alto consumo de
+        alcohol, falleció el 2020-03-30 en su domicilio, Tumbes.
+    -   Hombre, 53 años, neumonía crónica, ingresó el 2020-03-23,
+        falleció en el hospital el 2020-03-30. Lima.
+    -   Hombre, 60 años, infección respiratoria, neumonía atípica y
+        shock séptico, ingresó el 2020-03-26, falleció en el hospital el
+        2020-03-30, Lima.
+    -   Hombre, 66 años, neumonía crónica, falleció en el hospital el
+        2020-03-31, San Martín.
