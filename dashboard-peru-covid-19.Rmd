@@ -294,7 +294,8 @@ map_df2 <- covid_regions_pe %>%
     region = str_to_title(region) %>% 
       str_replace("Huanuco", "Huánuco") %>% 
       str_replace("Junin", "Junín") %>% 
-      str_replace("De Dios", "de Dios")
+      str_replace("De Dios", "de Dios") %>% 
+      str_replace("Martin", "Martín")
   )
 
 map_df2 %>% 
@@ -468,70 +469,115 @@ El gráfico que acompaña a este modelo, presenta (<span style="color: red">**en
 
 ### Gráfica con extrapolación a 7 días a partir de la fecha (`r Sys.Date()`)
 
-```{r}
+```{r out.height="90%"}
 delta_t <- 7
+ts_seq <- seq(0, max(df$t) + delta_t)
+date_seq <- seq(min(df$date), max(df$date) + delta_t, by = 1)
+
 df0$preds <- predict(model0)
-ts0 <- seq(0, max(df$t) + delta_t)
-future0 <- predict(model0, newdata = data.frame(t = ts0))
-df0_2 <- data.frame(t = ts0, pred = future0)
+future0 <- predict(model0, newdata = data.frame(t = ts_seq))
+df0_2 <- data.frame(t = ts_seq, confirmed = future0, date = date_seq)
 
 df$preds <- predict(model1)
-ts <- seq(0, max(df$t) + delta_t)
-future <- predict(model1, newdata = data.frame(t = ts))
+future <- predict(model1, newdata = data.frame(t = ts_seq))
+df2 <- data.frame(t = ts_seq, confirmed = future, date = date_seq)
 
-future_prev <- predict(model_prev, newdata = data.frame(t = ts0))
-df_prev2 <- data.frame(t = ts0, pred = future_prev)
+future_prev <- predict(model_prev, newdata = data.frame(t = ts_seq))
+df_prev2 <- data.frame(t = ts_seq, confirmed = future_prev, date = date_seq)
 
-df2 <- data.frame(t = ts, pred = future)
+max_t <- max(date_seq) + 2
+min_t <- min(date_seq) - 2
 
-max_t <- ceiling(1.2 * last(ts))
 
-gompertz_pred <- ggplot(df, aes(x = t)) +
-  geom_point(aes(y = confirmed)) +
+gompertz_df <- bind_rows(
+  df0_2 %>% 
+    select(date, t, confirmed) %>% 
+    mutate(
+      Modelo = "Modelo inicial\n(Primeros 12 días)"
+    ),
+  df2 %>% 
+    select(date, t, confirmed) %>% 
+    mutate(
+      Modelo = "Modelo actual"
+    ),
+  df_prev2 %>% 
+    select(date, t, confirmed) %>% 
+    mutate(
+      Modelo = "Modelo previo\n(una semana atrás)"
+    )
+)
+
+df$Modelo <- NA
+
+labels_df <- gompertz_df %>% 
+  group_by(Modelo) %>% 
+  summarise(
+    date = max(date),
+    t = max(t),
+    confirmed = last(confirmed)
+  )
+
+gompertz_plot <- ggplot() + 
   # inicio de cuarentena
-  geom_vline(xintercept = 10, color = "blue", alpha = 0.5, size = 2) +
-  annotate(geom = "text", x = 8, y = 400, 
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.5, size = 2) +
+  annotate(geom = "text", x = as.Date("2020-03-16") - 1, y = 400, 
            label = "Inicio de la\ncuarentena", hjust = 1, color = "blue") +
-  # predicción datos actuales
-  geom_line(data = df2,
-            aes(x = t, y = pred),
-            color = "red",
-            linetype = "dashed") +
-  annotate(geom = "point", x = max(df2$t), y = last(df2$pred), color = "red") +
-  annotate(geom = "text",
-           x = last(df2$t) + 1, y = last(df2$pred) + 10,
-           label = floor(last(df2$pred)), color = "red", hjust = 0) +
-  annotate(geom = "text", x = last(df2$t) + 2, y = last(df2$pred) - 100, 
-           label = "Curva actual", color = "red", hjust = 0) +
-  # curva de datos
-  geom_line(aes(y = preds), color = "black") +
-  # curva con datos hasta la semana anterior
-  annotate(geom = "text", x = last(df_prev2$t) + 2, y = last(df_prev2$pred) - 100, 
-           label = "Curva de la\nsemana anterior",
-           color = "darkgray", hjust = 0) +
-  geom_line(data = df_prev2, aes(x = t, y = pred), color = "darkgray", linetype = "dotted") +
-  annotate(geom = "point", x = last(df_prev2$t), y = last(df_prev2$pred), color = "darkgray") +
-  annotate(geom = "text",
-           x = max(df_prev2$t) + 1, y = last(df_prev2$pred),
-           label = floor(last(df_prev2$pred)), color = "darkgray", hjust = 0) +
-  # curva con datos de los primeros 12 días
-  geom_line(data = df0_2, aes(x = t, y = pred), color = "orange") +
-  annotate(geom = "point", x = last(df0_2$t), y = last(df0_2$pred), color = "orange") +
-  annotate(geom = "text", x = last(df0_2$t) + 1, y = last(df0_2$pred) + 10, 
-           label = floor(last(df0_2$pred)),
-           hjust = 0, color = "orange") +
-  annotate(geom = "text", x = last(df0_2$t) + 2, y = last(df0_2$pred) - 100, 
-           label = "Curva usando los\nprimeros 12 días", 
-           color = "orange", hjust = 0) +
-  xlim(0, max_t) +
-  theme_minimal() +
-  cur_theme +
+  geom_line(
+    data = gompertz_df,
+    aes(x = date, y = confirmed, 
+        group = Modelo, color = Modelo, linetype = Modelo),
+    size = 1
+  ) +
+  geom_point_interactive(
+    data = labels_df,
+    aes(x = date, y = confirmed, color = Modelo, 
+        tooltip = ceiling(confirmed)),
+    size = 2,
+    show.legend = FALSE
+  ) +
+  geom_text(
+    data = labels_df,
+    aes(x = date, y = confirmed, 
+        color = Modelo, label = ceiling(confirmed)),
+    nudge_y = 50,
+    show.legend = FALSE
+  ) +
+  scale_color_manual(values = c("red", "orange", "darkgray")) +
+  scale_linetype_manual(values = c("dashed", "solid", "longdash")) +
+  # datos actuales
+  geom_point_interactive(
+    data = df, 
+    aes(x = date, y = confirmed, tooltip = confirmed), 
+    inherit.aes = FALSE,
+    color = "black",
+    show.legend = FALSE
+  ) +
+  xlim(min_t, max_t) +
   labs(
     y = "Número de casos confirmados",
-    x = "Días desde el primer caso (inicio: 2020-03-06)",
+    x = "",
     title = paste("Actualizado el", lubridate::now(tzone = "UTC"), "UTC")
+  ) +
+  theme_classic() +
+  theme(
+    plot.title = element_text(family = "lato"),
+    plot.subtitle = element_text(family = "lato"),
+    plot.caption = element_text(family = "inconsolata"),
+    legend.position = c(.2, .8),
+    legend.key.height = unit(.75, "cm"),
+    legend.text = element_text(size = 10)
   )
-ggplotly(gompertz_pred)
+
+girafe(
+  ggobj = gompertz_plot,
+  options = list(
+    opts_zoom(max = 5),
+    opts_sizing(rescale = TRUE, width = .9)
+  )
+)
+
+#gompertz_plot
+#ggplotly(gompertz_plot)
 ```
 
 #  Acerca de esta visualización
