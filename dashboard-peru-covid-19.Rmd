@@ -108,8 +108,9 @@ traj_df <- covid_pe %>%
 
 pelog_plot <- ggplot(traj_df,
        aes(x = confirmed, y = new_confirmed)) +
-  geom_point() +
-  geom_line() +
+  geom_point(size = 2) +
+  #geom_line() +
+  geom_smooth(method = "lm", linetype = "dashed", alpha = 0.5) +
   scale_x_log10() +
   scale_y_log10() +
   annotation_logticks() +
@@ -468,13 +469,14 @@ El gráfico que acompaña a este modelo, presenta (<span style="color: red">**en
 ### Gráfica con extrapolación a 7 días a partir de la fecha (`r Sys.Date()`)
 
 ```{r}
+delta_t <- 7
 df0$preds <- predict(model0)
-ts0 <- seq(0, max(df$t) + 7)
+ts0 <- seq(0, max(df$t) + delta_t)
 future0 <- predict(model0, newdata = data.frame(t = ts0))
 df0_2 <- data.frame(t = ts0, pred = future0)
 
 df$preds <- predict(model1)
-ts <- seq(0, max(df$t) + 7)
+ts <- seq(0, max(df$t) + delta_t)
 future <- predict(model1, newdata = data.frame(t = ts))
 
 future_prev <- predict(model_prev, newdata = data.frame(t = ts0))
