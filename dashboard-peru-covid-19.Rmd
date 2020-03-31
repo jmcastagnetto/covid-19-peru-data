@@ -556,7 +556,9 @@ gompertz_plot <- ggplot() +
   labs(
     y = "Número de casos confirmados",
     x = "",
-    title = paste("Actualizado el", lubridate::now(tzone = "UTC"), "UTC")
+    title = paste("Actualizado el", lubridate::now(tzone = "UTC"), "UTC"),
+    subtitle = "Modelos aproximados (Perú)",
+    caption = paste0(last_updated, "\n", jmc)
   ) +
   theme_classic() +
   theme(
