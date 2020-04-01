@@ -32,6 +32,7 @@
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 852 en el Perú (Comunicado N° 40)](https://www.gob.pe/institucion/minsa/noticias/111590-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-852-en-el-peru-comunicado-n-40) 2020-03-29
 - [Minsa: Casos confirmados por Coronavirus COVID-19 asciende a 950 en el Perú (Comunicado N°41)](https://www.gob.pe/institucion/minsa/noticias/111623-minsa-casos-confirmados-por-coronavirus-covid-19-asciende-a-950-en-el-peru-comunicado-n-41) 2020-03-30
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1065 en el Perú (Comunicado N°44)](https://www.gob.pe/institucion/minsa/noticias/111653-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1065-en-el-peru-comunicado-n-44) 2020-03-31
+- [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1323 en el Perú (Comunicado N°46)](https://www.gob.pe/institucion/minsa/noticias/111718-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1323-en-el-peru-comunicado-n-46) 2020-04-01
 
 ## Recuperados
 
@@ -82,3 +83,12 @@
   - Hombre, 53 años, neumonía crónica, ingresó el 2020-03-23, falleció en el hospital el 2020-03-30. Lima.
   - Hombre, 60 años, infección respiratoria, neumonía atípica y shock séptico, ingresó el 2020-03-26, falleció en el hospital el 2020-03-30, Lima.
   - Hombre, 66 años, neumonía crónica, falleció en el hospital el 2020-03-31, San Martín.
+- [Minsa lamenta el sensible fallecimiento de ocho personas por infección con COVID-19 (Comunicado N°47)](https://www.gob.pe/institucion/minsa/noticias/111724-minsa-lamenta-el-sensible-fallecimiento-de-ocho-personas-por-infeccion-con-covid-19-comunicado-n-47) 2020-04-01
+  - Hombre, 75 años, neumonía, hipertensión y enfermedad cerebro cardiovascular, falleció el 2020-03-27 en el hospital, Lima.
+  - Hombre, 96 años, neumonía, falleció el 2020-03-29 en el hospital, Lima.
+  - Mujer, 83 años, neumonía, falleció el 2020-03-29 en el hospital, Lima.
+  - Hombre, 87 años, neumonía, hipertensión y enfermedad cerebro cardiovascular, falleció el 2020-03-29 en el hospital, Lima.
+  - Mujer, 59 años, neumonía, fibrosis pulmonar, falleció el 2020-03-30 en el hospital, Lambayeque.
+  - Hombre, 60 años, neumonía, hipertensión y diabetes mellitus, falleció el 2020-03-30 en el hospital, Lima.
+  - Hombre, 73 años, neumonía, falleció el 2020-03-31 en el hospital, Callao.
+  - Hombre, 68 años, neumonía, falleció el 2020-03-31 en el hospital, Lima.
