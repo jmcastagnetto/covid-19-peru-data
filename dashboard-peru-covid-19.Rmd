@@ -194,7 +194,7 @@ pelog_plot <- ggplot(traj_df,
 pelog_plot
 ```
 
-### Casos tamizados:\nconfirmados y descartados
+### Casos tamizados
 
 ```{r fig.width=12}
 df <- covid_pe %>% 
