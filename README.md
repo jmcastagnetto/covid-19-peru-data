@@ -7,7 +7,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-04-01 20:53:32 UTC
+**Última actualización**: 2020-04-01 21:01:48 UTC
 
 Notas
 -----
@@ -36,6 +36,13 @@ Visualizaciones
 
 -   [Dashboard interactivo sobre COVID-19 en el
     Perú](https://castagnetto.site/peru/dashboard-peru-covid-19.html)
+
+Formato de datos
+----------------
+
+-   Los datos se están guardando en formatos abiertos exclusivamente,
+    para asegurar la mayor compatibilidad posible: CSV y OpenDocument
+    (ISO/IEC 26300-1:2015, ISO/IEC 26300-2:2015, ISO/IEC 26300-3:2015)
 
 Estructura de los archivos CSV
 ------------------------------

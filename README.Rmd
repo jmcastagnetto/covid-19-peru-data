@@ -24,6 +24,10 @@ output: md_document
 
 - [Dashboard interactivo sobre COVID-19 en el Perú](https://castagnetto.site/peru/dashboard-peru-covid-19.html)
 
+## Formato de datos
+
+- Los datos se están guardando en formatos abiertos exclusivamente, para asegurar la mayor compatibilidad posible: CSV y OpenDocument (ISO/IEC 26300-1:2015, ISO/IEC 26300-2:2015, ISO/IEC 26300-3:2015)
+
 ## Estructura de los archivos CSV
 
 **`covid-19-peru-data.csv`**
