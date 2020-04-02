@@ -545,7 +545,7 @@ Además, esta ecuación tiene un valor de **AIC** de `r AIC(modelo_actual)`.
 
 El gráfico que acompaña a este modelo, presenta (<span style="color: red">**en rojo**</span>) la extrapolación a 7 días de la curva actual. Además, se muestra, <span style="color:orange">**en color naranja**</span>, la curva extrapolada usando los datos de los primeros 12 días desde el primer caso confirmado (que fue el 20202-03-06). Y como referencia, en <span style="color:darkgray">**en gris oscuro**</span> se muestra la curva estimada con los datos hasta las semana anterior.
 
-### Modelo comparativos
+### Modelos comparativos
 
 #### Modelo con datos de una semana atrás
 
