@@ -4,8 +4,9 @@ title: "COVID-19 en Perú (v0.6) "
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
-    social: "menu"
     navbar:
+      - {title: "", icon: "fab fa-twitter", href: "https://twitter.com/share?text=COVID-19+en+ Perú&url=https://castagnetto.site/peru/dashboard-peru-covid-19.html", target: "_blank"}
+      - {title: "", icon: "fab fa-linkedin", href: "https://www.linkedin.com/shareArticle?mini=true&url=https://castagnetto.site/peru/dashboard-peru-covid-19.html&title=COVID-19+en+Perú", target: "_blank"}
       - {title: "Código fuente",  icon: "fab fa-github", href: "https://github.com/jmcastagnetto/covid-19-peru-data", target: "_blank"}
     vertical_layout: fill
     includes:
