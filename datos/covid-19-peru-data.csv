@@ -281,7 +281,7 @@
 "Peru","PER","Tumbes",2020-03-31,10,1,,
 "Peru","PER",,2020-03-31,1065,30,394,13398
 "Peru","PER","Ancash",2020-04-01,15,1,,
-"Peru","PER","Arequipa",2020-04-01,30,,,
+"Peru","PER","Arequipa",2020-04-01,30,1,,
 "Peru","PER","Ayacucho",2020-04-01,1,,,
 "Peru","PER","Cajamarca",2020-04-01,2,,,
 "Peru","PER","Callao",2020-04-01,37,4,,
@@ -290,9 +290,9 @@
 "Peru","PER","Huánuco",2020-04-01,6,,,
 "Peru","PER","Ica",2020-04-01,8,,,
 "Peru","PER","Junín",2020-04-01,17,,,
-"Peru","PER","La Libertad",2020-04-01,32,2,,
-"Peru","PER","Lambayeque",2020-04-01,34,2,,
-"Peru","PER","Lima",2020-04-01,990,22,11,
+"Peru","PER","La Libertad",2020-04-01,32,3,,
+"Peru","PER","Lambayeque",2020-04-01,34,3,,
+"Peru","PER","Lima",2020-04-01,990,28,11,
 "Peru","PER","Loreto",2020-04-01,66,2,,
 "Peru","PER","Madre de Dios",2020-04-01,1,,,
 "Peru","PER","Pasco",2020-04-01,1,,,
@@ -300,4 +300,4 @@
 "Peru","PER","San Martín",2020-04-01,6,1,,
 "Peru","PER","Tacna",2020-04-01,3,,,
 "Peru","PER","Tumbes",2020-04-01,13,1,,
-"Peru","PER",,2020-04-01,1323,38,447,14264
+"Peru","PER",,2020-04-01,1323,47,447,14264

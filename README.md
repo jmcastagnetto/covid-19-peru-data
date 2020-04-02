@@ -7,7 +7,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-04-01 21:01:48 UTC
+**Última actualización**: 2020-04-02 02:54:55 UTC
 
 Notas
 -----
@@ -367,3 +367,27 @@ Fallecimientos
         hospital, Callao.
     -   Hombre, 68 años, neumonía, falleció el 2020-03-31 en el
         hospital, Lima.
+-   [Minsa lamenta el sensible fallecimiento de nueve personas por
+    infección con COVID-19 (Comunicado
+    N°48)](https://www.gob.pe/institucion/minsa/noticias/111750-minsa-lamenta-el-sensible-fallecimiento-de-nueve-personas-por-infeccion-con-covid-19-comunicado-n-48)
+    2020-04-01
+    -   Mujer, 69 años, insuficiencia respiratoria, diabetes mellitus e
+        hipertensión arterial, falleció el 2020-03-29 en el hospital,
+        Lambayeque.
+    -   Hombre, 68 años, neumonía, falleció en el hospital el
+        2020-03-31, Lima.
+    -   Hombre, 60 años, neumonía, falleció en el hospital el
+        2020-03-31, Lima.
+    -   Mujer, 63 años, neumonía, falleció en el hospital el 2020-03-31,
+        Lima.
+    -   Hombre, 59 años, neumonía, falleció en el hospital el
+        2020-03-31, Lima.
+    -   Hombre, 26 años, insuficiencia respiratoria y neumonía, falleció
+        en el hospital el 2020-03-30, Lima.
+    -   Hombre, 89 años, insuficiencia respiratoria y neumonía, falleció
+        en el hospital el 2020-03-31, Arequipa.
+    -   Hombre, 59 años, insuficiencia cardiorrespiratoria, diabetes
+        mellitus y hemodializado, falleció en el hospital el 2020-03-31,
+        La Libertad.
+    -   Mujer, 65 años, sintomatología respiratoria, obesidad y
+        diabetes, falleció en el hospital el 2020-03-31, Lima.
