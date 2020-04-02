@@ -41,3 +41,4 @@ vignettes/*.pdf
 _ga.html
 synctoaws.sh
 *.backup
+*-orig
