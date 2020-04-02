@@ -33,6 +33,7 @@
 - [Minsa: Casos confirmados por Coronavirus COVID-19 asciende a 950 en el Perú (Comunicado N°41)](https://www.gob.pe/institucion/minsa/noticias/111623-minsa-casos-confirmados-por-coronavirus-covid-19-asciende-a-950-en-el-peru-comunicado-n-41) 2020-03-30
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1065 en el Perú (Comunicado N°44)](https://www.gob.pe/institucion/minsa/noticias/111653-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1065-en-el-peru-comunicado-n-44) 2020-03-31
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1323 en el Perú (Comunicado N°46)](https://www.gob.pe/institucion/minsa/noticias/111718-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1323-en-el-peru-comunicado-n-46) 2020-04-01
+- [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 1414 en el Perú (Comunicado N°49)](https://www.gob.pe/institucion/minsa/noticias/111774-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1414-en-el-peru-comunicado-n-499) 2020-04-02
 
 ## Recuperados
 
@@ -102,3 +103,12 @@
   - Hombre, 89 años, insuficiencia respiratoria y neumonía, falleció en el hospital el 2020-03-31, Arequipa.
   - Hombre, 59 años, insuficiencia cardiorrespiratoria, diabetes mellitus y hemodializado, falleció en el hospital el 2020-03-31, La Libertad.
   - Mujer, 65 años, sintomatología respiratoria, obesidad y diabetes, falleció en el hospital el 2020-03-31, Lima.
+- [Minsa lamenta el sensible fallecimiento de ocho personas por infección con COVID-19 (Comunicado N°50)](https://www.gob.pe/institucion/minsa/noticias/111777-minsa-lamenta-el-sensible-fallecimiento-de-ocho-personas-por-infeccion-con-covid-19-comunicado-n-50) 2020-04-02
+  - Hombre, 57 años, insuficiencia respiratoria y neumonía, falleció en el hospital 2020-03-30, Junín.
+  - Hombre, 77 años, insuficiencia respiratoria y neumonía, falleció en el hospital el 2020-03-31, Lima.
+  - Mujer, 73 años, neumonía, contacto con familiar positivo a COVID-19. falleció en el hospital el 2020-04-01, Lima.
+  - Mujer, 58 años, neumonía, hipertensión arterial, falleció en el hospital el 2020-04-01, Tumbes.
+  - Hombre, 73 años, diabetes mellitus, hipertensión arterial e insuficiencia renal, falleció en el hospital el 2020-04-01, Lima.
+  - Hombre, 60 años, infección respiratoria aguda y neumonía, falleció en el hospital el 2020-04-01, Lima.
+  - Hombre, 65 años, neumonía y shock séptico, falleció en el hospital el 2020-04-01, Lima.
+  - Mujer, 67 años, insuficiencia respiratoria aguda, obesidad, falleció en el hospital el 2020-04-01, Lima.

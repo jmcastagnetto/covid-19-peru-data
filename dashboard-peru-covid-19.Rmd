@@ -1,9 +1,12 @@
 ---
-title: "COVID-19 en Perú (v0.5) "
+title: "COVID-19 en Perú (v0.6) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
+    social: "menu"
+    navbar:
+      - {title: "Código fuente",  icon: "fab fa-github", href: "https://github.com/jmcastagnetto/covid-19-peru-data", target: "_blank"}
     vertical_layout: fill
     includes:
       in_header: _ga.html
@@ -328,6 +331,10 @@ ggplotly(pt2)
 ### Casos confirmados por región
 
 ```{r echo=FALSE}
+last_date_index <- covid_regions_pe %>% 
+  select(date) %>% 
+  distinct() %>% 
+  nrow()
 map_df <- covid_regions_pe %>% 
   select(region, date, confirmed) %>% 
   mutate(
@@ -341,9 +348,10 @@ map_df <- covid_regions_pe %>%
 map_df %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
+  e_timeline_opts(currentIndex = last_date_index - 1) %>% 
   em_map("Peru") %>% 
   e_map(confirmed, map = "Peru") %>% 
-  e_visual_map(min = 1, max = 1000) %>% 
+  e_visual_map(min = 1, max = 2000) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
     text = "Mapa interactivo de casos por región", 
@@ -368,6 +376,7 @@ map_df2 <- covid_regions_pe %>%
 map_df2 %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
+  e_timeline_opts(currentIndex = last_date_index - 1) %>% 
   em_map("Peru") %>% 
   e_map(confirmed_per_million, map = "Peru") %>% 
   e_visual_map(min = 1, max = 100) %>% 
@@ -391,8 +400,9 @@ cpr_df <- covid_regions_pe %>%
   )
 cpr <- ggplot(cpr_df,
   aes(x = date, y = confirmed, color = region)) +
-  geom_point(show.legend = FALSE) +
-  geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
+  #geom_point(show.legend = FALSE) +
+  #geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
+  geom_line(show.legend = FALSE, size = 0.5) +
   facet_wrap(~region, scales = "free_y", ncol = 4) +
   theme_minimal() +
   labs(
@@ -461,7 +471,7 @@ datatable(
 
 # Estimación de Gompertz
 
-## Columna Izquierda {data-width="40%"}
+## Columna Izquierda {.tabset}
 
 ### Resultados del modelo
 
@@ -509,30 +519,46 @@ fit.gompertz <- function(data, time, start = NULL){
   ##########################
 
   formula.gompertz <- "y~a*exp(-exp(mu*exp(1)/a*(lambda-t)+1))"
-  nls(formula.gompertz, d, starting.values)
+  nls_control <- nls.control(maxiter = 1000, minFactor = 1e-10)
+  nls(formula.gompertz, d, starting.values, control = nls_control)
 }
 
 # modelo usando los primeros 12 días, 2 días mas luego del
 # inicio de la cuarentena
-df0 <- df %>% filter(t <= 12)
-model0 <- fit.gompertz(df0$confirmed, df0$t)
+df_inicial <- df %>% filter(t <= 12)
+modelo_inicial <- fit.gompertz(df_inicial$confirmed, df_inicial$t)
 
 # modelo usando todos los datos disponibles
-start <- c(a = 1000, mu = 50, lambda = 9)  # to avoid singular gradient
-model1 <- fit.gompertz(df$confirmed, df$t, start = start)
-summary(model1)
+start <- c(a = 130000, mu = 1300, lambda = 45)  # to avoid singular gradient
+modelo_actual <- fit.gompertz(df$confirmed, df$t, start = start)
+summary(modelo_actual)
 
 last_week <- nrow(df) - 7
 df_prev <- df %>% 
   slice(1:last_week)
-model_prev <- fit.gompertz(df_prev$confirmed, df_prev$t, start = start)
+start <- c(a = 130000, mu = 1300, lambda = 45)  # to avoid singular gradient
+modelo_previo <- fit.gompertz(df_prev$confirmed, df_prev$t, start = start)
 ```
 
-Además, esta ecuación tiene un valor de **AIC** de `r AIC(model1)`.
+Además, esta ecuación tiene un valor de **AIC** de `r AIC(modelo_actual)`.
 
 El gráfico que acompaña a este modelo, presenta (<span style="color: red">**en rojo**</span>) la extrapolación a 7 días de la curva actual. Además, se muestra, <span style="color:orange">**en color naranja**</span>, la curva extrapolada usando los datos de los primeros 12 días desde el primer caso confirmado (que fue el 20202-03-06). Y como referencia, en <span style="color:darkgray">**en gris oscuro**</span> se muestra la curva estimada con los datos hasta las semana anterior.
 
-## Columna derecha {data-width="60%"}
+### Modelo comparativos
+
+#### Modelo con datos de una semana atrás
+
+```{r comment=""}
+summary(modelo_previo)
+```
+
+#### Modelo con datos de los primeros 12 días
+
+```{r comment=""}
+summary(modelo_inicial)
+```
+
+## Columna derecha
 
 ### Gráfica con extrapolación a 7 días a partir de la fecha (`r Sys.Date()`)
 
@@ -541,23 +567,23 @@ delta_t <- 7
 ts_seq <- seq(0, max(df$t) + delta_t)
 date_seq <- seq(min(df$date), max(df$date) + delta_t, by = 1)
 
-df0$preds <- predict(model0)
-future0 <- predict(model0, newdata = data.frame(t = ts_seq))
-df0_2 <- data.frame(t = ts_seq, confirmed = future0, date = date_seq)
+df_inicial$preds <- predict(modelo_inicial)
+futuro_inicial <- predict(modelo_inicial, newdata = data.frame(t = ts_seq))
+df_inicial_2 <- data.frame(t = ts_seq, confirmed = futuro_inicial, date = date_seq)
 
-df$preds <- predict(model1)
-future <- predict(model1, newdata = data.frame(t = ts_seq))
+df$preds <- predict(modelo_actual)
+future <- predict(modelo_actual, newdata = data.frame(t = ts_seq))
 df2 <- data.frame(t = ts_seq, confirmed = future, date = date_seq)
 
-future_prev <- predict(model_prev, newdata = data.frame(t = ts_seq))
-df_prev2 <- data.frame(t = ts_seq, confirmed = future_prev, date = date_seq)
+futuro_previo <- predict(modelo_previo, newdata = data.frame(t = ts_seq))
+df_prev2 <- data.frame(t = ts_seq, confirmed = futuro_previo, date = date_seq)
 
 max_t <- max(date_seq) + 2
 min_t <- min(date_seq) - 2
 
 
 gompertz_df <- bind_rows(
-  df0_2 %>% 
+  df_inicial_2 %>% 
     select(date, t, confirmed) %>% 
     mutate(
       Modelo = "Modelo inicial\n(Primeros 12 días)"
@@ -632,9 +658,10 @@ gompertz_plot <- ggplot() +
     plot.title = element_text(family = "lato"),
     plot.subtitle = element_text(family = "lato"),
     plot.caption = element_text(family = "inconsolata"),
-    legend.position = c(.2, .8),
+    legend.position = c(.15, .8),
     legend.key.height = unit(.75, "cm"),
-    legend.text = element_text(size = 10)
+    legend.text = element_text(size = 9),
+    legend.background = element_blank()
   )
 
 girafe(
