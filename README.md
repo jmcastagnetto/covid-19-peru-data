@@ -1,3 +1,18 @@
+Motivación
+----------
+
+MINSA está publicando en su cuenta de Twitter y en la sección de
+“Noticias” del portal del gobierno peruano, comunicados con información
+sobre COVID-19, pero no hay un repositorio de datos abiertos que pueda
+ser usado por todos.
+
+Seguiré actualizando diariamente mientras esta información se encuentre
+disponible.
+
+Espero que pronto MINSA ponga un repositorio de datos abiertos con la
+información nececasaria, y cuando eso ocurra, este repositorio ya no se
+actualzará.
+
 Importante
 ----------
 
@@ -14,7 +29,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-04-03 22:17:16 UTC
+**Última actualización**: 2020-04-03 22:22:50 UTC
 
 Notas
 -----
