@@ -1,3 +1,10 @@
+Importante
+----------
+
+**2020-03-03**: A partir de hoy, MINSA ha puesto una “Sala situacional”
+oficial en
+<a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>
+
 Fuentes
 -------
 
@@ -7,7 +14,7 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-04-02 22:14:52 UTC
+**Última actualización**: 2020-04-03 22:17:16 UTC
 
 Notas
 -----
