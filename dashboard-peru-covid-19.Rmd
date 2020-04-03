@@ -343,7 +343,8 @@ map_df <- covid_regions_pe %>%
       str_replace("Huanuco", "Huánuco") %>% 
       str_replace("Junin", "Junín") %>% 
       str_replace("De Dios", "de Dios") %>% 
-      str_replace("Martin", "Martín")
+      str_replace("Martin", "Martín") %>% 
+      str_replace("Apurimac", "Apurímac")
   )
 
 map_df %>% 
@@ -371,7 +372,8 @@ map_df2 <- covid_regions_pe %>%
       str_replace("Huanuco", "Huánuco") %>% 
       str_replace("Junin", "Junín") %>% 
       str_replace("De Dios", "de Dios") %>% 
-      str_replace("Martin", "Martín")
+      str_replace("Martin", "Martín") %>% 
+      str_replace("Apurimac", "Apurímac")
   )
 
 map_df2 %>% 
