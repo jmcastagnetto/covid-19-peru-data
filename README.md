@@ -1,3 +1,5 @@
+**Última actualización**: 2020-04-03 23:06:08 UTC
+
 Motivación
 ----------
 
@@ -29,8 +31,6 @@ Fuentes
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 
-**Última actualización**: 2020-04-03 22:22:50 UTC
-
 Notas
 -----
 
@@ -52,6 +52,9 @@ Notas
 -   En el dashboard se han agregado gráficos de la trayectoria total de
     casos, gráficos del número de recuperados y fallecidos, y un mapa
     con la densidad (casos por millón de personas) por región.
+-   Los datos del 2020-03-03 fueron tomados de las “Sala Situacional”
+    del MINSA, el cual no tiene información (al día de hoy) acerca del
+    número de recuperados
 
 Visualizaciones
 ---------------
@@ -78,7 +81,7 @@ Estructura de los archivos CSV
 -   confirmed: Casos confirmados
 -   deaths: Decesos
 -   recovered: Recuperados
--   discarded\_cases: Casos descartados
+-   negative\_cases: Casos descartados/negativos
 
 **`covid-19-peru-data-con-ubigeos.csv`**
 
@@ -92,14 +95,16 @@ Estructura de los archivos CSV
 -   confirmed: Casos confirmados
 -   deaths: Decesos
 -   recovered: Recuperados
--   discarded\_cases: Casos descartados
+-   negative\_cases: Casos descartados/negativos
 -   pob\_2017: Población por departamento al 2017 (INEI)
 
 **`covid-19-peru-fallecimientos.csv`**
 
--   fecha Fecha en formato ISO (YYYY-MM-DD)
--   sexo: hombre/mujer
+-   fecha\_anuncio: Fecha en formato ISO (YYYY-MM-DD)
+-   fecha\_fallecimiento: Fecha en formato ISO (YYYY-MM-DD)
+-   fecha\_ingreso: Fecha en formato ISO (YYYY-MM-DD)
 -   edad: en años
+-   sexo: hombre/mujer
 -   región: Departamento del Perú donde ocurrió el fallecimiento
 -   viaje: País o región geográfica donde viajó la persona
 -   contacto: Si la enfermadad se aquirió por contacto, la relación:
@@ -111,6 +116,8 @@ Estructura de los archivos CSV
 -   neumonia: Si ingresó por neumonía
 -   otros\_síntomas: lista delimitada por “;” de otros síntomas
 -   factores: si se conocen, otros factores (obesidad, asma, etc.)
+-   misc: otra información
+-   comunicado\_minsa: número del comunicado del MINSA
 
 Información empleada para recolectar los datos
 ----------------------------------------------

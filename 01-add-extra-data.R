@@ -46,7 +46,7 @@ pe <- read_csv(
     confirmed = col_double(),
     deaths = col_double(),
     recovered = col_double(),
-    discarded_cases = col_double()
+    negative_cases = col_double()
   )
 ) %>%
   mutate(
@@ -83,7 +83,7 @@ pe <- read_csv(
     confirmed,
     deaths,
     recovered,
-    discarded_cases,
+    negative_cases,
     pob_2017
   )
 

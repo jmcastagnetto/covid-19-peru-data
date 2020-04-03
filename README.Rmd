@@ -2,6 +2,8 @@
 output: md_document
 ---
 
+**Última actualización**: `r lubridate::now(tzone = "UTC")` UTC
+
 ## Motivación
 
 MINSA está publicando en su cuenta de Twitter y en la sección de "Noticias" del portal del gobierno peruano, comunicados con información sobre COVID-19, pero no hay un repositorio de datos abiertos que pueda ser usado por todos.
@@ -21,7 +23,6 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - [Noticias del MINSA](https://www.gob.pe/busquedas?contenido[]=noticias&institucion[]=minsa&reason=sheet&sheet=1)
   - [RSS de Noticias del MINSA](https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa)
 
-**Última actualización**: `r lubridate::now(tzone = "UTC")` UTC
 
 ## Notas
 
@@ -32,6 +33,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - El [reporte N°29 del MINSA](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29) corrige el número de casos confirmados en Huánuco del [reporte N° 28](https://www.gob.pe/institucion/minsa/noticias/109810-minsa-casos-confirmados-por-coronavirus-covid-19-son-363-en-peru-comunicado-n-28)
 - El dataset de JHU (https://github.com/CSSEGISandData/COVID-19), indica que Perú tiene 14 recuperados el día 2020-03-26
 - En el dashboard se han agregado gráficos de la trayectoria total de casos, gráficos del número de recuperados y fallecidos, y un mapa con la densidad (casos por millón de personas) por región.
+- Los datos del 2020-03-03 fueron tomados de las "Sala Situacional" del MINSA, el cual no tiene información (al día de hoy) acerca del número de recuperados
 
 ## Visualizaciones
 
@@ -52,7 +54,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - confirmed: Casos confirmados
 - deaths: Decesos
 - recovered: Recuperados
-- discarded_cases: Casos descartados
+- negative_cases: Casos descartados/negativos
 
 **`covid-19-peru-data-con-ubigeos.csv`**
 
@@ -66,15 +68,16 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - confirmed: Casos confirmados
 - deaths: Decesos
 - recovered: Recuperados
-- discarded_cases: Casos descartados
+- negative_cases: Casos descartados/negativos
 - pob_2017: Población por departamento al 2017 (INEI)
-
 
 **`covid-19-peru-fallecimientos.csv`**
 
-- fecha Fecha en formato ISO (YYYY-MM-DD)
-- sexo: hombre/mujer
+- fecha_anuncio: Fecha en formato ISO (YYYY-MM-DD)
+- fecha_fallecimiento: Fecha en formato ISO (YYYY-MM-DD)
+- fecha_ingreso: Fecha en formato ISO (YYYY-MM-DD)
 - edad: en años
+- sexo: hombre/mujer
 - región: Departamento del Perú donde ocurrió el fallecimiento
 - viaje: País o región geográfica donde viajó la persona
 - contacto: Si la enfermadad se aquirió por contacto, la relación: amigo, familiar, etc.
@@ -84,7 +87,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - neumonia: Si ingresó por neumonía
 - otros_síntomas: lista delimitada por ";" de otros síntomas
 - factores: si se conocen, otros factores (obesidad, asma, etc.)
-
+- misc: otra información
+- comunicado_minsa: número del comunicado del MINSA
 
 ## Información empleada para recolectar los datos
 

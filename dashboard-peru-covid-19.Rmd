@@ -124,9 +124,9 @@ datatable(
     backgroundPosition = 'center'
   ) %>% 
   formatStyle(
-    "discarded_cases", 
+    "negative_cases", 
     color = "black",
-    background = styleColorBar(sit_pe$discarded_cases, 'cyan'),
+    background = styleColorBar(sit_pe$negative_cases, 'cyan'),
     backgroundSize = '90% 90%',
     backgroundRepeat = 'no-repeat',
     backgroundPosition = 'center'
@@ -204,7 +204,7 @@ pelog_plot
 df <- covid_pe %>% 
   rename(
     Confirmados = confirmed,
-    Descartados = discarded_cases
+    Descartados = negative_cases
   ) %>% 
   pivot_longer(
     cols = c("Confirmados", "Descartados"),
@@ -284,7 +284,7 @@ girafe(
 df2 <- covid_pe %>% 
   mutate(
     new_conf = confirmed - lag(confirmed),
-    new_disc = discarded_cases - lag(discarded_cases),
+    new_disc = negative_cases - lag(negative_cases),
     new_tot = new_conf + new_disc
   ) %>%
   filter(!is.na(new_conf))

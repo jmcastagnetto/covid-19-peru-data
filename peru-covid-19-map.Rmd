@@ -121,7 +121,7 @@ covid_pe <- read_csv(
   "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(is.na(iso_3166_2_code)) %>%
-  select(date, confirmed, discarded_cases)
+  select(date, confirmed, negative_cases)
 
 p1 <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
@@ -137,7 +137,7 @@ p1 <- ggplot(covid_pe,
   )
 
 p2 <- ggplot(covid_pe,
-             aes(x = date, y = discarded_cases)) +
+             aes(x = date, y = negative_cases)) +
   geom_point(show.legend = FALSE) +
   geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
   theme_minimal() +
