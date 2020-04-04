@@ -336,10 +336,10 @@ comb_plot
 ### Evolución del tiempo de duplicación de casos confirmados
 
 ```{r fig.width=10}
-pe_dt5 <- covid_pe %>% 
+pe_dt3 <- covid_pe %>% 
   select(date, confirmed) %>% 
   arrange(date) %>% 
-  slice(which(row_number() %% 5 == 1)) %>% 
+  slice(which(row_number() %% 3 == 1)) %>% 
   mutate(
     next_confirmed = lag(confirmed),
     next_date = lag(date),
@@ -349,8 +349,7 @@ pe_dt5 <- covid_pe %>%
 
 dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
 
-
-dt_plot <- ggplot(pe_dt5, aes(x = date, y = doubling_time)) +
+dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
   geom_line() +
   geom_point() +
   geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
@@ -360,7 +359,7 @@ dt_plot <- ggplot(pe_dt5, aes(x = date, y = doubling_time)) +
   labs(
     y = "Tiempo de duplicación (días)",
     x = "",
-    title = "Evaluado cada 5 días desde el primer caso",
+    title = "Evaluado cada 3 días desde el primer caso",
     caption = paste0(last_updated, "\n", jmc)
   ) +
   cur_theme
