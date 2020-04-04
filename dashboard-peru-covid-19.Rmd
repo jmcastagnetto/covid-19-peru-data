@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.6) "
+title: "COVID-19 en Perú (v0.7) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
@@ -24,6 +24,8 @@ library(showtext)
 library(plotly)
 library(ggiraph)
 library(ggiraphExtra)
+library(lubridate)
+library(latex2exp)
 
 font_add_google("Inconsolata", "inconsolata")
 font_add_google("Lato", "lato")
@@ -48,7 +50,7 @@ minsa <- "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru"
 covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
   select(-region)
-
+6
 covid_regions_pe <- read_csv(
   "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
@@ -277,10 +279,7 @@ girafe(
 
 ## Columna derecha
 
-### Nuevos casos confirmados totales
-
-
-```{r fig.width=10}
+```{r}
 df2 <- covid_pe %>% 
   mutate(
     new_conf = confirmed - lag(confirmed),
@@ -290,39 +289,93 @@ df2 <- covid_pe %>%
   filter(!is.na(new_conf))
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
-  geom_point() +
-  geom_segment(aes(xend = date, yend = 0)) +
+  geom_area(fill = "green", alpha = 0.5) +
+  # geom_point() +
+  # geom_segment(aes(xend = date, yend = 0)) +
   theme_minimal() +
   labs(
-    y = "Casos confirmados",
+    y = "Número de casos",
     x = "",
-    title = "COVID-19: Nuevos casos confirmados (Perú)",
-    subtitle = minsa,
+    title = "Nuevos casos confirmados",
+    #subtitle = minsa,
     caption = paste0(last_updated, "\n", jmc)
   ) +
   cur_theme
 
 pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
-  geom_point(color = "blue") +
-  geom_segment(aes(xend = date, yend = 0), color = "blue") +
+  geom_area(fill = "blue", alpha = 0.5) +
+  # geom_point(color = "blue") +
+  # geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal() +
   labs(
-    y = "Casos tamizados",
+    y = "Número de casos",
     x = "",
-    title = "COVID-19: Nuevos casos tamizados totales (Perú)",
-    subtitle = minsa,
+    title = "Nuevos casos tamizados",
+    #subtitle = minsa,
     caption = paste0(last_updated, "\n", jmc)
   ) +
   cur_theme
 
-ggplotly(pt1)
+comb_plot <- pt1 + pt2
 ```
 
-### Nuevos casos tamizados totales
+### COVID-19: Nuevos casos
 
-```{r}
-ggplotly(pt2)
+```{r fig.width=10}
+comb_plot
+# 
+# girafe(
+#   ggobj = comb_plot,
+#   options = list(
+#     opts_zoom(max = 5),
+#     opts_sizing(rescale = TRUE, width = .9)
+#   )
+# )
 ```
+
+### Evolución del tiempo de duplicación de casos confirmados
+
+```{r fig.width=10}
+pe_dt5 <- covid_pe %>% 
+  select(date, confirmed) %>% 
+  arrange(date) %>% 
+  slice(which(row_number() %% 5 == 1)) %>% 
+  mutate(
+    next_confirmed = lag(confirmed),
+    next_date = lag(date),
+    ival = (interval(next_date, date) %/% days()),
+    doubling_time =  abs(ival / log2(next_confirmed / confirmed))
+  )
+
+dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
+
+
+dt_plot <- ggplot(pe_dt5, aes(x = date, y = doubling_time)) +
+  geom_line() +
+  geom_point() +
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
+  geom_text(aes(label = round(doubling_time, 1)), nudge_y = .3) +
+  theme_minimal(14) +
+  annotate(geom = "text", x = as.Date("2020-03-08"), y = 5, label = TeX(dt_eq)) +
+  labs(
+    y = "Tiempo de duplicación (días)",
+    x = "",
+    title = "Evaluado cada 5 días desde el primer caso",
+    caption = paste0(last_updated, "\n", jmc)
+  ) +
+  cur_theme
+
+dt_plot
+# 
+# girafe(
+#   ggobj = dt_plot,
+#   options = list(
+#     opts_zoom(max = 5),
+#     opts_sizing(rescale = TRUE, width = .9)
+#   )
+# )
+```
+
 
 
 # Gráficos por regiones
