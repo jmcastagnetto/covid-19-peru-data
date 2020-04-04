@@ -93,13 +93,13 @@ datatable(
     columnDefs = list(list(className = 'dt-center', targets = 1:4)),
     initComplete = JS(
       "function(settings, json) {",
-      "$(this.api().table().header()).css({'font-size': '180%'});",
+      "$(this.api().table().header()).css({'font-size': '150%'});",
       "}"
       ) #,
   #ordering = FALSE
   )
 ) %>% 
-  formatStyle(1:5, fontSize = "180%") %>% 
+  formatStyle(1:5, fontSize = "150%") %>% 
   formatStyle(
     "confirmed", 
     color = "black", 
