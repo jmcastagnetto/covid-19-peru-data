@@ -136,11 +136,6 @@ datatable(
   formatCurrency(2:5, currency = "", digits = 0)
 ```
 
-background = styleColorBar(iris$Petal.Length, 'steelblue'),
-    backgroundSize = '100% 90%',
-    backgroundRepeat = 'no-repeat',
-    backgroundPosition = 'center'
-
 ### Casos Confirmados
 
 ```{r}
