@@ -159,7 +159,8 @@ timevis::timevis(cuarentena_df, fit = TRUE, showZoom = FALSE)
 ```{r}
 ahora <- interval(first_day, today) %/% days()
 final <- interval(first_day, last_day) %/% days()
-gauge(ahora, min = 0, max = final, symbol = "d")
+gauge(ahora, min = 0, max = final, symbol = "d", 
+      gaugeSectors(colors = "darkgrey"))
 ```
 
 
