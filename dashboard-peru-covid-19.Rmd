@@ -1,14 +1,14 @@
 ---
-title: "COVID-19 en Perú (v0.7) "
+title: "COVID-19 en Perú (v0.8) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
+    vertical_layout: fill 
+    theme: united
     navbar:
       - {title: "", icon: "fab fa-twitter", href: "https://twitter.com/share?text=COVID-19+en+Perú&url=https://castagnetto.site/peru/dashboard-peru-covid-19.html", target: "_blank"}
       - {title: "", icon: "fab fa-linkedin", href: "https://www.linkedin.com/shareArticle?mini=true&url=https://castagnetto.site/peru/dashboard-peru-covid-19.html&title=COVID-19+en+Perú", target: "_blank"}
       - {title: "Código fuente",  icon: "fab fa-github", href: "https://github.com/jmcastagnetto/covid-19-peru-data", target: "_blank"}
-    vertical_layout: fill
     includes:
       in_header: _ga.html
 ---
@@ -45,8 +45,7 @@ last_updated <- paste0(
 )
 
 jmc <- "@jmcastagnetto, Jesús M. Castagnetto"
-minsa <- "Fuente: Tweets del MINSA https://twitter.com/Minsa_Peru"
-
+minsa <- "Fuente: @Minsa_Peru (https://twitter.com/Minsa_Peru) y comunicados del MINSA"
 covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
   select(-region)
@@ -70,83 +69,209 @@ cur_theme <- theme(
 )
 ```
 
-# Gráficos totales
+# Situación general {data-orientation=rows}
 
-## Columna izquierda {.tabset}
-
-
-### Situación general
 
 ```{r}
 sit_pe <- covid_pe %>% 
   slice_tail(n = 3) %>% 
   select(-country, -iso3c) %>% 
-  arrange(date)
-
-datatable(
-  sit_pe,
-  rownames = FALSE,
-  colnames = c("Fecha", "Casos confirmados", "Fallecimientos", "Casos recuperados", "Casos descartados"),
-  caption = "COVID-19 en Perú: últimos tres días",
-  options = list(
-    dom = "t",
-    columnDefs = list(list(className = 'dt-center', targets = 1:4)),
-    initComplete = JS(
-      "function(settings, json) {",
-      "$(this.api().table().header()).css({'font-size': '150%'});",
-      "}"
-      ) #,
-  #ordering = FALSE
+  arrange(date) %>% 
+  mutate_at(
+    2:5,
+    scales::comma
   )
-) %>% 
-  formatStyle(1:5, fontSize = "150%") %>% 
-  formatStyle(
-    "confirmed", 
-    color = "black", 
-    #backgroundColor = "orange",
-    background = styleColorBar(sit_pe$confirmed, 'orange'),
-    backgroundSize = '90% 90%',
-    backgroundRepeat = 'no-repeat',
-    backgroundPosition = 'center'
-  ) %>% 
-  formatStyle(
-    "deaths", 
-    color = "black", 
-    background = styleColorBar(sit_pe$deaths, '#ff3333'),
-    backgroundSize = '90% 90%',
-    backgroundRepeat = 'no-repeat',
-    backgroundPosition = 'center'
-  ) %>% 
-  formatStyle(
-    "recovered",
-    color = "black", 
-    background = styleColorBar(sit_pe$recovered, 'lightgreen'),
-    backgroundSize = '90% 90%',
-    backgroundRepeat = 'no-repeat',
-    backgroundPosition = 'center'
-  ) %>% 
-  formatStyle(
-    "negative_cases", 
-    color = "black",
-    background = styleColorBar(sit_pe$negative_cases, 'cyan'),
-    backgroundSize = '90% 90%',
-    backgroundRepeat = 'no-repeat',
-    backgroundPosition = 'center'
-  ) %>%
-  formatCurrency(2:5, currency = "", digits = 0)
+
+# datatable(
+#   sit_pe,
+#   rownames = FALSE,
+#   colnames = c("Fecha", "Casos confirmados", "Fallecimientos", "Casos recuperados", "Casos descartados"),
+#   caption = "COVID-19 en Perú: últimos tres días",
+#   options = list(
+#     dom = "t",
+#     columnDefs = list(list(className = 'dt-center', targets = 1:4)),
+#     initComplete = JS(
+#       "function(settings, json) {",
+#       "$(this.api().table().header()).css({'font-size': '150%'});",
+#       "}"
+#       ) #,
+#   #ordering = FALSE
+#   )
+# ) %>% 
+#   formatStyle(1:5, fontSize = "150%") %>% 
+#   formatStyle(
+#     "confirmed", 
+#     color = "black", 
+#     #backgroundColor = "orange",
+#     background = styleColorBar(sit_pe$confirmed, 'orange'),
+#     backgroundSize = '90% 90%',
+#     backgroundRepeat = 'no-repeat',
+#     backgroundPosition = 'center'
+#   ) %>% 
+#   formatStyle(
+#     "deaths", 
+#     color = "black", 
+#     background = styleColorBar(sit_pe$deaths, '#ff3333'),
+#     backgroundSize = '90% 90%',
+#     backgroundRepeat = 'no-repeat',
+#     backgroundPosition = 'center'
+#   ) %>% 
+#   formatStyle(
+#     "recovered",
+#     color = "black", 
+#     background = styleColorBar(sit_pe$recovered, 'lightgreen'),
+#     backgroundSize = '90% 90%',
+#     backgroundRepeat = 'no-repeat',
+#     backgroundPosition = 'center'
+#   ) %>% 
+#   formatStyle(
+#     "negative_cases", 
+#     color = "black",
+#     background = styleColorBar(sit_pe$negative_cases, 'cyan'),
+#     backgroundSize = '90% 90%',
+#     backgroundRepeat = 'no-repeat',
+#     backgroundPosition = 'center'
+#   ) %>%
+#   formatCurrency(2:5, currency = "", digits = 0)
 ```
+
+## Countdown
+
+
+### Periodo de cuarentena
+
+```{r}
+first_day <- ymd("2020-03-17", tz = "America/Lima")
+last_day <- ymd("2020-04-12", tz = "America/Lima")
+today <- now(tzone = "America/Lima")
+
+cuarentena_df <- data.frame(
+  id = 1,
+  content = c("Cuarentena COVID-19, Perú"),
+  start = c(first_day),
+  end = c(last_day)
+)
+timevis::timevis(cuarentena_df, fit = TRUE, showZoom = FALSE)
+```
+
+### Días en cuarentena oficial (a la fecha)
+
+```{r}
+ahora <- interval(first_day, today) %/% days()
+final <- interval(first_day, last_day) %/% days()
+gauge(ahora, min = 0, max = final, symbol = "d")
+```
+
+
+## Anteayer
+
+### Anteayer
+```{r}
+valueBox(sit_pe[1,]$date, color = "#ffffff")
+```
+
+### Casos confirmados
+```{r}
+valueBox(sit_pe[1,]$confirmed, icon = "fa-user-plus", color = "info")
+```
+
+### Fallecimientos
+
+```{r}
+valueBox(sit_pe[1,]$deaths, icon = "fa-cross", color = "#ff0000")
+```
+
+### Casos Recuperados
+```{r}
+valueBox(sit_pe[1,]$recovered, icon = "fa-user-check", color = "#ffa500")
+```
+
+### Casos negativos
+```{r}
+valueBox(sit_pe[1,]$negative_cases, icon = "fa-user-minus", color = "success")
+```
+
+
+
+## Ayer
+
+### Ayer
+```{r}
+valueBox(sit_pe[2,]$date, color = "#ffffff")
+```
+
+
+### Casos confirmados
+```{r}
+valueBox(sit_pe[2,]$confirmed, icon = "fa-user-plus", color = "info")
+```
+
+### Fallecimientos
+
+```{r}
+valueBox(sit_pe[2,]$deaths, icon = "fa-cross", color = "#ff0000")
+```
+
+### Casos Recuperados
+```{r}
+valueBox(sit_pe[2,]$recovered, icon = "fa-user-check", color = "#ffa500")
+```
+
+### Casos negativos
+```{r}
+valueBox(sit_pe[2,]$negative_cases, icon = "fa-user-minus", color = "success")
+```
+
+## Hoy
+
+### Hoy
+```{r}
+valueBox(sit_pe[3,]$date, color = "#ffffff")
+```
+
+### Casos confirmados
+```{r}
+valueBox(sit_pe[3,]$confirmed, icon = "fa-user-plus", color = "info")
+```
+
+### Fallecimientos
+
+```{r}
+valueBox(sit_pe[3,]$deaths, icon = "fa-cross", color = "#ff0000")
+```
+
+### Casos Recuperados
+```{r}
+valueBox(sit_pe[3,]$recovered, icon = "fa-user-check", color = "#ffa500")
+```
+
+### Casos negativos
+```{r}
+valueBox(sit_pe[3,]$negative_cases, icon = "fa-user-minus", color = "success")
+```
+
+
+
+
+# Nivel Nacional
+
+
+
+
+
+## Columna izquierda {.tabset}
 
 ### Casos Confirmados
 
-```{r}
+```{r fig.width=16, fig.height=9}
 pe_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
-  geom_point_interactive(aes(tooltip = confirmed)) +
+  geom_point(aes(tooltip = confirmed)) +
   geom_line() +
-  geom_vline_interactive(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
-  annotate_interactive(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1,
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
+  annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1,
            label = "Inicio de la\ncuarentena", color = "blue") +
-  theme_minimal() +
+  theme_minimal(18) +
   labs(
     y = "Casos Confirmados",
     x = "",
@@ -156,17 +281,18 @@ pe_plot <- ggplot(covid_pe,
   ) +
   cur_theme
 
-girafe(
-  ggobj = pe_plot,
-  options = list(
-    opts_zoom(max = 5)
-  )
-)
+# girafe(
+#   ggobj = pe_plot,
+#   options = list(
+#     opts_zoom(max = 5)
+#   )
+# )
+pe_plot
 ```
 
 ### Trayectoria de Casos Confirmados
 
-```{r}
+```{r fig.width=16, fig.height=9}
 traj_df <- covid_pe %>% 
   select(date, confirmed) %>% 
   mutate(
@@ -182,7 +308,7 @@ pelog_plot <- ggplot(traj_df,
   scale_x_log10() +
   scale_y_log10() +
   annotation_logticks() +
-  theme_minimal() +
+  theme_minimal(18) +
   labs(
     y = "Nuevos casos confirmados\n(luego de 7 días)",
     x = "Casos confirmados",
@@ -195,16 +321,59 @@ pelog_plot <- ggplot(traj_df,
 pelog_plot
 ```
 
+### Evolución del tiempo de duplicación de casos confirmados
+
+```{r fig.width=16, fig.height=9}
+pe_dt3 <- covid_pe %>% 
+  select(date, confirmed) %>% 
+  arrange(date) %>% 
+  slice(which(row_number() %% 3 == 1)) %>% 
+  mutate(
+    next_confirmed = lag(confirmed),
+    next_date = lag(date),
+    ival = (interval(date, next_date) %/% days()),
+    doubling_time =  ival / log2(next_confirmed / confirmed)
+  )
+
+dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
+
+dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
+  geom_line() +
+  geom_point() +
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
+  geom_text(aes(label = round(doubling_time, 1)), nudge_y = .3) +
+  theme_minimal(18) +
+  annotate(geom = "text", x = as.Date("2020-03-08"), y = 5, label = TeX(dt_eq)) +
+  labs(
+    y = "Tiempo de duplicación (días)",
+    x = "",
+    title = "Evaluado cada 3 días desde el primer caso",
+    caption = paste0(last_updated, " // ", jmc)
+  ) +
+  cur_theme
+
+dt_plot
+# 
+# girafe(
+#   ggobj = dt_plot,
+#   options = list(
+#     opts_zoom(max = 5),
+#     opts_sizing(rescale = TRUE, width = .9)
+#   )
+# )
+```
+
+
 ### Casos tamizados
 
-```{r fig.width=12}
+```{r fig.width=16, fig.height=9}
 df <- covid_pe %>% 
   rename(
     Confirmados = confirmed,
-    Descartados = negative_cases
+    Negativos = negative_cases
   ) %>% 
   pivot_longer(
-    cols = c("Confirmados", "Descartados"),
+    cols = c("Confirmados", "Negativos"),
     names_to = "Casos tamizados",
     values_to = "cases"
   ) %>% 
@@ -213,24 +382,30 @@ df <- covid_pe %>%
   )
 
 bar_plot <- ggplot(df, 
-       aes(x = date, y = cases, fill = `Casos tamizados`)) +
+       aes(x = date, y = cases, 
+           group = `Casos tamizados`, fill = `Casos tamizados`)) +
   geom_col() +
-  theme_minimal() +
+  theme_minimal(18) +
   labs(
     y = "Número de casos",
     x = "",
     title = "COVID-19: Casos totales tamizados en el Perú",
     subtitle = minsa,
-    caption = paste0(last_updated, "\n", jmc)
+    caption = paste0(last_updated, " // ", jmc)
   ) +
-  cur_theme
+  scale_fill_manual(values = c("cyan", "lightgreen")) +
+  cur_theme +
+  theme(
+    legend.position = c(.15,.85)
+  )
 
-ggplotly(bar_plot)
+bar_plot
+#ggplotly(bar_plot)
 ```
 
 ### Casos recuperados y fallecimientos
 
-```{r}
+```{r fig.width=16, fig.height=9}
 recdth <- covid_pe %>% 
   select(date, recovered, deaths) %>% 
   rename(
@@ -248,33 +423,33 @@ recdth <- covid_pe %>%
   )
 
 rd_plot <- ggplot(recdth, aes(x = date, y = cases, group = Estado, fill = Estado)) +
-  geom_col_interactive(aes(tooltip = label), 
+  geom_col(aes(tooltip = label), 
                            position = "dodge", width = 0.5) +
   #geom_line() +
-  theme_minimal() +
+  theme_minimal(14) +
   labs(
     y = "Número de personas",
     x = "",
     title = "COVID-19: Recuperados y fallecidos en Perú",
     subtitle = minsa,
-    caption = paste0(last_updated, "\n", jmc)
+    caption = paste0(last_updated, " // ", jmc)
   ) + 
+  facet_wrap(~Estado, scales = "free_y") +
   cur_theme
 
-girafe(
-  ggobj = rd_plot,
-  options = list(
-    opts_zoom(max = 5)
-  )
-)
+# girafe(
+#   ggobj = rd_plot,
+#   options = list(
+#     opts_zoom(max = 5)
+#   )
+# )
 #ggplotly(rd_plot)
+rd_plot
 ```
 
+### Nuevos casos
 
-
-## Columna derecha
-
-```{r}
+```{r fig.width=16, fig.height=9}
 df2 <- covid_pe %>% 
   mutate(
     new_conf = confirmed - lag(confirmed),
@@ -284,39 +459,34 @@ df2 <- covid_pe %>%
   filter(!is.na(new_conf))
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
-  geom_area(fill = "green", alpha = 0.5) +
+  geom_col(fill = "green", alpha = 0.5) +
   # geom_point() +
   # geom_segment(aes(xend = date, yend = 0)) +
-  theme_minimal() +
+  theme_minimal(14) +
   labs(
     y = "Número de casos",
     x = "",
     title = "Nuevos casos confirmados",
     #subtitle = minsa,
-    caption = paste0(last_updated, "\n", jmc)
+    caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
 pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
-  geom_area(fill = "blue", alpha = 0.5) +
+  geom_col(fill = "blue", alpha = 0.5) +
   # geom_point(color = "blue") +
   # geom_segment(aes(xend = date, yend = 0), color = "blue") +
-  theme_minimal() +
+  theme_minimal(14) +
   labs(
     y = "Número de casos",
     x = "",
     title = "Nuevos casos tamizados",
     #subtitle = minsa,
-    caption = paste0(last_updated, "\n", jmc)
+    caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
 comb_plot <- pt1 + pt2
-```
-
-### COVID-19: Nuevos casos
-
-```{r fig.width=10}
 comb_plot
 # 
 # girafe(
@@ -328,61 +498,17 @@ comb_plot
 # )
 ```
 
-### Evolución del tiempo de duplicación de casos confirmados
 
-```{r fig.width=10}
-pe_dt3 <- covid_pe %>% 
-  select(date, confirmed) %>% 
-  arrange(date) %>% 
-  slice(which(row_number() %% 3 == 1)) %>% 
-  mutate(
-    next_confirmed = lag(confirmed),
-    next_date = lag(date),
-    ival = (interval(next_date, date) %/% days()),
-    doubling_time =  abs(ival / log2(next_confirmed / confirmed))
-  )
+# Por Regiones {data-orientation=rows}
 
-dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
+## mapas
 
-dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
-  geom_line() +
-  geom_point() +
-  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
-  geom_text(aes(label = round(doubling_time, 1)), nudge_y = .3) +
-  theme_minimal(14) +
-  annotate(geom = "text", x = as.Date("2020-03-08"), y = 5, label = TeX(dt_eq)) +
-  labs(
-    y = "Tiempo de duplicación (días)",
-    x = "",
-    title = "Evaluado cada 3 días desde el primer caso",
-    caption = paste0(last_updated, "\n", jmc)
-  ) +
-  cur_theme
-
-dt_plot
-# 
-# girafe(
-#   ggobj = dt_plot,
-#   options = list(
-#     opts_zoom(max = 5),
-#     opts_sizing(rescale = TRUE, width = .9)
-#   )
-# )
-```
-
-
-
-# Gráficos por regiones
-
-## Columna izquierda {.tabset}
-
-### Casos confirmados por región
-
-```{r echo=FALSE}
+```{r echo=FALSE, out.height="90%", out.width="90%"}
 last_date_index <- covid_regions_pe %>% 
   select(date) %>% 
   distinct() %>% 
   nrow()
+
 map_df <- covid_regions_pe %>% 
   select(region, date, confirmed) %>% 
   mutate(
@@ -394,24 +520,23 @@ map_df <- covid_regions_pe %>%
       str_replace("Apurimac", "Apurímac")
   )
 
-map_df %>% 
+rmap_1 <- map_df %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   e_timeline_opts(currentIndex = last_date_index - 1) %>% 
   em_map("Peru") %>% 
-  e_map(confirmed, map = "Peru") %>% 
-  e_visual_map(min = 1, max = 2000) %>% 
+  e_map(confirmed, map = "Peru", roam = TRUE) %>% 
+  e_visual_map(min = 1, max = 3000) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
-    text = "Mapa interactivo de casos por región", 
-    subtext = "Fuente original: Tweets del MINSA https://twitter.com/Minsa_Peru"
+    text = "Número de casos confirmados por región"
   ) %>% 
-  e_theme("infographic")
-```
+  e_theme("infographic") %>% 
+  e_toolbox() %>% 
+  e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") %>% 
+  #e_toolbox_feature(feature = "restore", title = "Restaurar mapa") %>% 
+  e_group("regiones")
 
-### Densidad de casos por región
-
-```{r echo=FALSE}
 map_df2 <- covid_regions_pe %>% 
   select(region, date, confirmed_per_million) %>% 
   mutate(
@@ -423,55 +548,70 @@ map_df2 <- covid_regions_pe %>%
       str_replace("Apurimac", "Apurímac")
   )
 
-map_df2 %>% 
+rmap_2 <- map_df2 %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   e_timeline_opts(currentIndex = last_date_index - 1) %>% 
   em_map("Peru") %>% 
-  e_map(confirmed_per_million, map = "Peru") %>% 
-  e_visual_map(min = 1, max = 100) %>% 
+  e_map(confirmed_per_million, map = "Peru", roam = TRUE) %>% 
+  e_visual_map(min = 1, max = 200) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
-    text = "Mapa de densidad casos por región (casos por millón)", 
-    subtext = "Fuente original: Tweets del MINSA https://twitter.com/Minsa_Peru"
+    text = "Densidad de casos confirmados por millón en cada región"
   ) %>% 
-  e_theme("infographic")
+  e_theme("infographic") %>% 
+  e_toolbox() %>% 
+  e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") %>% 
+  #e_toolbox_feature(feature = "restore", title = "Restaurar mapa") %>% 
+  e_group("regiones") %>% 
+  e_connect_group("regiones")
+
+#e_arrange(rmap_1, rmap_2, rows = 1, cols = 2)
 ```
 
+### Número de casos por región
 
-## Column right
+```{r}
+rmap_1
+```
+
+### Densidad (casos por millón de habitantes) por región
+
+```{r}
+rmap_2
+```
 
 ### Evolución de casos por región
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.height=9}
 cpr_df <- covid_regions_pe %>% 
   mutate(
     label = glue::glue("{region}: {confirmed} ({date})")
   )
 cpr <- ggplot(cpr_df,
   aes(x = date, y = confirmed, color = region)) +
-  #geom_point(show.legend = FALSE) +
+  geom_point(show.legend = FALSE, size = 0.5) +
   #geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
   geom_line(show.legend = FALSE, size = 0.5) +
-  facet_wrap(~region, scales = "free_y", ncol = 4) +
-  theme_minimal() +
+  facet_wrap(~region, scales = "free_y", ncol = 3) +
+  theme_minimal(10) +
   labs(
     y = "Casos Confirmados",
     x = "",
     title = "COVID-19: Casos Confirmados por region en el Perú",
     subtitle = minsa,
-    caption = paste0(last_updated, "\n", jmc)
+    caption = paste0(last_updated, " //  ", jmc)
   ) +
   cur_theme
-#cpr
-ggplotly(cpr)
+cpr
+#ggplotly(cpr)
 ```
 
 # Datos
 
 ## Column {.tabset}
 
-### Totales
+### Niven Nacional
 
 ```{r results="asis"}
 tab_opts <- list(
