@@ -477,11 +477,17 @@ df2 <- covid_pe %>%
   ) %>%
   filter(!is.na(new_conf))
 
-rates2_df <- df2 %>% 
-  mutate(
-    
-  )
-
+# rates_df <- df2 %>%
+#   mutate(
+#     date_diff = as.numeric(date - lag(date)),
+#     rate_conf = new_conf - lag(new_conf),
+#     rate_disc = new_disc - lag(new_disc)
+#   ) %>%
+#   filter(!is.na(rate_conf))
+# 
+# ggplot(rates_df, aes(x = date, y = rate_conf)) +
+#   geom_point() +
+#   geom_smooth()
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
   geom_col(fill = "green", alpha = 0.5) +
@@ -545,13 +551,15 @@ map_df <- covid_regions_pe %>%
       str_replace("Apurimac", "Apurímac")
   )
 
+map1_max <- ((max(map_df$confirmed) %/% 1000) + 1) * 1000
+
 rmap_1 <- map_df %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   e_timeline_opts(currentIndex = last_date_index - 1) %>% 
   em_map("Peru") %>% 
   e_map(confirmed, map = "Peru", roam = TRUE) %>% 
-  e_visual_map(min = 1, max = 3000) %>% 
+  e_visual_map(min = 1, max = map1_max) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
     text = "Número de casos confirmados por región"
@@ -573,13 +581,15 @@ map_df2 <- covid_regions_pe %>%
       str_replace("Apurimac", "Apurímac")
   )
 
+map2_max <- ((max(map_df2$confirmed_per_million) %/% 100) + 1) * 100
+
 rmap_2 <- map_df2 %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   e_timeline_opts(currentIndex = last_date_index - 1) %>% 
   em_map("Peru") %>% 
   e_map(confirmed_per_million, map = "Peru", roam = TRUE) %>% 
-  e_visual_map(min = 1, max = 200) %>% 
+  e_visual_map(min = 1, max = map2_max) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
     text = "Densidad de casos confirmados por millón en cada región"
