@@ -138,29 +138,47 @@ sit_pe <- covid_pe %>%
 ## Countdown
 
 
-### Periodo de cuarentena
+### Periodo de cuarentena {data-width="70%"}
 
 ```{r}
-first_day <- ymd("2020-03-17", tz = "America/Lima")
+susp_classes_first_day <- ymd("2020-03-12", tz = "America/Lima")
+susp_classes_last_day <- ymd("2020-05-02", tz = "America/Lima")
+first_day <- ymd("2020-03-16", tz = "America/Lima")
 last_day <- ymd("2020-04-12", tz = "America/Lima")
 today <- now(tzone = "America/Lima")
 
 cuarentena_df <- data.frame(
-  id = 1,
-  content = c("Cuarentena COVID-19, Perú"),
-  start = c(first_day),
-  end = c(last_day)
+  id = 1:2,
+  title = c(
+    paste("Suspensión de clases: del 2020-03-12 al 2020-05-03"), 
+    paste("Cuarentena: del 2020-03-16 al 2020-04-12")
+  ),
+  content = c("Suspensión de clases", "Cuarentena COVID-19, Perú"),
+  start = c(susp_classes_first_day, first_day),
+  end = c(susp_classes_last_day, last_day),
+  group = c("susp", "quar"),
+  style = c("background-color:yellow", "background-color:cyan")
 )
 timevis::timevis(cuarentena_df, fit = TRUE, showZoom = FALSE)
 ```
 
-### Días en cuarentena oficial (a la fecha)
+### {data-width="30%"}
 
+**Días en cuarentena oficial**
 ```{r}
 ahora <- interval(first_day, today) %/% days()
 final <- interval(first_day, last_day) %/% days()
 gauge(ahora, min = 0, max = final, symbol = "d", 
       gaugeSectors(colors = "darkgrey"))
+```
+
+**Días en suspensión de clases**
+
+```{r}
+ahora <- interval(susp_classes_first_day, today) %/% days()
+final <- interval(susp_classes_first_day, susp_classes_last_day) %/% days()
+gauge(ahora, min = 0, max = final, symbol = "d", 
+      gaugeSectors(colors = "blue"))
 ```
 
 
@@ -458,6 +476,12 @@ df2 <- covid_pe %>%
     new_tot = new_conf + new_disc
   ) %>%
   filter(!is.na(new_conf))
+
+rates2_df <- df2 %>% 
+  mutate(
+    
+  )
+
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
   geom_col(fill = "green", alpha = 0.5) +
