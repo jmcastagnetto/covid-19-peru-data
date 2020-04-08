@@ -144,14 +144,14 @@ sit_pe <- covid_pe %>%
 susp_classes_first_day <- ymd("2020-03-12", tz = "America/Lima")
 susp_classes_last_day <- ymd("2020-05-02", tz = "America/Lima")
 first_day <- ymd("2020-03-16", tz = "America/Lima")
-last_day <- ymd("2020-04-12", tz = "America/Lima")
+last_day <- ymd("2020-04-26", tz = "America/Lima")
 today <- now(tzone = "America/Lima")
 
 cuarentena_df <- data.frame(
   id = 1:2,
   title = c(
     paste("Suspensión de clases: del 2020-03-12 al 2020-05-03"), 
-    paste("Cuarentena: del 2020-03-16 al 2020-04-12")
+    paste("Cuarentena: del 2020-03-16 al 2020-04-26")
   ),
   content = c("Suspensión de clases", "Cuarentena COVID-19, Perú"),
   start = c(susp_classes_first_day, first_day),
