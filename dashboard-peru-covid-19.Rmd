@@ -55,10 +55,12 @@ covid_regions_pe <- read_csv(
   "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(region)) %>% 
-  select(region, date, confirmed, deaths, pcr_positivo, prueba_rapida_positivo, pob_2017) %>% 
+  select(region, cod_dep_inei, cod_dep_reniec, iso_3166_2_code, 
+         date, confirmed, deaths, 
+         pcr_positivo, prueba_rapida_positivo, pob_2017) %>% 
   distinct() %>% 
   mutate(
-    confirmed_per_million = round(confirmed * 1e6 / pob_2017, 2)
+    confirmed_per_million = round(confirmed * 1e6 / pob_2017, 1)
   )
 
 cur_theme <- theme(
@@ -216,7 +218,7 @@ valueBox(sit_pe[1,]$recovered, icon = "fa-user-check", color = "#ffa500")
 valueBox(sit_pe[1,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
-## Ayer
+## Yesterday
 
 ### Ayer
 ```{r}
@@ -787,7 +789,7 @@ ggplot(
 
 ## Column {.tabset}
 
-### Niven Nacional
+### Nivel Nacional
 
 ```{r results="asis"}
 tab_opts <- list(
@@ -797,21 +799,47 @@ tab_opts <- list(
       ),
     className = "dt-center",
     searchHighlight = TRUE,
-    pageLength = 20,
-    lengthMenu = c(10, 20, 30, 40, 50),
+    pageLength = 15,
+    lengthMenu = c(15, 30, 40, 50),
     dom = 'Blfrtip',
     buttons = c('csv', 'excel')
   )
 
+# ref: https://www.worldometers.info/world-population/peru-population/
+# retrieved: 2020-04-09
+peru_pop <- 32865689 
+
+dt_df <- covid_pe %>% 
+  mutate(
+    confirmed_per_million = round(confirmed * 1e6 / peru_pop, 1)
+  ) %>% 
+  select(
+    country,
+    iso3c,
+    date,
+    confirmed,
+    confirmed_per_million,
+    pcr_positivo,
+    prueba_rapida_positivo,
+    deaths,
+    recovered,
+    negative_cases
+  ) %>% 
+  arrange(desc(date))
+
 datatable(
-  covid_pe,
-  colnames = c("País", "Código ISO", "Fecha", 
+  dt_df,
+  colnames = c("País", 
+               "Código ISO 3166-1 alpha 3", 
+               "Fecha", 
                "Número de casos confirmados", 
+               "Casos confirmados por millón de personas",
+               "Positivos por pruebas moleculares",
+               "Positivos por pruebas serológicas",
                "Número de fallecimientos",
                "Número de casos recuperados",
-               "Número de casos negativos",
-               "Positivos con pruebas moleculares",
-               "Positivos con pruebas serológicas"),
+               "Número de casos negativos"
+               ),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
   options = tab_opts,
@@ -824,11 +852,32 @@ datatable(
 
 ```{r results="asis"}
 datatable(
-  covid_regions_pe,
-  colnames = c("Departamento", "Fecha", 
+  covid_regions_pe %>% 
+    select(
+      region,
+      cod_dep_inei,
+      cod_dep_reniec,
+      iso_3166_2_code,
+      date,
+      confirmed,
+      confirmed_per_million,
+      pcr_positivo,
+      prueba_rapida_positivo,
+      deaths,
+      pob_2017
+    ) %>% 
+    arrange(desc(date), region),
+  colnames = c("Departamento", 
+               "UBIGEO (INEI)",
+               "UBIGEO (RENIEC)",
+               "Código ISO 3166-2:PE",
+               "Fecha", 
                "Número de casos confirmados",
-               "Población (INEI, 2017)",
-               "Número de casos por cada millón de personas"
+               "Casos confirmados por cada millón de personas",
+               "Positivos por pruebas moleculares",
+               "Positivos por pruebas serológicas",
+               "Número de fallecimientos",
+               "Población (INEI, 2017)"
                ),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
