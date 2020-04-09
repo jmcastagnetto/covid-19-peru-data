@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.8) "
+title: "COVID-19 en Perú (v0.9) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
@@ -182,35 +182,38 @@ gauge(ahora, min = 0, max = final, symbol = "d",
 ```
 
 
+```{r eval=FALSE}
 ## Anteayer
 
 ### Anteayer
-```{r}
+
 valueBox(sit_pe[1,]$date, color = "#ffffff")
 ```
 
+
+```{r eval=FALSE}
 ### Casos confirmados
-```{r}
 valueBox(sit_pe[1,]$confirmed, icon = "fa-user-plus", color = "info")
 ```
 
-### Fallecimientos
 
-```{r}
+
+```{r eval=FALSE}
+### Fallecimientos
 valueBox(sit_pe[1,]$deaths, icon = "fa-cross", color = "#ff0000")
 ```
 
+
+```{r eval=FALSE}
 ### Casos Recuperados
-```{r}
 valueBox(sit_pe[1,]$recovered, icon = "fa-user-check", color = "#ffa500")
 ```
 
+
+```{r eval=FALSE}
 ### Casos negativos
-```{r}
 valueBox(sit_pe[1,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
-
-
 
 ## Ayer
 
@@ -270,15 +273,46 @@ valueBox(sit_pe[3,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
 
+## Test results and hospitalizados
+
+```{r}
+tests_raw <- read_csv("datos/covid-19-peru-test-results.csv") %>% 
+  pivot_wider(
+    names_from = c(resultado, tipo_prueba),
+    values_from = personas
+  )
+last_test_date <- last(sort(unique(tests_raw$fecha)))
+tests_last <- tests_raw %>% filter(fecha == last_test_date)
+tests_table <- data.frame(
+  res = c("Negativo", "Positivo"),
+  mol = c(tests_last$negativo_moleculares, tests_last$positivo_moleculares),
+  ser = c(tests_last$negativo_serológicas, tests_last$positivo_serológicas)
+)
+```
+
+### Resultados de pruebas por tipo, al `r tests_last$fecha`
+
+```{r}
+knitr::kable(
+  tests_table,
+  format = "html", 
+  align = "rcc", 
+  col.names = c("Resultado", "Pruebas moleculares", "Pruebas serológicas (\"rápidas\")"),
+  format.args = list(big.mark = ",")
+  ) %>% 
+  kableExtra::kable_styling(
+    bootstrap_options = c("striped", "bordered"),
+    font_size = 32, 
+    full_width = TRUE,
+    
+  )
+```
+
 
 
 # Nivel Nacional
 
-
-
-
-
-## Columna izquierda {.tabset}
+## Columna unica {.tabset}
 
 ### Casos Confirmados
 
@@ -528,6 +562,70 @@ comb_plot
 #   )
 # )
 ```
+
+### Pacientes hospitalizados
+
+```{r fig.width=16, fig.height=9}
+hosp_raw <- read_csv("datos/covid-19-peru-detalle-hospitalizados.csv") %>% 
+  arrange(fecha)
+hosp_df <- hosp_raw %>% 
+  select(fecha, hospitalizados, ventilacion_mecanica) %>% 
+  filter(!is.na(hospitalizados) & !is.na(ventilacion_mecanica)) %>% 
+  mutate(sin_ventilacion = hospitalizados - ventilacion_mecanica) %>% 
+  select(-hospitalizados) %>% 
+  pivot_longer(
+    cols = c(ventilacion_mecanica, sin_ventilacion),
+    names_to = "status",
+    values_to = "count"
+  ) %>% 
+  mutate(
+    fecha = ymd(fecha),
+    status = factor(status,
+                    levels = c("ventilacion_mecanica", "sin_ventilacion"),
+                    ordered = TRUE)
+  ) %>% 
+  arrange(fecha, desc(status))
+
+hosp_labels_df <- hosp_raw %>% 
+  filter(!is.na(hospitalizados) & !is.na(ventilacion_mecanica)) %>% 
+  mutate(
+    fecha = ymd(fecha),
+    label = paste0("Comun.\nN° ", comunicado_minsa)
+  ) %>% 
+  select(fecha, hospitalizados, label)
+
+ggplot(
+  data = hosp_df,
+  aes(x = fecha, y = count, group = status, fill = status)
+) +
+  geom_col() +
+  annotate(
+    geom = "text",
+    x = hosp_labels_df$fecha, 
+    y = hosp_labels_df$hospitalizados + 40, 
+    label = hosp_labels_df$label
+  ) +
+  scale_fill_manual(
+    values = c("red", "orange"), 
+    guide = guide_legend(
+      title = "Estado del paciente"
+    ),
+    labels = c("Con ventilación mecánica", "Sin ventilación mecánica")
+  ) +
+  labs(
+    y = "Número de pacientes",
+    x = "",
+    title = "Evolución de pacientes hospitalizados por COVID-19",
+    subtitle = "Fuente: Comunicados del MINSA (indicado en el gráfico)",
+    caption = paste0(last_updated, " // ", jmc)
+  ) +
+  theme_minimal(18) +
+  cur_theme +
+  theme(
+    legend.position = c(.2, .8)
+  )
+```
+
 
 
 # Por Regiones {data-orientation=rows}
