@@ -3,6 +3,7 @@ title: "COVID-19 en Perú (v0.9) "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
+    orientation: columns
     vertical_layout: fill 
     theme: united
     navbar:
@@ -49,12 +50,12 @@ minsa <- "Fuente: @Minsa_Peru (https://twitter.com/Minsa_Peru) y comunicados del
 covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
   select(-region)
-6
+
 covid_regions_pe <- read_csv(
   "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(region)) %>% 
-  select(region, date, confirmed, pob_2017) %>% 
+  select(region, date, confirmed, deaths, pcr_positivo, prueba_rapida_positivo, pob_2017) %>% 
   distinct() %>% 
   mutate(
     confirmed_per_million = round(confirmed * 1e6 / pob_2017, 2)
@@ -628,9 +629,9 @@ ggplot(
 
 
 
-# Por Regiones {data-orientation=rows}
+# Por Regiones
 
-## mapas
+## mapas {.tabset}
 
 ```{r echo=FALSE, out.height="90%", out.width="90%"}
 last_date_index <- covid_regions_pe %>% 
@@ -696,8 +697,8 @@ rmap_2 <- map_df2 %>%
   e_toolbox() %>% 
   e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") %>% 
   #e_toolbox_feature(feature = "restore", title = "Restaurar mapa") %>% 
-  e_group("regiones") %>% 
-  e_connect_group("regiones")
+  e_group("regiones") #%>% 
+  #e_connect_group("regiones")
 
 #e_arrange(rmap_1, rmap_2, rows = 1, cols = 2)
 ```
@@ -714,9 +715,11 @@ rmap_1
 rmap_2
 ```
 
+## plots {.tabset}
+
 ### Evolución de casos por región
 
-```{r echo=FALSE, fig.height=9}
+```{r fig.height=9, fig.width=14}
 cpr_df <- covid_regions_pe %>% 
   mutate(
     label = glue::glue("{region}: {confirmed} ({date})")
@@ -726,7 +729,7 @@ cpr <- ggplot(cpr_df,
   geom_point(show.legend = FALSE, size = 0.5) +
   #geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
   geom_line(show.legend = FALSE, size = 0.5) +
-  facet_wrap(~region, scales = "free_y", ncol = 3) +
+  facet_wrap(~region, scales = "free_y", ncol = 5) +
   theme_minimal(10) +
   labs(
     y = "Casos Confirmados",
@@ -739,6 +742,46 @@ cpr <- ggplot(cpr_df,
 cpr
 #ggplotly(cpr)
 ```
+
+### Casos positivos por tipo de prueba
+
+```{r fig.height=9, fig.width=14}
+tests_reg <- covid_regions_pe %>% 
+  filter(!is.na(pcr_positivo)) %>% 
+  select(region, date, pcr_positivo, prueba_rapida_positivo) %>% 
+  pivot_longer(
+    cols = c(pcr_positivo, prueba_rapida_positivo),
+    names_to = "tipo_prueba",
+    values_to = "cantidad"
+  )
+
+ggplot(
+  tests_reg,
+  aes(x = date, y = cantidad, group = tipo_prueba, fill = tipo_prueba)
+) +
+  geom_col() +
+  scale_fill_manual(
+    values = c("cyan", "peru"), 
+    guide = guide_legend(
+      title = "Tipo de prueba"
+    ),
+    labels = c("PCR (molecular)", "Serológica (\"rápida\")")
+  ) +
+  labs(
+    y = "",
+    x = "",
+    title = "Pruebas positivas por tipo en cada región",
+    caption = paste0(last_updated, " //  ", jmc)
+  ) +
+  facet_wrap(~region, scales = "free_y", nrow = 5) +
+  theme_classic(14) +
+  cur_theme +
+  theme(
+    legend.position = "bottom"
+  )
+  
+```
+
 
 # Datos
 
@@ -766,7 +809,9 @@ datatable(
                "Número de casos confirmados", 
                "Número de fallecimientos",
                "Número de casos recuperados",
-               "Número de casos descartados"),
+               "Número de casos negativos",
+               "Positivos con pruebas moleculares",
+               "Positivos con pruebas serológicas"),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
   options = tab_opts,
@@ -792,7 +837,7 @@ datatable(
 )
 ```
 
-#  Acerca de esta visualización
+# Acerca de esta visualización
 
 ## Columna única
 
