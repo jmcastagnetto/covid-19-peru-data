@@ -8,6 +8,8 @@
 - deaths: Decesos
 - recovered: Recuperados
 - negative_cases: Casos descartados/negativos
+- pcr_positivo: Casos detectados con pruebas moleculares
+- prueba_rapida_positivo: Casos detectados con pruebas serológicas ("pruebas rápidas")
 
 **`covid-19-peru-data-con-ubigeos.csv`**
 

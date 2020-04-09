@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-09 01:26:44 UTC
+**Última actualización**: 2020-04-09 01:58:58 UTC
 
 Motivación
 ----------
@@ -21,6 +21,11 @@ Importante
 **2020-03-03**: A partir de hoy, MINSA ha puesto una “Sala situacional”
 oficial en
 <a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>
+
+**2020-04-08**: A partir de hoy, en la “Sala situacional” se comenzaron
+a publicar el número de casos confirmados por pruebas moleculares (PCR),
+y por “pruebas rápidas” (serológicas) por cada región. Esto se ha
+agregado a los datos.
 
 Fuentes
 -------
@@ -82,6 +87,9 @@ Estructura de los archivos CSV
 -   deaths: Decesos
 -   recovered: Recuperados
 -   negative\_cases: Casos descartados/negativos
+-   pcr\_positivo: Casos detectados con pruebas moleculares
+-   prueba\_rapida\_positivo: Casos detectados con pruebas serológicas
+    (“pruebas rápidas”)
 
 **`covid-19-peru-data-con-ubigeos.csv`**
 

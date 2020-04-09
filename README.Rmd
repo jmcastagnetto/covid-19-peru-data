@@ -16,6 +16,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-03-03**: A partir de hoy, MINSA ha puesto una "Sala situacional" oficial en https://covid19.minsa.gob.pe/sala_situacional.asp
 
+**2020-04-08**: A partir de hoy, en la "Sala situacional" se comenzaron a publicar el número de casos confirmados por pruebas moleculares (PCR), y por "pruebas rápidas" (serológicas) por cada región. Esto se ha agregado a los datos.
 
 ## Fuentes
 
