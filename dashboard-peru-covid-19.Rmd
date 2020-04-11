@@ -630,7 +630,6 @@ ggplot(
 ```
 
 
-
 # Por Regiones
 
 ## mapas {.tabset}
@@ -731,6 +730,7 @@ cpr <- ggplot(cpr_df,
   geom_point(show.legend = FALSE, size = 0.5) +
   #geom_segment(aes(xend = date, yend = 0), size = 1, show.legend = FALSE) +
   geom_line(show.legend = FALSE, size = 0.5) +
+  ylim(0, NA) +
   facet_wrap(~region, scales = "free_y", ncol = 5) +
   theme_minimal(10) +
   labs(
