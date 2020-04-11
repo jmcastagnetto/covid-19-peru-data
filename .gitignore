@@ -42,3 +42,4 @@ _ga.html
 synctoaws.sh
 *.backup
 *-orig
+gompertz.Rmd
