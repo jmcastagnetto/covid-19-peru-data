@@ -749,12 +749,12 @@ cpr
 
 ```{r fig.height=9, fig.width=14}
 tests_reg <- covid_regions_pe %>% 
-  filter(!is.na(pcr_positivo)) %>% 
   select(region, date, pcr_positivo, prueba_rapida_positivo) %>% 
   pivot_longer(
     cols = c(pcr_positivo, prueba_rapida_positivo),
     names_to = "tipo_prueba",
-    values_to = "cantidad"
+    values_to = "cantidad", 
+    values_drop_na = TRUE
   )
 
 ggplot(
@@ -779,7 +779,7 @@ ggplot(
   theme_classic(14) +
   cur_theme +
   theme(
-    legend.position = "bottom"
+    legend.position = "top"
   )
   
 ```
