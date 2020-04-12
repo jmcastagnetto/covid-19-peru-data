@@ -47,6 +47,8 @@ last_updated <- paste0(
 
 jmc <- "@jmcastagnetto, Jesús M. Castagnetto"
 minsa <- "Fuente: @Minsa_Peru (https://twitter.com/Minsa_Peru) y comunicados del MINSA"
+no_deaths_minsa_20200412 <- "Desde el 2020-04-12, MINSA ya no publica el número de fallecimientos por región"
+
 covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
   select(-region)
@@ -57,7 +59,8 @@ covid_regions_pe <- read_csv(
   filter(!is.na(region)) %>% 
   select(region, cod_dep_inei, cod_dep_reniec, iso_3166_2_code, 
          date, confirmed, deaths, 
-         pcr_positivo, prueba_rapida_positivo, pob_2017) %>% 
+         pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo,
+         pob_2017) %>% 
   distinct() %>% 
   mutate(
     confirmed_per_million = round(confirmed * 1e6 / pob_2017, 1)
@@ -509,6 +512,7 @@ rd_plot
 df2 <- covid_pe %>% 
   mutate(
     new_conf = confirmed - lag(confirmed),
+    new_death = deaths - lag(deaths),
     new_disc = negative_cases - lag(negative_cases),
     new_tot = new_conf + new_disc
   ) %>%
@@ -527,35 +531,73 @@ df2 <- covid_pe %>%
 #   geom_smooth()
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
-  geom_col(fill = "green", alpha = 0.5) +
+  geom_col(fill = "darkgrey", alpha = 0.5) +
   # geom_point() +
   # geom_segment(aes(xend = date, yend = 0)) +
   theme_minimal(14) +
   labs(
-    y = "Número de casos",
+    #y = "Número de casos",
+    y = "",
     x = "",
-    title = "Nuevos casos confirmados",
+    title = "Nuevos casos confirmados"
     #subtitle = minsa,
-    caption = paste0(last_updated, " // ", jmc)
+    #caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
-pt2 <- ggplot(df2, aes(x = date, y = new_tot)) +
+pt2 <- ggplot(df2, aes(x = date, y = new_disc)) +
+  geom_col(fill = "green", alpha = 0.5) +
+  # geom_point(color = "blue") +
+  # geom_segment(aes(xend = date, yend = 0), color = "blue") +
+  theme_minimal(14) +
+  labs(
+    #y = "Número de casos",
+    y = "",
+    x = "",
+    title = "Nuevos casos negativos"
+    #subtitle = minsa,
+    #caption = paste0(last_updated, " // ", jmc)
+  ) +
+  cur_theme
+
+pt3 <- ggplot(df2, aes(x = date, y = new_death)) +
+  geom_col(fill = "red", alpha = 0.5) +
+  # geom_point(color = "blue") +
+  # geom_segment(aes(xend = date, yend = 0), color = "blue") +
+  theme_minimal(14) +
+  labs(
+    #y = "Número de fallecidos",
+    y = "",
+    x = "",
+    title = "Nuevos fallecimientos"
+    #subtitle = minsa,
+    #aption = paste0(last_updated, " // ", jmc)
+  ) +
+  cur_theme
+
+pt4 <- ggplot(df2, aes(x = date, y = new_tot)) +
   geom_col(fill = "blue", alpha = 0.5) +
   # geom_point(color = "blue") +
   # geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal(14) +
   labs(
-    y = "Número de casos",
+    #y = "Número de casos",
+    y = "",
     x = "",
-    title = "Nuevos casos tamizados",
+    title = "Nuevos casos tamizados"
     #subtitle = minsa,
-    caption = paste0(last_updated, " // ", jmc)
+    #caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
-comb_plot <- pt1 + pt2
-comb_plot
+comb_plot <- (pt1 + pt2) / (pt3 + pt4)
+comb_plot +
+  plot_annotation(
+    caption = paste0(last_updated, " // ", jmc)
+  ) &
+  theme(
+    plot.caption = element_text(family = "inconsolata", size = 12)
+  )
 # 
 # girafe(
 #   ggobj = comb_plot,
@@ -749,12 +791,22 @@ cpr
 
 ```{r fig.height=9, fig.width=14}
 tests_reg <- covid_regions_pe %>% 
-  select(region, date, pcr_positivo, prueba_rapida_positivo) %>% 
+  select(region, date, 
+         pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo) %>% 
   pivot_longer(
-    cols = c(pcr_positivo, prueba_rapida_positivo),
+    cols = c(pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo),
     names_to = "tipo_prueba",
     values_to = "cantidad", 
     values_drop_na = TRUE
+  ) %>% 
+  mutate(
+    tipo_prueba = factor(
+      tipo_prueba, 
+      levels = c("pcr_positivo", 
+                 "prueba_rapida_positivo", "pcr_prapida_positivo"
+                 ),
+      ordered = TRUE
+    )
   )
 
 ggplot(
@@ -763,11 +815,13 @@ ggplot(
 ) +
   geom_col() +
   scale_fill_manual(
-    values = c("cyan", "peru"), 
+    values = c("cyan", "green", "peru"), 
     guide = guide_legend(
       title = "Tipo de prueba"
     ),
-    labels = c("PCR (molecular)", "Serológica (\"rápida\")")
+    labels = c("PCR (molecular)",
+               "Serológica (\"rápida\")",
+               "PCR + Serológica")
   ) +
   labs(
     y = "",
@@ -821,6 +875,7 @@ dt_df <- covid_pe %>%
     confirmed_per_million,
     pcr_positivo,
     prueba_rapida_positivo,
+    pcr_prapida_positivo,
     deaths,
     recovered,
     negative_cases
@@ -836,6 +891,7 @@ datatable(
                "Casos confirmados por millón de personas",
                "Positivos por pruebas moleculares",
                "Positivos por pruebas serológicas",
+               "Positivos por ambas pruebas",
                "Número de fallecimientos",
                "Número de casos recuperados",
                "Número de casos negativos"
@@ -863,6 +919,7 @@ datatable(
       confirmed_per_million,
       pcr_positivo,
       prueba_rapida_positivo,
+      pcr_prapida_positivo,
       deaths,
       pob_2017
     ) %>% 
@@ -876,13 +933,15 @@ datatable(
                "Casos confirmados por cada millón de personas",
                "Positivos por pruebas moleculares",
                "Positivos por pruebas serológicas",
+               "Positivos por ambas pruebas",
                "Número de fallecimientos",
                "Población (INEI, 2017)"
                ),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
   options = tab_opts,
-  caption = paste0(minsa, " // ", last_updated, " // ", jmc)
+  caption = paste0("** ", no_deaths_minsa_20200412, " ** ", 
+                   minsa, " // ", last_updated, " // ", jmc)
 )
 ```
 

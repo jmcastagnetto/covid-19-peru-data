@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-11 23:37:36 UTC
+**Última actualización**: 2020-04-12 23:48:53 UTC
 
 Motivación
 ----------
@@ -60,6 +60,10 @@ Notas
 -   Los datos del 2020-03-03 fueron tomados de las “Sala Situacional”
     del MINSA, el cual no tiene información (al día de hoy) acerca del
     número de recuperados
+-   A partir del 2020-04-12, la “Sala Situacional” ha dejado de publicar
+    el número de fallecimientos por región, y ha agregado el número de
+    casos positivos confirmados por ambos tipos de pruebas: moleculares
+    (PCR) y serológica (“rapida”).
 
 Visualizaciones
 ---------------
@@ -284,6 +288,10 @@ Casos confirmados
     en el Perú (Comunicado
     N° 62)](https://www.gob.pe/institucion/minsa/noticias/112163-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-6-848-en-el-peru-comunicado-n-62)
     2020-04-11
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 7 519
+    en el Perú (Comunicado
+    N° 63)](https://www.gob.pe/institucion/minsa/noticias/112194-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-7-519-en-el-peru-comunicado-n-63)
+    2020-04-12
 
 Recuperados
 -----------
