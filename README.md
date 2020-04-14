@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-14 02:46:40 UTC
+**Última actualización**: 2020-04-14 02:58:28 UTC
 
 Motivación
 ----------
@@ -64,6 +64,9 @@ Notas
     el número de fallecimientos por región, y ha agregado el número de
     casos positivos confirmados por ambos tipos de pruebas: moleculares
     (PCR) y serológica (“rapida”).
+-   La “Sala Situacional” no fue actualizada el 2020-04-13 (revisado a
+    las 21:53h), por lo que no hay datos disponibles de pruebas por
+    región.
 
 Visualizaciones
 ---------------

@@ -36,6 +36,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - En el dashboard se han agregado gráficos de la trayectoria total de casos, gráficos del número de recuperados y fallecidos, y un mapa con la densidad (casos por millón de personas) por región.
 - Los datos del 2020-03-03 fueron tomados de las "Sala Situacional" del MINSA, el cual no tiene información (al día de hoy) acerca del número de recuperados
 - A partir del 2020-04-12, la "Sala Situacional" ha dejado de publicar el número de fallecimientos por región, y ha agregado el número de casos positivos confirmados por ambos tipos de pruebas: moleculares (PCR) y serológica ("rapida").
+- La "Sala Situacional" no fue actualizada el 2020-04-13 (revisado a las 21:53h), por lo que no hay datos disponibles de pruebas por región.
 
 ## Visualizaciones
 
