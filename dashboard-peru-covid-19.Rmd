@@ -323,12 +323,13 @@ knitr::kable(
 ### Casos Confirmados
 
 ```{r fig.width=16, fig.height=9}
+y_med <- max(covid_pe$confirmed) / 2
 pe_plot <- ggplot(covid_pe,
        aes(x = date, y = confirmed)) +
-  geom_point(aes(tooltip = confirmed)) +
+  geom_point() +
   geom_line() +
   geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", size = 2, alpha = .5) +
-  annotate(geom = "text", x = as.Date("2020-03-16"), y = 300, hjust = 1.1,
+  annotate(geom = "text", x = as.Date("2020-03-16"), y = y_med, hjust = 1.1,
            label = "Inicio de la\ncuarentena", color = "blue") +
   theme_minimal(18) +
   labs(
