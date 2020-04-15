@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-15 01:48:51 UTC
+**Última actualización**: 2020-04-15 19:59:04 UTC
 
 Motivación
 ----------
@@ -20,12 +20,30 @@ Importante
 
 **2020-03-03**: A partir de hoy, MINSA ha puesto una “Sala situacional”
 oficial en
-<a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>
+<a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>.
+Los datos de este día fueron tomados de las “Sala Situacional” del
+MINSA, el cual no tiene información (al día de hoy) acerca del número de
+recuperados
 
 **2020-04-08**: A partir de hoy, en la “Sala situacional” se comenzaron
 a publicar el número de casos confirmados por pruebas moleculares (PCR),
 y por “pruebas rápidas” (serológicas) por cada región. Esto se ha
 agregado a los datos.
+
+**2020-04-12**: A partir de este día, la “Sala Situacional” ha dejado de
+publicar el número de fallecimientos por región, y ha agregado el número
+de casos positivos confirmados por ambos tipos de pruebas: moleculares
+(PCR) y serológica (“rapida”).
+
+**2020-04-13**: La “Sala Situacional” no fue actualizada en este día
+(revisado a las 21:53h), por lo que no hay datos disponibles de pruebas
+por región.
+
+**2020-04-14**: La “Sala Situacional” está mostrando nuevamente los
+fallecimientos y los resultados de pruebas positivas por región.
+
+**2020-04-15**: La “Sala Situacional” ya no publica los casos en que se
+confirmaron por ambos tipos de pruebas, para las regiones.
 
 Fuentes
 -------
@@ -57,18 +75,6 @@ Notas
 -   En el dashboard se han agregado gráficos de la trayectoria total de
     casos, gráficos del número de recuperados y fallecidos, y un mapa
     con la densidad (casos por millón de personas) por región.
--   Los datos del 2020-03-03 fueron tomados de las “Sala Situacional”
-    del MINSA, el cual no tiene información (al día de hoy) acerca del
-    número de recuperados
--   A partir del 2020-04-12, la “Sala Situacional” ha dejado de publicar
-    el número de fallecimientos por región, y ha agregado el número de
-    casos positivos confirmados por ambos tipos de pruebas: moleculares
-    (PCR) y serológica (“rapida”).
--   La “Sala Situacional” no fue actualizada el 2020-04-13 (revisado a
-    las 21:53h), por lo que no hay datos disponibles de pruebas por
-    región.
--   El 2020-04-14, la “Sala Situacional” está mostrando nuevamente los
-    fallecimientos y los resultados de pruebas positivas por región.
 
 Visualizaciones
 ---------------
@@ -305,6 +311,10 @@ Casos confirmados
     303 en el Perú (Comunicado
     N° 65)](https://www.gob.pe/institucion/minsa/noticias/112670-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-10-303-en-el-peru-comunicado-n-65)
     2020-04-14
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 11
+    475 en el Perú (Comunicado
+    N° 66)](https://www.gob.pe/institucion/minsa/noticias/125568-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-11-475-en-el-peru-comunicado-n-66)
+    2020-04-15
 
 Recuperados
 -----------
