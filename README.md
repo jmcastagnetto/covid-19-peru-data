@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-14 02:58:28 UTC
+**Última actualización**: 2020-04-15 01:48:51 UTC
 
 Motivación
 ----------
@@ -67,6 +67,8 @@ Notas
 -   La “Sala Situacional” no fue actualizada el 2020-04-13 (revisado a
     las 21:53h), por lo que no hay datos disponibles de pruebas por
     región.
+-   El 2020-04-14, la “Sala Situacional” está mostrando nuevamente los
+    fallecimientos y los resultados de pruebas positivas por región.
 
 Visualizaciones
 ---------------
@@ -299,6 +301,10 @@ Casos confirmados
     en el Perú (Comunicado
     N°64)](https://www.gob.pe/institucion/minsa/noticias/112315-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-9-784-en-el-peru-comunicado-n-64)
     2020-04-13
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 10
+    303 en el Perú (Comunicado
+    N° 65)](https://www.gob.pe/institucion/minsa/noticias/112670-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-10-303-en-el-peru-comunicado-n-65)
+    2020-04-14
 
 Recuperados
 -----------
