@@ -675,16 +675,19 @@ ggplot(
 
 # Por Regiones
 
-## mapas {.tabset}
+## mapas {.tabset data-width="40%"}
 
 ```{r echo=FALSE, out.height="90%", out.width="90%"}
-last_date_index <- covid_regions_pe %>% 
-  select(date) %>% 
-  distinct() %>% 
-  nrow()
+
+days_data <- rev(unique(covid_regions_pe$date))
+#days_selected <- days_data[seq(1, length(days_data), 4)]
+days_selected <- days_data[1:15] #últimos 15 días
+
+last_date <- days_data[1]
 
 map_df <- covid_regions_pe %>% 
-  select(region, date, confirmed) %>% 
+  filter(date %in% days_selected) %>% 
+  select(region, date, confirmed, confirmed_per_million) %>% 
   mutate(
     region = str_to_title(region) %>% 
       str_replace("Huanuco", "Huánuco") %>% 
@@ -694,7 +697,12 @@ map_df <- covid_regions_pe %>%
       str_replace("Apurimac", "Apurímac")
   )
 
-map1_max <- ((max(map_df$confirmed) %/% 1000) + 1) * 1000
+last_date_index <- map_df %>% 
+  select(date) %>% 
+  distinct() %>% 
+  nrow()
+
+map1_max <- ((max(covid_regions_pe$confirmed) %/% 1000) + 1) * 1000
 
 rmap_1 <- map_df %>% 
   group_by(date) %>% 
@@ -705,28 +713,29 @@ rmap_1 <- map_df %>%
   e_visual_map(min = 1, max = map1_max) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
-    text = "Número de casos confirmados por región"
+    text = "Número de casos confirmados por región",
+    subtext = paste0("Últimos 15 días (hasta el ", last_date, ")")
   ) %>% 
   e_theme("infographic") %>% 
   e_toolbox() %>% 
-  e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") %>% 
+  e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") #%>% 
   #e_toolbox_feature(feature = "restore", title = "Restaurar mapa") %>% 
-  e_group("regiones")
+  #e_group("regiones")
 
-map_df2 <- covid_regions_pe %>% 
-  select(region, date, confirmed_per_million) %>% 
-  mutate(
-    region = str_to_title(region) %>% 
-      str_replace("Huanuco", "Huánuco") %>% 
-      str_replace("Junin", "Junín") %>% 
-      str_replace("De Dios", "de Dios") %>% 
-      str_replace("Martin", "Martín") %>% 
-      str_replace("Apurimac", "Apurímac")
-  )
+# map_df2 <- covid_regions_pe %>% 
+#   select(region, date, confirmed_per_million) %>% 
+#   mutate(
+#     region = str_to_title(region) %>% 
+#       str_replace("Huanuco", "Huánuco") %>% 
+#       str_replace("Junin", "Junín") %>% 
+#       str_replace("De Dios", "de Dios") %>% 
+#       str_replace("Martin", "Martín") %>% 
+#       str_replace("Apurimac", "Apurímac")
+#   )
 
-map2_max <- ((max(map_df2$confirmed_per_million) %/% 100) + 1) * 100
+map2_max <- ((max(map_df$confirmed_per_million) %/% 100) + 1) * 100
 
-rmap_2 <- map_df2 %>% 
+rmap_2 <- map_df %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   e_timeline_opts(currentIndex = last_date_index - 1) %>% 
@@ -735,13 +744,14 @@ rmap_2 <- map_df2 %>%
   e_visual_map(min = 1, max = map2_max) %>% 
   e_tooltip(formatter = e_tooltip_choro_formatter("decimal")) %>% 
   e_title(
-    text = "Densidad de casos confirmados por millón en cada región"
+    text = "Densidad de casos confirmados por millón en cada región",
+    subtext = paste0("Últimos 15 días (hasta el ", last_date, ")")
   ) %>% 
   e_theme("infographic") %>% 
   e_toolbox() %>% 
-  e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") %>% 
+  e_toolbox_feature(feature = "saveAsImage", title = "Guardar como imágen") #%>% 
   #e_toolbox_feature(feature = "restore", title = "Restaurar mapa") %>% 
-  e_group("regiones") #%>% 
+  #e_group("regiones") #%>% 
   #e_connect_group("regiones")
 
 #e_arrange(rmap_1, rmap_2, rows = 1, cols = 2)
@@ -759,7 +769,7 @@ rmap_1
 rmap_2
 ```
 
-## plots {.tabset}
+## plots {.tabset data-width="60%"}
 
 ### Evolución de casos por región
 
