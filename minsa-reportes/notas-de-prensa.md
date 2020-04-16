@@ -45,7 +45,7 @@
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 9 784 en el Perú (Comunicado N°64)](https://www.gob.pe/institucion/minsa/noticias/112315-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-9-784-en-el-peru-comunicado-n-64) 2020-04-13
 - [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 10 303 en el Perú (Comunicado N° 65)](https://www.gob.pe/institucion/minsa/noticias/112670-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-10-303-en-el-peru-comunicado-n-65) 2020-04-14
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 11 475 en el Perú (Comunicado N° 66)](https://www.gob.pe/institucion/minsa/noticias/125568-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-11-475-en-el-peru-comunicado-n-66) 2020-04-15
-
+- [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 12 491 en el Perú ( Comunicado N°67)](https://www.gob.pe/institucion/minsa/noticias/126023-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-12-491-en-el-peru-comunicado-n-67) 2020-04-16
 
 ## Recuperados
 
