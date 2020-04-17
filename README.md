@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-16 19:25:50 UTC
+**Última actualización**: 2020-04-17 18:14:17 UTC
 
 Motivación
 ----------
@@ -319,6 +319,10 @@ Casos confirmados
     491 en el Perú ( Comunicado
     N°67)](https://www.gob.pe/institucion/minsa/noticias/126023-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-12-491-en-el-peru-comunicado-n-67)
     2020-04-16
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 13
+    489 en el Perú (Comunicado
+    N° 68)](https://www.gob.pe/institucion/minsa/noticias/126083-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-13-489-en-el-peru-comunicado-n-68)
+    2020-04-17
 
 Recuperados
 -----------
