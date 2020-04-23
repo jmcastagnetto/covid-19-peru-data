@@ -148,16 +148,16 @@ sit_pe <- covid_pe %>%
 
 ```{r}
 susp_classes_first_day <- ymd("2020-03-12", tz = "America/Lima")
-susp_classes_last_day <- ymd("2020-05-02", tz = "America/Lima")
+susp_classes_last_day <- ymd("2020-05-10", tz = "America/Lima")
 first_day <- ymd("2020-03-16", tz = "America/Lima")
-last_day <- ymd("2020-04-26", tz = "America/Lima")
+last_day <- ymd("2020-05-10", tz = "America/Lima")
 today <- now(tzone = "America/Lima")
 
 cuarentena_df <- data.frame(
   id = 1:2,
   title = c(
-    paste("Suspensión de clases: del 2020-03-12 al 2020-05-03"), 
-    paste("Cuarentena: del 2020-03-16 al 2020-04-26")
+    paste("Suspensión de clases: del 2020-03-12 al 2020-05-10"), 
+    paste("Cuarentena: del 2020-03-16 al 2020-05-10")
   ),
   content = c("Suspensión de clases", "Cuarentena COVID-19, Perú"),
   start = c(susp_classes_first_day, first_day),
@@ -387,7 +387,7 @@ pelog_plot
 pe_dt3 <- covid_pe %>% 
   select(date, confirmed) %>% 
   arrange(date) %>% 
-  slice(which(row_number() %% 3 == 1)) %>% 
+  slice(which(row_number() %% 5 == 1)) %>% 
   mutate(
     next_confirmed = lag(confirmed),
     next_date = lag(date),
@@ -407,7 +407,8 @@ dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
   labs(
     y = "Tiempo de duplicación (días)",
     x = "",
-    title = "Evaluado cada 3 días desde el primer caso",
+    title = "Cambio en el periodo de duplicación de casos confirmados",
+    subtitle = "Evaluado cada 5 días desde el primer caso",
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme

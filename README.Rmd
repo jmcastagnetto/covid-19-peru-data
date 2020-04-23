@@ -26,6 +26,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-04-15**: La "Sala Situacional" ya no publica los casos en que se confirmaron por ambos tipos de pruebas, para las regiones.
 
+**2020-04-23**: Se ha ampliado la cuarentena hasta el 2020-05-10. Cálculo del tiempo de duplicación cambiado a cada 5 días.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

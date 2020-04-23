@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-22 22:28:42 UTC
+**Última actualización**: 2020-04-23 18:20:48 UTC
 
 Motivación
 ----------
@@ -44,6 +44,9 @@ fallecimientos y los resultados de pruebas positivas por región.
 
 **2020-04-15**: La “Sala Situacional” ya no publica los casos en que se
 confirmaron por ambos tipos de pruebas, para las regiones.
+
+**2020-04-23**: Se ha ampliado la cuarentena hasta el 2020-05-10.
+Cálculo del tiempo de duplicación cambiado a cada 5 días.
 
 Fuentes
 -------
@@ -343,6 +346,10 @@ Casos confirmados
     250 en el Perú (Comunicado
     N° 74)](https://www.gob.pe/institucion/minsa/noticias/127404-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-19-250-en-el-peru-comunicado-n-74)
     2020-04-22
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 20
+    914 en el Perú ( Comunicado
+    N° 75)](https://www.gob.pe/institucion/minsa/noticias/127667-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-20-914-en-el-peru-comunicado-n-75)
+    2020-04-23
 
 Recuperados
 -----------
