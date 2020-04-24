@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.9) "
+title: "COVID-19 en Perú (v0.9) #YoNoSalgo "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
