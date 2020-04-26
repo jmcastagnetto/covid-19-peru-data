@@ -643,16 +643,20 @@ hosp_labels_df <- hosp_raw %>%
 
 ggplot(
   data = hosp_df,
-  aes(x = fecha, y = count, group = status, fill = status)
+  aes(x = fecha, y = count, group = status, color = status)
 ) +
-  geom_col() +
-  annotate(
-    geom = "text",
-    x = hosp_labels_df$fecha, 
-    y = hosp_labels_df$hospitalizados + 40, 
-    label = hosp_labels_df$label
-  ) +
-  scale_fill_manual(
+  geom_point() +
+  geom_line(na.rm = FALSE) +
+  # annotate(
+  #   geom = "text",
+  #   x = hosp_labels_df$fecha, 
+  #   y = hosp_labels_df$hospitalizados + 100, 
+  #   label = hosp_labels_df$label,
+  #   size = 2
+  # ) +
+  scale_y_continuous(n.breaks = 10) +
+  scale_x_date(date_breaks = "1 week") +
+  scale_color_manual(
     values = c("red", "orange"), 
     guide = guide_legend(
       title = "Estado del paciente"
@@ -670,7 +674,7 @@ ggplot(
   cur_theme +
   theme(
     legend.position = c(.2, .8)
-  )
+  ) 
 ```
 
 
