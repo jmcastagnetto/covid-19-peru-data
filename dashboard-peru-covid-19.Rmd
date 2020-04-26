@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.9) #YoNoSalgo "
+title: "COVID-19 en Perú (v0.9) #YoMeQuedoEnCasa "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
@@ -667,7 +667,8 @@ ggplot(
     y = "Número de pacientes",
     x = "",
     title = "Evolución de pacientes hospitalizados por COVID-19",
-    subtitle = "Fuente: Comunicados del MINSA (indicado en el gráfico)",
+    #subtitle = "Fuente: Comunicados del MINSA (indicado en el gráfico)",
+    subtitle = "Fuente: Comunicados del MINSA",
     caption = paste0(last_updated, " // ", jmc)
   ) +
   theme_minimal(18) +
