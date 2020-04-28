@@ -1,4 +1,4 @@
-"fecha","hospitalizados","sospechosos","confirmados","essalud","minsa","clinica_privada","otros","uci","ventilacion_mecanica","estacionario","favorable","cuidado","altas","comunicado_minsa"
+"fecha","hospitalizados","sospechosos","confirmados","essalud","minsa","clinica_privada","otros","uci","ventilacion_mecanica","estacionario","favorable","cuidado_desfavorable","altas","comunicado_minsa"
 2020-03-22,31,,,6,21,3,1,,,,,,,28
 2020-03-23,36,26,10,,,,,,7,,,,,29
 2020-03-24,,,,14,7,2,,14,3,17,2,4,4,31
@@ -33,3 +33,4 @@
 2020-04-24,3194,,,,,,,,505,,,,,76
 2020-04-25,3532,,,,,,,,545,,,,,77
 2020-04-26,3632,,,,,,,,554,,,,,78
+2020-04-27,3968,,,1292,1561,853,262,,598,2898,634,436,1502,79

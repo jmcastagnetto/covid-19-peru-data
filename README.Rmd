@@ -28,6 +28,9 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-04-23**: Se ha ampliado la cuarentena hasta el 2020-05-10. Cálculo del tiempo de duplicación cambiado a cada 5 días.
 
+**2020-04-27**: En la "Sala Situacional" se ha comenzado a publicar el número de camas UCI disponibles y en uso.
+
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
