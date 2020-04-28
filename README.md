@@ -1,4 +1,4 @@
-**Última actualización**: 2020-04-26 23:46:30 UTC
+**Última actualización**: 2020-04-28 04:07:14 UTC
 
 Motivación
 ----------
@@ -47,6 +47,9 @@ confirmaron por ambos tipos de pruebas, para las regiones.
 
 **2020-04-23**: Se ha ampliado la cuarentena hasta el 2020-05-10.
 Cálculo del tiempo de duplicación cambiado a cada 5 días.
+
+**2020-04-27**: En la “Sala Situacional” se ha comenzado a publicar el
+número de camas UCI disponibles y en uso.
 
 Fuentes
 -------
@@ -362,6 +365,10 @@ Casos confirmados
     517 en el Perú (Comunicado
     N° 78)](https://www.gob.pe/institucion/minsa/noticias/131667-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-27-517-en-el-peru-comunicado-n-78)
     2020-04-26
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 28
+    699 en el Perú (Comunicado
+    N° 79)](https://www.gob.pe/institucion/minsa/noticias/140641-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-28-699-en-el-peru-comunicado-n-79)
+    2020-04-27
 
 Recuperados
 -----------
