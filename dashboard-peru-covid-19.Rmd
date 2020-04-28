@@ -27,6 +27,7 @@ library(showtext)
 #library(ggiraphExtra)
 library(lubridate)
 library(latex2exp)
+library(runner)
 
 font_add_google("Inconsolata", "inconsolata")
 font_add_google("Lato", "lato")
@@ -88,57 +89,6 @@ sit_pe <- covid_pe %>%
     scales::comma
   )
 
-# datatable(
-#   sit_pe,
-#   rownames = FALSE,
-#   colnames = c("Fecha", "Casos confirmados", "Fallecimientos", "Casos recuperados", "Casos descartados"),
-#   caption = "COVID-19 en Perú: últimos tres días",
-#   options = list(
-#     dom = "t",
-#     columnDefs = list(list(className = 'dt-center', targets = 1:4)),
-#     initComplete = JS(
-#       "function(settings, json) {",
-#       "$(this.api().table().header()).css({'font-size': '150%'});",
-#       "}"
-#       ) #,
-#   #ordering = FALSE
-#   )
-# ) %>% 
-#   formatStyle(1:5, fontSize = "150%") %>% 
-#   formatStyle(
-#     "confirmed", 
-#     color = "black", 
-#     #backgroundColor = "orange",
-#     background = styleColorBar(sit_pe$confirmed, 'orange'),
-#     backgroundSize = '90% 90%',
-#     backgroundRepeat = 'no-repeat',
-#     backgroundPosition = 'center'
-#   ) %>% 
-#   formatStyle(
-#     "deaths", 
-#     color = "black", 
-#     background = styleColorBar(sit_pe$deaths, '#ff3333'),
-#     backgroundSize = '90% 90%',
-#     backgroundRepeat = 'no-repeat',
-#     backgroundPosition = 'center'
-#   ) %>% 
-#   formatStyle(
-#     "recovered",
-#     color = "black", 
-#     background = styleColorBar(sit_pe$recovered, 'lightgreen'),
-#     backgroundSize = '90% 90%',
-#     backgroundRepeat = 'no-repeat',
-#     backgroundPosition = 'center'
-#   ) %>% 
-#   formatStyle(
-#     "negative_cases", 
-#     color = "black",
-#     background = styleColorBar(sit_pe$negative_cases, 'cyan'),
-#     backgroundSize = '90% 90%',
-#     backgroundRepeat = 'no-repeat',
-#     backgroundPosition = 'center'
-#   ) %>%
-#   formatCurrency(2:5, currency = "", digits = 0)
 ```
 
 ## Countdown
@@ -384,45 +334,59 @@ pelog_plot
 ### Evolución del tiempo de duplicación de casos confirmados
 
 ```{r fig.width=16, fig.height=9}
+# function for running windows
+dup_func <- function(df) {
+  first_date = first(df$date)
+  last_date = last(df$date)
+  first_confirmed = first(df$confirmed)
+  last_confirmed = last(df$confirmed)
+  ival = (interval(first_date, last_date) %/% days())
+  doubling_time = ival / log2(last_confirmed / first_confirmed)
+  doubling_time
+} 
+
+# 
+# pe_dt3 <- covid_pe %>% 
+#   select(date, confirmed) %>% 
+#   arrange(date) %>% 
+#   slice(which(row_number() %% 5 == 1)) %>% 
+#   mutate(
+#     next_confirmed = lag(confirmed),
+#     next_date = lag(date),
+#     ival = (interval(date, next_date) %/% days()),
+#     doubling_time =  ival / log2(next_confirmed / confirmed)
+#   )
+
 pe_dt3 <- covid_pe %>% 
   select(date, confirmed) %>% 
-  arrange(date) %>% 
-  slice(which(row_number() %% 5 == 1)) %>% 
-  mutate(
-    next_confirmed = lag(confirmed),
-    next_date = lag(date),
-    ival = (interval(date, next_date) %/% days()),
-    doubling_time =  ival / log2(next_confirmed / confirmed)
-  )
+  arrange(date)
+pe_dt3$doubling_time <- runner(
+  x = pe_dt3,
+  k = 7,
+  f = dup_func
+)
 
 dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
 
 dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
-  geom_line() +
+ # geom_line(color = "blue") +
+  geom_smooth() +
   geom_point() +
   geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
-  geom_text(aes(label = round(doubling_time, 1)), nudge_y = .3) +
+  ggrepel::geom_text_repel(aes(label = round(doubling_time, 1))) +
   theme_minimal(18) +
   annotate(geom = "text", x = as.Date("2020-03-08"), y = 5, label = TeX(dt_eq)) +
   labs(
     y = "Tiempo de duplicación (días)",
     x = "",
     title = "Cambio en el periodo de duplicación de casos confirmados",
-    subtitle = "Evaluado cada 5 días desde el primer caso",
+    subtitle = "Evaluado usando una ventana móvil de 7 días desde el primer caso",
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
 dt_plot
-# 
-# girafe(
-#   ggobj = dt_plot,
-#   options = list(
-#     opts_zoom(max = 5),
-#     opts_sizing(rescale = TRUE, width = .9)
-#   )
-# )
-```
+  ```
 
 
 ### Casos tamizados
