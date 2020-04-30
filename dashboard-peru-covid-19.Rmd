@@ -316,6 +316,7 @@ pe_plot <- ggplot(covid_pe,
   annotate(geom = "text", x = as.Date("2020-03-16"), y = y_med, hjust = 1.1,
            label = "Inicio de la\ncuarentena", color = "blue") +
   theme_minimal(18) +
+  scale_y_continuous(labels = scales::label_comma()) +
   labs(
     y = "Casos Confirmados",
     x = "",
@@ -444,6 +445,7 @@ bar_plot <- ggplot(df,
        aes(x = date, y = cases, 
            group = `Casos tamizados`, fill = `Casos tamizados`)) +
   geom_col() +
+  #geom_area() +
   theme_minimal(18) +
   labs(
     y = "Número de casos",
@@ -452,6 +454,7 @@ bar_plot <- ggplot(df,
     subtitle = minsa,
     caption = paste0(last_updated, " // ", jmc)
   ) +
+  scale_y_continuous(labels = scales::label_comma()) +
   scale_fill_manual(values = c("cyan", "lightgreen")) +
   cur_theme +
   theme(
