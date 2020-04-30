@@ -3,6 +3,7 @@ title: "COVID-19 en Perú (v0.9.5) #YoMeQuedoEnCasa "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
+    css: style.css
     orientation: columns
     vertical_layout: fill 
     theme: united

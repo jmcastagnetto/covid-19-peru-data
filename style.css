@@ -1,0 +1,7 @@
+.value-box .value {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    padding: 0;
+}
