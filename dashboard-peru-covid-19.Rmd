@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 en Perú (v0.9) #YoMeQuedoEnCasa "
+title: "COVID-19 en Perú (v0.9.5) #YoMeQuedoEnCasa "
 #author: "[Jesus M. Castagnetto]"
 output: 
   flexdashboard::flex_dashboard:
@@ -116,6 +116,16 @@ cuarentena_df <- data.frame(
   style = c("background-color:yellow", "background-color:cyan")
 )
 timevis::timevis(cuarentena_df, fit = TRUE, showZoom = FALSE)
+
+# last 4 records, yesterday and today
+beds_icu <- read_csv("datos/covid-19-peru-camas-uci.csv") %>% 
+  slice_tail(n = 4) %>% 
+  select(fecha, estado, total) %>% 
+  pivot_wider(
+    names_from = estado,
+    values_from = total
+  ) %>% 
+  janitor::clean_names()
 ```
 
 ### {data-width="30%"}
@@ -171,6 +181,8 @@ valueBox(sit_pe[1,]$recovered, icon = "fa-user-check", color = "#ffa500")
 valueBox(sit_pe[1,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
+
+
 ## Yesterday
 
 ### Ayer
@@ -200,7 +212,18 @@ valueBox(sit_pe[2,]$recovered, icon = "fa-user-check", color = "#ffa500")
 valueBox(sit_pe[2,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
-## Hoy
+### Camas UCI en uso
+```{r}
+valueBox(beds_icu[1,]$en_uso, icon = "fa-procedures", color = "#e57373")
+```
+
+### Camas UCI disponibles
+```{r}
+valueBox(beds_icu[1,]$disponible, icon = "fa-bed", color = "#4dd0e1")
+```
+
+
+## Today
 
 ### Hoy
 ```{r}
@@ -228,6 +251,15 @@ valueBox(sit_pe[3,]$recovered, icon = "fa-user-check", color = "#ffa500")
 valueBox(sit_pe[3,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
+### Camas UCI en uso
+```{r}
+valueBox(beds_icu[2,]$en_uso, icon = "fa-procedures", color = "#e57373")
+```
+
+### Camas UCI disponibles
+```{r}
+valueBox(beds_icu[2,]$disponible, icon = "fa-bed", color = "#4dd0e1")
+```
 
 ## Test results and hospitalizados
 
@@ -245,6 +277,7 @@ tests_table <- data.frame(
   ser = c(tests_last$negativo_serológicas, tests_last$positivo_serológicas)
 )
 ```
+
 
 ### Resultados de pruebas por tipo, al `r tests_last$fecha`
 
@@ -362,31 +395,31 @@ pe_dt3 <- covid_pe %>%
   arrange(date)
 pe_dt3$doubling_time <- runner(
   x = pe_dt3,
-  k = 7,
+  k = 14,
   f = dup_func
 )
 
 dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
 
 dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
- # geom_line(color = "blue") +
-  geom_smooth() +
+  #geom_line(color = "blue") +
+  geom_smooth(alpha = 0.5) +
   geom_point() +
   geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
-  ggrepel::geom_text_repel(aes(label = round(doubling_time, 1))) +
+  ggrepel::geom_text_repel(aes(label = round(doubling_time, 1)), size = 3.5) +
   theme_minimal(18) +
   annotate(geom = "text", x = as.Date("2020-03-08"), y = 5, label = TeX(dt_eq)) +
   labs(
     y = "Tiempo de duplicación (días)",
     x = "",
     title = "Cambio en el periodo de duplicación de casos confirmados",
-    subtitle = "Evaluado usando una ventana móvil de 7 días desde el primer caso",
+    subtitle = "Evaluado usando una ventana móvil de 14 días desde el primer caso",
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
 
 dt_plot
-  ```
+```
 
 
 ### Casos tamizados
