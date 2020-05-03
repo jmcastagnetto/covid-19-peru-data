@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-03 01:30:45 UTC
+**Última actualización**: 2020-05-03 19:50:14 UTC
 
 Motivación
 ----------
@@ -50,6 +50,9 @@ Cálculo del tiempo de duplicación cambiado a cada 5 días.
 
 **2020-04-27**: En la “Sala Situacional” se ha comenzado a publicar el
 número de camas UCI disponibles y en uso.
+
+**2020-05-03**: MINSA no publicó hoy información acerca de las camas
+UCI.
 
 Fuentes
 -------
@@ -389,6 +392,10 @@ Casos confirmados
     534 (Comunicado
     N° 85)](https://www.gob.pe/institucion/minsa/noticias/143615-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-42-534-comunicado-n-85)
     2020-05-02
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 45
+    928 en el Perú ( Comunicado
+    N° 86)](https://www.gob.pe/institucion/minsa/noticias/143664-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-45-928-en-el-peru-comunicado-n-86)
+    2020-05-03
 
 Recuperados
 -----------

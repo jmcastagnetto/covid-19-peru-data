@@ -213,12 +213,12 @@ valueBox(sit_pe[2,]$recovered, icon = "fa-user-check", color = "#ffa500")
 valueBox(sit_pe[2,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
-### Camas UCI en uso
+### Camas UCI en uso (al 2020-05-01)
 ```{r}
 valueBox(beds_icu[1,]$en_uso, icon = "fa-procedures", color = "#e57373")
 ```
 
-### Camas UCI disponibles
+### Camas UCI disponibles (al 2020-05-01)
 ```{r}
 valueBox(beds_icu[1,]$disponible, icon = "fa-bed", color = "#4dd0e1")
 ```
@@ -252,12 +252,12 @@ valueBox(sit_pe[3,]$recovered, icon = "fa-user-check", color = "#ffa500")
 valueBox(sit_pe[3,]$negative_cases, icon = "fa-user-minus", color = "success")
 ```
 
-### Camas UCI en uso
+### Camas UCI en uso (al 2020-05-02)
 ```{r}
 valueBox(beds_icu[2,]$en_uso, icon = "fa-procedures", color = "#e57373")
 ```
 
-### Camas UCI disponibles
+### Camas UCI disponibles (al 2020-05-02)
 ```{r}
 valueBox(beds_icu[2,]$disponible, icon = "fa-bed", color = "#4dd0e1")
 ```
