@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-05 05:24:08 UTC
+**Última actualización**: 2020-05-05 19:58:05 UTC
 
 Motivación
 ----------
@@ -59,6 +59,9 @@ pantalla del
 2020-05-04](minsa-reportes/screenshot-covid19.minsa.gob.pe-2020.05.05-00_15_53.png),
 de manera que no se ha actualizado ni el número de fallecimientos por
 región, ni el número de positivos por tipo de prueba.
+
+**2020-05-05**: MINSA nuevamente publicó su “Sala Situacional”
+actualizada, incluyendo información de camas UCI.
 
 Fuentes
 -------
