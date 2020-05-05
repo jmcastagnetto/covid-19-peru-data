@@ -32,6 +32,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-05-03**: MINSA no publicó hoy información acerca de las camas UCI.
 
+**2020-05-04**: MINSA no actualizó su "Sala Situacional" hoy [Captura de pantalla del 2020-05-04](minsa-reportes/screenshot-covid19.minsa.gob.pe-2020.05.05-00_15_53.png), de manera que no se ha actualizado ni el número de fallecimientos por región, ni el número de positivos por tipo de prueba.
+
 
 ## Fuentes
 

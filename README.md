@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-03 19:50:14 UTC
+**Última actualización**: 2020-05-05 05:24:08 UTC
 
 Motivación
 ----------
@@ -53,6 +53,12 @@ número de camas UCI disponibles y en uso.
 
 **2020-05-03**: MINSA no publicó hoy información acerca de las camas
 UCI.
+
+**2020-05-04**: MINSA no actualizó su “Sala Situacional” hoy [Captura de
+pantalla del
+2020-05-04](minsa-reportes/screenshot-covid19.minsa.gob.pe-2020.05.05-00_15_53.png),
+de manera que no se ha actualizado ni el número de fallecimientos por
+región, ni el número de positivos por tipo de prueba.
 
 Fuentes
 -------
@@ -396,6 +402,10 @@ Casos confirmados
     928 en el Perú ( Comunicado
     N° 86)](https://www.gob.pe/institucion/minsa/noticias/143664-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-45-928-en-el-peru-comunicado-n-86)
     2020-05-03
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 47
+    372 en el Perú (Comunicado
+    N° 87)](https://www.gob.pe/institucion/minsa/noticias/143693-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-47-372-en-el-peru-comunicado-n-87)
+    2020-05-04
 
 Recuperados
 -----------

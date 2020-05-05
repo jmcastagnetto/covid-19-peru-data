@@ -49,7 +49,8 @@ last_updated <- paste0(
 
 jmc <- "@jmcastagnetto, Jesús M. Castagnetto"
 minsa <- "Fuente: @Minsa_Peru (https://twitter.com/Minsa_Peru) y comunicados del MINSA"
-no_deaths_minsa_20200412 <- "Desde el 2020-04-12, MINSA ya no publica el número de fallecimientos por región"
+no_deaths_minsa_20200412 <- ""
+#no_deaths_minsa_20200412 <- "Desde el 2020-04-12, MINSA ya no publica el número de fallecimientos por región"
 
 covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
   filter(is.na(region)) %>% 
@@ -516,6 +517,7 @@ df2 <- covid_pe %>%
   mutate(
     new_conf = confirmed - lag(confirmed),
     new_death = deaths - lag(deaths),
+	new_death = ifelse(new_death < 0, 0, new_death),
     new_disc = negative_cases - lag(negative_cases),
     new_tot = new_conf + new_disc
   ) %>%
