@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-13 00:00:13 UTC
+**Última actualización**: 2020-05-13 22:16:00 UTC
 
 Motivación
 ----------
@@ -63,7 +63,7 @@ región, ni el número de positivos por tipo de prueba.
 **2020-05-05**: MINSA nuevamente publicó su “Sala Situacional”
 actualizada, incluyendo información de camas UCI.
 
-**2020-05-07**: Hoy se pueden descargar (parcialmente) los datos de la
+**2020-05-06**: Hoy se pueden descargar los datos (parciales) de la
 “Sala Situacional” del MINSA en formato XLSX
 
 Fuentes
@@ -440,6 +440,10 @@ Casos confirmados
     822 en el Perú ( Comunicado
     N° 97)](https://www.gob.pe/institucion/minsa/noticias/152560-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-68-822-en-el-peru-comunicado-n-97)
     2020-05-11
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 72
+    059 en el Perú ( Comunicado
+    N° 98)](https://www.gob.pe/institucion/minsa/noticias/152809-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-72-059-en-el-peru-comunicado-n-98)
+    2020-05-12
 
 Recuperados
 -----------
