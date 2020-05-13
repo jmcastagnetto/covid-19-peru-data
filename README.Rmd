@@ -36,7 +36,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-05-05**: MINSA nuevamente publicó su "Sala Situacional" actualizada, incluyendo información de camas UCI.
 
-**2020-05-07**: Hoy se pueden descargar (parcialmente) los datos de la "Sala Situacional" del MINSA en formato XLSX
+**2020-05-06**: Hoy se pueden descargar los datos (parciales) de la "Sala Situacional" del MINSA en formato XLSX
 
 ## Fuentes
 
