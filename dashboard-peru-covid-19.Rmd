@@ -281,7 +281,7 @@ tests_table <- data.frame(
 ```
 
 
-### Resultados de pruebas por tipo, al `r tests_last$fecha`
+### Resultados de pruebas por tipo, al `r tests_last$fecha` 
 
 ```{r}
 knitr::kable(
@@ -486,8 +486,7 @@ recdth <- covid_pe %>%
   )
 
 rd_plot <- ggplot(recdth, aes(x = date, y = cases, group = Estado, fill = Estado)) +
-  geom_col(aes(tooltip = label), 
-                           position = "dodge", width = 0.5) +
+  geom_col(position = "dodge", width = 0.5) +
   #geom_line() +
   theme_minimal(14) +
   labs(
