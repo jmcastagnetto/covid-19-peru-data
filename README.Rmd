@@ -4,6 +4,9 @@ output: md_document
 
 **Última actualización**: `r lubridate::now(tzone = "UTC")` UTC
 
+
+[![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
+
 ## Motivación
 
 MINSA está publicando en su cuenta de Twitter y en la sección de "Noticias" del portal del gobierno peruano, comunicados con información sobre COVID-19, pero no hay un repositorio de datos abiertos que pueda ser usado por todos.
