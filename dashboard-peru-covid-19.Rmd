@@ -100,9 +100,9 @@ sit_pe <- covid_pe %>%
 
 ```{r}
 susp_classes_first_day <- ymd("2020-03-12", tz = "America/Lima")
-susp_classes_last_day <- ymd("2020-05-24", tz = "America/Lima")
+susp_classes_last_day <- ymd("2020-06-30", tz = "America/Lima")
 first_day <- ymd("2020-03-16", tz = "America/Lima")
-last_day <- ymd("2020-05-24", tz = "America/Lima")
+last_day <- ymd("2020-06-30", tz = "America/Lima")
 today <- now(tzone = "America/Lima")
 
 cuarentena_df <- data.frame(
