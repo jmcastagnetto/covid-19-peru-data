@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-22 23:00:57 UTC
+**Última actualización**: 2020-05-23 19:04:16 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -204,6 +204,10 @@ Generales
     esperada por
     autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades)
     2020-03-19
+-   [Minsa pone al alcance de la ciudadanía datos abiertos relacionados
+    a la pandemia por
+    Covid-19](https://www.gob.pe/institucion/minsa/noticias/163853-minsa-pone-al-alcance-de-la-ciudadania-datos-abiertos-relacionados-a-la-pandemia-por-covid-19)
+    2020-05-22
 
 Casos confirmados
 -----------------
@@ -488,6 +492,10 @@ Casos confirmados
     769 en el Perú ( Comunicado
     N° 107)](https://www.gob.pe/institucion/minsa/noticias/162379-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-108-769-en-el-peru-comunicado-n-107)
     2020-05-21
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 111
+    698 en el Perú ( Comunicado
+    N° 108)](https://www.gob.pe/institucion/minsa/noticias/163116-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-111-698-en-el-peru-comunicado-n-108)
+    2020-05-22
 
 Recuperados
 -----------

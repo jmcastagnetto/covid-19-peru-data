@@ -7,6 +7,7 @@
 - [Ministerio de Salud informa sobre resultado del procesamiento de muestras por coronavirus COVID-19](https://www.gob.pe/institucion/minsa/noticias/94105-ministerio-de-salud-informa-sobre-resultado-del-procesamiento-de-muestras-por-coronavirus-covid-19) 2020-03-07
 - [Minsa brinda recomendaciones para la atención de una persona con coronavirus en casa](https://www.gob.pe/institucion/minsa/noticias/94095-minsa-brinda-recomendaciones-para-la-atencion-de-una-persona-con-coronavirus-en-casa) 2020-03-07
 - [Número de nuevos casos de COVID – 19 está dentro de la curva esperada por autoridades](https://www.gob.pe/institucion/minsa/noticias/109581-numero-de-nuevos-casos-de-covid-19-esta-dentro-de-la-curva-esperada-por-autoridades) 2020-03-19
+- [Minsa pone al alcance de la ciudadanía datos abiertos relacionados a la pandemia por Covid-19](https://www.gob.pe/institucion/minsa/noticias/163853-minsa-pone-al-alcance-de-la-ciudadania-datos-abiertos-relacionados-a-la-pandemia-por-covid-19) 2020-05-22
 
 ## Casos confirmados
 
