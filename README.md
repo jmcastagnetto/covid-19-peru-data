@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-23 19:04:16 UTC
+**Última actualización**: 2020-05-24 01:07:10 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -496,6 +496,10 @@ Casos confirmados
     698 en el Perú ( Comunicado
     N° 108)](https://www.gob.pe/institucion/minsa/noticias/163116-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-111-698-en-el-peru-comunicado-n-108)
     2020-05-22
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 115
+    754 ( Comunicado
+    N° 109)](https://www.gob.pe/institucion/minsa/noticias/164292-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-115-754-comunicado-n-109)
+    2020-05-23
 
 Recuperados
 -----------
