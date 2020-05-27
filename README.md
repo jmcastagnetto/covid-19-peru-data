@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-27 00:51:58 UTC
+**Última actualización**: 2020-05-27 02:51:34 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -70,6 +70,10 @@ la “Sala Situacional” del MINSA en formato XLSX
 
 **2020-05-16**: He añadido los datos en formato JSON comprimido
 (.json.gz) convertidos a partir de los CSV (Issue \#2)
+
+**2020-05-18**: Desde hoy hay un API que han construído tomando este
+repositorio como una fuente:
+<a href="https://github.com/DataScienceResearchPeru/covid-19_latinoamerica" class="uri">https://github.com/DataScienceResearchPeru/covid-19_latinoamerica</a>
 
 **2020-05-22**: El presidente anunció que el estado de emergencia se
 extenderá hasta el 2020-06-30

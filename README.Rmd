@@ -43,6 +43,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-05-16**: He añadido los datos en formato JSON comprimido (.json.gz) convertidos a partir de los CSV (Issue #2)
 
+**2020-05-18**: Desde hoy hay un API que han construído tomando este repositorio como una fuente: https://github.com/DataScienceResearchPeru/covid-19_latinoamerica
+
 **2020-05-22**: El presidente anunció que el estado de emergencia se extenderá hasta el 2020-06-30
 
 ## Fuentes
