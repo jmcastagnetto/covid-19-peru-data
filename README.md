@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-27 23:23:03 UTC
+**Última actualización**: 2020-05-29 01:01:15 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -77,6 +77,10 @@ repositorio como una fuente:
 
 **2020-05-22**: El presidente anunció que el estado de emergencia se
 extenderá hasta el 2020-06-30
+
+**2020-05-28**: Usando los datos de positivad por departamento
+publicados en la “Sala Situacional…” del MINSA, he podido recuperar el
+número de negativos por departamento, desde el 2020-05-06 hasta hoy.
 
 Fuentes
 -------
@@ -516,6 +520,14 @@ Casos confirmados
     751 en el Perú ( Comunicado
     N° 112)](https://www.gob.pe/institucion/minsa/noticias/165778-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-129-751-en-el-peru-comunicado-n-112)
     2020-05-26
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 135
+    905 en el Perú (Comunicado
+    N° 113)](https://www.gob.pe/institucion/minsa/noticias/165852-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-135-905-en-el-peru-comunicado-n-113)
+    2020-05-27
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 141
+    779 en el Perú (Comunicado
+    N° 114)](https://www.gob.pe/institucion/minsa/noticias/166078-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-141-779-en-el-peru-comunicado-n-114)
+    2020-05-28
 
 Recuperados
 -----------

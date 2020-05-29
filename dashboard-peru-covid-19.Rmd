@@ -62,6 +62,7 @@ covid_regions_pe <- read_csv(
   filter(!is.na(region)) %>% 
   select(region, cod_dep_inei, cod_dep_reniec, iso_3166_2_code, 
          date, confirmed, deaths, 
+         negative_cases,
          pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo,
          pob_2017) %>% 
   distinct() %>% 
@@ -940,6 +941,7 @@ datatable(
       prueba_rapida_positivo,
       pcr_prapida_positivo,
       deaths,
+      negative_cases,
       pob_2017
     ) %>% 
     arrange(desc(date), region),
@@ -954,6 +956,7 @@ datatable(
                "Positivos por pruebas serológicas",
                "Positivos por ambas pruebas",
                "Número de fallecimientos",
+               "Pruebas negativas",
                "Población (INEI, 2017)"
                ),
   class = "cell-border stripe",
