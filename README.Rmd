@@ -49,6 +49,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-05-28**: Usando los datos de positivad por departamento publicados en la "Sala Situacional..." del MINSA, he podido recuperar el número de negativos por departamento, desde el 2020-05-06 hasta hoy.
 
+**2020-05-29**: Hasta las 22:40h (PET), no se han publicado nuevos datos en la "Sala Situacional...". Datos con menos detalle para el día de hoy.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
