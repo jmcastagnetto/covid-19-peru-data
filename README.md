@@ -1,4 +1,4 @@
-**Última actualización**: 2020-05-30 03:42:00 UTC
+**Última actualización**: 2020-05-31 00:53:38 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -84,6 +84,9 @@ número de negativos por departamento, desde el 2020-05-06 hasta hoy.
 
 **2020-05-29**: Hasta las 22:40h (PET), no se han publicado nuevos datos
 en la “Sala Situacional…”. Datos con menos detalle para el día de hoy.
+
+**2020-05-30**: Los datos de ayer y hoy están disponibles en la “Sala
+Situacional …”, la visualización es la correspondiente al día de hoy.
 
 Fuentes
 -------
@@ -535,6 +538,10 @@ Casos confirmados
     285 en el Perú (Comunicado
     N°115)](https://www.gob.pe/institucion/minsa/noticias/167830-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-148-285-en-el-peru-comunicado-n-115)
     2020-05-29
+-   [Minsa: Casos confirmados por Coronavirus COVID-19 ascienden a 155
+    671 en el Perú (Comunicado
+    N° 116)](https://www.gob.pe/institucion/minsa/noticias/168017-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-155-671-en-el-peru-comunicado-n-116)
+    2020-05-30
 
 Recuperados
 -----------

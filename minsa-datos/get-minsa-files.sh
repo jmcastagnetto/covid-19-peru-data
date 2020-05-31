@@ -1,7 +1,7 @@
 #! /bin/bash -x
 if [ "$#" -eq 0 ]; then
 	day=`date +"%d%m%Y"`
-elif [ "$#" -eq 1]; then
+elif [ "$#" -eq 1 ]; then
 	day=$1
 else
 	exit 1
