@@ -102,6 +102,7 @@ sit_pe <- covid_pe %>%
 ```{r}
 susp_classes_first_day <- ymd("2020-03-12", tz = "America/Lima")
 susp_classes_last_day <- ymd("2020-06-30", tz = "America/Lima")
+decree_day <- ymd("2020-03-15", tz = "America/Lima")
 first_day <- ymd("2020-03-16", tz = "America/Lima")
 last_day <- ymd("2020-06-30", tz = "America/Lima")
 today <- now(tzone = "America/Lima")
@@ -109,8 +110,8 @@ today <- now(tzone = "America/Lima")
 cuarentena_df <- data.frame(
   id = 1:2,
   title = c(
-    paste("Suspensión de clases: del 2020-03-12 al 2020-05-24"), 
-    paste("Cuarentena: del 2020-03-16 al 2020-05-24")
+    paste("Suspensión de clases: del 2020-03-12 al 2020-06-30"), 
+    paste("Cuarentena: del 2020-03-16 al 2020-06-30")
   ),
   content = c("Suspensión de clases", "Cuarentena COVID-19, Perú"),
   start = c(susp_classes_first_day, first_day),
@@ -135,8 +136,8 @@ beds_icu <- read_csv("datos/covid-19-peru-camas-uci.csv") %>%
 
 **Días en cuarentena oficial**
 ```{r}
-ahora <- interval(first_day, today) %/% days()
-final <- interval(first_day, last_day) %/% days()
+ahora <- (interval(first_day, today) %/% days()) + 1
+final <- (interval(first_day, last_day) %/% days()) + 1
 gauge(ahora, min = 0, max = final, symbol = "d", 
       gaugeSectors(colors = "darkgrey"))
 ```
@@ -144,8 +145,8 @@ gauge(ahora, min = 0, max = final, symbol = "d",
 **Días en suspensión de clases**
 
 ```{r}
-ahora <- interval(susp_classes_first_day, today) %/% days()
-final <- interval(susp_classes_first_day, susp_classes_last_day) %/% days()
+ahora <- (interval(susp_classes_first_day, today) %/% days()) + 1
+final <- (interval(susp_classes_first_day, susp_classes_last_day) %/% days()) + 1
 gauge(ahora, min = 0, max = final, symbol = "d", 
       gaugeSectors(colors = "blue"))
 ```
