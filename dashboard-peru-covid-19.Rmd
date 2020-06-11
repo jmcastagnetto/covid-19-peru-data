@@ -341,10 +341,11 @@ pe_plot
 ### Trayectoria de Casos Confirmados
 
 ```{r fig.width=16, fig.height=9}
+lag_days <- 14
 traj_df <- covid_pe %>% 
   select(date, confirmed) %>% 
   mutate(
-    new_confirmed = confirmed - lag(confirmed, 7)
+    new_confirmed = confirmed - lag(confirmed, lag_days)
   ) %>% 
   filter(!is.na(new_confirmed))
 
@@ -353,12 +354,12 @@ pelog_plot <- ggplot(traj_df,
   geom_point(size = 2) +
   #geom_line() +
   geom_smooth(method = "lm", linetype = "dashed", alpha = 0.5) +
-  scale_x_log10() +
-  scale_y_log10() +
+  scale_x_log10(labels = scales::comma) +
+  scale_y_log10(labels = scales::comma) +
   annotation_logticks() +
   theme_minimal(18) +
   labs(
-    y = "Nuevos casos confirmados\n(luego de 7 días)",
+    y = paste0("Nuevos casos confirmados\n(luego de ", lag_days, " días)"),
     x = "Casos confirmados",
     title = "COVID-19: Trayectoria de los casos confirmados en el Perú",
     subtitle = minsa,
@@ -406,6 +407,8 @@ pe_dt3$doubling_time <- runner(
 
 dt_eq <- "$T = \\frac{\\tau_{t} - \\tau_{t - 1}}{log_2(N_{t} / N_{t - 1})}$"
 
+max_doubling_time = floor(max(pe_dt3$doubling_time, na.rm = TRUE))
+
 dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
   #geom_line(color = "blue") +
   geom_smooth(alpha = 0.5) +
@@ -413,7 +416,8 @@ dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
   geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
   ggrepel::geom_text_repel(aes(label = round(doubling_time, 1)), size = 3.5) +
   theme_minimal(18) +
-  annotate(geom = "text", x = as.Date("2020-03-08"), y = 5, label = TeX(dt_eq)) +
+  annotate(geom = "text", x = as.Date("2020-03-20"), size = 6, hjust = 0,
+           y = 0.8*max_doubling_time, label = TeX(dt_eq)) +
   labs(
     y = "Tiempo de duplicación (días)",
     x = "",
