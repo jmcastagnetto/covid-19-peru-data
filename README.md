@@ -1,4 +1,4 @@
-**Última actualización**: 2020-06-10 22:20:52 UTC
+**Última actualización**: 2020-06-11 21:45:47 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -87,6 +87,13 @@ en la “Sala Situacional…”. Datos con menos detalle para el día de hoy.
 
 **2020-05-30**: Los datos de ayer y hoy están disponibles en la “Sala
 Situacional …”, la visualización es la correspondiente al día de hoy.
+
+**2020-06-10**: Desde hoy ya no aparece en la “Sala Situacional …” el
+archivo en formato XLSX con los datos de casos, se está reconstruyendo
+de la visualización en el dashboard, en formato ISO OpenDocument (.ods)
+
+**2020-06-11**: El archivo de casos aún no está disponible, el intentar
+descagarlo produce un error HTTP 404
 
 Fuentes
 -------
@@ -586,6 +593,10 @@ Casos confirmados
     823 en el Perú (Comunicado
     N° 128)](https://www.gob.pe/institucion/minsa/noticias/185212-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-208-823-en-el-peru-comunicado-n-128)
     2020-06-10
+-   [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 214
+    788 en el Perú (Comunicado
+    N° 129)](https://www.gob.pe/institucion/minsa/noticias/186578-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-214-788-en-el-peru-comunicado-n-129)
+    2020-06-11
 
 Recuperados
 -----------
