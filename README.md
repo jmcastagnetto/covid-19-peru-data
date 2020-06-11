@@ -1,4 +1,4 @@
-**Última actualización**: 2020-06-11 21:45:47 UTC
+**Última actualización**: 2020-06-11 21:48:56 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -93,7 +93,7 @@ archivo en formato XLSX con los datos de casos, se está reconstruyendo
 de la visualización en el dashboard, en formato ISO OpenDocument (.ods)
 
 **2020-06-11**: El archivo de casos aún no está disponible, el intentar
-descagarlo produce un error HTTP 404
+descargarlo produce un error **HTTP 404**
 
 Fuentes
 -------

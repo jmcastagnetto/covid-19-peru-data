@@ -55,7 +55,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-06-10**: Desde hoy ya no aparece en la "Sala Situacional ..." el archivo en formato XLSX con los datos de casos, se está reconstruyendo de la visualización en el dashboard, en formato ISO OpenDocument (.ods)
 
-**2020-06-11**: El archivo de casos aún no está disponible, el intentar descagarlo produce un error HTTP 404
+**2020-06-11**: El archivo de casos aún no está disponible, el intentar descargarlo produce un error **HTTP 404**
 
 ## Fuentes
 
