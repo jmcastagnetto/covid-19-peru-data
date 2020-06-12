@@ -1,4 +1,4 @@
----
+--- 
 title: "COVID-19 en Perú (v0.9.5) #YoMeQuedoEnCasa "
 #author: "[Jesus M. Castagnetto]"
 output: 
@@ -491,14 +491,15 @@ recdth <- covid_pe %>%
     label = paste0(Estado, ": ", cases)
   )
 
-rd_plot <- ggplot(recdth, aes(x = date, y = cases, group = Estado, fill = Estado)) +
-  geom_col(position = "dodge", width = 0.5) +
-  #geom_line() +
+rd_plot <- ggplot(recdth, aes(x = date, y = cases, group = Estado, fill = Estado, color = Estado)) +
+  #geom_col(position = "dodge", width = 0.5) +
+  geom_line(size = 2) +
+  scale_y_continuous(labels = scales::comma) +
   theme_minimal(14) +
   labs(
     y = "Número de personas",
     x = "",
-    title = "COVID-19: Recuperados y fallecidos en Perú",
+    title = "COVID-19: Gráficos acumulados de recuperados y fallecidos en Perú",
     subtitle = minsa,
     caption = paste0(last_updated, " // ", jmc)
   ) + 

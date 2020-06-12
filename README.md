@@ -1,4 +1,4 @@
-**Última actualización**: 2020-06-11 21:48:56 UTC
+**Última actualización**: 2020-06-12 23:32:46 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -94,6 +94,9 @@ de la visualización en el dashboard, en formato ISO OpenDocument (.ods)
 
 **2020-06-11**: El archivo de casos aún no está disponible, el intentar
 descargarlo produce un error **HTTP 404**
+
+**2020-06-12**: Hasta las 18:30h (PET) no se ha actualizado la “Sala
+Situacional …” del MINSA
 
 Fuentes
 -------
@@ -597,6 +600,10 @@ Casos confirmados
     788 en el Perú (Comunicado
     N° 129)](https://www.gob.pe/institucion/minsa/noticias/186578-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-214-788-en-el-peru-comunicado-n-129)
     2020-06-11
+-   [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 220
+    749 en el Perú (Comunicado
+    N° 130)](https://www.gob.pe/institucion/minsa/noticias/186668-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-220-749-en-el-peru-comunicado-n-130)
+    2020-06-12
 
 Recuperados
 -----------

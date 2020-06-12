@@ -57,6 +57,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-06-11**: El archivo de casos aún no está disponible, el intentar descargarlo produce un error **HTTP 404**
 
+**2020-06-12**: Hasta las 18:30h (PET) no se ha actualizado la "Sala Situacional ..." del MINSA
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
