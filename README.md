@@ -1,4 +1,4 @@
-**Última actualización**: 2020-06-12 23:32:46 UTC
+**Última actualización**: 2020-06-13 04:06:03 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -96,7 +96,8 @@ de la visualización en el dashboard, en formato ISO OpenDocument (.ods)
 descargarlo produce un error **HTTP 404**
 
 **2020-06-12**: Hasta las 18:30h (PET) no se ha actualizado la “Sala
-Situacional …” del MINSA
+Situacional …” del MINSA. La “Sala Situacional …” aparace actualizada
+aparentemente a ~21:38h (según el timestamp de los archivos XLSX).
 
 Fuentes
 -------
