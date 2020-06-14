@@ -1,269 +1,2178 @@
-fecha      personas   resultado  tipo_prueba
- 2020-04-08       3614positivo   moleculares
- 2020-04-08        728positivo   serológicas
- 2020-04-08      19641negativo   moleculares
- 2020-04-08      15616negativo   serológicas
- 2020-04-09       4121positivo   moleculares
- 2020-04-09       1135positivo   serológicas
- 2020-04-09      20289negativo   moleculares
- 2020-04-09      22920negativo   serológicas
- 2020-04-10       4549positivo   moleculares
- 2020-04-10       1348positivo   serológicas
- 2020-04-10      21094negativo   moleculares
- 2020-04-10      29690negativo   serológicas
- 2020-04-11       5261positivo   moleculares
- 2020-04-11       1587positivo   serológicas
- 2020-04-11      27519negativo   moleculares
- 2020-04-11      38193negativo   serológicas
- 2020-04-12       5767positivo   moleculares
- 2020-04-12       1752positivo   serológicas
- 2020-04-12      25467negativo   moleculares
- 2020-04-12      43520negativo   serológicas
- 2020-04-13       6135positivo   moleculares
- 2020-04-13       3649positivo   serológicas
- 2020-04-13      26509negativo   moleculares
- 2020-04-13      50823negativo   serológicas
- 2020-04-14       6527positivo   moleculares
- 2020-04-14       3776positivo   serológicas
- 2020-04-14      26839negativo   moleculares
- 2020-04-14      65074negativo   serológicas
- 2020-04-15       6820positivo   moleculares
- 2020-04-15       4655positivo   serológicas
- 2020-04-15      28081negativo   moleculares
- 2020-04-15      69829negativo   serológicas
- 2020-04-16       7266positivo   moleculares
- 2020-04-16       5225positivo   serológicas
- 2020-04-16      28824negativo   moleculares
- 2020-04-16      80153negativo   serológicas
- 2020-04-17       7703positivo   moleculares
- 2020-04-17       5786positivo   serológicas
- 2020-04-17      29659negativo   moleculares
- 2020-04-17      84365negativo   serológicas
- 2020-04-18       7983positivo   moleculares
- 2020-04-18       6437positivo   serológicas
- 2020-04-18      30479negativo   moleculares
- 2020-04-18      90996negativo   serológicas
- 2020-04-19       8363positivo   moleculares
- 2020-04-19       7265positivo   serológicas
- 2020-04-19      31665negativo   moleculares
- 2020-04-19      96452negativo   serológicas
- 2020-04-20       8964positivo   moleculares
- 2020-04-20       7361positivo   serológicas
- 2020-04-20      32392negativo   moleculares
- 2020-04-20      99294negativo   serológicas
- 2020-04-21       9471positivo   moleculares
- 2020-04-21       8366positivo   serológicas
- 2020-04-21      33277negativo   moleculares
- 2020-04-21     104610negativo   serológicas
- 2020-04-22      10062positivo   moleculares
- 2020-04-22       9188positivo   serológicas
- 2020-04-22      34359negativo   moleculares
- 2020-04-22     116791negativo   serológicas
- 2020-04-23      10808positivo   moleculares
- 2020-04-23      10106positivo   serológicas
- 2020-04-23      34907negativo   moleculares
- 2020-04-23     129417negativo   serológicas
- 2020-04-24      11432positivo   moleculares
- 2020-04-24      10216positivo   serológicas
- 2020-04-24      36192negativo   moleculares
- 2020-04-24     140509negativo   serológicas
- 2020-04-25      11845positivo   moleculares
- 2020-04-25      13486positivo   serológicas
- 2020-04-25      37701negativo   moleculares
- 2020-04-25     155163negativo   serológicas
- 2020-04-26      12725positivo   moleculares
- 2020-04-26      14792positivo   serológicas
- 2020-04-26      38591negativo   moleculares
- 2020-04-26     166639negativo   serológicas
- 2020-04-27      13132positivo   moleculares
- 2020-04-27      15567positivo   serológicas
- 2020-04-27      38540negativo   moleculares
- 2020-04-27     171324negativo   serológicas
- 2020-04-28      13742positivo   moleculares
- 2020-04-28      17448positivo   serológicas
- 2020-04-28      40798negativo   moleculares
- 2020-04-28     195624negativo   serológicas
- 2020-04-29      14384positivo   moleculares
- 2020-04-29      19547positivo   serológicas
- 2020-04-29      42012negativo   moleculares
- 2020-04-29     220319negativo   serológicas
- 2020-04-30      14956positivo   moleculares
- 2020-04-30      22020positivo   serológicas
- 2020-04-30      43162negativo   moleculares
- 2020-04-30     238114negativo   serológicas
- 2020-05-01      15540positivo   moleculares
- 2020-05-01      24919positivo   serológicas
- 2020-05-01      44841negativo   moleculares
- 2020-05-01     257198negativo   serológicas
- 2020-05-02      16172positivo   moleculares
- 2020-05-02      26362positivo   serológicas
- 2020-05-02      46364negativo   moleculares
- 2020-05-02     266706negativo   serológicas
- 2020-05-03      16730positivo   moleculares
- 2020-05-03      29198positivo   serológicas
- 2020-05-03      47448negativo   moleculares
- 2020-05-03     281720negativo   serológicas
- 2020-05-04      17302positivo   moleculares
- 2020-05-04      30070positivo   serológicas
- 2020-05-04      48490negativo   moleculares
- 2020-05-04     289630negativo   serológicas
- 2020-05-05      17714positivo   moleculares
- 2020-05-05      33475positivo   serológicas
- 2020-05-05      49849negativo   moleculares
- 2020-05-05     305541negativo   serológicas
- 2020-05-06      18504positivo   moleculares
- 2020-05-06      36313positivo   serológicas
- 2020-05-06      51840negativo   moleculares
- 2020-05-06     322801negativo   serológicas
- 2020-05-07      19508positivo   moleculares
- 2020-05-07      39018positivo   serológicas
- 2020-05-07      53336negativo   moleculares
- 2020-05-07     336158negativo   serológicas
- 2020-05-08      20329positivo   moleculares
- 2020-05-08      41518positivo   serológicas
- 2020-05-08      54573negativo   moleculares
- 2020-05-08     356770negativo   serológicas
- 2020-05-09      20834positivo   moleculares
- 2020-05-09      44181positivo   serológicas
- 2020-05-09      54959negativo   moleculares
- 2020-05-09     374276negativo   serológicas
- 2020-05-10      21310positivo   moleculares
- 2020-05-10      45997positivo   serológicas
- 2020-05-10      58596negativo   moleculares
- 2020-05-10     379027negativo   serológicas
- 2020-05-11      22036positivo   moleculares
- 2020-05-11      46786positivo   serológicas
- 2020-05-11      61640negativo   moleculares
- 2020-05-11     382407negativo   serológicas
- 2020-05-12      22735positivo   moleculares
- 2020-05-12      49324positivo   serológicas
- 2020-05-12      62859negativo   moleculares
- 2020-05-12     397251negativo   serológicas
- 2020-05-13      23812positivo   moleculares
- 2020-05-13      52494positivo   serológicas
- 2020-05-13      64179negativo   moleculares
- 2020-05-13     413017negativo   serológicas
- 2020-05-14      24671positivo   moleculares
- 2020-05-14      55933positivo   serológicas
- 2020-05-14      65427negativo   moleculares
- 2020-05-14     441261negativo   serológicas
- 2020-05-15      25284positivo   moleculares
- 2020-05-15      59211positivo   serológicas
- 2020-05-15      67441negativo   moleculares
- 2020-05-15     453447negativo   serológicas
- 2020-05-16      26234positivo   moleculares
- 2020-05-16      62307positivo   serológicas
- 2020-05-16      70513negativo   moleculares
- 2020-05-16     471428negativo   serológicas
- 2020-05-17      26963positivo   moleculares
- 2020-05-17      65310positivo   serológicas
- 2020-05-17      73079negativo   moleculares
- 2020-05-17     485261negativo   serológicas
- 2020-05-18      27936positivo   moleculares
- 2020-05-18      66997positivo   serológicas
- 2020-05-18      74903negativo   moleculares
- 2020-05-18     491296negativo   serológicas
- 2020-05-19      28768positivo   moleculares
- 2020-05-19      70715positivo   serológicas
- 2020-05-19      76859negativo   moleculares
- 2020-05-19     503240negativo   serológicas
- 2020-05-20      29690positivo   moleculares
- 2020-05-20      74330positivo   serológicas
- 2020-05-20      78791negativo   moleculares
- 2020-05-20     532612negativo   serológicas
- 2020-05-21      30351positivo   moleculares
- 2020-05-21      78418positivo   serológicas
- 2020-05-21      82002negativo   moleculares
- 2020-05-21     545729negativo   serológicas
- 2020-05-22      30823positivo   moleculares
- 2020-05-22      80875positivo   serológicas
- 2020-05-22      84658negativo   moleculares
- 2020-05-22     554170negativo   serológicas
- 2020-05-23      31347positivo   moleculares
- 2020-05-23      84407positivo   serológicas
- 2020-05-23      91402negativo   moleculares
- 2020-05-23     581185negativo   serológicas
- 2020-05-24      32127positivo   moleculares
- 2020-05-24      87832positivo   serológicas
- 2020-05-24      91422negativo   moleculares
- 2020-05-24     609586negativo   serológicas
- 2020-05-25      33136positivo   moleculares
- 2020-05-25      90843positivo   serológicas
- 2020-05-25      91755negativo   moleculares
- 2020-05-25     625188negativo   serológicas
- 2020-05-26      33782positivo   moleculares
- 2020-05-26      95969positivo   serológicas
- 2020-05-26      93672negativo   moleculares
- 2020-05-26     652298negativo   serológicas
- 2020-05-27      34581positivo   moleculares
- 2020-05-27     101324positivo   serológicas
- 2020-05-27      96476negativo   moleculares
- 2020-05-27     672897negativo   serológicas
- 2020-05-28      35632positivo   moleculares
- 2020-05-28     106147positivo   serológicas
- 2020-05-28      98213negativo   moleculares
- 2020-05-28     688805negativo   serológicas
- 2020-05-29      36700positivo   moleculares
- 2020-05-29     111585positivo   serológicas
- 2020-05-29     100863negativo   moleculares
- 2020-05-29     714469negativo   serológicas
- 2020-05-30      37650positivo   moleculares
- 2020-05-30     118021positivo   serológicas
- 2020-05-30     102955negativo   moleculares
- 2020-05-30     754082negativo   serológicas
- 2020-05-31      38673positivo   moleculares
- 2020-05-31     125803positivo   serológicas
- 2020-05-31     105494negativo   moleculares
- 2020-05-31     788904negativo   serológicas
- 2020-06-01      39716positivo   moleculares
- 2020-06-01     130323positivo   serológicas
- 2020-06-01     105909negativo   moleculares
- 2020-06-01     800711negativo   serológicas
- 2020-06-02      40185positivo   moleculares
- 2020-06-02     134699positivo   serológicas
- 2020-06-02     109274negativo   moleculares
- 2020-06-02     808488negativo   serológicas
- 2020-06-03      40601positivo   moleculares
- 2020-06-03     138313positivo   serológicas
- 2020-06-03     111627negativo   moleculares
- 2020-06-03     825074negativo   serológicas
- 2020-06-04      41820positivo   moleculares
- 2020-06-04     141378positivo   serológicas
- 2020-06-04     111953negativo   moleculares
- 2020-06-04     840680negativo   serológicas
- 2020-06-05      42406positivo   moleculares
- 2020-06-05     144994positivo   serológicas
- 2020-06-05     113777negativo   moleculares
- 2020-06-05     853291negativo   serológicas
- 2020-06-06      44018positivo   moleculares
- 2020-06-06     147740positivo   serológicas
- 2020-06-06     115151negativo   moleculares
- 2020-06-06     866094negativo   serológicas
- 2020-06-07      45884positivo   moleculares
- 2020-06-07     150631positivo   serológicas
- 2020-06-07     117654negativo   moleculares
- 2020-06-07     877787negativo   serológicas
- 2020-06-08      47253positivo   moleculares
- 2020-06-08     152443positivo   serológicas
- 2020-06-08     121035negativo   moleculares
- 2020-06-08     883254negativo   serológicas
- 2020-06-09      48271positivo   moleculares
- 2020-06-09     155465positivo   serológicas
- 2020-06-09     123448negativo   moleculares
- 2020-06-09     900507negativo   serológicas
- 2020-06-10      49551positivo   moleculares
- 2020-06-10     159272positivo   serológicas
- 2020-06-10     126201negativo   moleculares
- 2020-06-10     920732negativo   serológicas
- 2020-06-11      50545positivo   moleculares
- 2020-06-11     164243positivo   serológicas
- 2020-06-11     128819negativo   moleculares
- 2020-06-11     938871negativo   serológicas
- 2020-06-12      51605positivo   moleculares
- 2020-06-12     169144positivo   serológicas
- 2020-06-12     131538negativo   moleculares
- 2020-06-12     963130negativo   serológicas
- 2020-06-13      52833positivo   moleculares
- 2020-06-13     172299positivo   serológicas
- 2020-06-13     134604negativo   moleculares
- 2020-06-13     978741negativo   serológicas
+country,iso3c,region,date,confirmed,deaths,recovered,negative_cases,pcr_positivo,prueba_rapida_positivo,pcr_prapida_positivo
+Peru,PER,NA,2020-03-06,1,NA,NA,154,NA,NA,NA
+Peru,PER,NA,2020-03-07,6,NA,NA,213,NA,NA,NA
+Peru,PER,NA,2020-03-09,9,NA,NA,309,NA,NA,NA
+Peru,PER,NA,2020-03-10,11,NA,NA,335,NA,NA,NA
+Peru,PER,NA,2020-03-11,17,NA,NA,697,NA,NA,NA
+Peru,PER,NA,2020-03-12,22,NA,NA,883,NA,NA,NA
+Peru,PER,Arequipa,2020-03-13,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-13,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-13,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-13,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-13,32,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-13,38,NA,NA,1194,NA,NA,NA
+Peru,PER,Arequipa,2020-03-14,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-14,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-14,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-14,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-14,37,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-14,43,NA,NA,1502,NA,NA,NA
+Peru,PER,Ancash,2020-03-15,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-15,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-15,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-15,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-15,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-15,1,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-15,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-15,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-15,58,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-15,2,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-15,71,NA,NA,1751,NA,NA,NA
+Peru,PER,Ancash,2020-03-16,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-16,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-16,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-16,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-16,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-16,1,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-16,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-16,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-16,70,NA,1,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-16,2,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-16,86,NA,1,2229,NA,NA,NA
+Peru,PER,Ancash,2020-03-17,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-17,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-17,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-17,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-17,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-17,1,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-17,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-17,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-17,96,NA,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-17,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-17,2,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-17,117,NA,1,2680,NA,NA,NA
+Peru,PER,Ancash,2020-03-18,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-18,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-18,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-18,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-18,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-18,1,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-18,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-18,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-18,111,NA,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-18,10,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-18,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-18,2,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-18,145,NA,1,2930,NA,NA,NA
+Peru,PER,Ancash,2020-03-19,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-19,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-19,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-19,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-19,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-19,1,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-19,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-19,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-19,194,3,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-19,11,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-19,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-19,2,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-19,234,3,1,3607,NA,NA,NA
+Peru,PER,Ancash,2020-03-20,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-20,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-20,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-20,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-20,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-20,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-20,9,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-20,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-20,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-20,212,4,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-20,12,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-20,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-20,2,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-20,263,4,1,4035,NA,NA,NA
+Peru,PER,Ancash,2020-03-21,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-21,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-21,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-21,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-21,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-21,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-21,10,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-21,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-21,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-21,241,4,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-21,14,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-21,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-21,18,1,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-21,318,5,1,5891,NA,NA,NA
+Peru,PER,Ancash,2020-03-22,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-22,7,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-22,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-22,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-22,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-22,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-22,10,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-22,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-22,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-22,278,4,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-22,16,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-22,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-22,19,1,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-22,361,5,1,5821,NA,NA,NA
+Peru,PER,Ancash,2020-03-23,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-23,7,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-23,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-23,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-23,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-23,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-23,10,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-23,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-23,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-23,307,4,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-23,16,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-23,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-23,19,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-23,1,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-23,395,5,1,6269,NA,NA,NA
+Peru,PER,Ancash,2020-03-24,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-24,9,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-24,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-24,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-24,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-24,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-24,10,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-24,5,1,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-24,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-24,322,5,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-24,16,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-24,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-24,19,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-24,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-24,3,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-24,416,7,1,6597,NA,NA,NA
+Peru,PER,Ancash,2020-03-25,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-25,10,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-25,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-25,10,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-25,10,1,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-25,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-25,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-25,11,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-25,6,1,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-25,12,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-25,369,6,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-25,18,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-25,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-25,19,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-25,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-25,3,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-25,480,9,1,7560,NA,NA,NA
+Peru,PER,Ancash,2020-03-26,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-26,15,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-26,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-26,15,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-26,10,1,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-26,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-26,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-26,11,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-26,9,1,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-26,12,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-26,453,6,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-26,18,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-26,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-26,20,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-26,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-26,3,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-26,580,9,14,8639,NA,NA,NA
+Peru,PER,Ancash,2020-03-27,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-27,15,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-27,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-27,17,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-27,10,1,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-27,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-27,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-27,12,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-27,9,2,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-27,13,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-27,494,7,1,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-27,23,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-27,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-03-27,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-27,20,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-27,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-27,5,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-27,635,11,16,9430,NA,NA,NA
+Peru,PER,Ancash,2020-03-28,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-28,15,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-28,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-28,18,1,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-28,11,2,5,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-28,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-28,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-28,12,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-28,10,2,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-28,15,1,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-28,518,9,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-28,27,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-28,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-03-28,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-28,20,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-28,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-28,6,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-28,671,16,16,10225,NA,NA,NA
+Peru,PER,Ancash,2020-03-29,6,1,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-29,15,NA,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-03-29,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-29,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-29,29,1,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-29,17,2,5,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-29,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-29,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-29,13,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-29,13,2,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-29,22,1,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-29,639,10,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-29,52,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-29,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-03-29,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-29,21,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-29,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-03-29,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-29,8,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-29,852,18,16,11817,NA,NA,NA
+Peru,PER,Ancash,2020-03-30,11,1,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-30,21,NA,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-03-30,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-30,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-30,24,2,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-30,25,2,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-30,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-30,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-30,13,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-30,15,2,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-30,22,1,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-30,718,13,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-30,53,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-30,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-03-30,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-30,21,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-30,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-03-30,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-30,8,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-30,950,24,269,12502,NA,NA,NA
+Peru,PER,Ancash,2020-03-31,11,1,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-03-31,26,NA,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-03-31,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-03-31,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-03-31,25,3,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-03-31,26,2,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-03-31,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-03-31,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-03-31,17,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-03-31,19,2,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-03-31,30,1,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-03-31,799,16,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-03-31,58,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-03-31,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-03-31,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-03-31,21,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-03-31,6,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-03-31,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-03-31,10,1,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-03-31,1065,30,394,13398,NA,NA,NA
+Peru,PER,Ancash,2020-04-01,15,1,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-01,30,1,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-01,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-01,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-01,37,4,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-01,34,2,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-01,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-01,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-01,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-01,17,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-01,32,3,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-01,34,3,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-01,990,28,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-01,66,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-01,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-01,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-01,26,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-01,6,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-01,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-01,13,1,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-01,1323,47,447,14264,NA,NA,NA
+Peru,PER,Ancash,2020-04-02,15,1,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-02,30,1,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-02,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-02,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-02,40,4,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-02,38,2,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-02,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-02,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-02,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-02,17,1,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-02,34,3,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-02,37,3,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-02,1059,34,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-02,72,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-02,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-02,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-02,27,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-02,6,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-02,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-02,15,2,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-02,1414,55,537,15104,NA,NA,NA
+Peru,PER,Ancash,2020-04-03,18,1,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-04-03,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-03,37,1,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-03,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-03,4,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-03,59,4,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-03,44,3,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-03,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-03,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-03,8,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-03,19,1,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-03,44,4,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-03,35,2,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-03,1179,39,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-03,84,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-03,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-03,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-03,27,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-03,6,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-03,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-03,16,2,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-03,1595,61,627,15739,NA,NA,NA
+Peru,PER,Ancash,2020-04-04,18,1,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-04-04,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-04,37,2,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-04,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-04,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-04,64,5,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-04,48,3,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-04,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-04,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-04,9,1,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-04,25,1,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-04,50,4,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-04,55,3,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-04,1257,46,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-04,106,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-04,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-04,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-04,27,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-04,8,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-04,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-04,20,3,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-04,1746,73,914,16095,NA,NA,NA
+Peru,PER,Ancash,2020-04-05,23,1,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-04-05,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-05,51,3,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-05,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-05,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-05,89,8,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-05,52,3,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-05,1,1,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-05,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-05,14,1,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-05,25,1,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-05,50,4,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-05,100,3,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-05,1639,51,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-05,143,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-05,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Moquegua,2020-04-05,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-05,3,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-05,29,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-05,8,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-05,9,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-05,26,3,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-05,2281,83,989,17129,NA,NA,NA
+Peru,PER,Ancash,2020-04-06,27,1,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-04-06,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-06,60,4,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-06,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-06,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-06,109,8,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-06,54,3,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-06,2,1,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-06,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-06,18,1,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-06,28,1,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-06,56,5,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-06,100,3,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-06,1837,58,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-06,171,2,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-06,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Moquegua,2020-04-06,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-06,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-06,30,1,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-06,8,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-06,9,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-06,26,3,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-06,2561,92,997,17853,NA,NA,NA
+Peru,PER,Ancash,2020-04-07,36,1,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-04-07,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-07,66,4,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-07,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-07,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-07,161,10,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-07,54,3,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-07,7,1,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-07,6,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-07,24,2,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-07,28,1,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-07,58,5,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-07,108,4,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-07,2100,65,11,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-07,206,3,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-07,2,NA,NA,NA,NA,NA,NA
+Peru,PER,Moquegua,2020-04-07,1,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-07,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-07,35,3,NA,NA,NA,NA,NA
+Peru,PER,Puno,2020-04-07,1,NA,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-07,8,1,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-07,9,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-07,27,4,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-07,2954,107,1231,18601,NA,NA,NA
+Peru,PER,Amazonas,2020-04-08,11,NA,NA,NA,2,9,NA
+Peru,PER,Ancash,2020-04-08,50,4,NA,NA,67,7,NA
+Peru,PER,Apurimac,2020-04-08,1,NA,NA,NA,1,NA,NA
+Peru,PER,Arequipa,2020-04-08,74,5,NA,NA,72,10,NA
+Peru,PER,Ayacucho,2020-04-08,5,NA,NA,NA,5,NA,NA
+Peru,PER,Cajamarca,2020-04-08,10,NA,NA,NA,8,2,NA
+Peru,PER,Callao,2020-04-08,320,2,NA,NA,28,NA,NA
+Peru,PER,Cusco,2020-04-08,54,3,NA,NA,54,NA,NA
+Peru,PER,Huancavelica,2020-04-08,7,1,NA,NA,7,NA,NA
+Peru,PER,Huánuco,2020-04-08,7,NA,NA,NA,7,NA,NA
+Peru,PER,Ica,2020-04-08,28,3,NA,NA,40,1,NA
+Peru,PER,Junín,2020-04-08,42,3,NA,NA,48,2,NA
+Peru,PER,La Libertad,2020-04-08,82,5,NA,NA,243,3,NA
+Peru,PER,Lambayeque,2020-04-08,246,4,NA,NA,289,1,NA
+Peru,PER,Lima,2020-04-08,3016,72,11,NA,2481,535,NA
+Peru,PER,Loreto,2020-04-08,290,13,NA,NA,165,155,NA
+Peru,PER,Madre de Dios,2020-04-08,2,NA,NA,NA,2,NA,NA
+Peru,PER,Moquegua,2020-04-08,3,NA,NA,NA,1,2,NA
+Peru,PER,Pasco,2020-04-08,5,NA,NA,NA,5,NA,NA
+Peru,PER,Piura,2020-04-08,41,1,NA,NA,41,1,NA
+Peru,PER,Puno,2020-04-08,1,NA,NA,NA,1,NA,NA
+Peru,PER,San Martín,2020-04-08,11,1,NA,NA,11,NA,NA
+Peru,PER,Tacna,2020-04-08,9,NA,NA,NA,9,NA,NA
+Peru,PER,Tumbes,2020-04-08,27,4,NA,NA,27,NA,NA
+Peru,PER,NA,2020-04-08,4342,121,1333,35257,3614,728,NA
+Peru,PER,Amazonas,2020-04-09,10,NA,NA,NA,2,8,NA
+Peru,PER,Ancash,2020-04-09,57,4,NA,NA,54,3,NA
+Peru,PER,Apurimac,2020-04-09,1,NA,NA,NA,1,NA,NA
+Peru,PER,Arequipa,2020-04-09,77,4,NA,NA,69,8,NA
+Peru,PER,Ayacucho,2020-04-09,7,NA,NA,NA,7,NA,NA
+Peru,PER,Cajamarca,2020-04-09,11,NA,NA,NA,8,3,NA
+Peru,PER,Callao,2020-04-09,413,16,NA,NA,212,201,NA
+Peru,PER,Cusco,2020-04-09,55,3,NA,NA,55,NA,NA
+Peru,PER,Huancavelica,2020-04-09,7,1,NA,NA,7,NA,NA
+Peru,PER,Huánuco,2020-04-09,9,NA,NA,NA,7,2,NA
+Peru,PER,Ica,2020-04-09,34,2,NA,NA,34,NA,NA
+Peru,PER,Junín,2020-04-09,42,1,NA,NA,41,1,NA
+Peru,PER,La Libertad,2020-04-09,96,6,NA,NA,83,13,NA
+Peru,PER,Lambayeque,2020-04-09,302,6,NA,NA,294,8,NA
+Peru,PER,Lima,2020-04-09,3704,82,11,NA,2822,882,NA
+Peru,PER,Loreto,2020-04-09,315,5,NA,NA,314,1,NA
+Peru,PER,Madre de Dios,2020-04-09,3,NA,NA,NA,3,NA,NA
+Peru,PER,Moquegua,2020-04-09,3,NA,NA,NA,1,2,NA
+Peru,PER,Pasco,2020-04-09,5,NA,NA,NA,5,NA,NA
+Peru,PER,Piura,2020-04-09,53,3,NA,NA,50,3,NA
+Peru,PER,Puno,2020-04-09,1,NA,NA,NA,1,NA,NA
+Peru,PER,San Martín,2020-04-09,15,1,NA,NA,15,NA,NA
+Peru,PER,Tacna,2020-04-09,9,NA,NA,NA,9,NA,NA
+Peru,PER,Tumbes,2020-04-09,27,4,NA,NA,27,NA,NA
+Peru,PER,NA,2020-04-09,5256,138,1438,43209,4121,1135,NA
+Peru,PER,Amazonas,2020-04-10,16,NA,NA,NA,7,9,NA
+Peru,PER,Ancash,2020-04-10,67,4,NA,NA,61,6,NA
+Peru,PER,Apurimac,2020-04-10,3,NA,NA,NA,2,1,NA
+Peru,PER,Arequipa,2020-04-10,83,4,NA,NA,75,8,NA
+Peru,PER,Ayacucho,2020-04-10,9,NA,NA,NA,9,NA,NA
+Peru,PER,Cajamarca,2020-04-10,11,NA,NA,NA,8,3,NA
+Peru,PER,Callao,2020-04-10,465,16,NA,NA,250,215,NA
+Peru,PER,Cusco,2020-04-10,57,3,NA,NA,57,NA,NA
+Peru,PER,Huancavelica,2020-04-10,7,1,NA,NA,7,NA,NA
+Peru,PER,Huánuco,2020-04-10,9,NA,NA,NA,7,2,NA
+Peru,PER,Ica,2020-04-10,37,2,NA,NA,37,NA,NA
+Peru,PER,Junín,2020-04-10,56,1,NA,NA,55,1,NA
+Peru,PER,La Libertad,2020-04-10,101,6,NA,NA,87,14,NA
+Peru,PER,Lambayeque,2020-04-10,302,32,NA,NA,294,8,NA
+Peru,PER,Lima,2020-04-10,4210,87,NA,NA,3148,1062,NA
+Peru,PER,Loreto,2020-04-10,315,5,NA,NA,314,1,NA
+Peru,PER,Madre de Dios,2020-04-10,3,NA,NA,NA,3,NA,NA
+Peru,PER,Moquegua,2020-04-10,3,NA,NA,NA,1,2,NA
+Peru,PER,Pasco,2020-04-10,8,NA,NA,NA,8,NA,NA
+Peru,PER,Piura,2020-04-10,68,3,NA,NA,64,4,NA
+Peru,PER,Puno,2020-04-10,1,NA,NA,NA,1,NA,NA
+Peru,PER,San Martín,2020-04-10,18,1,NA,NA,18,NA,NA
+Peru,PER,Tacna,2020-04-10,9,NA,NA,NA,9,NA,NA
+Peru,PER,Tumbes,2020-04-10,27,4,NA,NA,27,NA,NA
+Peru,PER,Ucayali,2020-04-10,12,NA,NA,NA,NA,12,NA
+Peru,PER,NA,2020-04-10,5897,169,1569,50784,4549,1348,NA
+Peru,PER,Amazonas,2020-04-11,22,NA,NA,NA,7,15,NA
+Peru,PER,Ancash,2020-04-11,88,5,NA,NA,73,15,NA
+Peru,PER,Apurimac,2020-04-11,3,NA,NA,NA,2,1,NA
+Peru,PER,Arequipa,2020-04-11,85,4,NA,NA,75,10,NA
+Peru,PER,Ayacucho,2020-04-11,13,NA,NA,NA,11,2,NA
+Peru,PER,Cajamarca,2020-04-11,11,NA,NA,NA,8,3,NA
+Peru,PER,Callao,2020-04-11,541,16,NA,NA,319,222,NA
+Peru,PER,Cusco,2020-04-11,58,3,NA,NA,57,1,NA
+Peru,PER,Huancavelica,2020-04-11,7,1,NA,NA,7,NA,NA
+Peru,PER,Huánuco,2020-04-11,9,NA,NA,NA,7,2,NA
+Peru,PER,Ica,2020-04-11,47,2,NA,NA,47,NA,NA
+Peru,PER,Junín,2020-04-11,58,1,NA,NA,56,2,NA
+Peru,PER,La Libertad,2020-04-11,108,6,NA,NA,90,18,NA
+Peru,PER,Lambayeque,2020-04-11,326,33,NA,NA,316,10,NA
+Peru,PER,Lima,2020-04-11,4933,94,NA,NA,3688,1245,NA
+Peru,PER,Loreto,2020-04-11,315,6,NA,NA,314,1,NA
+Peru,PER,Madre de Dios,2020-04-11,4,NA,NA,NA,3,1,NA
+Peru,PER,Moquegua,2020-04-11,8,NA,NA,NA,1,7,NA
+Peru,PER,Pasco,2020-04-11,9,NA,NA,NA,9,NA,NA
+Peru,PER,Piura,2020-04-11,91,5,NA,NA,86,5,NA
+Peru,PER,Puno,2020-04-11,1,NA,NA,NA,1,NA,NA
+Peru,PER,San Martín,2020-04-11,20,1,NA,NA,20,NA,NA
+Peru,PER,Tacna,2020-04-11,9,NA,NA,NA,9,NA,NA
+Peru,PER,Tumbes,2020-04-11,68,4,NA,NA,54,14,NA
+Peru,PER,Ucayali,2020-04-11,14,NA,NA,NA,1,13,NA
+Peru,PER,NA,2020-04-11,6848,181,1739,58864,5261,1587,NA
+Peru,PER,Amazonas,2020-04-12,19,NA,NA,NA,4,12,3
+Peru,PER,Ancash,2020-04-12,102,NA,NA,NA,81,14,7
+Peru,PER,Apurimac,2020-04-12,5,NA,NA,NA,4,1,NA
+Peru,PER,Arequipa,2020-04-12,86,NA,NA,NA,75,10,1
+Peru,PER,Ayacucho,2020-04-12,11,NA,NA,NA,7,2,2
+Peru,PER,Cajamarca,2020-04-12,11,NA,NA,NA,7,2,2
+Peru,PER,Callao,2020-04-12,596,NA,NA,NA,346,245,5
+Peru,PER,Cusco,2020-04-12,59,NA,NA,NA,58,1,NA
+Peru,PER,Huancavelica,2020-04-12,9,NA,NA,NA,9,NA,NA
+Peru,PER,Huánuco,2020-04-12,10,NA,NA,NA,7,3,NA
+Peru,PER,Ica,2020-04-12,58,NA,NA,NA,56,2,NA
+Peru,PER,Junín,2020-04-12,64,NA,NA,NA,62,2,NA
+Peru,PER,La Libertad,2020-04-12,110,NA,NA,NA,90,20,NA
+Peru,PER,Lambayeque,2020-04-12,355,NA,NA,NA,344,8,3
+Peru,PER,Lima,2020-04-12,5456,NA,NA,NA,3921,1379,156
+Peru,PER,Loreto,2020-04-12,322,NA,NA,NA,319,3,NA
+Peru,PER,Madre de Dios,2020-04-12,3,NA,NA,NA,2,NA,1
+Peru,PER,Moquegua,2020-04-12,10,NA,NA,NA,2,8,NA
+Peru,PER,Pasco,2020-04-12,11,NA,NA,NA,11,NA,NA
+Peru,PER,Piura,2020-04-12,104,NA,NA,NA,89,14,1
+Peru,PER,Puno,2020-04-12,2,NA,NA,NA,2,NA,NA
+Peru,PER,San Martín,2020-04-12,23,NA,NA,NA,22,1,NA
+Peru,PER,Tacna,2020-04-12,9,NA,NA,NA,9,NA,NA
+Peru,PER,Tumbes,2020-04-12,69,NA,NA,NA,55,11,3
+Peru,PER,Ucayali,2020-04-12,15,NA,NA,NA,1,14,NA
+Peru,PER,NA,2020-04-12,7519,193,1798,68987,5583,1752,184
+Peru,PER,Amazonas,2020-04-13,25,NA,NA,NA,NA,NA,NA
+Peru,PER,Ancash,2020-04-13,110,NA,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-04-13,5,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-04-13,98,NA,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-04-13,11,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-04-13,11,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-04-13,733,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-04-13,59,NA,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-04-13,10,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-04-13,15,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-04-13,58,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-04-13,68,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-04-13,115,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-04-13,392,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-04-13,7458,NA,NA,NA,NA,NA,NA
+Peru,PER,Loreto,2020-04-13,340,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-04-13,10,NA,NA,NA,NA,NA,NA
+Peru,PER,Moquegua,2020-04-13,12,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-04-13,11,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-04-13,120,NA,NA,NA,NA,NA,NA
+Peru,PER,Puno,2020-04-13,2,NA,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-04-13,23,NA,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-04-13,9,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-04-13,72,NA,NA,NA,NA,NA,NA
+Peru,PER,Ucayali,2020-04-13,17,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-04-13,9784,216,2642,77382,NA,NA,NA
+Peru,PER,Amazonas,2020-04-14,25,NA,NA,NA,10,11,4
+Peru,PER,Ancash,2020-04-14,124,5,NA,NA,85,31,8
+Peru,PER,Apurimac,2020-04-14,10,NA,NA,NA,4,6,NA
+Peru,PER,Arequipa,2020-04-14,99,5,NA,NA,88,10,1
+Peru,PER,Ayacucho,2020-04-14,15,NA,NA,NA,7,5,3
+Peru,PER,Cajamarca,2020-04-14,19,NA,NA,NA,6,10,3
+Peru,PER,Callao,2020-04-14,908,20,NA,NA,393,509,6
+Peru,PER,Cusco,2020-04-14,106,3,NA,NA,59,47,NA
+Peru,PER,Huancavelica,2020-04-14,10,1,NA,NA,10,NA,NA
+Peru,PER,Huánuco,2020-04-14,15,NA,NA,NA,7,8,NA
+Peru,PER,Ica,2020-04-14,76,2,NA,NA,72,4,NA
+Peru,PER,Junín,2020-04-14,68,1,NA,NA,66,2,NA
+Peru,PER,La Libertad,2020-04-14,166,7,NA,NA,96,70,NA
+Peru,PER,Lambayeque,2020-04-14,427,44,NA,NA,377,47,3
+Peru,PER,Lima,2020-04-14,7476,114,NA,NA,4465,2813,198
+Peru,PER,Loreto,2020-04-14,357,9,NA,NA,354,3,NA
+Peru,PER,Madre de Dios,2020-04-14,19,NA,NA,NA,2,16,1
+Peru,PER,Moquegua,2020-04-14,13,NA,NA,NA,3,10,NA
+Peru,PER,Pasco,2020-04-14,11,NA,NA,NA,11,NA,NA
+Peru,PER,Piura,2020-04-14,224,14,NA,NA,92,131,1
+Peru,PER,Puno,2020-04-14,2,NA,NA,NA,2,NA,NA
+Peru,PER,San Martín,2020-04-14,23,1,NA,NA,22,1,NA
+Peru,PER,Tacna,2020-04-14,9,NA,NA,NA,9,NA,NA
+Peru,PER,Tumbes,2020-04-14,69,4,NA,NA,55,11,3
+Peru,PER,Ucayali,2020-04-14,32,NA,NA,NA,1,31,NA
+Peru,PER,NA,2020-04-14,10303,230,2869,91913,6296,3776,231
+Peru,PER,Amazonas,2020-04-15,25,NA,NA,NA,17,8,NA
+Peru,PER,Ancash,2020-04-15,144,5,NA,NA,101,43,NA
+Peru,PER,Apurimac,2020-04-15,20,NA,NA,NA,9,11,NA
+Peru,PER,Arequipa,2020-04-15,98,5,NA,NA,88,10,NA
+Peru,PER,Ayacucho,2020-04-15,22,NA,NA,NA,10,12,NA
+Peru,PER,Cajamarca,2020-04-15,20,1,NA,NA,9,11,NA
+Peru,PER,Callao,2020-04-15,939,24,NA,NA,430,509,NA
+Peru,PER,Cusco,2020-04-15,108,3,NA,NA,60,48,NA
+Peru,PER,Huancavelica,2020-04-15,11,1,NA,NA,11,NA,NA
+Peru,PER,Huánuco,2020-04-15,39,NA,NA,NA,7,32,NA
+Peru,PER,Ica,2020-04-15,101,2,NA,NA,78,23,NA
+Peru,PER,Junín,2020-04-15,79,1,NA,NA,77,2,NA
+Peru,PER,La Libertad,2020-04-15,184,7,NA,NA,114,70,NA
+Peru,PER,Lambayeque,2020-04-15,428,53,NA,NA,381,47,NA
+Peru,PER,Lima,2020-04-15,8412,117,NA,NA,4826,3586,NA
+Peru,PER,Loreto,2020-04-15,396,10,NA,NA,376,20,NA
+Peru,PER,Madre de Dios,2020-04-15,19,NA,NA,NA,3,16,NA
+Peru,PER,Moquegua,2020-04-15,16,NA,NA,NA,3,13,NA
+Peru,PER,Pasco,2020-04-15,11,NA,NA,NA,11,NA,NA
+Peru,PER,Piura,2020-04-15,229,14,NA,NA,98,131,NA
+Peru,PER,Puno,2020-04-15,2,NA,NA,NA,2,NA,NA
+Peru,PER,San Martín,2020-04-15,48,1,NA,NA,28,20,NA
+Peru,PER,Tacna,2020-04-15,10,NA,NA,NA,9,1,NA
+Peru,PER,Tumbes,2020-04-15,82,10,NA,NA,71,11,NA
+Peru,PER,Ucayali,2020-04-15,32,NA,NA,NA,1,31,NA
+Peru,PER,NA,2020-04-15,11475,254,3108,97910,6820,4655,NA
+Peru,PER,Amazonas,2020-04-16,23,NA,NA,NA,17,6,NA
+Peru,PER,Ancash,2020-04-16,171,5,NA,NA,114,57,NA
+Peru,PER,Apurimac,2020-04-16,22,NA,NA,NA,9,13,NA
+Peru,PER,Arequipa,2020-04-16,111,5,NA,NA,100,11,NA
+Peru,PER,Ayacucho,2020-04-16,23,NA,NA,NA,10,13,NA
+Peru,PER,Cajamarca,2020-04-16,22,1,NA,NA,9,13,NA
+Peru,PER,Callao,2020-04-16,1008,27,NA,NA,454,554,NA
+Peru,PER,Cusco,2020-04-16,109,3,NA,NA,60,49,NA
+Peru,PER,Huancavelica,2020-04-16,11,1,NA,NA,11,NA,NA
+Peru,PER,Huánuco,2020-04-16,42,NA,NA,NA,7,35,NA
+Peru,PER,Ica,2020-04-16,106,2,NA,NA,81,25,NA
+Peru,PER,Junín,2020-04-16,79,1,NA,NA,77,2,NA
+Peru,PER,La Libertad,2020-04-16,193,9,NA,NA,123,70,NA
+Peru,PER,Lambayeque,2020-04-16,571,54,NA,NA,522,49,NA
+Peru,PER,Lima,2020-04-16,9107,129,NA,NA,5050,4057,NA
+Peru,PER,Loreto,2020-04-16,412,10,NA,NA,388,24,NA
+Peru,PER,Madre de Dios,2020-04-16,19,NA,NA,NA,3,16,NA
+Peru,PER,Moquegua,2020-04-16,21,NA,NA,NA,3,18,NA
+Peru,PER,Pasco,2020-04-16,11,NA,NA,NA,11,NA,NA
+Peru,PER,Piura,2020-04-16,233,14,NA,NA,100,133,NA
+Peru,PER,Puno,2020-04-16,2,NA,NA,NA,2,NA,NA
+Peru,PER,San Martín,2020-04-16,47,1,NA,NA,28,19,NA
+Peru,PER,Tacna,2020-04-16,14,NA,NA,NA,9,5,NA
+Peru,PER,Tumbes,2020-04-16,85,10,NA,NA,71,14,NA
+Peru,PER,Ucayali,2020-04-16,49,2,NA,NA,7,42,NA
+Peru,PER,NA,2020-04-16,12491,274,6120,108977,7266,5225,NA
+Peru,PER,Amazonas,2020-04-17,46,NA,NA,NA,17,29,NA
+Peru,PER,Ancash,2020-04-17,189,13,NA,NA,122,67,NA
+Peru,PER,Apurimac,2020-04-17,32,NA,NA,NA,9,23,NA
+Peru,PER,Arequipa,2020-04-17,134,5,NA,NA,107,27,NA
+Peru,PER,Ayacucho,2020-04-17,23,NA,NA,NA,10,13,NA
+Peru,PER,Cajamarca,2020-04-17,38,2,NA,NA,9,29,NA
+Peru,PER,Callao,2020-04-17,1080,27,NA,NA,495,585,NA
+Peru,PER,Cusco,2020-04-17,112,3,NA,NA,62,50,NA
+Peru,PER,Huancavelica,2020-04-17,17,1,NA,NA,13,4,NA
+Peru,PER,Huánuco,2020-04-17,45,NA,NA,NA,7,38,NA
+Peru,PER,Ica,2020-04-17,119,2,NA,NA,91,28,NA
+Peru,PER,Junín,2020-04-17,101,1,NA,NA,88,13,NA
+Peru,PER,La Libertad,2020-04-17,194,16,NA,NA,124,70,NA
+Peru,PER,Lambayeque,2020-04-17,600,63,NA,NA,523,77,NA
+Peru,PER,Lima,2020-04-17,9793,129,NA,NA,5390,4403,NA
+Peru,PER,Loreto,2020-04-17,431,10,NA,NA,388,43,NA
+Peru,PER,Madre de Dios,2020-04-17,21,NA,NA,NA,9,12,NA
+Peru,PER,Moquegua,2020-04-17,24,NA,NA,NA,5,19,NA
+Peru,PER,Pasco,2020-04-17,13,NA,NA,NA,12,1,NA
+Peru,PER,Piura,2020-04-17,264,15,NA,NA,104,160,NA
+Peru,PER,Puno,2020-04-17,2,NA,NA,NA,2,NA,NA
+Peru,PER,San Martín,2020-04-17,49,1,NA,NA,28,21,NA
+Peru,PER,Tacna,2020-04-17,20,NA,NA,NA,10,10,NA
+Peru,PER,Tumbes,2020-04-17,86,10,NA,NA,71,15,NA
+Peru,PER,Ucayali,2020-04-17,56,2,NA,NA,7,49,NA
+Peru,PER,NA,2020-04-17,13489,300,6541,114024,7703,5786,NA
+Peru,PER,Amazonas,2020-04-18,51,NA,NA,NA,17,34,NA
+Peru,PER,Ancash,2020-04-18,217,13,NA,NA,134,83,NA
+Peru,PER,Apurimac,2020-04-18,35,NA,NA,NA,9,26,NA
+Peru,PER,Arequipa,2020-04-18,146,5,NA,NA,107,39,NA
+Peru,PER,Ayacucho,2020-04-18,29,NA,NA,NA,10,19,NA
+Peru,PER,Cajamarca,2020-04-18,52,2,NA,NA,10,42,NA
+Peru,PER,Callao,2020-04-18,1180,34,NA,NA,540,640,NA
+Peru,PER,Cusco,2020-04-18,123,3,NA,NA,63,60,NA
+Peru,PER,Huancavelica,2020-04-18,18,1,NA,NA,13,5,NA
+Peru,PER,Huánuco,2020-04-18,64,NA,NA,NA,8,56,NA
+Peru,PER,Ica,2020-04-18,124,6,NA,NA,95,29,NA
+Peru,PER,Junín,2020-04-18,130,1,NA,NA,99,31,NA
+Peru,PER,La Libertad,2020-04-18,211,16,NA,NA,132,79,NA
+Peru,PER,Lambayeque,2020-04-18,642,75,NA,NA,537,105,NA
+Peru,PER,Lima,2020-04-18,10234,144,NA,NA,5512,4722,NA
+Peru,PER,Loreto,2020-04-18,485,10,NA,NA,443,42,NA
+Peru,PER,Madre de Dios,2020-04-18,21,NA,NA,NA,9,12,NA
+Peru,PER,Moquegua,2020-04-18,28,NA,NA,NA,5,23,NA
+Peru,PER,Pasco,2020-04-18,13,NA,NA,NA,12,1,NA
+Peru,PER,Piura,2020-04-18,344,24,NA,NA,108,236,NA
+Peru,PER,Puno,2020-04-18,5,NA,NA,NA,3,2,NA
+Peru,PER,San Martín,2020-04-18,81,1,NA,NA,28,53,NA
+Peru,PER,Tacna,2020-04-18,28,NA,NA,NA,10,18,NA
+Peru,PER,Tumbes,2020-04-18,86,10,NA,NA,71,15,NA
+Peru,PER,Ucayali,2020-04-18,73,3,NA,NA,8,65,NA
+Peru,PER,NA,2020-04-18,14420,348,6684,121475,7983,6437,NA
+Peru,PER,Amazonas,2020-04-19,51,NA,NA,NA,17,34,NA
+Peru,PER,Ancash,2020-04-19,251,16,NA,NA,141,110,NA
+Peru,PER,Apurimac,2020-04-19,35,NA,NA,NA,9,26,NA
+Peru,PER,Arequipa,2020-04-19,192,5,NA,NA,107,85,NA
+Peru,PER,Ayacucho,2020-04-19,33,NA,NA,NA,10,23,NA
+Peru,PER,Cajamarca,2020-04-19,61,2,NA,NA,11,50,NA
+Peru,PER,Callao,2020-04-19,1239,34,NA,NA,562,677,NA
+Peru,PER,Cusco,2020-04-19,130,3,NA,NA,63,67,NA
+Peru,PER,Huancavelica,2020-04-19,20,1,NA,NA,13,7,NA
+Peru,PER,Huánuco,2020-04-19,83,NA,NA,NA,9,74,NA
+Peru,PER,Ica,2020-04-19,141,6,NA,NA,97,44,NA
+Peru,PER,Junín,2020-04-19,150,1,NA,NA,105,45,NA
+Peru,PER,La Libertad,2020-04-19,232,17,NA,NA,133,99,NA
+Peru,PER,Lambayeque,2020-04-19,671,81,NA,NA,550,121,NA
+Peru,PER,Lima,2020-04-19,10877,169,NA,NA,5767,5110,NA
+Peru,PER,Loreto,2020-04-19,552,14,NA,NA,512,40,NA
+Peru,PER,Madre de Dios,2020-04-19,25,NA,NA,NA,10,15,NA
+Peru,PER,Moquegua,2020-04-19,30,NA,NA,NA,5,25,NA
+Peru,PER,Pasco,2020-04-19,18,NA,NA,NA,12,6,NA
+Peru,PER,Piura,2020-04-19,420,37,NA,NA,110,310,NA
+Peru,PER,Puno,2020-04-19,8,NA,NA,NA,3,5,NA
+Peru,PER,San Martín,2020-04-19,94,1,NA,NA,28,66,NA
+Peru,PER,Tacna,2020-04-19,35,NA,NA,NA,10,25,NA
+Peru,PER,Tumbes,2020-04-19,183,10,NA,NA,71,112,NA
+Peru,PER,Ucayali,2020-04-19,97,3,NA,NA,8,89,NA
+Peru,PER,NA,2020-04-19,15628,400,6811,128117,8363,7265,NA
+Peru,PER,Amazonas,2020-04-20,55,NA,NA,NA,17,38,NA
+Peru,PER,Ancash,2020-04-20,275,19,NA,NA,156,119,NA
+Peru,PER,Apurimac,2020-04-20,40,NA,NA,NA,9,31,NA
+Peru,PER,Arequipa,2020-04-20,229,8,NA,NA,107,122,NA
+Peru,PER,Ayacucho,2020-04-20,35,NA,NA,NA,12,23,NA
+Peru,PER,Cajamarca,2020-04-20,62,2,NA,NA,11,51,NA
+Peru,PER,Callao,2020-04-20,1282,35,NA,NA,602,680,NA
+Peru,PER,Cusco,2020-04-20,130,3,NA,NA,63,67,NA
+Peru,PER,Huancavelica,2020-04-20,21,1,NA,NA,13,8,NA
+Peru,PER,Huánuco,2020-04-20,83,NA,NA,NA,9,74,NA
+Peru,PER,Ica,2020-04-20,145,6,NA,NA,101,44,NA
+Peru,PER,Junín,2020-04-20,155,1,NA,NA,109,46,NA
+Peru,PER,La Libertad,2020-04-20,253,17,NA,NA,141,112,NA
+Peru,PER,Lambayeque,2020-04-20,675,89,NA,NA,550,125,NA
+Peru,PER,Lima,2020-04-20,11297,199,NA,NA,6253,5044,NA
+Peru,PER,Loreto,2020-04-20,585,14,NA,NA,545,40,NA
+Peru,PER,Madre de Dios,2020-04-20,64,NA,NA,NA,10,54,NA
+Peru,PER,Moquegua,2020-04-20,30,NA,NA,NA,5,25,NA
+Peru,PER,Pasco,2020-04-20,32,NA,NA,NA,13,19,NA
+Peru,PER,Piura,2020-04-20,436,37,NA,NA,110,326,NA
+Peru,PER,Puno,2020-04-20,8,NA,NA,NA,3,5,NA
+Peru,PER,San Martín,2020-04-20,94,1,NA,NA,28,66,NA
+Peru,PER,Tacna,2020-04-20,35,NA,NA,NA,10,25,NA
+Peru,PER,Tumbes,2020-04-20,184,10,NA,NA,71,113,NA
+Peru,PER,Ucayali,2020-04-20,120,3,NA,NA,16,104,NA
+Peru,PER,NA,2020-04-20,16325,445,6968,131686,8964,7361,NA
+Peru,PER,Amazonas,2020-04-21,58,NA,NA,NA,58,NA,NA
+Peru,PER,Ancash,2020-04-21,334,23,NA,NA,334,23,NA
+Peru,PER,Apurimac,2020-04-21,42,NA,NA,NA,42,NA,NA
+Peru,PER,Arequipa,2020-04-21,273,8,NA,NA,273,8,NA
+Peru,PER,Ayacucho,2020-04-21,38,NA,NA,NA,38,NA,NA
+Peru,PER,Cajamarca,2020-04-21,73,2,NA,NA,73,2,NA
+Peru,PER,Callao,2020-04-21,1369,36,NA,NA,1369,36,NA
+Peru,PER,Cusco,2020-04-21,132,3,NA,NA,132,3,NA
+Peru,PER,Huancavelica,2020-04-21,16,1,NA,NA,16,1,NA
+Peru,PER,Huánuco,2020-04-21,91,NA,NA,NA,91,NA,NA
+Peru,PER,Ica,2020-04-21,195,6,NA,NA,195,6,NA
+Peru,PER,Junín,2020-04-21,178,1,NA,NA,178,1,NA
+Peru,PER,La Libertad,2020-04-21,303,17,NA,NA,303,17,NA
+Peru,PER,Lambayeque,2020-04-21,741,90,NA,NA,741,90,NA
+Peru,PER,Lima,2020-04-21,12256,227,NA,NA,12256,227,NA
+Peru,PER,Loreto,2020-04-21,617,19,NA,NA,617,19,NA
+Peru,PER,Madre de Dios,2020-04-21,66,NA,NA,NA,66,NA,NA
+Peru,PER,Moquegua,2020-04-21,41,NA,NA,NA,41,NA,NA
+Peru,PER,Pasco,2020-04-21,39,NA,NA,NA,39,NA,NA
+Peru,PER,Piura,2020-04-21,475,37,NA,NA,475,37,NA
+Peru,PER,Puno,2020-04-21,11,NA,NA,NA,11,NA,NA
+Peru,PER,San Martín,2020-04-21,100,1,NA,NA,100,1,NA
+Peru,PER,Tacna,2020-04-21,42,NA,NA,NA,42,NA,NA
+Peru,PER,Tumbes,2020-04-21,198,10,NA,NA,198,10,NA
+Peru,PER,Ucayali,2020-04-21,149,3,NA,NA,149,3,NA
+Peru,PER,NA,2020-04-21,17837,484,6982,137887,17837,484,NA
+Peru,PER,Amazonas,2020-04-22,60,NA,NA,NA,17,43,NA
+Peru,PER,Ancash,2020-04-22,365,26,NA,NA,169,196,NA
+Peru,PER,Apurimac,2020-04-22,46,NA,NA,NA,9,37,NA
+Peru,PER,Arequipa,2020-04-22,276,8,NA,NA,123,153,NA
+Peru,PER,Ayacucho,2020-04-22,38,NA,NA,NA,12,26,NA
+Peru,PER,Cajamarca,2020-04-22,78,2,NA,NA,14,64,NA
+Peru,PER,Callao,2020-04-22,1416,39,NA,NA,640,776,NA
+Peru,PER,Cusco,2020-04-22,147,3,NA,NA,63,84,NA
+Peru,PER,Huancavelica,2020-04-22,19,1,NA,NA,13,6,NA
+Peru,PER,Huánuco,2020-04-22,114,NA,NA,NA,10,104,NA
+Peru,PER,Ica,2020-04-22,213,6,NA,NA,128,85,NA
+Peru,PER,Junín,2020-04-22,207,1,NA,NA,116,91,NA
+Peru,PER,La Libertad,2020-04-22,318,17,NA,NA,150,168,NA
+Peru,PER,Lambayeque,2020-04-22,864,97,NA,NA,581,283,NA
+Peru,PER,Lima,2020-04-22,13214,247,NA,NA,7139,6075,NA
+Peru,PER,Loreto,2020-04-22,653,23,NA,NA,593,60,NA
+Peru,PER,Madre de Dios,2020-04-22,71,NA,NA,NA,13,58,NA
+Peru,PER,Moquegua,2020-04-22,48,NA,NA,NA,5,43,NA
+Peru,PER,Pasco,2020-04-22,46,1,NA,NA,19,27,NA
+Peru,PER,Piura,2020-04-22,514,45,NA,NA,119,395,NA
+Peru,PER,Puno,2020-04-22,15,NA,NA,NA,3,12,NA
+Peru,PER,San Martín,2020-04-22,107,1,NA,NA,29,78,NA
+Peru,PER,Tacna,2020-04-22,44,NA,NA,NA,10,34,NA
+Peru,PER,Tumbes,2020-04-22,205,10,NA,NA,71,134,NA
+Peru,PER,Ucayali,2020-04-22,172,3,NA,NA,16,156,NA
+Peru,PER,NA,2020-04-22,19250,530,7027,151150,10062,9188,NA
+Peru,PER,Amazonas,2020-04-23,64,NA,NA,NA,17,47,NA
+Peru,PER,Ancash,2020-04-23,352,28,NA,NA,173,179,NA
+Peru,PER,Apurimac,2020-04-23,52,NA,NA,NA,9,43,NA
+Peru,PER,Arequipa,2020-04-23,291,8,NA,NA,128,163,NA
+Peru,PER,Ayacucho,2020-04-23,39,NA,NA,NA,13,26,NA
+Peru,PER,Cajamarca,2020-04-23,90,2,NA,NA,13,77,NA
+Peru,PER,Callao,2020-04-23,1536,39,NA,NA,683,853,NA
+Peru,PER,Cusco,2020-04-23,158,3,NA,NA,64,94,NA
+Peru,PER,Huancavelica,2020-04-23,21,1,NA,NA,13,8,NA
+Peru,PER,Huánuco,2020-04-23,116,NA,NA,NA,10,106,NA
+Peru,PER,Ica,2020-04-23,248,6,NA,NA,142,106,NA
+Peru,PER,Junín,2020-04-23,206,1,NA,NA,125,81,NA
+Peru,PER,La Libertad,2020-04-23,391,17,NA,NA,151,240,NA
+Peru,PER,Lambayeque,2020-04-23,968,111,NA,NA,595,373,NA
+Peru,PER,Lima,2020-04-23,14300,267,NA,NA,7768,6532,NA
+Peru,PER,Loreto,2020-04-23,700,23,NA,NA,602,98,NA
+Peru,PER,Madre de Dios,2020-04-23,77,NA,NA,NA,13,64,NA
+Peru,PER,Moquegua,2020-04-23,52,NA,NA,NA,6,46,NA
+Peru,PER,Pasco,2020-04-23,48,1,NA,NA,20,28,NA
+Peru,PER,Piura,2020-04-23,568,45,NA,NA,130,438,NA
+Peru,PER,Puno,2020-04-23,33,NA,NA,NA,5,28,NA
+Peru,PER,San Martín,2020-04-23,111,1,NA,NA,29,82,NA
+Peru,PER,Tacna,2020-04-23,50,NA,NA,NA,12,38,NA
+Peru,PER,Tumbes,2020-04-23,233,16,NA,NA,71,162,NA
+Peru,PER,Ucayali,2020-04-23,210,3,NA,NA,16,194,NA
+Peru,PER,NA,2020-04-23,20914,572,7422,164324,10808,10106,NA
+Peru,PER,Amazonas,2020-04-24,65,NA,NA,NA,17,48,NA
+Peru,PER,Ancash,2020-04-24,361,29,NA,NA,182,179,NA
+Peru,PER,Apurimac,2020-04-24,53,NA,NA,NA,9,44,NA
+Peru,PER,Arequipa,2020-04-24,311,10,NA,NA,149,162,NA
+Peru,PER,Ayacucho,2020-04-24,40,NA,NA,NA,13,27,NA
+Peru,PER,Cajamarca,2020-04-24,92,2,NA,NA,15,77,NA
+Peru,PER,Callao,2020-04-24,1591,40,NA,NA,738,853,NA
+Peru,PER,Cusco,2020-04-24,160,3,NA,NA,66,94,NA
+Peru,PER,Huancavelica,2020-04-24,23,1,NA,NA,14,9,NA
+Peru,PER,Huánuco,2020-04-24,116,1,NA,NA,10,106,NA
+Peru,PER,Ica,2020-04-24,258,6,NA,NA,146,112,NA
+Peru,PER,Junín,2020-04-24,219,4,NA,NA,125,94,NA
+Peru,PER,La Libertad,2020-04-24,410,23,NA,NA,160,250,NA
+Peru,PER,Lambayeque,2020-04-24,974,119,NA,NA,620,354,NA
+Peru,PER,Lima,2020-04-24,14814,290,NA,NA,8235,6579,NA
+Peru,PER,Loreto,2020-04-24,708,29,NA,NA,610,98,NA
+Peru,PER,Madre de Dios,2020-04-24,80,NA,NA,NA,13,67,NA
+Peru,PER,Moquegua,2020-04-24,57,NA,NA,NA,6,51,NA
+Peru,PER,Pasco,2020-04-24,61,1,NA,NA,20,41,NA
+Peru,PER,Piura,2020-04-24,585,45,NA,NA,147,438,NA
+Peru,PER,Puno,2020-04-24,34,NA,NA,NA,6,28,NA
+Peru,PER,San Martín,2020-04-24,117,1,NA,NA,30,87,NA
+Peru,PER,Tacna,2020-04-24,59,NA,NA,NA,13,46,NA
+Peru,PER,Tumbes,2020-04-24,234,19,NA,NA,72,162,NA
+Peru,PER,Ucayali,2020-04-24,226,11,NA,NA,16,210,NA
+Peru,PER,NA,2020-04-24,21648,634,7496,176701,11432,10216,NA
+Peru,PER,Amazonas,2020-04-25,67,NA,NA,NA,17,50,NA
+Peru,PER,Ancash,2020-04-25,464,33,NA,NA,182,282,NA
+Peru,PER,Apurimac,2020-04-25,63,NA,NA,NA,9,54,NA
+Peru,PER,Arequipa,2020-04-25,364,10,NA,NA,159,205,NA
+Peru,PER,Ayacucho,2020-04-25,45,NA,NA,NA,13,32,NA
+Peru,PER,Cajamarca,2020-04-25,105,2,NA,NA,15,90,NA
+Peru,PER,Callao,2020-04-25,2436,44,NA,NA,738,1698,NA
+Peru,PER,Cusco,2020-04-25,174,3,NA,NA,66,108,NA
+Peru,PER,Huancavelica,2020-04-25,33,1,NA,NA,14,19,NA
+Peru,PER,Huánuco,2020-04-25,160,1,NA,NA,10,150,NA
+Peru,PER,Ica,2020-04-25,268,6,NA,NA,146,122,NA
+Peru,PER,Junín,2020-04-25,257,4,NA,NA,125,132,NA
+Peru,PER,La Libertad,2020-04-25,481,23,NA,NA,167,314,NA
+Peru,PER,Lambayeque,2020-04-25,1388,119,NA,NA,620,768,NA
+Peru,PER,Lima,2020-04-25,16567,303,NA,NA,8600,7967,NA
+Peru,PER,Loreto,2020-04-25,742,36,NA,NA,641,101,NA
+Peru,PER,Madre de Dios,2020-04-25,91,NA,NA,NA,13,78,NA
+Peru,PER,Moquegua,2020-04-25,73,NA,NA,NA,6,67,NA
+Peru,PER,Pasco,2020-04-25,68,1,NA,NA,20,48,NA
+Peru,PER,Piura,2020-04-25,669,79,NA,NA,147,522,NA
+Peru,PER,Puno,2020-04-25,65,NA,NA,NA,6,59,NA
+Peru,PER,San Martín,2020-04-25,121,1,NA,NA,30,91,NA
+Peru,PER,Tacna,2020-04-25,67,1,NA,NA,13,54,NA
+Peru,PER,Tumbes,2020-04-25,240,19,NA,NA,72,168,NA
+Peru,PER,Ucayali,2020-04-25,323,14,NA,NA,16,307,NA
+Peru,PER,NA,2020-04-25,25331,700,7797,192864,11845,13486,NA
+Peru,PER,Amazonas,2020-04-26,78,NA,NA,NA,21,57,NA
+Peru,PER,Ancash,2020-04-26,506,35,NA,NA,197,309,NA
+Peru,PER,Apurimac,2020-04-26,68,NA,NA,NA,13,55,NA
+Peru,PER,Arequipa,2020-04-26,396,10,NA,NA,167,229,NA
+Peru,PER,Ayacucho,2020-04-26,53,NA,NA,NA,23,30,NA
+Peru,PER,Cajamarca,2020-04-26,128,2,NA,NA,31,97,NA
+Peru,PER,Callao,2020-04-26,2615,44,NA,NA,840,1775,NA
+Peru,PER,Cusco,2020-04-26,182,3,NA,NA,69,113,NA
+Peru,PER,Huancavelica,2020-04-26,40,1,NA,NA,18,22,NA
+Peru,PER,Huánuco,2020-04-26,167,NA,NA,NA,11,156,NA
+Peru,PER,Ica,2020-04-26,284,6,NA,NA,162,122,NA
+Peru,PER,Junín,2020-04-26,284,4,NA,NA,137,147,NA
+Peru,PER,La Libertad,2020-04-26,503,23,NA,NA,171,332,NA
+Peru,PER,Lambayeque,2020-04-26,1602,143,NA,NA,731,871,NA
+Peru,PER,Lima,2020-04-26,17884,303,NA,NA,9067,8817,NA
+Peru,PER,Loreto,2020-04-26,786,39,NA,NA,687,99,NA
+Peru,PER,Madre de Dios,2020-04-26,94,NA,NA,NA,14,80,NA
+Peru,PER,Moquegua,2020-04-26,92,NA,NA,NA,6,86,NA
+Peru,PER,Pasco,2020-04-26,78,1,NA,NA,21,57,NA
+Peru,PER,Piura,2020-04-26,790,79,NA,NA,184,606,NA
+Peru,PER,Puno,2020-04-26,69,NA,NA,NA,8,61,NA
+Peru,PER,San Martín,2020-04-26,151,1,NA,NA,37,114,NA
+Peru,PER,Tacna,2020-04-26,68,1,NA,NA,17,51,NA
+Peru,PER,Tumbes,2020-04-26,250,19,NA,NA,76,174,NA
+Peru,PER,Ucayali,2020-04-26,349,14,NA,NA,17,332,NA
+Peru,PER,NA,2020-04-26,27517,728,8088,205230,12725,14792,NA
+Peru,PER,Amazonas,2020-04-27,84,NA,NA,NA,21,63,NA
+Peru,PER,Ancash,2020-04-27,547,34,NA,NA,204,343,NA
+Peru,PER,Apurimac,2020-04-27,69,NA,NA,NA,13,56,NA
+Peru,PER,Arequipa,2020-04-27,479,11,NA,NA,168,311,NA
+Peru,PER,Ayacucho,2020-04-27,60,NA,NA,NA,23,37,NA
+Peru,PER,Cajamarca,2020-04-27,141,2,NA,NA,32,109,NA
+Peru,PER,Callao,2020-04-27,2672,50,NA,NA,870,1802,NA
+Peru,PER,Cusco,2020-04-27,196,3,NA,NA,72,124,NA
+Peru,PER,Huancavelica,2020-04-27,48,1,NA,NA,19,29,NA
+Peru,PER,Huánuco,2020-04-27,167,NA,NA,NA,11,156,NA
+Peru,PER,Ica,2020-04-27,339,6,NA,NA,164,175,NA
+Peru,PER,Junín,2020-04-27,290,4,NA,NA,140,150,NA
+Peru,PER,La Libertad,2020-04-27,553,23,NA,NA,178,375,NA
+Peru,PER,Lambayeque,2020-04-27,1651,149,NA,NA,733,918,NA
+Peru,PER,Lima,2020-04-27,18571,332,NA,NA,9393,9178,NA
+Peru,PER,Loreto,2020-04-27,827,39,NA,NA,700,127,NA
+Peru,PER,Madre de Dios,2020-04-27,87,NA,NA,NA,14,73,NA
+Peru,PER,Moquegua,2020-04-27,94,NA,NA,NA,6,88,NA
+Peru,PER,Pasco,2020-04-27,82,1,NA,NA,21,61,NA
+Peru,PER,Piura,2020-04-27,816,92,NA,NA,191,625,NA
+Peru,PER,Puno,2020-04-27,69,NA,NA,NA,9,60,NA
+Peru,PER,San Martín,2020-04-27,166,1,NA,NA,39,127,NA
+Peru,PER,Tacna,2020-04-27,71,1,NA,NA,17,54,NA
+Peru,PER,Tumbes,2020-04-27,250,19,NA,NA,76,174,NA
+Peru,PER,Ucayali,2020-04-27,370,14,NA,NA,18,352,NA
+Peru,PER,NA,2020-04-27,28699,782,8425,210864,13132,15567,NA
+Peru,PER,Amazonas,2020-04-28,108,NA,NA,NA,21,87,NA
+Peru,PER,Ancash,2020-04-28,598,39,NA,NA,209,389,NA
+Peru,PER,Apurimac,2020-04-28,64,NA,NA,NA,13,51,NA
+Peru,PER,Arequipa,2020-04-28,501,11,NA,NA,178,323,NA
+Peru,PER,Ayacucho,2020-04-28,72,NA,NA,NA,31,41,NA
+Peru,PER,Cajamarca,2020-04-28,156,3,NA,NA,36,120,NA
+Peru,PER,Callao,2020-04-28,2933,52,NA,NA,926,2007,NA
+Peru,PER,Cusco,2020-04-28,202,3,NA,NA,74,128,NA
+Peru,PER,Huancavelica,2020-04-28,57,1,NA,NA,22,35,NA
+Peru,PER,Huánuco,2020-04-28,168,NA,NA,NA,12,156,NA
+Peru,PER,Ica,2020-04-28,353,28,NA,NA,178,175,NA
+Peru,PER,Junín,2020-04-28,331,4,NA,NA,142,189,NA
+Peru,PER,La Libertad,2020-04-28,585,23,NA,NA,193,392,NA
+Peru,PER,Lambayeque,2020-04-28,1814,159,NA,NA,779,1035,NA
+Peru,PER,Lima,2020-04-28,20048,358,NA,NA,9762,10286,NA
+Peru,PER,Loreto,2020-04-28,881,45,NA,NA,749,132,NA
+Peru,PER,Madre de Dios,2020-04-28,97,NA,NA,NA,14,83,NA
+Peru,PER,Moquegua,2020-04-28,100,NA,NA,NA,6,94,NA
+Peru,PER,Pasco,2020-04-28,90,1,NA,NA,21,69,NA
+Peru,PER,Piura,2020-04-28,960,92,NA,NA,200,760,NA
+Peru,PER,Puno,2020-04-28,88,NA,NA,NA,12,76,NA
+Peru,PER,San Martín,2020-04-28,178,1,NA,NA,52,126,NA
+Peru,PER,Tacna,2020-04-28,77,1,NA,NA,17,60,NA
+Peru,PER,Tumbes,2020-04-28,275,19,NA,NA,76,199,NA
+Peru,PER,Ucayali,2020-04-28,454,14,NA,NA,19,435,NA
+Peru,PER,NA,2020-04-28,31190,854,9179,236422,13742,17448,NA
+Peru,PER,Amazonas,2020-04-29,119,NA,NA,NA,21,98,NA
+Peru,PER,Ancash,2020-04-29,630,52,NA,NA,218,412,NA
+Peru,PER,Apurimac,2020-04-29,66,NA,NA,NA,13,53,NA
+Peru,PER,Arequipa,2020-04-29,529,11,NA,NA,193,336,NA
+Peru,PER,Ayacucho,2020-04-29,80,NA,NA,NA,36,44,NA
+Peru,PER,Cajamarca,2020-04-29,162,3,NA,NA,42,120,NA
+Peru,PER,Callao,2020-04-29,3101,52,NA,NA,956,2145,NA
+Peru,PER,Cusco,2020-04-29,203,3,NA,NA,75,128,NA
+Peru,PER,Huancavelica,2020-04-29,75,1,NA,NA,23,52,NA
+Peru,PER,Huánuco,2020-04-29,169,NA,NA,NA,13,156,NA
+Peru,PER,Ica,2020-04-29,401,28,NA,NA,179,222,NA
+Peru,PER,Junín,2020-04-29,373,4,NA,NA,150,223,NA
+Peru,PER,La Libertad,2020-04-29,615,23,NA,NA,199,416,NA
+Peru,PER,Lambayeque,2020-04-29,1956,172,NA,NA,780,1176,NA
+Peru,PER,Lima,2020-04-29,21854,404,NA,NA,10109,11745,NA
+Peru,PER,Loreto,2020-04-29,1003,51,NA,NA,854,149,NA
+Peru,PER,Madre de Dios,2020-04-29,105,NA,NA,NA,15,90,NA
+Peru,PER,Moquegua,2020-04-29,111,NA,NA,NA,6,105,NA
+Peru,PER,Pasco,2020-04-29,95,1,NA,NA,22,73,NA
+Peru,PER,Piura,2020-04-29,1080,103,NA,NA,215,865,NA
+Peru,PER,Puno,2020-04-29,89,NA,NA,NA,13,76,NA
+Peru,PER,San Martín,2020-04-29,205,1,NA,NA,69,136,NA
+Peru,PER,Tacna,2020-04-29,94,1,NA,NA,17,77,NA
+Peru,PER,Tumbes,2020-04-29,290,19,NA,NA,75,215,NA
+Peru,PER,Ucayali,2020-04-29,526,14,NA,NA,91,435,NA
+Peru,PER,NA,2020-04-29,33931,943,10037,262331,14384,19547,NA
+Peru,PER,Amazonas,2020-04-30,122,NA,NA,NA,22,100,NA
+Peru,PER,Ancash,2020-04-30,693,56,NA,NA,221,472,NA
+Peru,PER,Apurimac,2020-04-30,78,NA,NA,NA,13,65,NA
+Peru,PER,Arequipa,2020-04-30,571,11,NA,NA,202,369,NA
+Peru,PER,Ayacucho,2020-04-30,95,NA,NA,NA,49,46,NA
+Peru,PER,Cajamarca,2020-04-30,170,3,NA,NA,44,126,NA
+Peru,PER,Callao,2020-04-30,3219,60,NA,NA,975,2244,NA
+Peru,PER,Cusco,2020-04-30,212,3,NA,NA,79,133,NA
+Peru,PER,Huancavelica,2020-04-30,88,1,NA,NA,25,63,NA
+Peru,PER,Huánuco,2020-04-30,189,NA,NA,NA,11,178,NA
+Peru,PER,Ica,2020-04-30,550,28,NA,NA,208,342,NA
+Peru,PER,Junín,2020-04-30,394,4,NA,NA,151,243,NA
+Peru,PER,La Libertad,2020-04-30,668,23,NA,NA,213,455,NA
+Peru,PER,Lambayeque,2020-04-30,2176,192,NA,NA,803,1373,NA
+Peru,PER,Lima,2020-04-30,23561,437,NA,NA,10401,13160,NA
+Peru,PER,Loreto,2020-04-30,1202,55,NA,NA,999,203,NA
+Peru,PER,Madre de Dios,2020-04-30,113,NA,NA,NA,17,96,NA
+Peru,PER,Moquegua,2020-04-30,120,NA,NA,NA,6,114,NA
+Peru,PER,Pasco,2020-04-30,113,1,NA,NA,22,91,NA
+Peru,PER,Piura,2020-04-30,1207,118,NA,NA,223,984,NA
+Peru,PER,Puno,2020-04-30,105,NA,NA,NA,13,92,NA
+Peru,PER,San Martín,2020-04-30,238,1,NA,NA,72,166,NA
+Peru,PER,Tacna,2020-04-30,111,1,NA,NA,17,94,NA
+Peru,PER,Tumbes,2020-04-30,310,19,NA,NA,75,235,NA
+Peru,PER,Ucayali,2020-04-30,671,38,NA,NA,95,576,NA
+Peru,PER,NA,2020-04-30,36976,1051,10405,281276,14956,22020,NA
+Peru,PER,Amazonas,2020-05-01,129,NA,NA,NA,23,106,NA
+Peru,PER,Ancash,2020-05-01,822,56,NA,NA,224,598,NA
+Peru,PER,Apurimac,2020-05-01,83,NA,NA,NA,10,73,NA
+Peru,PER,Arequipa,2020-05-01,624,11,NA,NA,214,410,NA
+Peru,PER,Ayacucho,2020-05-01,104,NA,NA,NA,49,55,NA
+Peru,PER,Cajamarca,2020-05-01,201,3,NA,NA,52,149,NA
+Peru,PER,Callao,2020-05-01,3458,60,NA,NA,1021,2437,NA
+Peru,PER,Cusco,2020-05-01,221,3,NA,NA,82,139,NA
+Peru,PER,Huancavelica,2020-05-01,109,1,NA,NA,27,82,NA
+Peru,PER,Huánuco,2020-05-01,206,NA,NA,NA,13,193,NA
+Peru,PER,Ica,2020-05-01,580,41,NA,NA,216,364,NA
+Peru,PER,Junín,2020-05-01,436,4,NA,NA,158,278,NA
+Peru,PER,La Libertad,2020-05-01,720,23,NA,NA,223,497,NA
+Peru,PER,Lambayeque,2020-05-01,2360,194,NA,NA,831,1529,NA
+Peru,PER,Lima,2020-05-01,25718,491,NA,NA,10748,14970,NA
+Peru,PER,Loreto,2020-05-01,1355,57,NA,NA,1095,260,NA
+Peru,PER,Madre de Dios,2020-05-01,116,1,NA,NA,18,98,NA
+Peru,PER,Moquegua,2020-05-01,123,NA,NA,NA,6,117,NA
+Peru,PER,Pasco,2020-05-01,122,1,NA,NA,25,97,NA
+Peru,PER,Piura,2020-05-01,1396,119,NA,NA,233,1163,NA
+Peru,PER,Puno,2020-05-01,116,NA,NA,NA,13,103,NA
+Peru,PER,San Martín,2020-05-01,248,1,NA,NA,72,176,NA
+Peru,PER,Tacna,2020-05-01,126,1,NA,NA,17,109,NA
+Peru,PER,Tumbes,2020-05-01,326,19,NA,NA,75,251,NA
+Peru,PER,Ucayali,2020-05-01,760,38,NA,NA,95,665,NA
+Peru,PER,NA,2020-05-01,40459,1124,11129,302039,15540,24919,NA
+Peru,PER,Amazonas,2020-05-02,136,1,NA,NA,23,113,NA
+Peru,PER,Ancash,2020-05-02,907,66,NA,NA,233,674,NA
+Peru,PER,Apurimac,2020-05-02,86,NA,NA,NA,10,76,NA
+Peru,PER,Arequipa,2020-05-02,655,16,NA,NA,221,434,NA
+Peru,PER,Ayacucho,2020-05-02,117,NA,NA,NA,51,66,NA
+Peru,PER,Cajamarca,2020-05-02,224,3,NA,NA,55,169,NA
+Peru,PER,Callao,2020-05-02,3543,66,NA,NA,1065,2478,NA
+Peru,PER,Cusco,2020-05-02,221,3,NA,NA,82,139,NA
+Peru,PER,Huancavelica,2020-05-02,133,1,NA,NA,28,105,NA
+Peru,PER,Huánuco,2020-05-02,233,NA,NA,NA,15,218,NA
+Peru,PER,Ica,2020-05-02,584,41,NA,NA,218,366,NA
+Peru,PER,Junín,2020-05-02,451,7,NA,NA,161,290,NA
+Peru,PER,La Libertad,2020-05-02,798,23,NA,NA,231,567,NA
+Peru,PER,Lambayeque,2020-05-02,2548,220,NA,NA,862,1686,NA
+Peru,PER,Lima,2020-05-02,26908,504,NA,NA,11204,15704,NA
+Peru,PER,Loreto,2020-05-02,1425,57,NA,NA,1150,275,NA
+Peru,PER,Madre de Dios,2020-05-02,118,1,NA,NA,18,100,NA
+Peru,PER,Moquegua,2020-05-02,128,NA,NA,NA,7,121,NA
+Peru,PER,Pasco,2020-05-02,148,1,NA,NA,27,121,NA
+Peru,PER,Piura,2020-05-02,1492,131,NA,NA,238,1254,NA
+Peru,PER,Puno,2020-05-02,124,NA,NA,NA,13,111,NA
+Peru,PER,San Martín,2020-05-02,265,1,NA,NA,72,193,NA
+Peru,PER,Tacna,2020-05-02,128,1,NA,NA,19,109,NA
+Peru,PER,Tumbes,2020-05-02,336,19,NA,NA,74,262,NA
+Peru,PER,Ucayali,2020-05-02,826,38,NA,NA,95,731,NA
+Peru,PER,NA,2020-05-02,42534,1200,12434,313070,16172,26362,NA
+Peru,PER,Amazonas,2020-05-03,155,1,NA,NA,23,132,NA
+Peru,PER,Ancash,2020-05-03,993,77,NA,NA,244,749,NA
+Peru,PER,Apurimac,2020-05-03,90,NA,NA,NA,10,80,NA
+Peru,PER,Arequipa,2020-05-03,692,16,NA,NA,228,464,NA
+Peru,PER,Ayacucho,2020-05-03,135,NA,NA,NA,54,81,NA
+Peru,PER,Cajamarca,2020-05-03,259,3,NA,NA,60,199,NA
+Peru,PER,Callao,2020-05-03,3893,66,NA,NA,1108,2785,NA
+Peru,PER,Cusco,2020-05-03,230,3,NA,NA,82,148,NA
+Peru,PER,Huancavelica,2020-05-03,186,1,NA,NA,28,158,NA
+Peru,PER,Huánuco,2020-05-03,248,NA,NA,NA,15,233,NA
+Peru,PER,Ica,2020-05-03,676,41,NA,NA,234,442,NA
+Peru,PER,Junín,2020-05-03,506,7,NA,NA,180,326,NA
+Peru,PER,La Libertad,2020-05-03,879,23,NA,NA,238,641,NA
+Peru,PER,Lambayeque,2020-05-03,2646,267,NA,NA,873,1773,NA
+Peru,PER,Lima,2020-05-03,28990,517,NA,NA,11580,17410,NA
+Peru,PER,Loreto,2020-05-03,1502,59,NA,NA,1198,304,NA
+Peru,PER,Madre de Dios,2020-05-03,120,1,NA,NA,18,102,NA
+Peru,PER,Moquegua,2020-05-03,131,NA,NA,NA,7,124,NA
+Peru,PER,Pasco,2020-05-03,161,1,NA,NA,27,134,NA
+Peru,PER,Piura,2020-05-03,1618,143,NA,NA,240,1378,NA
+Peru,PER,Puno,2020-05-03,135,NA,NA,NA,13,122,NA
+Peru,PER,San Martín,2020-05-03,282,1,NA,NA,81,201,NA
+Peru,PER,Tacna,2020-05-03,141,2,NA,NA,19,122,NA
+Peru,PER,Tumbes,2020-05-03,347,19,NA,NA,75,272,NA
+Peru,PER,Ucayali,2020-05-03,913,38,NA,NA,95,818,NA
+Peru,PER,NA,2020-05-03,45928,1286,13550,329168,16730,29198,NA
+Peru,PER,Amazonas,2020-05-04,164,NA,NA,NA,NA,NA,NA
+Peru,PER,Ancash,2020-05-04,1014,NA,NA,NA,NA,NA,NA
+Peru,PER,Apurimac,2020-05-04,100,NA,NA,NA,NA,NA,NA
+Peru,PER,Arequipa,2020-05-04,692,NA,NA,NA,NA,NA,NA
+Peru,PER,Ayacucho,2020-05-04,143,NA,NA,NA,NA,NA,NA
+Peru,PER,Cajamarca,2020-05-04,268,NA,NA,NA,NA,NA,NA
+Peru,PER,Callao,2020-05-04,3979,NA,NA,NA,NA,NA,NA
+Peru,PER,Cusco,2020-05-04,234,NA,NA,NA,NA,NA,NA
+Peru,PER,Huancavelica,2020-05-04,199,NA,NA,NA,NA,NA,NA
+Peru,PER,Huánuco,2020-05-04,248,NA,NA,NA,NA,NA,NA
+Peru,PER,Ica,2020-05-04,688,NA,NA,NA,NA,NA,NA
+Peru,PER,Junín,2020-05-04,524,NA,NA,NA,NA,NA,NA
+Peru,PER,La Libertad,2020-05-04,965,NA,NA,NA,NA,NA,NA
+Peru,PER,Lambayeque,2020-05-04,2763,NA,NA,NA,NA,NA,NA
+Peru,PER,Lima,2020-05-04,29842,NA,NA,NA,NA,NA,NA
+Peru,PER,Loreto,2020-05-04,1502,NA,NA,NA,NA,NA,NA
+Peru,PER,Madre de Dios,2020-05-04,121,NA,NA,NA,NA,NA,NA
+Peru,PER,Moquegua,2020-05-04,133,NA,NA,NA,NA,NA,NA
+Peru,PER,Pasco,2020-05-04,162,NA,NA,NA,NA,NA,NA
+Peru,PER,Piura,2020-05-04,1752,NA,NA,NA,NA,NA,NA
+Peru,PER,Puno,2020-05-04,142,NA,NA,NA,NA,NA,NA
+Peru,PER,San Martín,2020-05-04,296,NA,NA,NA,NA,NA,NA
+Peru,PER,Tacna,2020-05-04,141,NA,NA,NA,NA,NA,NA
+Peru,PER,Tumbes,2020-05-04,347,NA,NA,NA,NA,NA,NA
+Peru,PER,Ucayali,2020-05-04,953,NA,NA,NA,NA,NA,NA
+Peru,PER,NA,2020-05-04,47372,1344,14427,338120,NA,NA,NA
+Peru,PER,Amazonas,2020-05-05,170,4,NA,NA,23,147,NA
+Peru,PER,Ancash,2020-05-05,1159,85,NA,NA,258,901,NA
+Peru,PER,Apurimac,2020-05-05,111,NA,NA,NA,10,101,NA
+Peru,PER,Arequipa,2020-05-05,763,18,NA,NA,235,528,NA
+Peru,PER,Ayacucho,2020-05-05,181,NA,NA,NA,63,118,NA
+Peru,PER,Cajamarca,2020-05-05,322,3,NA,NA,76,246,NA
+Peru,PER,Callao,2020-05-05,4245,77,NA,NA,1155,3090,NA
+Peru,PER,Cusco,2020-05-05,249,3,NA,NA,82,167,NA
+Peru,PER,Huancavelica,2020-05-05,203,1,NA,NA,30,173,NA
+Peru,PER,Huánuco,2020-05-05,255,2,NA,NA,15,240,NA
+Peru,PER,Ica,2020-05-05,698,41,NA,NA,256,442,NA
+Peru,PER,Junín,2020-05-05,587,7,NA,NA,188,399,NA
+Peru,PER,La Libertad,2020-05-05,1062,46,NA,NA,245,817,NA
+Peru,PER,Lambayeque,2020-05-05,3008,299,NA,NA,896,2112,NA
+Peru,PER,Lima,2020-05-05,32339,584,NA,NA,12294,20045,NA
+Peru,PER,Loreto,2020-05-05,1595,62,NA,NA,1244,351,NA
+Peru,PER,Madre de Dios,2020-05-05,124,1,NA,NA,17,107,NA
+Peru,PER,Moquegua,2020-05-05,142,NA,NA,NA,7,135,NA
+Peru,PER,Pasco,2020-05-05,166,1,NA,NA,27,139,NA
+Peru,PER,Piura,2020-05-05,1804,149,NA,NA,259,1545,NA
+Peru,PER,Puno,2020-05-05,144,1,NA,NA,13,131,NA
+Peru,PER,San Martín,2020-05-05,303,1,NA,NA,102,201,NA
+Peru,PER,Tacna,2020-05-05,149,2,NA,NA,19,130,NA
+Peru,PER,Tumbes,2020-05-05,378,19,NA,NA,75,303,NA
+Peru,PER,Ucayali,2020-05-05,1032,38,NA,NA,125,907,NA
+Peru,PER,NA,2020-05-05,51189,1444,15413,355390,17714,33475,NA
+Peru,PER,Amazonas,2020-05-06,176,5,NA,3227,23,153,NA
+Peru,PER,Ancash,2020-05-06,1256,85,NA,11434,266,990,NA
+Peru,PER,Apurimac,2020-05-06,84,NA,NA,3767,10,74,NA
+Peru,PER,Arequipa,2020-05-06,790,20,NA,15878,248,542,NA
+Peru,PER,Ayacucho,2020-05-06,176,NA,NA,3697,71,105,NA
+Peru,PER,Cajamarca,2020-05-06,301,3,NA,6491,83,218,NA
+Peru,PER,Callao,2020-05-06,4404,82,NA,13984,1237,3167,NA
+Peru,PER,Cusco,2020-05-06,258,3,NA,6615,83,175,NA
+Peru,PER,Huancavelica,2020-05-06,181,1,NA,3638,30,151,NA
+Peru,PER,Huánuco,2020-05-06,259,7,NA,4820,15,244,NA
+Peru,PER,Ica,2020-05-06,708,41,NA,7129,265,443,NA
+Peru,PER,Junín,2020-05-06,632,14,NA,8288,188,444,NA
+Peru,PER,La Libertad,2020-05-06,1119,46,NA,12118,269,850,NA
+Peru,PER,Lambayeque,2020-05-06,3127,299,NA,11943,897,2230,NA
+Peru,PER,Lima,2020-05-06,35299,613,NA,201856,12935,22364,NA
+Peru,PER,Loreto,2020-05-06,1559,67,NA,6652,1211,348,NA
+Peru,PER,Madre de Dios,2020-05-06,129,1,NA,5520,19,110,NA
+Peru,PER,Moquegua,2020-05-06,149,NA,NA,4445,7,142,NA
+Peru,PER,Pasco,2020-05-06,151,1,NA,3099,27,124,NA
+Peru,PER,Piura,2020-05-06,1914,184,NA,12503,271,1643,NA
+Peru,PER,Puno,2020-05-06,149,1,NA,6122,13,136,NA
+Peru,PER,San Martín,2020-05-06,317,1,NA,6685,115,202,NA
+Peru,PER,Tacna,2020-05-06,160,2,NA,6406,19,141,NA
+Peru,PER,Tumbes,2020-05-06,443,19,NA,3883,75,368,NA
+Peru,PER,Ucayali,2020-05-06,1076,38,NA,4441,127,949,NA
+Peru,PER,NA,2020-05-06,54817,1533,17527,374641,18504,36313,NA
+Peru,PER,Amazonas,2020-05-07,186,7,NA,3347,23,163,NA
+Peru,PER,Ancash,2020-05-07,1307,93,NA,11843,275,1032,NA
+Peru,PER,Apurimac,2020-05-07,90,NA,NA,3982,10,80,NA
+Peru,PER,Arequipa,2020-05-07,814,20,NA,16568,256,558,NA
+Peru,PER,Ayacucho,2020-05-07,189,NA,NA,3868,80,109,NA
+Peru,PER,Cajamarca,2020-05-07,316,3,NA,6679,84,232,NA
+Peru,PER,Callao,2020-05-07,4678,82,NA,15275,1330,3348,NA
+Peru,PER,Cusco,2020-05-07,280,3,NA,7206,85,195,NA
+Peru,PER,Huancavelica,2020-05-07,176,1,NA,3788,30,146,NA
+Peru,PER,Huánuco,2020-05-07,293,7,NA,5085,16,277,NA
+Peru,PER,Ica,2020-05-07,860,41,NA,7334,276,584,NA
+Peru,PER,Junín,2020-05-07,655,14,NA,8787,195,460,NA
+Peru,PER,La Libertad,2020-05-07,1206,67,NA,12845,281,925,NA
+Peru,PER,Lambayeque,2020-05-07,3268,318,NA,12511,903,2365,NA
+Peru,PER,Lima,2020-05-07,37606,636,NA,208383,13639,23967,NA
+Peru,PER,Loreto,2020-05-07,1666,67,NA,6889,1308,358,NA
+Peru,PER,Madre de Dios,2020-05-07,138,1,NA,5515,23,115,NA
+Peru,PER,Moquegua,2020-05-07,155,NA,NA,4599,7,148,NA
+Peru,PER,Pasco,2020-05-07,151,1,NA,3333,24,127,NA
+Peru,PER,Piura,2020-05-07,2214,205,NA,13037,284,1930,NA
+Peru,PER,Puno,2020-05-07,158,1,NA,6474,7,151,NA
+Peru,PER,San Martín,2020-05-07,334,1,NA,7109,122,212,NA
+Peru,PER,Tacna,2020-05-07,166,2,NA,6532,19,147,NA
+Peru,PER,Tumbes,2020-05-07,451,19,NA,4067,75,376,NA
+Peru,PER,Ucayali,2020-05-07,1169,38,NA,4438,156,1013,NA
+Peru,PER,NA,2020-05-07,58526,1627,18388,389494,19508,39018,NA
+Peru,PER,Amazonas,2020-05-08,207,7,NA,3761,30,177,NA
+Peru,PER,Ancash,2020-05-08,1390,106,NA,12311,286,1104,NA
+Peru,PER,Apurimac,2020-05-08,92,NA,NA,4110,10,82,NA
+Peru,PER,Arequipa,2020-05-08,854,20,NA,17590,262,592,NA
+Peru,PER,Ayacucho,2020-05-08,203,NA,NA,3967,89,114,NA
+Peru,PER,Cajamarca,2020-05-08,328,3,NA,7119,88,240,NA
+Peru,PER,Callao,2020-05-08,4968,82,NA,16017,1435,3533,NA
+Peru,PER,Cusco,2020-05-08,328,3,NA,7720,88,240,NA
+Peru,PER,Huancavelica,2020-05-08,178,1,NA,4003,30,148,NA
+Peru,PER,Huánuco,2020-05-08,323,7,NA,5452,18,305,NA
+Peru,PER,Ica,2020-05-08,884,41,NA,7782,289,595,NA
+Peru,PER,Junín,2020-05-08,689,14,NA,9207,195,494,NA
+Peru,PER,La Libertad,2020-05-08,1275,66,NA,13286,287,988,NA
+Peru,PER,Lambayeque,2020-05-08,3479,347,NA,13098,903,2576,NA
+Peru,PER,Lima,2020-05-08,39837,653,NA,221394,14224,25613,NA
+Peru,PER,Loreto,2020-05-08,1704,67,NA,6986,1330,374,NA
+Peru,PER,Madre de Dios,2020-05-08,139,1,NA,5514,22,117,NA
+Peru,PER,Moquegua,2020-05-08,160,NA,NA,4857,7,153,NA
+Peru,PER,Pasco,2020-05-08,158,1,NA,3469,24,134,NA
+Peru,PER,Piura,2020-05-08,2258,233,NA,13782,312,1946,NA
+Peru,PER,Puno,2020-05-08,164,1,NA,6914,9,155,NA
+Peru,PER,San Martín,2020-05-08,394,2,NA,7632,141,253,NA
+Peru,PER,Tacna,2020-05-08,166,2,NA,6665,19,147,NA
+Peru,PER,Tumbes,2020-05-08,461,19,NA,4175,75,386,NA
+Peru,PER,Ucayali,2020-05-08,1208,38,NA,4532,156,1052,NA
+Peru,PER,NA,2020-05-08,61847,1714,19012,411343,20329,41518,NA
+Peru,PER,Amazonas,2020-05-09,221,7,NA,3819,30,191,NA
+Peru,PER,Ancash,2020-05-09,1472,106,NA,12655,293,1179,NA
+Peru,PER,Apurimac,2020-05-09,92,NA,NA,4196,10,82,NA
+Peru,PER,Arequipa,2020-05-09,904,20,NA,18727,266,638,NA
+Peru,PER,Ayacucho,2020-05-09,222,NA,NA,4146,105,117,NA
+Peru,PER,Cajamarca,2020-05-09,351,3,NA,7554,89,262,NA
+Peru,PER,Callao,2020-05-09,5217,119,NA,17333,1477,3740,NA
+Peru,PER,Cusco,2020-05-09,366,3,NA,8226,89,277,NA
+Peru,PER,Huancavelica,2020-05-09,185,1,NA,4162,30,155,NA
+Peru,PER,Huánuco,2020-05-09,331,7,NA,5852,18,313,NA
+Peru,PER,Ica,2020-05-09,930,41,NA,9507,306,624,NA
+Peru,PER,Junín,2020-05-09,764,14,NA,10109,197,567,NA
+Peru,PER,La Libertad,2020-05-09,1394,66,NA,14420,293,1101,NA
+Peru,PER,Lambayeque,2020-05-09,3628,365,NA,13712,903,2725,NA
+Peru,PER,Lima,2020-05-09,41844,662,NA,227197,14608,27236,NA
+Peru,PER,Loreto,2020-05-09,1735,67,NA,7039,1346,389,NA
+Peru,PER,Madre de Dios,2020-05-09,150,1,NA,5508,24,126,NA
+Peru,PER,Moquegua,2020-05-09,163,NA,NA,5209,7,156,NA
+Peru,PER,Pasco,2020-05-09,162,1,NA,3804,24,138,NA
+Peru,PER,Piura,2020-05-09,2388,240,NA,14275,315,2073,NA
+Peru,PER,Puno,2020-05-09,164,1,NA,7641,9,155,NA
+Peru,PER,San Martín,2020-05-09,428,2,NA,8347,143,285,NA
+Peru,PER,Tacna,2020-05-09,171,2,NA,6848,21,150,NA
+Peru,PER,Tumbes,2020-05-09,478,19,NA,4217,75,403,NA
+Peru,PER,Ucayali,2020-05-09,1255,67,NA,4732,156,1099,NA
+Peru,PER,NA,2020-05-09,65015,1814,20246,429235,20834,44181,NA
+Peru,PER,Amazonas,2020-05-10,237,8,NA,3880,39,198,NA
+Peru,PER,Ancash,2020-05-10,1507,106,NA,12857,309,1198,NA
+Peru,PER,Apurimac,2020-05-10,93,NA,NA,4238,10,83,NA
+Peru,PER,Arequipa,2020-05-10,1046,20,NA,19294,280,766,NA
+Peru,PER,Ayacucho,2020-05-10,254,NA,NA,4253,105,149,NA
+Peru,PER,Cajamarca,2020-05-10,362,3,NA,7687,89,273,NA
+Peru,PER,Callao,2020-05-10,5360,119,NA,17507,1565,3795,NA
+Peru,PER,Cusco,2020-05-10,407,3,NA,8410,89,318,NA
+Peru,PER,Huancavelica,2020-05-10,193,1,NA,4269,30,163,NA
+Peru,PER,Huánuco,2020-05-10,333,7,NA,5905,18,315,NA
+Peru,PER,Ica,2020-05-10,1003,41,NA,9745,306,697,NA
+Peru,PER,Junín,2020-05-10,798,14,NA,10264,201,597,NA
+Peru,PER,La Libertad,2020-05-10,1449,66,NA,14731,301,1148,NA
+Peru,PER,Lambayeque,2020-05-10,3655,376,NA,14012,903,2752,NA
+Peru,PER,Lima,2020-05-10,43284,672,NA,231138,14884,28400,NA
+Peru,PER,Loreto,2020-05-10,1780,75,NA,7123,1367,413,NA
+Peru,PER,Madre de Dios,2020-05-10,162,1,NA,5539,33,129,NA
+Peru,PER,Moquegua,2020-05-10,167,NA,NA,5285,7,160,NA
+Peru,PER,Pasco,2020-05-10,167,1,NA,4098,24,143,NA
+Peru,PER,Piura,2020-05-10,2425,257,NA,14674,319,2106,NA
+Peru,PER,Puno,2020-05-10,166,1,NA,7907,12,154,NA
+Peru,PER,San Martín,2020-05-10,466,3,NA,8627,164,302,NA
+Peru,PER,Tacna,2020-05-10,178,2,NA,6999,24,154,NA
+Peru,PER,Tumbes,2020-05-10,486,47,NA,4283,75,411,NA
+Peru,PER,Ucayali,2020-05-10,1329,66,NA,4898,156,1173,NA
+Peru,PER,NA,2020-05-10,67307,1889,21349,437623,21310,45997,NA
+Peru,PER,Amazonas,2020-05-11,242,8,NA,3909,39,203,NA
+Peru,PER,Ancash,2020-05-11,1521,106,NA,13119,310,1211,NA
+Peru,PER,Apurimac,2020-05-11,93,NA,NA,4265,10,83,NA
+Peru,PER,Arequipa,2020-05-11,1061,20,NA,19708,295,766,NA
+Peru,PER,Ayacucho,2020-05-11,258,NA,NA,4326,108,150,NA
+Peru,PER,Cajamarca,2020-05-11,367,3,NA,7715,94,273,NA
+Peru,PER,Callao,2020-05-11,5400,119,NA,17653,1581,3819,NA
+Peru,PER,Cusco,2020-05-11,410,3,NA,8456,91,319,NA
+Peru,PER,Huancavelica,2020-05-11,200,1,NA,4292,30,170,NA
+Peru,PER,Huánuco,2020-05-11,335,7,NA,5949,18,317,NA
+Peru,PER,Ica,2020-05-11,1019,58,NA,10046,313,706,NA
+Peru,PER,Junín,2020-05-11,839,14,NA,10309,201,638,NA
+Peru,PER,La Libertad,2020-05-11,1470,66,NA,14804,317,1153,NA
+Peru,PER,Lambayeque,2020-05-11,3748,400,NA,14112,923,2825,NA
+Peru,PER,Lima,2020-05-11,44333,689,NA,234545,15466,28867,NA
+Peru,PER,Loreto,2020-05-11,1834,78,NA,7284,1416,418,NA
+Peru,PER,Madre de Dios,2020-05-11,162,1,NA,5535,33,129,NA
+Peru,PER,Moquegua,2020-05-11,167,NA,NA,5309,7,160,NA
+Peru,PER,Pasco,2020-05-11,168,1,NA,4256,25,143,NA
+Peru,PER,Piura,2020-05-11,2483,265,NA,14874,328,2155,NA
+Peru,PER,Puno,2020-05-11,173,1,NA,8291,12,161,NA
+Peru,PER,San Martín,2020-05-11,473,6,NA,8764,164,309,NA
+Peru,PER,Tacna,2020-05-11,178,2,NA,7012,24,154,NA
+Peru,PER,Tumbes,2020-05-11,496,47,NA,4363,75,421,NA
+Peru,PER,Ucayali,2020-05-11,1392,66,NA,5151,156,1236,NA
+Peru,PER,NA,2020-05-11,68822,1961,22406,444047,22036,46786,NA
+Peru,PER,Amazonas,2020-05-12,249,11,NA,3989,42,207,NA
+Peru,PER,Ancash,2020-05-12,1553,106,NA,13511,319,1234,NA
+Peru,PER,Apurimac,2020-05-12,95,NA,NA,4508,10,85,NA
+Peru,PER,Arequipa,2020-05-12,1208,20,NA,20644,303,905,NA
+Peru,PER,Ayacucho,2020-05-12,270,NA,NA,4456,109,161,NA
+Peru,PER,Cajamarca,2020-05-12,375,3,NA,8124,97,278,NA
+Peru,PER,Callao,2020-05-12,5584,119,NA,18393,1596,3988,NA
+Peru,PER,Cusco,2020-05-12,442,3,NA,9155,91,351,NA
+Peru,PER,Huancavelica,2020-05-12,203,1,NA,4516,30,173,NA
+Peru,PER,Huánuco,2020-05-12,341,7,NA,6055,18,323,NA
+Peru,PER,Ica,2020-05-12,1132,82,NA,10815,321,811,NA
+Peru,PER,Junín,2020-05-12,855,14,NA,10760,201,654,NA
+Peru,PER,La Libertad,2020-05-12,1566,66,NA,15452,332,1234,NA
+Peru,PER,Lambayeque,2020-05-12,3856,400,NA,14471,937,2919,NA
+Peru,PER,Lima,2020-05-12,46507,725,NA,241795,16020,30487,NA
+Peru,PER,Loreto,2020-05-12,1933,82,NA,7556,1472,461,NA
+Peru,PER,Madre de Dios,2020-05-12,163,1,NA,5716,34,129,NA
+Peru,PER,Moquegua,2020-05-12,167,NA,NA,5381,7,160,NA
+Peru,PER,Pasco,2020-05-12,171,1,NA,4456,25,146,NA
+Peru,PER,Piura,2020-05-12,2598,294,NA,15268,340,2258,NA
+Peru,PER,Puno,2020-05-12,180,1,NA,8900,12,168,NA
+Peru,PER,San Martín,2020-05-12,489,6,NA,9250,164,325,NA
+Peru,PER,Tacna,2020-05-12,178,2,NA,7212,24,154,NA
+Peru,PER,Tumbes,2020-05-12,507,47,NA,4429,75,432,NA
+Peru,PER,Ucayali,2020-05-12,1437,66,NA,5298,156,1281,NA
+Peru,PER,NA,2020-05-12,72059,2057,23324,460110,22735,49324,NA
+Peru,PER,Amazonas,2020-05-13,259,11,NA,4139,42,217,NA
+Peru,PER,Ancash,2020-05-13,1620,119,NA,13911,349,1271,NA
+Peru,PER,Apurimac,2020-05-13,96,NA,NA,4785,10,86,NA
+Peru,PER,Arequipa,2020-05-13,1301,20,NA,21506,318,983,NA
+Peru,PER,Ayacucho,2020-05-13,278,NA,NA,4628,117,161,NA
+Peru,PER,Cajamarca,2020-05-13,393,3,NA,8464,109,284,NA
+Peru,PER,Callao,2020-05-13,5851,125,NA,19264,1666,4185,NA
+Peru,PER,Cusco,2020-05-13,496,3,NA,10363,92,404,NA
+Peru,PER,Huancavelica,2020-05-13,214,1,NA,4771,30,184,NA
+Peru,PER,Huánuco,2020-05-13,359,7,NA,6224,18,341,NA
+Peru,PER,Ica,2020-05-13,1232,82,NA,11865,351,881,NA
+Peru,PER,Junín,2020-05-13,890,14,NA,11227,201,689,NA
+Peru,PER,La Libertad,2020-05-13,1623,66,NA,15747,353,1270,NA
+Peru,PER,Lambayeque,2020-05-13,3950,417,NA,14691,938,3012,NA
+Peru,PER,Lima,2020-05-13,49605,791,NA,250220,16853,32752,NA
+Peru,PER,Loreto,2020-05-13,2037,92,NA,7711,1515,522,NA
+Peru,PER,Madre de Dios,2020-05-13,172,1,NA,5791,40,132,NA
+Peru,PER,Moquegua,2020-05-13,168,NA,NA,5484,7,161,NA
+Peru,PER,Pasco,2020-05-13,173,1,NA,4566,25,148,NA
+Peru,PER,Piura,2020-05-13,2693,294,NA,15633,347,2346,NA
+Peru,PER,Puno,2020-05-13,185,1,NA,9097,12,173,NA
+Peru,PER,San Martín,2020-05-13,505,6,NA,9513,164,341,NA
+Peru,PER,Tacna,2020-05-13,181,2,NA,7373,24,157,NA
+Peru,PER,Tumbes,2020-05-13,539,47,NA,4607,75,464,NA
+Peru,PER,Ucayali,2020-05-13,1486,66,NA,5416,156,1330,NA
+Peru,PER,NA,2020-05-13,76306,2169,24324,476996,23812,52494,NA
+Peru,PER,Amazonas,2020-05-14,269,11,NA,4250,42,227,NA
+Peru,PER,Ancash,2020-05-14,1698,119,NA,14293,349,1349,NA
+Peru,PER,Apurimac,2020-05-14,99,NA,NA,4919,11,88,NA
+Peru,PER,Arequipa,2020-05-14,1393,20,NA,22018,329,1064,NA
+Peru,PER,Ayacucho,2020-05-14,303,NA,NA,4721,122,181,NA
+Peru,PER,Cajamarca,2020-05-14,406,3,NA,8115,109,297,NA
+Peru,PER,Callao,2020-05-14,6199,143,NA,20453,1767,4432,NA
+Peru,PER,Cusco,2020-05-14,523,3,NA,10238,94,429,NA
+Peru,PER,Huancavelica,2020-05-14,214,1,NA,5115,30,184,NA
+Peru,PER,Huánuco,2020-05-14,375,7,NA,5996,18,357,NA
+Peru,PER,Ica,2020-05-14,1269,95,NA,11765,358,911,NA
+Peru,PER,Junín,2020-05-14,954,14,NA,10467,212,742,NA
+Peru,PER,La Libertad,2020-05-14,1711,66,NA,15211,357,1354,NA
+Peru,PER,Lambayeque,2020-05-14,4147,417,NA,13883,963,3184,NA
+Peru,PER,Lima,2020-05-14,52545,817,NA,276944,17502,35043,NA
+Peru,PER,Loreto,2020-05-14,2107,95,NA,8070,1547,560,NA
+Peru,PER,Madre de Dios,2020-05-14,177,3,NA,6701,42,135,NA
+Peru,PER,Moquegua,2020-05-14,182,NA,NA,6155,7,175,NA
+Peru,PER,Pasco,2020-05-14,179,1,NA,4947,25,154,NA
+Peru,PER,Piura,2020-05-14,2830,313,NA,15864,356,2474,NA
+Peru,PER,Puno,2020-05-14,189,1,NA,8747,12,177,NA
+Peru,PER,San Martín,2020-05-14,549,6,NA,9659,164,385,NA
+Peru,PER,Tacna,2020-05-14,187,2,NA,7656,24,163,NA
+Peru,PER,Tumbes,2020-05-14,557,59,NA,4974,75,482,NA
+Peru,PER,Ucayali,2020-05-14,1542,71,NA,5527,156,1386,NA
+Peru,PER,NA,2020-05-14,80604,2267,25151,506688,24671,55933,NA
+Peru,PER,Amazonas,2020-05-15,270,11,NA,4265,44,226,NA
+Peru,PER,Ancash,2020-05-15,1779,137,NA,14625,375,1404,NA
+Peru,PER,Apurimac,2020-05-15,100,NA,NA,5014,11,89,NA
+Peru,PER,Arequipa,2020-05-15,1558,20,NA,23226,340,1218,NA
+Peru,PER,Ayacucho,2020-05-15,322,3,NA,4897,122,200,NA
+Peru,PER,Cajamarca,2020-05-15,411,3,NA,8528,115,296,NA
+Peru,PER,Callao,2020-05-15,6422,156,NA,21102,1787,4635,NA
+Peru,PER,Cusco,2020-05-15,603,3,NA,10803,94,509,NA
+Peru,PER,Huancavelica,2020-05-15,225,1,NA,5327,31,194,NA
+Peru,PER,Huánuco,2020-05-15,413,7,NA,6170,18,395,NA
+Peru,PER,Ica,2020-05-15,1346,95,NA,12136,375,971,NA
+Peru,PER,Junín,2020-05-15,1013,14,NA,10943,212,801,NA
+Peru,PER,La Libertad,2020-05-15,1834,66,NA,16086,386,1448,NA
+Peru,PER,Lambayeque,2020-05-15,4362,455,NA,14298,1035,3327,NA
+Peru,PER,Lima,2020-05-15,54901,820,NA,283478,17837,37064,NA
+Peru,PER,Loreto,2020-05-15,2254,141,NA,8168,1621,633,NA
+Peru,PER,Madre de Dios,2020-05-15,187,3,NA,6687,42,145,NA
+Peru,PER,Moquegua,2020-05-15,188,NA,NA,6410,7,181,NA
+Peru,PER,Pasco,2020-05-15,185,4,NA,5012,25,160,NA
+Peru,PER,Piura,2020-05-15,2970,313,NA,16154,373,2597,NA
+Peru,PER,Puno,2020-05-15,192,1,NA,8834,12,180,NA
+Peru,PER,San Martín,2020-05-15,563,7,NA,10110,165,398,NA
+Peru,PER,Tacna,2020-05-15,197,2,NA,7726,26,171,NA
+Peru,PER,Tumbes,2020-05-15,578,59,NA,5112,75,503,NA
+Peru,PER,Ucayali,2020-05-15,1622,71,NA,5777,156,1466,NA
+Peru,PER,NA,2020-05-15,84495,2392,27147,520888,25284,59211,NA
+Peru,PER,Amazonas,2020-05-16,279,12,NA,4385,44,235,NA
+Peru,PER,Ancash,2020-05-16,1971,142,NA,15536,391,1580,NA
+Peru,PER,Apurimac,2020-05-16,104,NA,NA,5111,11,93,NA
+Peru,PER,Arequipa,2020-05-16,1709,20,NA,24810,361,1348,NA
+Peru,PER,Ayacucho,2020-05-16,367,3,NA,5018,156,211,NA
+Peru,PER,Cajamarca,2020-05-16,424,3,NA,8929,128,296,NA
+Peru,PER,Callao,2020-05-16,6513,155,NA,22426,1827,4686,NA
+Peru,PER,Cusco,2020-05-16,609,3,NA,11295,95,514,NA
+Peru,PER,Huancavelica,2020-05-16,229,1,NA,5406,32,197,NA
+Peru,PER,Huánuco,2020-05-16,470,7,NA,6411,18,452,NA
+Peru,PER,Ica,2020-05-16,1412,95,NA,12701,389,1023,NA
+Peru,PER,Junín,2020-05-16,1046,14,NA,11589,216,830,NA
+Peru,PER,La Libertad,2020-05-16,2015,66,NA,17289,393,1622,NA
+Peru,PER,Lambayeque,2020-05-16,4596,455,NA,14911,1065,3531,NA
+Peru,PER,Lima,2020-05-16,57473,857,NA,293638,18469,39004,NA
+Peru,PER,Loreto,2020-05-16,2444,209,NA,8485,1730,714,NA
+Peru,PER,Madre de Dios,2020-05-16,201,3,NA,6763,43,158,NA
+Peru,PER,Moquegua,2020-05-16,190,NA,NA,6609,7,183,NA
+Peru,PER,Pasco,2020-05-16,189,4,NA,5122,25,164,NA
+Peru,PER,Piura,2020-05-16,3032,313,NA,16453,390,2642,NA
+Peru,PER,Puno,2020-05-16,201,1,NA,9102,12,189,NA
+Peru,PER,San Martín,2020-05-16,598,8,NA,10462,172,426,NA
+Peru,PER,Tacna,2020-05-16,208,2,NA,7986,26,182,NA
+Peru,PER,Tumbes,2020-05-16,603,59,NA,5357,75,528,NA
+Peru,PER,Ucayali,2020-05-16,1658,91,NA,6147,159,1499,NA
+Peru,PER,NA,2020-05-16,88541,2523,28272,541941,26234,62307,NA
+Peru,PER,Amazonas,2020-05-17,311,15,NA,4407,85,226,NA
+Peru,PER,Ancash,2020-05-17,2095,142,NA,16166,416,1679,NA
+Peru,PER,Apurimac,2020-05-17,105,NA,NA,5143,11,94,NA
+Peru,PER,Arequipa,2020-05-17,1839,20,NA,25891,372,1467,NA
+Peru,PER,Ayacucho,2020-05-17,403,3,NA,5101,183,220,NA
+Peru,PER,Cajamarca,2020-05-17,429,3,NA,9071,133,296,NA
+Peru,PER,Callao,2020-05-17,6685,160,NA,23010,1841,4844,NA
+Peru,PER,Cusco,2020-05-17,635,3,NA,11704,95,540,NA
+Peru,PER,Huancavelica,2020-05-17,234,1,NA,5560,32,202,NA
+Peru,PER,Huánuco,2020-05-17,495,7,NA,6605,21,474,NA
+Peru,PER,Ica,2020-05-17,1477,95,NA,13079,393,1084,NA
+Peru,PER,Junín,2020-05-17,1098,14,NA,12082,223,875,NA
+Peru,PER,La Libertad,2020-05-17,2122,66,NA,18538,406,1716,NA
+Peru,PER,Lambayeque,2020-05-17,4856,474,NA,15477,1065,3791,NA
+Peru,PER,Lima,2020-05-17,59712,915,NA,301970,18938,40774,NA
+Peru,PER,Loreto,2020-05-17,2696,248,NA,8645,1814,882,NA
+Peru,PER,Madre de Dios,2020-05-17,206,3,NA,6961,43,163,NA
+Peru,PER,Moquegua,2020-05-17,193,NA,NA,6753,7,186,NA
+Peru,PER,Pasco,2020-05-17,196,4,NA,5260,25,171,NA
+Peru,PER,Piura,2020-05-17,3062,313,NA,16702,390,2672,NA
+Peru,PER,Puno,2020-05-17,220,1,NA,9285,12,208,NA
+Peru,PER,San Martín,2020-05-17,645,9,NA,10651,190,455,NA
+Peru,PER,Tacna,2020-05-17,215,2,NA,8275,26,189,NA
+Peru,PER,Tumbes,2020-05-17,635,59,NA,5594,75,560,NA
+Peru,PER,Ucayali,2020-05-17,1709,91,NA,6410,167,1542,NA
+Peru,PER,NA,2020-05-17,92273,2648,28621,558340,26963,65310,NA
+Peru,PER,Amazonas,2020-05-18,317,17,NA,4404,88,229,NA
+Peru,PER,Ancash,2020-05-18,2153,158,NA,16628,433,1720,NA
+Peru,PER,Apurimac,2020-05-18,105,NA,NA,5159,11,94,NA
+Peru,PER,Arequipa,2020-05-18,1929,23,NA,26426,372,1557,NA
+Peru,PER,Ayacucho,2020-05-18,406,3,NA,5182,183,223,NA
+Peru,PER,Cajamarca,2020-05-18,435,3,NA,9089,133,302,NA
+Peru,PER,Callao,2020-05-18,6782,160,NA,23379,1894,4888,NA
+Peru,PER,Cusco,2020-05-18,626,3,NA,11773,95,531,NA
+Peru,PER,Huancavelica,2020-05-18,242,1,NA,5613,32,210,NA
+Peru,PER,Huánuco,2020-05-18,504,7,NA,6682,21,483,NA
+Peru,PER,Ica,2020-05-18,1540,102,NA,13284,410,1130,NA
+Peru,PER,Junín,2020-05-18,1149,14,NA,12267,224,925,NA
+Peru,PER,La Libertad,2020-05-18,2324,66,NA,19049,436,1888,NA
+Peru,PER,Lambayeque,2020-05-18,4961,485,NA,16332,1065,3896,NA
+Peru,PER,Lima,2020-05-18,61197,955,NA,305643,19463,41734,NA
+Peru,PER,Loreto,2020-05-18,2811,250,NA,8835,1870,941,NA
+Peru,PER,Madre de Dios,2020-05-18,204,3,NA,7041,43,161,NA
+Peru,PER,Moquegua,2020-05-18,193,NA,NA,6784,7,186,NA
+Peru,PER,Pasco,2020-05-18,211,4,NA,5385,25,186,NA
+Peru,PER,Piura,2020-05-18,3091,370,NA,16822,406,2685,NA
+Peru,PER,Puno,2020-05-18,214,1,NA,9407,12,202,NA
+Peru,PER,San Martín,2020-05-18,652,12,NA,10796,195,457,NA
+Peru,PER,Tacna,2020-05-18,216,2,NA,8362,26,190,NA
+Peru,PER,Tumbes,2020-05-18,639,59,NA,5608,75,564,NA
+Peru,PER,Ucayali,2020-05-18,2032,91,NA,6249,417,1615,NA
+Peru,PER,NA,2020-05-18,94933,2789,30306,566199,27936,66997,NA
+Peru,PER,Amazonas,2020-05-19,325,17,NA,4468,88,237,NA
+Peru,PER,Ancash,2020-05-19,2226,175,NA,17415,454,1772,NA
+Peru,PER,Apurimac,2020-05-19,108,NA,NA,5247,11,97,NA
+Peru,PER,Arequipa,2020-05-19,1967,25,NA,28222,385,1582,NA
+Peru,PER,Ayacucho,2020-05-19,426,3,NA,5401,189,237,NA
+Peru,PER,Cajamarca,2020-05-19,446,3,NA,9354,142,304,NA
+Peru,PER,Callao,2020-05-19,7011,171,NA,24105,1904,5107,NA
+Peru,PER,Cusco,2020-05-19,635,3,NA,12031,96,539,NA
+Peru,PER,Huancavelica,2020-05-19,245,1,NA,5707,35,210,NA
+Peru,PER,Huánuco,2020-05-19,520,7,NA,6847,24,496,NA
+Peru,PER,Ica,2020-05-19,1669,102,NA,14067,433,1236,NA
+Peru,PER,Junín,2020-05-19,1166,14,NA,13394,239,927,NA
+Peru,PER,La Libertad,2020-05-19,2378,93,NA,20024,466,1912,NA
+Peru,PER,Lambayeque,2020-05-19,5182,485,NA,16873,1129,4053,NA
+Peru,PER,Lima,2020-05-19,64278,1012,NA,309905,19963,44315,NA
+Peru,PER,Loreto,2020-05-19,2960,259,NA,8712,1931,1029,NA
+Peru,PER,Madre de Dios,2020-05-19,247,3,NA,7286,56,191,NA
+Peru,PER,Moquegua,2020-05-19,199,NA,NA,6970,7,192,NA
+Peru,PER,Pasco,2020-05-19,229,4,NA,5501,27,202,NA
+Peru,PER,Piura,2020-05-19,3192,370,NA,17004,417,2775,NA
+Peru,PER,Puno,2020-05-19,208,1,NA,9730,13,195,NA
+Peru,PER,San Martín,2020-05-19,739,12,NA,10807,205,534,NA
+Peru,PER,Tacna,2020-05-19,228,4,NA,8540,32,196,NA
+Peru,PER,Tumbes,2020-05-19,675,59,NA,5873,75,600,NA
+Peru,PER,Ucayali,2020-05-19,2224,91,NA,6616,447,1777,NA
+Peru,PER,NA,2020-05-19,99483,2914,36524,580099,28768,70715,NA
+Peru,PER,Amazonas,2020-05-20,349,17,NA,4610,92,257,NA
+Peru,PER,Ancash,2020-05-20,2354,175,NA,17938,513,1841,NA
+Peru,PER,Apurimac,2020-05-20,113,NA,NA,5376,11,102,NA
+Peru,PER,Arequipa,2020-05-20,2072,25,NA,29906,412,1660,NA
+Peru,PER,Ayacucho,2020-05-20,440,3,NA,5507,197,243,NA
+Peru,PER,Cajamarca,2020-05-20,451,3,NA,9693,143,308,NA
+Peru,PER,Callao,2020-05-20,7381,178,NA,25173,1999,5382,NA
+Peru,PER,Cusco,2020-05-20,654,3,NA,12932,96,558,NA
+Peru,PER,Huancavelica,2020-05-20,260,1,NA,6007,35,225,NA
+Peru,PER,Huánuco,2020-05-20,539,7,NA,7060,28,511,NA
+Peru,PER,Ica,2020-05-20,1769,124,NA,14536,451,1318,NA
+Peru,PER,Junín,2020-05-20,1223,14,NA,14274,250,973,NA
+Peru,PER,La Libertad,2020-05-20,2447,93,NA,21224,496,1951,NA
+Peru,PER,Lambayeque,2020-05-20,5409,498,NA,17311,1164,4245,NA
+Peru,PER,Lima,2020-05-20,67060,1060,NA,328179,20499,46561,NA
+Peru,PER,Loreto,2020-05-20,3085,260,NA,9339,1967,1118,NA
+Peru,PER,Madre de Dios,2020-05-20,259,3,NA,7446,62,197,NA
+Peru,PER,Moquegua,2020-05-20,235,NA,NA,7643,7,228,NA
+Peru,PER,Pasco,2020-05-20,231,5,NA,5794,35,196,NA
+Peru,PER,Piura,2020-05-20,3335,384,NA,17565,433,2902,NA
+Peru,PER,Puno,2020-05-20,217,1,NA,10130,13,204,NA
+Peru,PER,San Martín,2020-05-20,822,13,NA,11572,235,587,NA
+Peru,PER,Tacna,2020-05-20,242,4,NA,9202,30,212,NA
+Peru,PER,Tumbes,2020-05-20,702,62,NA,6061,75,627,NA
+Peru,PER,Ucayali,2020-05-20,2371,91,NA,6925,447,1924,NA
+Peru,PER,NA,2020-05-20,104020,3024,41968,611403,29690,74330,NA
+Peru,PER,Amazonas,2020-05-21,371,17,NA,4681,94,277,NA
+Peru,PER,Ancash,2020-05-21,2466,194,NA,18773,515,1951,NA
+Peru,PER,Apurimac,2020-05-21,112,NA,NA,5553,11,101,NA
+Peru,PER,Arequipa,2020-05-21,2176,25,NA,31801,430,1746,NA
+Peru,PER,Ayacucho,2020-05-21,455,3,NA,5677,202,253,NA
+Peru,PER,Cajamarca,2020-05-21,483,3,NA,10209,155,328,NA
+Peru,PER,Callao,2020-05-21,7685,192,NA,25802,2033,5652,NA
+Peru,PER,Cusco,2020-05-21,724,3,NA,13731,97,627,NA
+Peru,PER,Huancavelica,2020-05-21,277,1,NA,6208,35,242,NA
+Peru,PER,Huánuco,2020-05-21,566,7,NA,7347,31,535,NA
+Peru,PER,Ica,2020-05-21,1905,124,NA,15560,475,1430,NA
+Peru,PER,Junín,2020-05-21,1289,14,NA,15015,250,1039,NA
+Peru,PER,La Libertad,2020-05-21,2542,93,NA,22571,536,2006,NA
+Peru,PER,Lambayeque,2020-05-21,5581,516,NA,17838,1189,4392,NA
+Peru,PER,Lima,2020-05-21,70155,1114,NA,332690,20922,49233,NA
+Peru,PER,Loreto,2020-05-21,3166,262,NA,9098,2022,1144,NA
+Peru,PER,Madre de Dios,2020-05-21,265,6,NA,7424,62,203,NA
+Peru,PER,Moquegua,2020-05-21,270,NA,NA,8782,7,263,NA
+Peru,PER,Pasco,2020-05-21,249,5,NA,6035,35,214,NA
+Peru,PER,Piura,2020-05-21,3496,385,NA,17840,439,3057,NA
+Peru,PER,Puno,2020-05-21,225,1,NA,10487,15,210,NA
+Peru,PER,San Martín,2020-05-21,857,13,NA,11811,242,615,NA
+Peru,PER,Tacna,2020-05-21,254,4,NA,9604,30,224,NA
+Peru,PER,Tumbes,2020-05-21,722,62,NA,6254,75,647,NA
+Peru,PER,Ucayali,2020-05-21,2478,104,NA,6940,449,2029,NA
+Peru,PER,NA,2020-05-21,108769,3148,43587,627731,30351,78418,NA
+Peru,PER,Amazonas,2020-05-22,399,18,NA,4743,96,303,NA
+Peru,PER,Ancash,2020-05-22,2557,196,NA,18962,515,2042,NA
+Peru,PER,Apurimac,2020-05-22,119,NA,NA,5597,11,108,NA
+Peru,PER,Arequipa,2020-05-22,2297,25,NA,32585,445,1852,NA
+Peru,PER,Ayacucho,2020-05-22,479,3,NA,5724,212,267,NA
+Peru,PER,Cajamarca,2020-05-22,495,3,NA,10413,158,337,NA
+Peru,PER,Callao,2020-05-22,7846,192,NA,26286,2083,5763,NA
+Peru,PER,Cusco,2020-05-22,766,3,NA,14034,102,664,NA
+Peru,PER,Huancavelica,2020-05-22,289,1,NA,6320,37,252,NA
+Peru,PER,Huánuco,2020-05-22,607,7,NA,7378,28,579,NA
+Peru,PER,Ica,2020-05-22,1941,137,NA,15879,488,1453,NA
+Peru,PER,Junín,2020-05-22,1336,14,NA,15093,252,1084,NA
+Peru,PER,La Libertad,2020-05-22,2682,93,NA,23081,573,2109,NA
+Peru,PER,Lambayeque,2020-05-22,5690,516,NA,18083,1224,4466,NA
+Peru,PER,Lima,2020-05-22,71719,1164,NA,338913,21200,50519,NA
+Peru,PER,Loreto,2020-05-22,3201,264,NA,9217,2035,1166,NA
+Peru,PER,Madre de Dios,2020-05-22,270,6,NA,7475,62,208,NA
+Peru,PER,Moquegua,2020-05-22,315,NA,NA,9085,7,308,NA
+Peru,PER,Pasco,2020-05-22,276,6,NA,6133,36,240,NA
+Peru,PER,Piura,2020-05-22,3621,409,NA,18124,447,3174,NA
+Peru,PER,Puno,2020-05-22,232,1,NA,10539,15,217,NA
+Peru,PER,San Martín,2020-05-22,903,13,NA,12172,243,660,NA
+Peru,PER,Tacna,2020-05-22,279,4,NA,9799,30,249,NA
+Peru,PER,Tumbes,2020-05-22,727,65,NA,6267,75,652,NA
+Peru,PER,Ucayali,2020-05-22,2652,104,NA,6926,449,2203,NA
+Peru,PER,NA,2020-05-22,111698,3244,44848,638828,30823,80875,NA
+Peru,PER,Amazonas,2020-05-23,437,18,NA,4920,113,324,NA
+Peru,PER,Ancash,2020-05-23,2722,208,NA,20026,544,2178,NA
+Peru,PER,Apurimac,2020-05-23,122,NA,NA,6023,12,110,NA
+Peru,PER,Arequipa,2020-05-23,2373,25,NA,34917,505,1868,NA
+Peru,PER,Ayacucho,2020-05-23,498,3,NA,6029,230,268,NA
+Peru,PER,Cajamarca,2020-05-23,520,3,NA,11079,158,362,NA
+Peru,PER,Callao,2020-05-23,8125,192,NA,27498,2096,6029,NA
+Peru,PER,Cusco,2020-05-23,793,3,NA,14865,102,691,NA
+Peru,PER,Huancavelica,2020-05-23,306,1,NA,6591,50,256,NA
+Peru,PER,Huánuco,2020-05-23,629,7,NA,7742,47,582,NA
+Peru,PER,Ica,2020-05-23,1863,151,NA,17021,503,1360,NA
+Peru,PER,Junín,2020-05-23,1375,14,NA,15785,268,1107,NA
+Peru,PER,La Libertad,2020-05-23,2793,93,NA,24148,573,2220,NA
+Peru,PER,Lambayeque,2020-05-23,5836,542,NA,19209,1224,4612,NA
+Peru,PER,Lima,2020-05-23,74037,1208,NA,354595,21396,52641,NA
+Peru,PER,Loreto,2020-05-23,3293,273,NA,9411,2046,1247,NA
+Peru,PER,Madre de Dios,2020-05-23,304,6,NA,7646,71,233,NA
+Peru,PER,Moquegua,2020-05-23,345,NA,NA,10966,7,338,NA
+Peru,PER,Pasco,2020-05-23,288,8,NA,6467,37,251,NA
+Peru,PER,Piura,2020-05-23,3812,426,NA,19123,447,3365,NA
+Peru,PER,Puno,2020-05-23,247,6,NA,11229,15,232,NA
+Peru,PER,San Martín,2020-05-23,938,13,NA,12646,245,693,NA
+Peru,PER,Tacna,2020-05-23,291,4,NA,10312,41,250,NA
+Peru,PER,Tumbes,2020-05-23,1032,65,NA,6839,163,869,NA
+Peru,PER,Ucayali,2020-05-23,2775,104,NA,7500,454,2321,NA
+Peru,PER,NA,2020-05-23,115754,3373,47915,672587,31347,84407,NA
+Peru,PER,Amazonas,2020-05-24,451,18,NA,5150,114,337,NA
+Peru,PER,Ancash,2020-05-24,2832,209,NA,20801,566,2266,NA
+Peru,PER,Apurimac,2020-05-24,141,NA,NA,6289,11,130,NA
+Peru,PER,Arequipa,2020-05-24,2501,25,NA,38467,469,2032,NA
+Peru,PER,Ayacucho,2020-05-24,537,3,NA,6425,246,291,NA
+Peru,PER,Cajamarca,2020-05-24,557,3,NA,11836,163,394,NA
+Peru,PER,Callao,2020-05-24,8558,194,NA,28602,2126,6432,NA
+Peru,PER,Cusco,2020-05-24,856,3,NA,15708,105,751,NA
+Peru,PER,Huancavelica,2020-05-24,345,1,NA,6815,41,304,NA
+Peru,PER,Huánuco,2020-05-24,676,7,NA,8072,32,644,NA
+Peru,PER,Ica,2020-05-24,2153,169,NA,17334,521,1632,NA
+Peru,PER,Junín,2020-05-24,1438,14,NA,16577,260,1178,NA
+Peru,PER,La Libertad,2020-05-24,3023,93,NA,25883,624,2399,NA
+Peru,PER,Lambayeque,2020-05-24,6075,566,NA,20614,1227,4848,NA
+Peru,PER,Lima,2020-05-24,75716,1235,NA,364428,22092,53624,NA
+Peru,PER,Loreto,2020-05-24,3391,276,NA,9996,2051,1340,NA
+Peru,PER,Madre de Dios,2020-05-24,325,6,NA,7898,71,254,NA
+Peru,PER,Moquegua,2020-05-24,352,1,NA,12279,7,345,NA
+Peru,PER,Pasco,2020-05-24,335,8,NA,6907,37,298,NA
+Peru,PER,Piura,2020-05-24,4219,429,NA,19762,451,3768,NA
+Peru,PER,Puno,2020-05-24,257,6,NA,12159,15,242,NA
+Peru,PER,San Martín,2020-05-24,957,14,NA,13349,245,712,NA
+Peru,PER,Tacna,2020-05-24,291,4,NA,10730,41,250,NA
+Peru,PER,Tumbes,2020-05-24,1032,68,NA,7184,163,869,NA
+Peru,PER,Ucayali,2020-05-24,2941,104,NA,7743,449,2492,NA
+Peru,PER,NA,2020-05-24,119959,3456,49795,701008,32127,87832,NA
+Peru,PER,Amazonas,2020-05-25,460,20,NA,5269,115,345,NA
+Peru,PER,Ancash,2020-05-25,2842,209,NA,21458,576,2266,NA
+Peru,PER,Apurimac,2020-05-25,140,NA,NA,6464,11,129,NA
+Peru,PER,Arequipa,2020-05-25,2633,25,NA,39884,491,2142,NA
+Peru,PER,Ayacucho,2020-05-25,571,6,NA,6619,256,315,NA
+Peru,PER,Cajamarca,2020-05-25,591,3,NA,12272,169,422,NA
+Peru,PER,Callao,2020-05-25,8726,248,NA,29290,2212,6514,NA
+Peru,PER,Cusco,2020-05-25,854,3,NA,15971,106,748,NA
+Peru,PER,Huancavelica,2020-05-25,360,1,NA,6898,41,319,NA
+Peru,PER,Huánuco,2020-05-25,692,7,NA,8268,35,657,NA
+Peru,PER,Ica,2020-05-25,2119,199,NA,17653,533,1586,NA
+Peru,PER,Junín,2020-05-25,1470,14,NA,17038,260,1210,NA
+Peru,PER,La Libertad,2020-05-25,3178,93,NA,26487,673,2505,NA
+Peru,PER,Lambayeque,2020-05-25,6217,565,NA,20862,1308,4909,NA
+Peru,PER,Lima,2020-05-25,77486,1313,NA,372194,22701,54785,NA
+Peru,PER,Loreto,2020-05-25,3524,280,NA,10260,2166,1358,NA
+Peru,PER,Madre de Dios,2020-05-25,314,6,NA,7993,71,243,NA
+Peru,PER,Moquegua,2020-05-25,357,1,NA,12965,7,350,NA
+Peru,PER,Pasco,2020-05-25,387,8,NA,7128,37,350,NA
+Peru,PER,Piura,2020-05-25,5457,429,NA,19298,455,5002,NA
+Peru,PER,Puno,2020-05-25,263,6,NA,12536,15,248,NA
+Peru,PER,San Martín,2020-05-25,980,16,NA,13665,245,735,NA
+Peru,PER,Tacna,2020-05-25,325,4,NA,11223,41,284,NA
+Peru,PER,Tumbes,2020-05-25,1074,69,NA,7322,163,911,NA
+Peru,PER,Ucayali,2020-05-25,2959,104,NA,7926,449,2510,NA
+Peru,PER,NA,2020-05-25,123979,3629,50949,716943,33136,90843,NA
+Peru,PER,Amazonas,2020-05-26,511,20,NA,5484,115,396,NA
+Peru,PER,Ancash,2020-05-26,3249,223,NA,21888,580,2669,NA
+Peru,PER,Apurimac,2020-05-26,146,NA,NA,6693,11,135,NA
+Peru,PER,Arequipa,2020-05-26,2694,28,NA,42992,527,2167,NA
+Peru,PER,Ayacucho,2020-05-26,605,6,NA,6954,261,344,NA
+Peru,PER,Cajamarca,2020-05-26,625,3,NA,12991,176,449,NA
+Peru,PER,Callao,2020-05-26,9122,248,NA,30780,2247,6875,NA
+Peru,PER,Cusco,2020-05-26,896,3,NA,16690,113,783,NA
+Peru,PER,Huancavelica,2020-05-26,360,1,NA,7133,42,318,NA
+Peru,PER,Huánuco,2020-05-26,716,7,NA,8559,35,681,NA
+Peru,PER,Ica,2020-05-26,2363,199,NA,18214,567,1796,NA
+Peru,PER,Junín,2020-05-26,1521,14,NA,17692,275,1246,NA
+Peru,PER,La Libertad,2020-05-26,3309,163,NA,27667,685,2624,NA
+Peru,PER,Lambayeque,2020-05-26,6453,571,NA,21463,1335,5118,NA
+Peru,PER,Lima,2020-05-26,80882,1359,NA,386040,23131,57751,NA
+Peru,PER,Loreto,2020-05-26,3720,288,NA,10660,2197,1523,NA
+Peru,PER,Madre de Dios,2020-05-26,339,6,NA,8179,71,268,NA
+Peru,PER,Moquegua,2020-05-26,402,1,NA,13551,7,395,NA
+Peru,PER,Pasco,2020-05-26,408,8,NA,7393,37,371,NA
+Peru,PER,Piura,2020-05-26,5457,441,NA,20367,457,5000,NA
+Peru,PER,Puno,2020-05-26,300,6,NA,13201,15,285,NA
+Peru,PER,San Martín,2020-05-26,1003,16,NA,14200,245,758,NA
+Peru,PER,Tacna,2020-05-26,341,4,NA,11648,41,300,NA
+Peru,PER,Tumbes,2020-05-26,1091,69,NA,7424,163,928,NA
+Peru,PER,Ucayali,2020-05-26,3238,104,NA,8107,449,2789,NA
+Peru,PER,NA,2020-05-26,129751,3788,52906,745970,33782,95969,NA
+Peru,PER,Amazonas,2020-05-27,533,20,NA,5834,114,419,NA
+Peru,PER,Ancash,2020-05-27,3196,237,NA,22951,594,2602,NA
+Peru,PER,Apurimac,2020-05-27,151,NA,NA,6940,11,140,NA
+Peru,PER,Arequipa,2020-05-27,2787,28,NA,44696,539,2248,NA
+Peru,PER,Ayacucho,2020-05-27,622,6,NA,7158,264,358,NA
+Peru,PER,Cajamarca,2020-05-27,645,3,NA,13697,182,463,NA
+Peru,PER,Callao,2020-05-27,9495,281,NA,31645,2291,7204,NA
+Peru,PER,Cusco,2020-05-27,899,3,NA,17456,116,783,NA
+Peru,PER,Huancavelica,2020-05-27,379,1,NA,7344,42,337,NA
+Peru,PER,Huánuco,2020-05-27,741,7,NA,8927,35,706,NA
+Peru,PER,Ica,2020-05-27,2476,219,NA,18973,581,1895,NA
+Peru,PER,Junín,2020-05-27,1578,14,NA,18325,277,1301,NA
+Peru,PER,La Libertad,2020-05-27,3523,169,NA,29200,721,2802,NA
+Peru,PER,Lambayeque,2020-05-27,6732,602,NA,22555,1338,5394,NA
+Peru,PER,Lima,2020-05-27,84994,1407,NA,394092,23761,61233,NA
+Peru,PER,Loreto,2020-05-27,3816,288,NA,11186,2210,1606,NA
+Peru,PER,Madre de Dios,2020-05-27,388,6,NA,8489,71,317,NA
+Peru,PER,Moquegua,2020-05-27,423,2,NA,14145,7,416,NA
+Peru,PER,Pasco,2020-05-27,416,8,NA,7702,37,379,NA
+Peru,PER,Piura,2020-05-27,6039,481,NA,21357,465,5574,NA
+Peru,PER,Puno,2020-05-27,322,6,NA,13747,15,307,NA
+Peru,PER,San Martín,2020-05-27,1037,18,NA,14756,245,792,NA
+Peru,PER,Tacna,2020-05-27,360,4,NA,12138,53,307,NA
+Peru,PER,Tumbes,2020-05-27,1115,69,NA,7556,163,952,NA
+Peru,PER,Ucayali,2020-05-27,3238,104,NA,8504,449,2789,NA
+Peru,PER,NA,2020-05-27,135905,3983,56169,769373,34581,101324,NA
+Peru,PER,Amazonas,2020-05-28,546,21,NA,6018,118,428,NA
+Peru,PER,Ancash,2020-05-28,3455,241,NA,23162,630,2825,NA
+Peru,PER,Apurimac,2020-05-28,152,NA,NA,7002,11,141,NA
+Peru,PER,Arequipa,2020-05-28,2921,31,NA,48420,588,2333,NA
+Peru,PER,Ayacucho,2020-05-28,639,6,NA,7172,269,370,NA
+Peru,PER,Cajamarca,2020-05-28,669,3,NA,14318,188,481,NA
+Peru,PER,Callao,2020-05-28,9953,289,NA,32529,2347,7606,NA
+Peru,PER,Cusco,2020-05-28,916,3,NA,17813,118,798,NA
+Peru,PER,Huancavelica,2020-05-28,383,1,NA,7340,42,341,NA
+Peru,PER,Huánuco,2020-05-28,780,9,NA,8987,39,741,NA
+Peru,PER,Ica,2020-05-28,2662,222,NA,19520,617,2045,NA
+Peru,PER,Junín,2020-05-28,1675,16,NA,18352,301,1374,NA
+Peru,PER,La Libertad,2020-05-28,3818,174,NA,30871,745,3073,NA
+Peru,PER,Lambayeque,2020-05-28,7020,605,NA,22782,1374,5646,NA
+Peru,PER,Lima,2020-05-28,87478,1473,NA,401723,24418,63060,NA
+Peru,PER,Loreto,2020-05-28,3959,289,NA,11445,2227,1732,NA
+Peru,PER,Madre de Dios,2020-05-28,402,6,NA,8550,71,331,NA
+Peru,PER,Moquegua,2020-05-28,447,2,NA,14875,7,440,NA
+Peru,PER,Pasco,2020-05-28,426,8,NA,7792,37,389,NA
+Peru,PER,Piura,2020-05-28,6942,497,NA,20691,465,6477,NA
+Peru,PER,Puno,2020-05-28,322,6,NA,14301,17,305,NA
+Peru,PER,San Martín,2020-05-28,1093,19,NA,14700,245,848,NA
+Peru,PER,Tacna,2020-05-28,372,4,NA,12764,53,319,NA
+Peru,PER,Tumbes,2020-05-28,1219,69,NA,7452,163,1056,NA
+Peru,PER,Ucayali,2020-05-28,3530,105,NA,8439,542,2988,NA
+Peru,PER,NA,2020-05-28,141779,4099,59442,787018,35632,106147,NA
+Peru,PER,Amazonas,2020-05-29,563,21,NA,6162,118,445,NA
+Peru,PER,Ancash,2020-05-29,3384,252,NA,23763,658,2726,NA
+Peru,PER,Apurimac,2020-05-29,162,1,NA,7272,11,151,NA
+Peru,PER,Arequipa,2020-05-29,3146,33,NA,52333,613,2533,NA
+Peru,PER,Ayacucho,2020-05-29,679,6,NA,7285,273,406,NA
+Peru,PER,Cajamarca,2020-05-29,700,4,NA,15051,196,504,NA
+Peru,PER,Callao,2020-05-29,10781,298,NA,32879,2473,8308,NA
+Peru,PER,Cusco,2020-05-29,916,3,NA,18613,118,798,NA
+Peru,PER,Huancavelica,2020-05-29,407,1,NA,7387,42,365,NA
+Peru,PER,Huánuco,2020-05-29,811,10,NA,9577,41,770,NA
+Peru,PER,Ica,2020-05-29,2691,228,NA,20678,624,2067,NA
+Peru,PER,Junín,2020-05-29,1755,17,NA,19635,304,1451,NA
+Peru,PER,La Libertad,2020-05-29,3816,179,NA,32171,746,3070,NA
+Peru,PER,Lambayeque,2020-05-29,7060,608,NA,22678,1414,5646,NA
+Peru,PER,Lima,2020-05-29,92057,1547,NA,413653,25134,66923,NA
+Peru,PER,Loreto,2020-05-29,4109,293,NA,11885,2227,1882,NA
+Peru,PER,Madre de Dios,2020-05-29,450,6,NA,8668,93,357,NA
+Peru,PER,Moquegua,2020-05-29,462,2,NA,16244,7,455,NA
+Peru,PER,Pasco,2020-05-29,448,8,NA,8062,37,411,NA
+Peru,PER,Piura,2020-05-29,7180,507,NA,22157,471,6709,NA
+Peru,PER,Puno,2020-05-29,321,7,NA,14717,17,304,NA
+Peru,PER,San Martín,2020-05-29,1151,19,NA,15240,275,876,NA
+Peru,PER,Tacna,2020-05-29,372,4,NA,13646,55,317,NA
+Peru,PER,Tumbes,2020-05-29,1219,70,NA,7169,163,1056,NA
+Peru,PER,Ucayali,2020-05-29,3645,106,NA,8407,590,3055,NA
+Peru,PER,NA,2020-05-29,148285,4230,62791,815332,36700,111585,NA
+Peru,PER,Amazonas,2020-05-30,582,21,NA,6490,121,461,NA
+Peru,PER,Ancash,2020-05-30,3515,262,NA,25825,666,2849,NA
+Peru,PER,Apurimac,2020-05-30,171,3,NA,7277,11,160,NA
+Peru,PER,Arequipa,2020-05-30,3335,39,NA,56524,646,2689,NA
+Peru,PER,Ayacucho,2020-05-30,712,7,NA,7538,276,436,NA
+Peru,PER,Cajamarca,2020-05-30,720,5,NA,15722,198,522,NA
+Peru,PER,Callao,2020-05-30,12105,312,NA,34824,2509,9596,NA
+Peru,PER,Cusco,2020-05-30,1015,3,NA,19230,122,893,NA
+Peru,PER,Huancavelica,2020-05-30,430,1,NA,7636,47,383,NA
+Peru,PER,Huánuco,2020-05-30,848,10,NA,9854,44,804,NA
+Peru,PER,Ica,2020-05-30,2789,239,NA,22284,678,2111,NA
+Peru,PER,Junín,2020-05-30,1816,19,NA,20413,312,1504,NA
+Peru,PER,La Libertad,2020-05-30,3998,184,NA,34104,850,3148,NA
+Peru,PER,Lambayeque,2020-05-30,7020,611,NA,25113,1427,5593,NA
+Peru,PER,Lima,2020-05-30,96583,1625,NA,432916,25753,70830,NA
+Peru,PER,Loreto,2020-05-30,4635,295,NA,12000,2252,2383,NA
+Peru,PER,Madre de Dios,2020-05-30,485,6,NA,8270,109,376,NA
+Peru,PER,Moquegua,2020-05-30,477,2,NA,17231,7,470,NA
+Peru,PER,Pasco,2020-05-30,458,9,NA,8398,37,421,NA
+Peru,PER,Piura,2020-05-30,7180,510,NA,23319,483,6697,NA
+Peru,PER,Puno,2020-05-30,333,7,NA,15073,17,316,NA
+Peru,PER,San Martín,2020-05-30,1225,19,NA,15944,275,950,NA
+Peru,PER,Tacna,2020-05-30,375,4,NA,14472,53,322,NA
+Peru,PER,Tumbes,2020-05-30,1219,71,NA,7250,163,1056,NA
+Peru,PER,Ucayali,2020-05-30,3645,107,NA,9330,594,3051,NA
+Peru,PER,NA,2020-05-30,155671,4371,66447,857037,37650,118021,NA
+Peru,PER,Amazonas,2020-05-31,605,21,NA,6859,133,472,NA
+Peru,PER,Ancash,2020-05-31,4220,267,NA,26660,683,3537,NA
+Peru,PER,Apurimac,2020-05-31,194,3,NA,7536,11,183,NA
+Peru,PER,Arequipa,2020-05-31,3332,44,NA,59859,646,2686,NA
+Peru,PER,Ayacucho,2020-05-31,748,7,NA,7921,279,469,NA
+Peru,PER,Cajamarca,2020-05-31,747,5,NA,16355,202,545,NA
+Peru,PER,Callao,2020-05-31,12167,321,NA,37037,2543,9624,NA
+Peru,PER,Cusco,2020-05-31,1062,3,NA,19983,122,940,NA
+Peru,PER,Huancavelica,2020-05-31,436,1,NA,7905,50,386,NA
+Peru,PER,Huánuco,2020-05-31,885,12,NA,10284,46,839,NA
+Peru,PER,Ica,2020-05-31,3334,244,NA,22996,708,2626,NA
+Peru,PER,Junín,2020-05-31,1848,19,NA,21732,328,1520,NA
+Peru,PER,La Libertad,2020-05-31,4660,191,NA,35462,880,3780,NA
+Peru,PER,Lambayeque,2020-05-31,8484,612,NA,25538,1446,7038,NA
+Peru,PER,Lima,2020-05-31,100526,1709,NA,450643,26434,74092,NA
+Peru,PER,Loreto,2020-05-31,4715,296,NA,12577,2290,2425,NA
+Peru,PER,Madre de Dios,2020-05-31,493,6,NA,8631,109,384,NA
+Peru,PER,Moquegua,2020-05-31,515,2,NA,18245,7,508,NA
+Peru,PER,Pasco,2020-05-31,463,9,NA,8687,38,425,NA
+Peru,PER,Piura,2020-05-31,7504,519,NA,24497,597,6907,NA
+Peru,PER,Puno,2020-05-31,392,7,NA,15969,17,375,NA
+Peru,PER,San Martín,2020-05-31,1296,21,NA,16691,294,1002,NA
+Peru,PER,Tacna,2020-05-31,448,5,NA,15349,53,395,NA
+Peru,PER,Tumbes,2020-05-31,1348,75,NA,7408,163,1185,NA
+Peru,PER,Ucayali,2020-05-31,4054,107,NA,9574,594,3460,NA
+Peru,PER,NA,2020-05-31,164476,4506,67208,894398,38673,125803,NA
+Peru,PER,Amazonas,2020-06-01,608,21,NA,6950,133,475,NA
+Peru,PER,Ancash,2020-06-01,4444,270,NA,26896,697,3747,NA
+Peru,PER,Apurimac,2020-06-01,189,3,NA,7786,11,178,NA
+Peru,PER,Arequipa,2020-06-01,3633,49,NA,60213,646,2987,NA
+Peru,PER,Ayacucho,2020-06-01,762,7,NA,8066,279,483,NA
+Peru,PER,Cajamarca,2020-06-01,786,6,NA,16509,202,584,NA
+Peru,PER,Callao,2020-06-01,12495,329,NA,37610,2616,9879,NA
+Peru,PER,Cusco,2020-06-01,1103,3,NA,20358,122,981,NA
+Peru,PER,Huancavelica,2020-06-01,449,1,NA,8211,50,399,NA
+Peru,PER,Huánuco,2020-06-01,979,13,NA,10493,44,935,NA
+Peru,PER,Ica,2020-06-01,3450,252,NA,23234,725,2725,NA
+Peru,PER,Junín,2020-06-01,1896,19,NA,22149,332,1564,NA
+Peru,PER,La Libertad,2020-06-01,4898,199,NA,35916,934,3964,NA
+Peru,PER,Lambayeque,2020-06-01,8811,616,NA,25928,1446,7365,NA
+Peru,PER,Lima,2020-06-01,103020,1786,NA,456720,27016,76004,NA
+Peru,PER,Loreto,2020-06-01,5133,297,NA,12559,2560,2573,NA
+Peru,PER,Madre de Dios,2020-06-01,519,6,NA,8996,109,410,NA
+Peru,PER,Moquegua,2020-06-01,509,2,NA,18425,7,502,NA
+Peru,PER,Pasco,2020-06-01,473,9,NA,8809,37,436,NA
+Peru,PER,Piura,2020-06-01,8143,527,NA,24585,605,7538,NA
+Peru,PER,Puno,2020-06-01,386,7,NA,16412,17,369,NA
+Peru,PER,San Martín,2020-06-01,1335,24,NA,17002,313,1022,NA
+Peru,PER,Tacna,2020-06-01,398,5,NA,15545,58,340,NA
+Peru,PER,Tumbes,2020-06-01,1352,76,NA,7535,163,1189,NA
+Peru,PER,Ucayali,2020-06-01,4268,107,NA,9713,594,3674,NA
+Peru,PER,NA,2020-06-01,170039,4634,68507,906620,39716,130323,NA
+Peru,PER,Amazonas,2020-06-02,637,26,NA,466323,137,500,NA
+Peru,PER,Ancash,2020-06-02,4668,277,NA,62708,700,3968,NA
+Peru,PER,Apurimac,2020-06-02,198,3,NA,38832,11,187,NA
+Peru,PER,Arequipa,2020-06-02,3727,50,NA,36583,646,3081,NA
+Peru,PER,Ayacucho,2020-06-02,790,7,NA,27097,285,505,NA
+Peru,PER,Cajamarca,2020-06-02,830,7,NA,25774,212,618,NA
+Peru,PER,Callao,2020-06-02,12911,338,NA,27637,2618,10293,NA
+Peru,PER,Cusco,2020-06-02,1125,3,NA,23955,125,1000,NA
+Peru,PER,Huancavelica,2020-06-02,455,1,NA,22367,50,405,NA
+Peru,PER,Huánuco,2020-06-02,987,13,NA,20502,69,918,NA
+Peru,PER,Ica,2020-06-02,3536,258,NA,18955,729,2807,NA
+Peru,PER,Junín,2020-06-02,1951,20,NA,17092,335,1616,NA
+Peru,PER,La Libertad,2020-06-02,5114,205,NA,12710,972,4142,NA
+Peru,PER,Lambayeque,2020-06-02,9138,618,NA,17156,1448,7690,NA
+Peru,PER,Lima,2020-06-02,109078,1868,NA,16819,27314,81764,NA
+Peru,PER,Loreto,2020-06-02,5355,299,NA,16150,2584,2771,NA
+Peru,PER,Madre de Dios,2020-06-02,561,6,NA,10032,114,447,NA
+Peru,PER,Moquegua,2020-06-02,508,2,NA,10762,7,501,NA
+Peru,PER,Pasco,2020-06-02,476,11,NA,9749,37,439,NA
+Peru,PER,Piura,2020-06-02,8148,531,NA,9172,610,7538,NA
+Peru,PER,Puno,2020-06-02,399,7,NA,8536,17,382,NA
+Peru,PER,San Martín,2020-06-02,1433,25,NA,8090,350,1083,NA
+Peru,PER,Tacna,2020-06-02,447,5,NA,8324,58,389,NA
+Peru,PER,Tumbes,2020-06-02,1226,77,NA,8193,163,1063,NA
+Peru,PER,Ucayali,2020-06-02,4467,110,NA,7369,594,3873,NA
+Peru,PER,NA,2020-06-02,178165,4767,69257,930887,40185,137980,NA
+Peru,PER,Amazonas,2020-06-03,654,26,NA,7522,137,517,NA
+Peru,PER,Ancash,2020-06-03,4647,286,NA,27860,703,3944,NA
+Peru,PER,Apurimac,2020-06-03,203,3,NA,8115,11,192,NA
+Peru,PER,Arequipa,2020-06-03,3817,51,NA,63937,646,3171,NA
+Peru,PER,Ayacucho,2020-06-03,826,7,NA,8779,291,535,NA
+Peru,PER,Cajamarca,2020-06-03,853,7,NA,17557,222,631,NA
+Peru,PER,Callao,2020-06-03,13171,346,NA,38767,2620,10551,NA
+Peru,PER,Cusco,2020-06-03,1157,3,NA,20553,128,1029,NA
+Peru,PER,Huancavelica,2020-06-03,465,1,NA,8452,50,415,NA
+Peru,PER,Huánuco,2020-06-03,1013,13,NA,10789,69,944,NA
+Peru,PER,Ica,2020-06-03,3851,261,NA,24347,733,3118,NA
+Peru,PER,Junín,2020-06-03,2007,20,NA,22569,338,1669,NA
+Peru,PER,La Libertad,2020-06-03,5351,212,NA,36856,1010,4341,NA
+Peru,PER,Lambayeque,2020-06-03,9348,621,NA,26844,1450,7898,NA
+Peru,PER,Lima,2020-06-03,108323,1947,NA,467911,27612,80711,NA
+Peru,PER,Loreto,2020-06-03,5517,300,NA,12918,2608,2909,NA
+Peru,PER,Madre de Dios,2020-06-03,611,6,NA,9186,119,492,NA
+Peru,PER,Moquegua,2020-06-03,525,2,NA,19391,7,518,NA
+Peru,PER,Pasco,2020-06-03,480,11,NA,9372,37,443,NA
+Peru,PER,Piura,2020-06-03,7890,538,NA,26514,615,7275,NA
+Peru,PER,Puno,2020-06-03,398,8,NA,16868,17,381,NA
+Peru,PER,San Martín,2020-06-03,1502,28,NA,17556,363,1139,NA
+Peru,PER,Tacna,2020-06-03,458,5,NA,16687,58,400,NA
+Peru,PER,Tumbes,2020-06-03,1267,79,NA,7661,163,1104,NA
+Peru,PER,Ucayali,2020-06-03,4580,113,NA,9690,594,3986,NA
+Peru,PER,NA,2020-06-03,178914,4894,72319,936701,40601,138313,NA
+Peru,PER,Amazonas,2020-06-04,680,27,NA,476273,139,541,NA
+Peru,PER,Ancash,2020-06-04,5048,292,NA,64728,713,4335,NA
+Peru,PER,Apurimac,2020-06-04,221,3,NA,39471,11,210,NA
+Peru,PER,Arequipa,2020-06-04,3961,56,NA,37602,646,3315,NA
+Peru,PER,Ayacucho,2020-06-04,862,7,NA,27664,300,562,NA
+Peru,PER,Cajamarca,2020-06-04,882,8,NA,25781,235,647,NA
+Peru,PER,Callao,2020-06-04,13291,360,NA,28239,2774,10517,NA
+Peru,PER,Cusco,2020-06-04,1174,4,NA,24946,137,1037,NA
+Peru,PER,Huancavelica,2020-06-04,487,2,NA,22967,50,437,NA
+Peru,PER,Huánuco,2020-06-04,1068,13,NA,20786,76,992,NA
+Peru,PER,Ica,2020-06-04,3919,272,NA,19655,761,3158,NA
+Peru,PER,Junín,2020-06-04,2089,20,NA,18285,364,1725,NA
+Peru,PER,La Libertad,2020-06-04,5392,220,NA,13154,1045,4347,NA
+Peru,PER,Lambayeque,2020-06-04,9440,621,NA,17965,1535,7905,NA
+Peru,PER,Lima,2020-06-04,108680,2019,NA,17111,28299,80381,NA
+Peru,PER,Loreto,2020-06-04,5757,300,NA,16970,2675,3082,NA
+Peru,PER,Madre de Dios,2020-06-04,600,8,NA,9370,113,487,NA
+Peru,PER,Moquegua,2020-06-04,561,2,NA,11149,7,554,NA
+Peru,PER,Pasco,2020-06-04,512,11,NA,9593,37,475,NA
+Peru,PER,Piura,2020-06-04,9510,548,NA,9500,628,8882,NA
+Peru,PER,Puno,2020-06-04,422,8,NA,9002,17,405,NA
+Peru,PER,San Martín,2020-06-04,1662,30,NA,7618,443,1219,NA
+Peru,PER,Tacna,2020-06-04,468,5,NA,8586,58,410,NA
+Peru,PER,Tumbes,2020-06-04,1489,82,NA,8422,163,1326,NA
+Peru,PER,Ucayali,2020-06-04,5023,113,NA,7796,594,4429,NA
+Peru,PER,NA,2020-06-04,183198,5031,76288,952633,41820,141378,NA
+Peru,PER,Amazonas,2020-06-05,732,27,NA,7862,149,583,NA
+Peru,PER,Ancash,2020-06-05,5226,300,NA,28644,727,4499,NA
+Peru,PER,Apurimac,2020-06-05,237,4,NA,8710,11,226,NA
+Peru,PER,Arequipa,2020-06-05,4204,59,NA,65033,638,3566,NA
+Peru,PER,Ayacucho,2020-06-05,865,8,NA,9177,288,577,NA
+Peru,PER,Cajamarca,2020-06-05,875,9,NA,18368,214,661,NA
+Peru,PER,Callao,2020-06-05,13410,369,NA,40108,2797,10613,NA
+Peru,PER,Cusco,2020-06-05,1182,4,NA,21292,122,1060,NA
+Peru,PER,Huancavelica,2020-06-05,507,2,NA,8814,40,467,NA
+Peru,PER,Huánuco,2020-06-05,1120,13,NA,11352,95,1025,NA
+Peru,PER,Ica,2020-06-05,4020,277,NA,25363,785,3235,NA
+Peru,PER,Junín,2020-06-05,2093,21,NA,23269,343,1750,NA
+Peru,PER,La Libertad,2020-06-05,5483,223,NA,38116,1045,4438,NA
+Peru,PER,Lambayeque,2020-06-05,9634,629,NA,28173,1564,8070,NA
+Peru,PER,Lima,2020-06-05,110161,2095,NA,484278,28765,81396,NA
+Peru,PER,Loreto,2020-06-05,6172,300,NA,13020,2661,3511,NA
+Peru,PER,Madre de Dios,2020-06-05,731,10,NA,9475,213,518,NA
+Peru,PER,Moquegua,2020-06-05,668,2,NA,19901,7,661,NA
+Peru,PER,Pasco,2020-06-05,553,11,NA,9733,37,516,NA
+Peru,PER,Piura,2020-06-05,10198,556,NA,25741,665,9533,NA
+Peru,PER,Puno,2020-06-05,456,9,NA,17406,17,439,NA
+Peru,PER,San Martín,2020-06-05,1781,31,NA,18825,424,1357,NA
+Peru,PER,Tacna,2020-06-05,504,5,NA,17181,72,432,NA
+Peru,PER,Tumbes,2020-06-05,1501,84,NA,7769,163,1338,NA
+Peru,PER,Ucayali,2020-06-05,5087,114,NA,9458,564,4523,NA
+Peru,PER,NA,2020-06-05,187400,5162,79214,967068,42406,144994,NA
+Peru,PER,Amazonas,2020-06-06,758,27,NA,8060,150,608,NA
+Peru,PER,Ancash,2020-06-06,5290,305,NA,29030,743,4547,NA
+Peru,PER,Apurimac,2020-06-06,248,4,NA,8975,12,236,NA
+Peru,PER,Arequipa,2020-06-06,4316,60,NA,65884,688,3628,NA
+Peru,PER,Ayacucho,2020-06-06,886,8,NA,9392,291,595,NA
+Peru,PER,Cajamarca,2020-06-06,907,9,NA,18817,220,687,NA
+Peru,PER,Callao,2020-06-06,13656,378,NA,40537,2946,10710,NA
+Peru,PER,Cusco,2020-06-06,1199,4,NA,21606,128,1071,NA
+Peru,PER,Huancavelica,2020-06-06,516,2,NA,8993,40,476,NA
+Peru,PER,Huánuco,2020-06-06,1154,14,NA,11530,105,1049,NA
+Peru,PER,Ica,2020-06-06,4187,281,NA,25797,817,3370,NA
+Peru,PER,Junín,2020-06-06,2114,22,NA,23854,343,1771,NA
+Peru,PER,La Libertad,2020-06-06,5670,235,NA,38701,1097,4573,NA
+Peru,PER,Lambayeque,2020-06-06,9686,630,NA,28549,1564,8122,NA
+Peru,PER,Lima,2020-06-06,112974,2186,NA,490186,29880,83094,NA
+Peru,PER,Loreto,2020-06-06,6187,303,NA,13182,2668,3519,NA
+Peru,PER,Madre de Dios,2020-06-06,743,11,NA,9658,230,513,NA
+Peru,PER,Moquegua,2020-06-06,674,2,NA,20247,7,667,NA
+Peru,PER,Pasco,2020-06-06,565,11,NA,9909,37,528,NA
+Peru,PER,Piura,2020-06-06,10487,560,NA,26294,742,9745,NA
+Peru,PER,Puno,2020-06-06,462,9,NA,17581,18,444,NA
+Peru,PER,San Martín,2020-06-06,1847,34,NA,19319,444,1403,NA
+Peru,PER,Tacna,2020-06-06,506,5,NA,17641,72,434,NA
+Peru,PER,Tumbes,2020-06-06,1543,86,NA,7888,163,1380,NA
+Peru,PER,Ucayali,2020-06-06,5183,115,NA,9615,613,4570,NA
+Peru,PER,NA,2020-06-06,191758,5301,82731,981245,44018,147740,NA
+Peru,PER,Amazonas,2020-06-07,771,27,NA,8221,150,621,NA
+Peru,PER,Ancash,2020-06-07,5386,312,NA,29408,780,4606,NA
+Peru,PER,Apurimac,2020-06-07,259,4,NA,9331,12,247,NA
+Peru,PER,Arequipa,2020-06-07,4460,60,NA,66562,783,3677,NA
+Peru,PER,Ayacucho,2020-06-07,910,8,NA,9629,304,606,NA
+Peru,PER,Cajamarca,2020-06-07,935,10,NA,19180,240,695,NA
+Peru,PER,Callao,2020-06-07,13865,389,NA,41676,3053,10812,NA
+Peru,PER,Cusco,2020-06-07,1229,4,NA,22020,146,1083,NA
+Peru,PER,Huancavelica,2020-06-07,528,4,NA,9119,40,488,NA
+Peru,PER,Huánuco,2020-06-07,1176,16,NA,11741,105,1071,NA
+Peru,PER,Ica,2020-06-07,4330,290,NA,26013,913,3417,NA
+Peru,PER,Junín,2020-06-07,2158,24,NA,23966,380,1778,NA
+Peru,PER,La Libertad,2020-06-07,5841,244,NA,39390,1146,4695,NA
+Peru,PER,Lambayeque,2020-06-07,9829,634,NA,28672,1599,8230,NA
+Peru,PER,Lima,2020-06-07,116159,2283,NA,496123,31094,85065,NA
+Peru,PER,Loreto,2020-06-07,6225,305,NA,13441,2688,3537,NA
+Peru,PER,Madre de Dios,2020-06-07,744,11,NA,9841,230,514,NA
+Peru,PER,Moquegua,2020-06-07,676,3,NA,20395,7,669,NA
+Peru,PER,Pasco,2020-06-07,574,11,NA,10087,37,537,NA
+Peru,PER,Piura,2020-06-07,10716,568,NA,27007,818,9898,NA
+Peru,PER,Puno,2020-06-07,468,9,NA,17751,18,450,NA
+Peru,PER,San Martín,2020-06-07,1896,38,NA,19621,448,1448,NA
+Peru,PER,Tacna,2020-06-07,493,5,NA,18076,41,452,NA
+Peru,PER,Tumbes,2020-06-07,1581,89,NA,8070,163,1418,NA
+Peru,PER,Ucayali,2020-06-07,5306,117,NA,10101,689,4617,NA
+Peru,PER,NA,2020-06-07,196515,5465,86219,995441,45884,150631,NA
+Peru,PER,Amazonas,2020-06-08,823,27,NA,9214,150,673,NA
+Peru,PER,Ancash,2020-06-08,5443,318,NA,29544,822,4621,NA
+Peru,PER,Apurimac,2020-06-08,288,5,NA,9518,12,276,NA
+Peru,PER,Arequipa,2020-06-08,4494,65,NA,66737,783,3711,NA
+Peru,PER,Ayacucho,2020-06-08,915,8,NA,9732,304,611,NA
+Peru,PER,Cajamarca,2020-06-08,947,11,NA,19451,240,707,NA
+Peru,PER,Callao,2020-06-08,14017,391,NA,42150,3160,10857,NA
+Peru,PER,Cusco,2020-06-08,1260,5,NA,22158,174,1086,NA
+Peru,PER,Huancavelica,2020-06-08,569,4,NA,9244,44,525,NA
+Peru,PER,Huánuco,2020-06-08,1183,18,NA,11821,105,1078,NA
+Peru,PER,Ica,2020-06-08,4375,292,NA,26065,957,3418,NA
+Peru,PER,Junín,2020-06-08,2194,25,NA,24062,412,1782,NA
+Peru,PER,La Libertad,2020-06-08,5916,252,NA,39729,1164,4752,NA
+Peru,PER,Lambayeque,2020-06-08,9933,635,NA,28856,1599,8334,NA
+Peru,PER,Lima,2020-06-08,118036,2349,NA,500010,32126,85910,NA
+Peru,PER,Loreto,2020-06-08,6349,307,NA,13574,2688,3661,NA
+Peru,PER,Madre de Dios,2020-06-08,749,11,NA,9981,234,515,NA
+Peru,PER,Moquegua,2020-06-08,712,4,NA,20496,7,705,NA
+Peru,PER,Pasco,2020-06-08,643,11,NA,10116,38,605,NA
+Peru,PER,Piura,2020-06-08,10886,573,NA,27626,819,10067,NA
+Peru,PER,Puno,2020-06-08,471,9,NA,17957,18,453,NA
+Peru,PER,San Martín,2020-06-08,1952,38,NA,19784,484,1468,NA
+Peru,PER,Tacna,2020-06-08,535,5,NA,18069,41,494,NA
+Peru,PER,Tumbes,2020-06-08,1585,91,NA,8080,163,1422,NA
+Peru,PER,Ucayali,2020-06-08,5421,117,NA,10315,709,4712,NA
+Peru,PER,NA,2020-06-08,199696,5571,89556,1004289,47253,152443,NA
+Peru,PER,Amazonas,2020-06-09,873,27,NA,8442,150,723,NA
+Peru,PER,Ancash,2020-06-09,5582,327,NA,30289,846,4736,NA
+Peru,PER,Apurimac,2020-06-09,295,7,NA,9796,12,283,NA
+Peru,PER,Arequipa,2020-06-09,4566,71,NA,67780,813,3753,NA
+Peru,PER,Ayacucho,2020-06-09,958,8,NA,10174,315,643,NA
+Peru,PER,Cajamarca,2020-06-09,984,11,NA,19966,253,731,NA
+Peru,PER,Callao,2020-06-09,14284,401,NA,42848,3262,11022,NA
+Peru,PER,Cusco,2020-06-09,1274,5,NA,22761,174,1100,NA
+Peru,PER,Huancavelica,2020-06-09,579,5,NA,9453,45,534,NA
+Peru,PER,Huánuco,2020-06-09,1215,18,NA,12156,116,1099,NA
+Peru,PER,Ica,2020-06-09,4530,298,NA,26753,996,3534,NA
+Peru,PER,Junín,2020-06-09,2249,28,NA,24560,447,1802,NA
+Peru,PER,La Libertad,2020-06-09,6082,262,NA,40534,1201,4881,NA
+Peru,PER,Lambayeque,2020-06-09,10100,636,NA,29431,1662,8438,NA
+Peru,PER,Lima,2020-06-09,120183,2449,NA,508902,32688,87495,NA
+Peru,PER,Loreto,2020-06-09,6506,308,NA,14066,2714,3792,NA
+Peru,PER,Madre de Dios,2020-06-09,807,12,NA,10287,267,540,NA
+Peru,PER,Moquegua,2020-06-09,715,4,NA,20836,8,707,NA
+Peru,PER,Pasco,2020-06-09,656,12,NA,10314,38,618,NA
+Peru,PER,Piura,2020-06-09,11067,584,NA,28842,821,10246,NA
+Peru,PER,Puno,2020-06-09,476,9,NA,18125,18,458,NA
+Peru,PER,San Martín,2020-06-09,2052,40,NA,20267,500,1552,NA
+Peru,PER,Tacna,2020-06-09,547,5,NA,18376,41,506,NA
+Peru,PER,Tumbes,2020-06-09,1631,93,NA,8222,163,1468,NA
+Peru,PER,Ucayali,2020-06-09,5525,118,NA,10775,721,4804,NA
+Peru,PER,NA,2020-06-09,203736,5738,92929,1023955,48271,155465,NA
+Peru,PER,Amazonas,2020-06-10,926,27,NA,520625,150,776,NA
+Peru,PER,Ancash,2020-06-10,5736,335,NA,68740,857,4879,NA
+Peru,PER,Apurimac,2020-06-10,314,7,NA,43374,12,302,NA
+Peru,PER,Arequipa,2020-06-10,4620,81,NA,41408,867,3753,NA
+Peru,PER,Ayacucho,2020-06-10,995,8,NA,30331,321,674,NA
+Peru,PER,Cajamarca,2020-06-10,1013,13,NA,28725,260,753,NA
+Peru,PER,Callao,2020-06-10,14489,410,NA,31087,3360,11129,NA
+Peru,PER,Cusco,2020-06-10,1309,5,NA,27501,179,1130,NA
+Peru,PER,Huancavelica,2020-06-10,602,5,NA,25087,46,556,NA
+Peru,PER,Huánuco,2020-06-10,1254,19,NA,23422,125,1129,NA
+Peru,PER,Ica,2020-06-10,4713,306,NA,20910,1026,3687,NA
+Peru,PER,Junín,2020-06-10,2298,29,NA,21359,447,1851,NA
+Peru,PER,La Libertad,2020-06-10,6311,273,NA,20476,1253,5058,NA
+Peru,PER,Lambayeque,2020-06-10,10286,642,NA,14550,1662,8624,NA
+Peru,PER,Lima,2020-06-10,122883,2543,NA,18787,33569,89314,NA
+Peru,PER,Loreto,2020-06-10,6719,309,NA,18412,2792,3927,NA
+Peru,PER,Madre de Dios,2020-06-10,832,13,NA,11071,267,565,NA
+Peru,PER,Moquegua,2020-06-10,724,5,NA,12422,8,716,NA
+Peru,PER,Pasco,2020-06-10,679,13,NA,10475,38,641,NA
+Peru,PER,Piura,2020-06-10,11520,593,NA,10506,821,10699,NA
+Peru,PER,Puno,2020-06-10,497,9,NA,10549,18,479,NA
+Peru,PER,San Martín,2020-06-10,2206,41,NA,10183,548,1658,NA
+Peru,PER,Tacna,2020-06-10,563,5,NA,9710,41,522,NA
+Peru,PER,Tumbes,2020-06-10,1686,93,NA,8380,163,1523,NA
+Peru,PER,Ucayali,2020-06-10,5648,119,NA,8843,721,4927,NA
+Peru,PER,NA,2020-06-10,208823,5903,98031,1046933,49551,159272,NA
+Peru,PER,Amazonas,2020-06-11,995,27,NA,9188,150,845,NA
+Peru,PER,Ancash,2020-06-11,5885,340,NA,31632,883,5002,NA
+Peru,PER,Apurimac,2020-06-11,319,7,NA,10508,12,307,NA
+Peru,PER,Arequipa,2020-06-11,4764,85,NA,69949,922,3842,NA
+Peru,PER,Ayacucho,2020-06-11,1028,11,NA,10720,323,705,NA
+Peru,PER,Cajamarca,2020-06-11,1062,13,NA,21139,273,789,NA
+Peru,PER,Callao,2020-06-11,14830,418,NA,43817,3509,11321,NA
+Peru,PER,Cusco,2020-06-11,1344,5,NA,24004,185,1159,NA
+Peru,PER,Huancavelica,2020-06-11,612,5,NA,9856,46,566,NA
+Peru,PER,Huánuco,2020-06-11,1287,22,NA,12761,126,1161,NA
+Peru,PER,Ica,2020-06-11,4893,317,NA,28237,1073,3820,NA
+Peru,PER,Junín,2020-06-11,2393,34,NA,25419,489,1904,NA
+Peru,PER,La Libertad,2020-06-11,6642,286,NA,42605,1323,5319,NA
+Peru,PER,Lambayeque,2020-06-11,10532,648,NA,29360,1662,8870,NA
+Peru,PER,Lima,2020-06-11,125640,2675,NA,529361,34052,91588,NA
+Peru,PER,Loreto,2020-06-11,7000,311,NA,14909,2825,4175,NA
+Peru,PER,Madre de Dios,2020-06-11,903,15,NA,10707,293,610,NA
+Peru,PER,Moquegua,2020-06-11,728,5,NA,21787,8,720,NA
+Peru,PER,Pasco,2020-06-11,700,13,NA,10738,40,660,NA
+Peru,PER,Piura,2020-06-11,12177,601,NA,31642,821,11356,NA
+Peru,PER,Puno,2020-06-11,526,9,NA,18606,18,508,NA
+Peru,PER,San Martín,2020-06-11,2306,42,NA,21633,587,1719,NA
+Peru,PER,Tacna,2020-06-11,572,5,NA,19279,41,531,NA
+Peru,PER,Tumbes,2020-06-11,1736,95,NA,8518,163,1573,NA
+Peru,PER,Ucayali,2020-06-11,5914,120,NA,11315,721,5193,NA
+Peru,PER,NA,2020-06-11,214788,6109,102429,1067690,50545,164243,NA
+Peru,PER,Amazonas,2020-06-12,1033,28,NA,9555,150,883,NA
+Peru,PER,Ancash,2020-06-12,6000,347,NA,32355,909,5091,NA
+Peru,PER,Apurimac,2020-06-12,331,7,NA,11165,12,319,NA
+Peru,PER,Arequipa,2020-06-12,4881,95,NA,71201,961,3920,NA
+Peru,PER,Ayacucho,2020-06-12,1071,11,NA,11161,335,736,NA
+Peru,PER,Cajamarca,2020-06-12,1135,14,NA,21956,292,843,NA
+Peru,PER,Callao,2020-06-12,15200,434,NA,44833,3589,11611,NA
+Peru,PER,Cusco,2020-06-12,1368,6,NA,24795,187,1181,NA
+Peru,PER,Huancavelica,2020-06-12,635,5,NA,10288,46,589,NA
+Peru,PER,Huánuco,2020-06-12,1363,24,NA,13395,153,1210,NA
+Peru,PER,Ica,2020-06-12,5101,328,NA,29502,1123,3978,NA
+Peru,PER,Junín,2020-06-12,2483,37,NA,26123,523,1960,NA
+Peru,PER,La Libertad,2020-06-12,6830,303,NA,43635,1336,5494,NA
+Peru,PER,Lambayeque,2020-06-12,10791,656,NA,30303,1668,9123,NA
+Peru,PER,Lima,2020-06-12,128700,2784,NA,539036,34724,93976,NA
+Peru,PER,Loreto,2020-06-12,7167,311,NA,15319,2838,4329,NA
+Peru,PER,Madre de Dios,2020-06-12,945,15,NA,11265,293,652,NA
+Peru,PER,Moquegua,2020-06-12,738,6,NA,22223,8,730,NA
+Peru,PER,Pasco,2020-06-12,729,13,NA,11115,40,689,NA
+Peru,PER,Piura,2020-06-12,12768,605,NA,33304,826,11942,NA
+Peru,PER,Puno,2020-06-12,545,10,NA,19321,18,527,NA
+Peru,PER,San Martín,2020-06-12,2454,46,NA,22393,649,1805,NA
+Peru,PER,Tacna,2020-06-12,582,5,NA,19792,41,541,NA
+Peru,PER,Tumbes,2020-06-12,1814,96,NA,8852,163,1651,NA
+Peru,PER,Ucayali,2020-06-12,6085,122,NA,11781,721,5364,NA
+Peru,PER,NA,2020-06-12,220749,6308,107133,1094668,51605,169144,NA
+Peru,PER,Amazonas,2020-06-13,1102,29,NA,1073,164,938,NA
+Peru,PER,Ancash,2020-06-13,6155,358,NA,5797,932,5223,NA
+Peru,PER,Apurimac,2020-06-13,346,7,NA,339,13,333,NA
+Peru,PER,Arequipa,2020-06-13,5002,106,NA,4896,1010,3992,NA
+Peru,PER,Ayacucho,2020-06-13,1102,11,NA,1091,344,758,NA
+Peru,PER,Cajamarca,2020-06-13,1199,16,NA,1183,320,879,NA
+Peru,PER,Callao,2020-06-13,15556,439,NA,15117,3719,11837,NA
+Peru,PER,Cusco,2020-06-13,1419,7,NA,1412,215,1204,NA
+Peru,PER,Huancavelica,2020-06-13,654,5,NA,649,46,608,NA
+Peru,PER,Huánuco,2020-06-13,1433,27,NA,1406,154,1279,NA
+Peru,PER,Ica,2020-06-13,5345,335,NA,5010,1141,4204,NA
+Peru,PER,Junín,2020-06-13,2545,37,NA,2508,523,2022,NA
+Peru,PER,La Libertad,2020-06-13,7026,317,NA,6709,1340,5686,NA
+Peru,PER,Lambayeque,2020-06-13,11059,659,NA,10400,1721,9338,NA
+Peru,PER,Lima,2020-06-13,129865,2894,NA,126971,35527,94338,NA
+Peru,PER,Loreto,2020-06-13,7478,315,NA,7163,2838,4640,NA
+Peru,PER,Madre de Dios,2020-06-13,995,16,NA,979,302,693,NA
+Peru,PER,Moquegua,2020-06-13,744,6,NA,738,8,736,NA
+Peru,PER,Pasco,2020-06-13,747,13,NA,734,40,707,NA
+Peru,PER,Piura,2020-06-13,13411,612,NA,12799,826,12585,NA
+Peru,PER,Puno,2020-06-13,556,12,NA,544,18,538,NA
+Peru,PER,San Martín,2020-06-13,2674,53,NA,2621,707,1967,NA
+Peru,PER,Tacna,2020-06-13,596,5,NA,591,41,555,NA
+Peru,PER,Tumbes,2020-06-13,1879,97,NA,1782,163,1716,NA
+Peru,PER,Ucayali,2020-06-13,6244,122,NA,6122,721,5523,NA
+Peru,PER,NA,2020-06-13,225132,6498,111724,218634,52833,172299,NA
