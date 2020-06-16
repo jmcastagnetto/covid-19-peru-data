@@ -59,6 +59,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-06-12**: Hasta las 18:30h (PET) no se ha actualizado la "Sala Situacional ..." del MINSA. La "Sala Situacional ..." aparace actualizada aparentemente a ~21:38h (según el timestamp de los archivos XLSX).
 
+**2020-06-16**: La "Sala Situacional ..." no incluye hoy información sobre las camas UCI en uso o disponibles.
 
 ## Fuentes
 

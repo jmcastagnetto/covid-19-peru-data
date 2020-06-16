@@ -1,4 +1,4 @@
-**Última actualización**: 2020-06-16 01:33:57 UTC
+**Última actualización**: 2020-06-16 22:42:34 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -98,6 +98,9 @@ descargarlo produce un error **HTTP 404**
 **2020-06-12**: Hasta las 18:30h (PET) no se ha actualizado la “Sala
 Situacional …” del MINSA. La “Sala Situacional …” aparace actualizada
 aparentemente a ~21:38h (según el timestamp de los archivos XLSX).
+
+**2020-06-16**: La “Sala Situacional …” no incluye hoy información sobre
+las camas UCI en uso o disponibles.
 
 Fuentes
 -------
@@ -617,6 +620,10 @@ Casos confirmados
     992 en el Perú (Comunicado
     N° 133)](https://www.gob.pe/institucion/minsa/noticias/187253-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-232-992-en-el-peru-comunicado-n-133)
     2020-06-15
+-   [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 237
+    156 en el Perú (Comunicado
+    N° 134)](https://www.gob.pe/institucion/minsa/noticias/187343-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-237-156-en-el-peru-comunicado-n-134)
+    2020-06-16
 
 Recuperados
 -----------
