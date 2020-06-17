@@ -1,4 +1,4 @@
-**Última actualización**: 2020-06-16 22:42:34 UTC
+**Última actualización**: 2020-06-17 23:11:34 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -101,6 +101,9 @@ aparentemente a ~21:38h (según el timestamp de los archivos XLSX).
 
 **2020-06-16**: La “Sala Situacional …” no incluye hoy información sobre
 las camas UCI en uso o disponibles.
+
+**2020-06-17**: Retornó la información sobre camas UCI en la “Sala
+Situacional …”
 
 Fuentes
 -------
@@ -624,6 +627,10 @@ Casos confirmados
     156 en el Perú (Comunicado
     N° 134)](https://www.gob.pe/institucion/minsa/noticias/187343-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-237-156-en-el-peru-comunicado-n-134)
     2020-06-16
+-   [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 240
+    908 en el Perú (Comunicado
+    N° 135)](https://www.gob.pe/institucion/minsa/noticias/187441-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-240-908-en-el-peru-comunicado-n-135)
+    2020-06-17
 
 Recuperados
 -----------
