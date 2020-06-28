@@ -77,7 +77,7 @@ fecha,personas,resultado,tipo_prueba
 2020-04-26,166639,negativo,serológicas
 2020-04-27,13132,positivo,moleculares
 2020-04-27,15567,positivo,serológicas
-2020-04-27,38540,negativo,moleculares
+2020-04-27,39540,negativo,moleculares
 2020-04-27,171324,negativo,serológicas
 2020-04-28,13742,positivo,moleculares
 2020-04-28,17448,positivo,serológicas
@@ -319,7 +319,3 @@ fecha,personas,resultado,tipo_prueba
 2020-06-26,204873,positivo,serológicas
 2020-06-26,170397,negativo,moleculares
 2020-06-26,1161760,negativo,serológicas
-2020-06-27,68681,positivo,moleculares
-2020-06-27,207308,positivo,serológicas
-2020-06-27,174128,negativo,moleculares
-2020-06-27,1175018,negativo,serológicas
