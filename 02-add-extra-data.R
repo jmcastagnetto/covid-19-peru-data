@@ -53,7 +53,9 @@ pe <- read_csv(
   )
 ) %>%
   mutate(
-    region = str_to_upper(iconv(region, to='ASCII//TRANSLIT'))
+    region = str_to_upper(iconv(region, to='ASCII//TRANSLIT')),
+    region_orig = region, # para preservar Lima Metropolitana y Lima Región - 2020-07-05
+    region = if_else(str_detect(region, "LIMA"), "LIMA", region)
   ) %>%
   left_join(
     ubigeos %>%
@@ -79,6 +81,7 @@ pe <- read_csv(
     country,
     iso3c,
     region,
+    region_orig,
     cod_dep_inei,
     cod_dep_reniec,
     iso_3166_2_code,

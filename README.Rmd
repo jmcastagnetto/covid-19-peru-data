@@ -63,6 +63,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-06-17**: Retornó la información sobre camas UCI en la "Sala Situacional ..."
 
+**2020-07-05**: Hoy los datos del Departamento de Lima están separados en Lima Metropolitana y Lima Región, en la "Sala Situacional ..."
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
