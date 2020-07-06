@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-05 00:29:56 UTC
+**Última actualización**: 2020-07-06 00:51:36 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -104,6 +104,9 @@ las camas UCI en uso o disponibles.
 
 **2020-06-17**: Retornó la información sobre camas UCI en la “Sala
 Situacional …”
+
+**2020-07-05**: Hoy los datos del Departamento de Lima están separados
+en Lima Metropolitana y Lima Región, en la “Sala Situacional …”
 
 Fuentes
 -------
@@ -699,6 +702,10 @@ Casos confirmados
     299,080 en el Perú (Comunicado
     N° 157)](https://www.gob.pe/institucion/minsa/noticias/192057-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-299-080-en-el-peru-comunicado-n-157)
     2020-07-04
+-   [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a
+    302,718 en el Perú (Comunicado
+    N° 158)](https://www.gob.pe/institucion/minsa/noticias/192090-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-302-718-en-el-peru-comunicado-n-158)
+    2020-07-05
 
 Recuperados
 -----------

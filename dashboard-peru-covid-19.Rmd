@@ -60,10 +60,12 @@ covid_regions_pe <- read_csv(
   "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(region)) %>% 
-  select(region, cod_dep_inei, cod_dep_reniec, iso_3166_2_code, 
+  select(region, cod_dep_inei, cod_dep_reniec,
+         iso_3166_2_code, 
          date, confirmed, deaths, 
          negative_cases,
-         pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo,
+         pcr_positivo, prueba_rapida_positivo,
+         pcr_prapida_positivo,
          pob_2017) %>% 
   distinct() %>% 
   mutate(
