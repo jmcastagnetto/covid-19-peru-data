@@ -60,13 +60,16 @@ covid_regions_pe <- read_csv(
   "datos/covid-19-peru-data-con-ubigeos.csv"
 ) %>%
   filter(!is.na(region)) %>% 
-  select(region, cod_dep_inei, cod_dep_reniec,
-         iso_3166_2_code, 
-         date, confirmed, deaths, 
-         negative_cases,
-         pcr_positivo, prueba_rapida_positivo,
-         pcr_prapida_positivo,
-         pob_2017) %>% 
+  group_by(region, cod_dep_inei, cod_dep_reniec,
+           iso_3166_2_code, date, pob_2017) %>% 
+  summarise(
+    confirmed = sum(confirmed, na.rm = TRUE),
+    deaths = sum(deaths, na.rm = TRUE),
+    negative_cases = sum(negative_cases, na.rm = TRUE),
+    pcr_positivo = sum(pcr_positivo, na.rm = TRUE),
+    prueba_rapida_positivo = sum(prueba_rapida_positivo, na.rm = TRUE),
+    pcr_prapida_positivo = sum(pcr_prapida_positivo, na.rm = TRUE)
+  ) %>%
   distinct() %>% 
   mutate(
     confirmed_per_million = round(confirmed * 1e6 / pob_2017, 1)
@@ -696,13 +699,19 @@ ggplot(
 
 ```{r echo=FALSE, out.height="90%", out.width="90%"}
 
-days_data <- rev(unique(covid_regions_pe$date))
+days_data <- covid_regions_pe %>% 
+  ungroup() %>% 
+  select(date) %>% 
+  distinct() %>% 
+  arrange(desc(date)) %>% 
+  pull(date)
 #days_selected <- days_data[seq(1, length(days_data), 4)]
 days_selected <- days_data[1:15] #últimos 15 días
 
 last_date <- days_data[1]
 
 map_df <- covid_regions_pe %>% 
+  ungroup() %>%
   filter(date %in% days_selected) %>% 
   select(region, date, confirmed, confirmed_per_million) %>% 
   mutate(
@@ -753,6 +762,7 @@ rmap_1 <- map_df %>%
 map2_max <- ((max(map_df$confirmed_per_million) %/% 100) + 1) * 100
 
 rmap_2 <- map_df %>% 
+  ungroup() %>% 
   group_by(date) %>% 
   e_charts(region, timeline=TRUE) %>%
   e_timeline_opts(currentIndex = last_date_index - 1) %>% 
