@@ -42,14 +42,15 @@ pe <- read_csv(
     country = col_character(),
     iso3c = col_character(),
     region = col_character(),
-    date = col_date(),
-    confirmed = col_integer(),
-    deaths = col_integer(),
-    recovered = col_integer(),
-    negative_cases = col_integer(),
-  	pcr_positivo = col_integer(),
-	  prueba_rapida_positivo = col_integer(),
-    pcr_prapida_positivo = col_integer()
+    date = col_date(format = ""),
+    confirmed = col_double(),
+    deaths = col_double(),
+    recovered = col_double(),
+    total_tests = col_double(),
+    negative_tests = col_double(),
+    pcr_test_positive = col_double(),
+    serological_test_positive = col_double(),
+    pcr_serological_test_positive = col_double()
   )
 ) %>%
   mutate(
@@ -89,10 +90,11 @@ pe <- read_csv(
     confirmed,
     deaths,
     recovered,
-    negative_cases,
-	  pcr_positivo,
-	  prueba_rapida_positivo,
-    pcr_prapida_positivo,
+    total_tests,
+    negative_tests,
+    pcr_test_positive,
+    serological_test_positive,
+    pcr_serological_test_positive,
     pob_2017
   )
 

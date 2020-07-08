@@ -52,12 +52,47 @@ minsa <- "Fuente: @Minsa_Peru (https://twitter.com/Minsa_Peru) y comunicados del
 no_deaths_minsa_20200412 <- ""
 #no_deaths_minsa_20200412 <- "Desde el 2020-04-12, MINSA ya no publica el número de fallecimientos por región"
 
-covid_pe <- read_csv("datos/covid-19-peru-data.csv") %>% 
+covid_pe <- read_csv(
+  "datos/covid-19-peru-data.csv",
+  col_types = cols(
+    country = col_character(),
+    iso3c = col_character(),
+    region = col_character(),
+    date = col_date(format = ""),
+    confirmed = col_double(),
+    deaths = col_double(),
+    recovered = col_double(),
+    total_tests = col_double(),
+    negative_tests = col_double(),
+    pcr_test_positive = col_double(),
+    serological_test_positive = col_double(),
+    pcr_serological_test_positive = col_double()
+  )
+) %>% 
   filter(is.na(region)) %>% 
   select(-region)
 
 covid_regions_pe <- read_csv(
-  "datos/covid-19-peru-data-con-ubigeos.csv"
+  "datos/covid-19-peru-data-con-ubigeos.csv",
+  col_types = cols(
+    country = col_character(),
+    iso3c = col_character(),
+    region = col_character(),
+    region_orig = col_character(),
+    cod_dep_inei = col_character(),
+    cod_dep_reniec = col_character(),
+    iso_3166_2_code = col_character(),
+    date = col_date(format = ""),
+    confirmed = col_double(),
+    deaths = col_double(),
+    recovered = col_double(),
+    total_tests = col_double(),
+    negative_tests = col_double(),
+    pcr_test_positive = col_double(),
+    serological_test_positive = col_double(),
+    pcr_serological_test_positive = col_double(),
+    pob_2017 = col_double()
+  )
 ) %>%
   filter(!is.na(region)) %>% 
   group_by(region, cod_dep_inei, cod_dep_reniec,
@@ -65,10 +100,11 @@ covid_regions_pe <- read_csv(
   summarise(
     confirmed = sum(confirmed, na.rm = TRUE),
     deaths = sum(deaths, na.rm = TRUE),
-    negative_cases = sum(negative_cases, na.rm = TRUE),
-    pcr_positivo = sum(pcr_positivo, na.rm = TRUE),
-    prueba_rapida_positivo = sum(prueba_rapida_positivo, na.rm = TRUE),
-    pcr_prapida_positivo = sum(pcr_prapida_positivo, na.rm = TRUE)
+    total_tests = sum(total_tests, na.rm = TRUE),
+    negative_tests = sum(negative_tests, na.rm = TRUE),
+    pcr_test_positive = sum(pcr_test_positive, na.rm = TRUE),
+    serological_test_positive = sum(serological_test_positive, na.rm = TRUE),
+    pcr_serological_test_positive = sum(pcr_serological_test_positive, na.rm = TRUE)
   ) %>%
   distinct() %>% 
   mutate(
@@ -187,7 +223,7 @@ valueBox(sit_pe[1,]$recovered, icon = "fa-user-check", color = "#ffa500")
 
 ```{r eval=FALSE}
 ### Casos negativos
-valueBox(sit_pe[1,]$negative_cases, icon = "fa-user-minus", color = "success")
+valueBox(sit_pe[1,]$negative_tests, icon = "fa-user-minus", color = "success")
 ```
 
 
@@ -218,7 +254,7 @@ valueBox(sit_pe[2,]$recovered, icon = "fa-user-check", color = "#ffa500")
 
 ### Casos negativos
 ```{r}
-valueBox(sit_pe[2,]$negative_cases, icon = "fa-user-minus", color = "success")
+valueBox(sit_pe[2,]$negative_tests, icon = "fa-user-minus", color = "success")
 ```
 
 ### Camas UCI en uso
@@ -257,7 +293,7 @@ valueBox(sit_pe[3,]$recovered, icon = "fa-user-check", color = "#ffa500")
 
 ### Casos negativos
 ```{r}
-valueBox(sit_pe[3,]$negative_cases, icon = "fa-user-minus", color = "success")
+valueBox(sit_pe[3,]$negative_tests, icon = "fa-user-minus", color = "success")
 ```
 
 ### Camas UCI en uso
@@ -442,7 +478,7 @@ dt_plot
 df <- covid_pe %>% 
   rename(
     Confirmados = confirmed,
-    Negativos = negative_cases
+    Negativos = negative_tests
   ) %>% 
   pivot_longer(
     cols = c("Confirmados", "Negativos"),
@@ -529,7 +565,7 @@ df2 <- covid_pe %>%
     new_conf = confirmed - lag(confirmed),
     new_death = deaths - lag(deaths),
 	new_death = ifelse(new_death < 0, 0, new_death),
-    new_disc = negative_cases - lag(negative_cases),
+    new_disc = negative_tests - lag(negative_tests),
     new_tot = new_conf + new_disc
   ) %>%
   filter(!is.na(new_conf))
@@ -830,9 +866,13 @@ cpr
 ```{r fig.height=9, fig.width=14}
 tests_reg <- covid_regions_pe %>% 
   select(region, date, 
-         pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo) %>% 
+         pcr_test_positive, 
+         serological_test_positive,
+         pcr_serological_test_positive) %>% 
   pivot_longer(
-    cols = c(pcr_positivo, prueba_rapida_positivo, pcr_prapida_positivo),
+    cols = c(pcr_test_positive, 
+         serological_test_positive,
+         pcr_serological_test_positive),
     names_to = "tipo_prueba",
     values_to = "cantidad", 
     values_drop_na = TRUE
@@ -840,9 +880,9 @@ tests_reg <- covid_regions_pe %>%
   mutate(
     tipo_prueba = factor(
       tipo_prueba, 
-      levels = c("pcr_positivo", 
-                 "prueba_rapida_positivo", "pcr_prapida_positivo"
-                 ),
+      levels = c("pcr_test_positive", 
+         "serological_test_positive",
+         "pcr_serological_test_positive"),
       ordered = TRUE
     )
   )
@@ -911,12 +951,13 @@ dt_df <- covid_pe %>%
     date,
     confirmed,
     confirmed_per_million,
-    pcr_positivo,
-    prueba_rapida_positivo,
-    pcr_prapida_positivo,
+    pcr_test_positive,
+    serological_test_positive,
+    pcr_serological_test_positive,
     deaths,
     recovered,
-    negative_cases
+    negative_tests,
+    total_tests
   ) %>% 
   arrange(desc(date))
 
@@ -932,7 +973,8 @@ datatable(
                "Positivos por ambas pruebas",
                "Número de fallecimientos",
                "Número de casos recuperados",
-               "Número de casos negativos"
+               "Número de casos negativos",
+               "Número de pruebas totales"
                ),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),
@@ -955,11 +997,12 @@ datatable(
       date,
       confirmed,
       confirmed_per_million,
-      pcr_positivo,
-      prueba_rapida_positivo,
-      pcr_prapida_positivo,
+      pcr_test_positive,
+      serological_test_positive,
+      pcr_serological_test_positive,
       deaths,
-      negative_cases,
+      negative_tests,
+      total_tests,
       pob_2017
     ) %>% 
     arrange(desc(date), region),
@@ -975,6 +1018,7 @@ datatable(
                "Positivos por ambas pruebas",
                "Número de fallecimientos",
                "Pruebas negativas",
+               "Total de pruebas",
                "Población (INEI, 2017)"
                ),
   class = "cell-border stripe",

@@ -7,9 +7,11 @@
 - confirmed: Casos confirmados
 - deaths: Decesos
 - recovered: Recuperados
-- negative_cases: Casos descartados/negativos
-- pcr_positivo: Casos detectados con pruebas moleculares
-- prueba_rapida_positivo: Casos detectados con pruebas serológicas ("pruebas rápidas")
+- total_tests: Número total de pruebas
+- negative_tests Casos descartados/negativos
+- pcr_test_positive: Casos detectados con pruebas moleculares
+- serological_test_positive: Casos detectados con pruebas serológicas ("pruebas rápidas")
+- pcr_serological_test_positive: Casos detectados con pruebas moleculares y serológicas ("pruebas rápidas")
 
 **`covid-19-peru-data-con-ubigeos.csv`**
 
@@ -23,7 +25,11 @@
 - confirmed: Casos confirmados
 - deaths: Decesos
 - recovered: Recuperados
-- negative_cases: Casos descartados/negativos
+- total_tests: Número total de pruebas
+- negative_tests Casos descartados/negativos
+- pcr_test_positive: Casos detectados con pruebas moleculares
+- serological_test_positive: Casos detectados con pruebas serológicas ("pruebas rápidas")
+- pcr_serological_test_positive: Casos detectados con pruebas moleculares y serológicas ("pruebas rápidas")
 - pob_2017: Población por departamento al 2017 (INEI)
 
 **`covid-19-peru-fallecimientos.csv`**

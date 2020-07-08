@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-08 02:03:21 UTC
+**Última actualización**: 2020-07-08 03:44:05 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -108,6 +108,12 @@ Situacional …”
 **2020-07-05**: Hoy los datos del Departamento de Lima están separados
 en Lima Metropolitana y Lima Región, en la “Sala Situacional …”
 
+**2020-07-07**: A partir de hoy, en la información de la Sala
+Situacional, la positividad de los resultados sólo está considerando los
+que provienen de PCR, y ya no la suma de PCR + Pruebas serológicas. He
+agregado una columna con el total de pruebas reportadas por cada
+departamento.
+
 Fuentes
 -------
 
@@ -164,10 +170,13 @@ Estructura de los archivos CSV
 -   confirmed: Casos confirmados
 -   deaths: Decesos
 -   recovered: Recuperados
--   negative\_cases: Casos descartados/negativos
--   pcr\_positivo: Casos detectados con pruebas moleculares
--   prueba\_rapida\_positivo: Casos detectados con pruebas serológicas
-    (“pruebas rápidas”)
+-   total\_tests: Número total de pruebas
+-   negative\_tests Casos descartados/negativos
+-   pcr\_test\_positive: Casos detectados con pruebas moleculares
+-   serological\_test\_positive: Casos detectados con pruebas
+    serológicas (“pruebas rápidas”)
+-   pcr\_serological\_test\_positive: Casos detectados con pruebas
+    moleculares y serológicas (“pruebas rápidas”)
 
 **`covid-19-peru-data-con-ubigeos.csv`**
 
@@ -181,7 +190,13 @@ Estructura de los archivos CSV
 -   confirmed: Casos confirmados
 -   deaths: Decesos
 -   recovered: Recuperados
--   negative\_cases: Casos descartados/negativos
+-   total\_tests: Número total de pruebas
+-   negative\_tests Casos descartados/negativos
+-   pcr\_test\_positive: Casos detectados con pruebas moleculares
+-   serological\_test\_positive: Casos detectados con pruebas
+    serológicas (“pruebas rápidas”)
+-   pcr\_serological\_test\_positive: Casos detectados con pruebas
+    moleculares y serológicas (“pruebas rápidas”)
 -   pob\_2017: Población por departamento al 2017 (INEI)
 
 **`covid-19-peru-fallecimientos.csv`**
