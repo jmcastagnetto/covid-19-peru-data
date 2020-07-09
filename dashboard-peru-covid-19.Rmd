@@ -129,18 +129,17 @@ sit_pe <- covid_pe %>%
   select(-country, -iso3c) %>% 
   arrange(date) %>% 
   mutate_at(
-    2:5,
+    2:6,
     scales::comma
   )
 
 ```
 
-## Countdown
 
-
-### Periodo de cuarentena {data-width="70%"}
 
 ```{r}
+## General info
+### Periodo de cuarentena {data-width="70%"}
 susp_classes_first_day <- ymd("2020-03-12", tz = "America/Lima")
 susp_classes_last_day <- ymd("2020-06-30", tz = "America/Lima")
 decree_day <- ymd("2020-03-15", tz = "America/Lima")
@@ -160,72 +159,84 @@ cuarentena_df <- data.frame(
   group = c("susp", "quar"),
   style = c("background-color:yellow", "background-color:cyan")
 )
-timevis::timevis(cuarentena_df, fit = TRUE, showZoom = FALSE)
+# timevis::timevis(cuarentena_df, fit = TRUE, showZoom = FALSE)
 
 # last 4 records, yesterday and today
 beds_icu <- read_csv("datos/covid-19-peru-camas-uci.csv") %>% 
-  slice_tail(n = 4) %>% 
+  slice_tail(n = 6) %>% 
   select(fecha, estado, total) %>% 
   pivot_wider(
     names_from = estado,
     values_from = total
   ) %>% 
-  janitor::clean_names()
+  janitor::clean_names() %>%
+  mutate_at(
+    vars(en_uso), #disponible),
+    scales::comma
+  )
 ```
 
-### {data-width="30%"}
 
-**Días en cuarentena oficial**
-```{r}
+```{r eval = FALSE}
+### {data-width="30%"}
+# **Días en cuarentena oficial**
 ahora <- (interval(first_day, today) %/% days()) + 1
 final <- (interval(first_day, last_day) %/% days()) + 1
-gauge(ahora, min = 0, max = final, symbol = "d", 
-      gaugeSectors(colors = "darkgrey"))
+# gauge(ahora, min = 0, max = final, symbol = "d", 
+#       gaugeSectors(colors = "darkgrey"))
 ```
 
-**Días en suspensión de clases**
 
 ```{r}
+# **Días en suspensión de clases**
 ahora <- (interval(susp_classes_first_day, today) %/% days()) + 1
 final <- (interval(susp_classes_first_day, susp_classes_last_day) %/% days()) + 1
-gauge(ahora, min = 0, max = final, symbol = "d", 
-      gaugeSectors(colors = "blue"))
+# gauge(ahora, min = 0, max = final, symbol = "d", 
+#      gaugeSectors(colors = "blue"))
 ```
 
-
-```{r eval=FALSE}
 ## Anteayer
 
 ### Anteayer
 
+```{r}
 valueBox(sit_pe[1,]$date, color = "#ffffff")
 ```
 
-
-```{r eval=FALSE}
 ### Casos confirmados
+
+```{r}
 valueBox(sit_pe[1,]$confirmed, icon = "fa-user-plus", color = "info")
 ```
 
 
-
-```{r eval=FALSE}
 ### Fallecimientos
+
+```{r}
 valueBox(sit_pe[1,]$deaths, icon = "fa-cross", color = "#ff0000")
 ```
 
-
-```{r eval=FALSE}
 ### Casos Recuperados
+
+```{r}
 valueBox(sit_pe[1,]$recovered, icon = "fa-user-check", color = "#ffa500")
 ```
 
+### Casos Negativos
 
-```{r eval=FALSE}
-### Casos negativos
+```{r}
 valueBox(sit_pe[1,]$negative_tests, icon = "fa-user-minus", color = "success")
 ```
 
+### Camas UCI en uso
+```{r}
+valueBox(beds_icu[1,]$en_uso, icon = "fa-procedures", color = "#e57373")
+```
+
+### Camas UCI disponibles
+```{r}
+valueBox(beds_icu[1,]$disponible, icon = "fa-bed", color = "#4dd0e1")
+```
 
 
 ## Yesterday
@@ -252,19 +263,19 @@ valueBox(sit_pe[2,]$deaths, icon = "fa-cross", color = "#ff0000")
 valueBox(sit_pe[2,]$recovered, icon = "fa-user-check", color = "#ffa500")
 ```
 
-### Casos negativos
+### Casos Negativos
 ```{r}
 valueBox(sit_pe[2,]$negative_tests, icon = "fa-user-minus", color = "success")
 ```
 
 ### Camas UCI en uso
 ```{r}
-valueBox(beds_icu[1,]$en_uso, icon = "fa-procedures", color = "#e57373")
+valueBox(beds_icu[2,]$en_uso, icon = "fa-procedures", color = "#e57373")
 ```
 
 ### Camas UCI disponibles
 ```{r}
-valueBox(beds_icu[1,]$disponible, icon = "fa-bed", color = "#4dd0e1")
+valueBox(beds_icu[2,]$disponible, icon = "fa-bed", color = "#4dd0e1")
 ```
 
 
@@ -291,19 +302,19 @@ valueBox(sit_pe[3,]$deaths, icon = "fa-cross", color = "#ff0000")
 valueBox(sit_pe[3,]$recovered, icon = "fa-user-check", color = "#ffa500")
 ```
 
-### Casos negativos
+### Casos Negativos
 ```{r}
 valueBox(sit_pe[3,]$negative_tests, icon = "fa-user-minus", color = "success")
 ```
 
 ### Camas UCI en uso
 ```{r}
-valueBox(beds_icu[2,]$en_uso, icon = "fa-procedures", color = "#e57373")
+valueBox(beds_icu[3,]$en_uso, icon = "fa-procedures", color = "#e57373")
 ```
 
 ### Camas UCI disponibles
 ```{r}
-valueBox(beds_icu[2,]$disponible, icon = "fa-bed", color = "#4dd0e1")
+valueBox(beds_icu[3,]$disponible, icon = "fa-bed", color = "#4dd0e1")
 ```
 
 ## Test results and hospitalizados
