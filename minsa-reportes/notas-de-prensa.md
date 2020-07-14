@@ -134,6 +134,7 @@
 - [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 319,646 en el Perú (Comunicado N° 166)](https://www.gob.pe/institucion/minsa/noticias/201740-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-319-646-en-el-peru-comunicado-n-166) 2020-07-10
 - [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 322,710 en el Perú (Comunicado N° 167)](https://www.gob.pe/institucion/minsa/noticias/206493-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-322-710-en-el-peru-comunicado-n-167) 2020-07-11
 - [Minsa: Casos confirmados por Coronavirus Covid-19 ascienden a 326,326 en el Perú (Comunicado N° 168)](https://www.gob.pe/institucion/minsa/noticias/206653-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-326-326-en-el-peru-comunicado-n-168) 2020-07-12
+- [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 330,123 en el Perú (Comunicado N° 169)](https://www.gob.pe/institucion/minsa/noticias/206859-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-330-123-en-el-peru-comunicado-n-169) 2020-07-13
 
 ## Recuperados
 
