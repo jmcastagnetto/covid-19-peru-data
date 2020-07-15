@@ -1,4 +1,4 @@
-fecha,hospitalizados,sospechosos,confirmados,essalud,minsa,clinica_privada,ffaa_pnp,uci,ventilacion_mecanica,favorable,estacionario,cuidado_desfavorable,altas_medicas,comunicado_minsa
+fecha,hospitalizados,sospechosos,confirmados,essalud,minsa,clinica_privada,ffaa_pnp,uci,ventilacion_mecanica,favorable,estacionario,desfavorable,altas_medicas,comunicado_minsa
 2020-03-22,31,NA,NA,6,21,3,1,NA,NA,NA,NA,NA,NA,28
 2020-03-23,36,26,10,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,29
 2020-03-24,NA,NA,NA,14,7,2,NA,14,3,2,17,4,4,31
@@ -111,3 +111,4 @@ fecha,hospitalizados,sospechosos,confirmados,essalud,minsa,clinica_privada,ffaa_
 2020-07-11,11932,NA,NA,4949,5201,1326,456,NA,1315,2745,7755,1432,10481,167
 2020-07-12,11723,NA,NA,5020,4931,1316,456,NA,1316,2696,7620,1407,10641,168
 2020-07-13,11897,NA,NA,5095,4999,1335,468,NA,1314,1547,8922,1428,10814,169
+2020-07-14,11962,NA,NA,5057,5112,1315,478,NA,1325,2990,7417,1555,11046,170
