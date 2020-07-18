@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-18 00:04:17 UTC
+**Última actualización**: 2020-07-18 23:36:57 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -113,6 +113,10 @@ Situacional, la positividad de los resultados sólo está considerando los
 que provienen de PCR, y ya no la suma de PCR + Pruebas serológicas. He
 agregado una columna con el total de pruebas reportadas por cada
 departamento.
+
+**2020-07-18**: Hoy no han publicado archivos con datos en la Sala
+Situacional (hasta las 18:30h), por lo que los datos han sido extraídos
+de la visualización publicada.
 
 Fuentes
 -------
@@ -769,6 +773,10 @@ Casos confirmados
     345,537 en el Perú (Comunicado
     N° 174)](https://www.gob.pe/institucion/minsa/noticias/212348-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-345-537-en-el-peru-comunicado-n-174)
     2020-07-17
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
+    349,500 en el Perú (Comunicado
+    N° 175)](https://www.gob.pe/institucion/minsa/noticias/212409-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-349-500-en-el-peru-comunicado-n-175)
+    2020-07-18
 
 Recuperados
 -----------

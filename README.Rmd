@@ -67,6 +67,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-07-07**: A partir de hoy, en la información de la Sala Situacional, la positividad de los resultados sólo está considerando los que provienen de PCR, y ya no la suma de PCR + Pruebas serológicas. He agregado una columna con el total de pruebas reportadas por cada departamento.
 
+**2020-07-18**: Hoy no han publicado archivos con datos en la Sala Situacional (hasta las 18:30h), por lo que los datos han sido extraídos de la visualización publicada.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
