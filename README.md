@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-20 00:25:50 UTC
+**Última actualización**: 2020-07-21 03:40:29 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -116,6 +116,10 @@ departamento.
 
 **2020-07-18**: Hoy no han publicado archivos con datos en la Sala
 Situacional (hasta las 18:30h), por lo que los datos han sido extraídos
+de la visualización publicada.
+
+**2020-07-20**: Hoy tampoco han publicado archivos con datos en la Sala
+Situacional (hasta las 20:00h), por lo que los datos han sido extraídos
 de la visualización publicada.
 
 Fuentes
@@ -781,6 +785,10 @@ Casos confirmados
     353,590 en el Perú (Comunicado
     N° 176)](https://www.gob.pe/institucion/minsa/noticias/212460-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-353-590-en-el-peru-comunicado-n-176)
     2020-07-19
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
+    357,681 en el Perú (Comunicado
+    N° 177)](https://www.gob.pe/institucion/minsa/noticias/213880-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-357-681-en-el-peru-comunicado-n-177)
+    2020-07-20
 
 Recuperados
 -----------
