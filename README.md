@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-21 03:40:29 UTC
+**Última actualización**: 2020-07-21 23:07:43 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -789,6 +789,10 @@ Casos confirmados
     357,681 en el Perú (Comunicado
     N° 177)](https://www.gob.pe/institucion/minsa/noticias/213880-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-357-681-en-el-peru-comunicado-n-177)
     2020-07-20
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 362
+    087 en el Perú (Comunicado
+    N° 179)](Minsa:%20Casos%20confirmados%20por%20coronavirus%20Covid-19%20ascienden%20a%20362%20087%20en%20el%20Perú%20(Comunicado%20N°%20179))
+    2020-07-21
 
 Recuperados
 -----------
