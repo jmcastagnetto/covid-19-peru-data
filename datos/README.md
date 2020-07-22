@@ -13,13 +13,13 @@
 - serological_test_positive: Casos detectados con pruebas serológicas ("pruebas rápidas")
 - pcr_serological_test_positive: Casos detectados con pruebas moleculares y serológicas ("pruebas rápidas")
 
-**`covid-19-peru-data-con-ubigeos.csv`**
+**`covid-19-peru-data-augmented.csv`**
 
 - country: Peru (país)
 - iso3c: PER (código ISO de 3 letras para Perú)
 - region: Departamento del Perú (sólo a partir del 2020-03-13)
-- cod_dep_inei: UBIGEO del departamenteo (INEI)
-- cod_dep_reniec: UBIGEO del departamenteo (RENIEC)
+- region_orig: Denominación original de la región (a partir del 2020-07-05)
+- ubigeo: UBIGEO del departamenteo (INEI)
 - iso_3166_2_code: Códigos ISO-3166-2 para el Departamento.
 - date: Fecha en formato ISO (YYYY-MM-DD)
 - confirmed: Casos confirmados
@@ -30,7 +30,13 @@
 - pcr_test_positive: Casos detectados con pruebas moleculares
 - serological_test_positive: Casos detectados con pruebas serológicas ("pruebas rápidas")
 - pcr_serological_test_positive: Casos detectados con pruebas moleculares y serológicas ("pruebas rápidas")
-- pob_2017: Población por departamento al 2017 (INEI)
+- zone: Zona geográfica: Centro, Norte ó Sur (CEPLAN)
+- pop2019: Población por departamento al 2019 (CEPLAN)
+- surface: Superficie en Km² (CEPLAN)
+- capital: Capital de Departamento (CEPLAN)
+- altitude: Altitude de la capital de departamento (CEPLAN)
+- lat: Latitud de la capital de departamento (CEPLAN)
+- lon: Longitud de la capital de departamento (CEPLAN)
 
 **`covid-19-peru-fallecimientos.csv`**
 

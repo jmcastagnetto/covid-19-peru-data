@@ -73,30 +73,56 @@ covid_pe <- read_csv(
   select(-region)
 
 covid_regions_pe <- read_csv(
-  "datos/covid-19-peru-data-con-ubigeos.csv",
+  "datos/covid-19-peru-data-augmented.csv",
   col_types = cols(
     country = col_character(),
     iso3c = col_character(),
     region = col_character(),
     region_orig = col_character(),
-    cod_dep_inei = col_character(),
-    cod_dep_reniec = col_character(),
+    ubigeo = col_character(),
     iso_3166_2_code = col_character(),
     date = col_date(format = ""),
     confirmed = col_double(),
     deaths = col_double(),
     recovered = col_double(),
-    total_tests = col_double(),
+    total_tests = col_logical(),
     negative_tests = col_double(),
     pcr_test_positive = col_double(),
     serological_test_positive = col_double(),
     pcr_serological_test_positive = col_double(),
-    pob_2017 = col_double()
+    zone = col_character(),
+    pop2019 = col_double(),
+    surface = col_double(),
+    capital = col_character(),
+    altitude = col_double(),
+    lat = col_double(),
+    lon = col_double()
   )
+  # 
+  # 
+  # col_types = cols(
+  #   country = col_character(),
+  #   iso3c = col_character(),
+  #   region = col_character(),
+  #   region_orig = col_character(),
+  #   cod_dep_inei = col_character(),
+  #   cod_dep_reniec = col_character(),
+  #   iso_3166_2_code = col_character(),
+  #   date = col_date(format = ""),
+  #   confirmed = col_double(),
+  #   deaths = col_double(),
+  #   recovered = col_double(),
+  #   total_tests = col_double(),
+  #   negative_tests = col_double(),
+  #   pcr_test_positive = col_double(),
+  #   serological_test_positive = col_double(),
+  #   pcr_serological_test_positive = col_double(),
+  #   pop2019 = col_double()
+  # )
 ) %>%
   filter(!is.na(region)) %>% 
-  group_by(region, cod_dep_inei, cod_dep_reniec,
-           iso_3166_2_code, date, pob_2017) %>% 
+  group_by(region, ubigeo,
+           iso_3166_2_code, date, pop2019) %>% 
   summarise(
     confirmed = sum(confirmed, na.rm = TRUE),
     deaths = sum(deaths, na.rm = TRUE),
@@ -108,7 +134,7 @@ covid_regions_pe <- read_csv(
   ) %>%
   distinct() %>% 
   mutate(
-    confirmed_per_million = round(confirmed * 1e6 / pob_2017, 1)
+    confirmed_per_million = round(confirmed * 1e6 / pop2019, 1)
   )
 
 cur_theme <- theme(
@@ -134,7 +160,6 @@ sit_pe <- covid_pe %>%
   )
 
 ```
-
 
 
 ```{r}
@@ -1002,8 +1027,7 @@ datatable(
   covid_regions_pe %>% 
     select(
       region,
-      cod_dep_inei,
-      cod_dep_reniec,
+      ubigeo,
       iso_3166_2_code,
       date,
       confirmed,
@@ -1014,12 +1038,11 @@ datatable(
       deaths,
       negative_tests,
       total_tests,
-      pob_2017
+      pop2019
     ) %>% 
     arrange(desc(date), region),
   colnames = c("Departamento", 
                "UBIGEO (INEI)",
-               "UBIGEO (RENIEC)",
                "Código ISO 3166-2:PE",
                "Fecha", 
                "Número de casos confirmados",
@@ -1030,7 +1053,7 @@ datatable(
                "Número de fallecimientos",
                "Pruebas negativas",
                "Total de pruebas",
-               "Población (INEI, 2017)"
+               "Población (2019)"
                ),
   class = "cell-border stripe",
   extensions = c("Buttons", "Responsive"),

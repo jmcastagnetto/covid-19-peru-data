@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-21 23:07:43 UTC
+**Última actualización**: 2020-07-22 02:50:20 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -138,10 +138,13 @@ Notas
     <a href="https://github.com/CONCYTEC/ubigeo-peru" class="uri">https://github.com/CONCYTEC/ubigeo-peru</a>
 -   Códigos ISO-3166-2, usando el paquete en R `ISOcodes`:
     <a href="https://cran.r-project.org/package=ISOcodes" class="uri">https://cran.r-project.org/package=ISOcodes</a>
--   Mapa preliminar usando el paquete `mapview` en:
-    <a href="https://castagnetto.site/peru/peru-covid-19-map.html" class="uri">https://castagnetto.site/peru/peru-covid-19-map.html</a>
--   Datos de población por departamento (al 2017):
-    <a href="https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/" class="uri">https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/</a>
+-   A partir del 2020-07-21, estoy usando los datos de población al
+    2019, así como latitud y longitud de las capitales de departamento
+    reportados por CEPLAN en:
+    <a href="https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/" class="uri">https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/</a>
+    -   Anteriormente se emplearon los datos de población por
+        departamento (al 2017):
+        <a href="https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/" class="uri">https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/</a>
 -   El [reporte N°29 del
     MINSA](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29)
     corrige el número de casos confirmados en Huánuco del [reporte N°
@@ -186,13 +189,14 @@ Estructura de los archivos CSV
 -   pcr\_serological\_test\_positive: Casos detectados con pruebas
     moleculares y serológicas (“pruebas rápidas”)
 
-**`covid-19-peru-data-con-ubigeos.csv`**
+**`covid-19-peru-data-augmented.csv`**
 
 -   country: Peru (país)
 -   iso3c: PER (código ISO de 3 letras para Perú)
 -   region: Departamento del Perú (sólo a partir del 2020-03-13)
--   cod\_dep\_inei: UBIGEO del departamenteo (INEI)
--   cod\_dep\_reniec: UBIGEO del departamenteo (RENIEC)
+-   region\_orig: Denominación original de la región (a partir del
+    2020-07-05)
+-   ubigeo: UBIGEO del departamenteo (INEI)
 -   iso\_3166\_2\_code: Códigos ISO-3166-2 para el Departamento.
 -   date: Fecha en formato ISO (YYYY-MM-DD)
 -   confirmed: Casos confirmados
@@ -205,7 +209,13 @@ Estructura de los archivos CSV
     serológicas (“pruebas rápidas”)
 -   pcr\_serological\_test\_positive: Casos detectados con pruebas
     moleculares y serológicas (“pruebas rápidas”)
--   pob\_2017: Población por departamento al 2017 (INEI)
+-   zone: Zona geográfica: Centro, Norte ó Sur (CEPLAN)
+-   pop2019: Población por departamento al 2019 (CEPLAN)
+-   surface: Superficie en Km² (CEPLAN)
+-   capital: Capital de Departamento (CEPLAN)
+-   altitude: Altitude de la capital de departamento (CEPLAN)
+-   lat: Latitud de la capital de departamento (CEPLAN)
+-   lon: Longitud de la capital de departamento (CEPLAN)
 
 **`covid-19-peru-fallecimientos.csv`**
 
