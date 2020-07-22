@@ -7,6 +7,8 @@ output: md_document
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
+[![COVID-19 Data Hub contributor](COVID-19 Data Hub - CONTRIBUTOR COVID-19 Data Hub - 2020-07-21.svg)](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
+
 ## Motivación
 
 MINSA está publicando en su cuenta de Twitter y en la sección de "Noticias" del portal del gobierno peruano, comunicados con información sobre COVID-19, pero no hay un repositorio de datos abiertos que pueda ser usado por todos.
