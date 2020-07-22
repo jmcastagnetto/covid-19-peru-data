@@ -1,9 +1,8 @@
-**Última actualización**: 2020-07-22 18:13:26 UTC
+**Última actualización**: 2020-07-22 19:25:17 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
-[![COVID-19 Data Hub
-contributor](COVID-19%20Data%20Hub%20-%20CONTRIBUTOR%20COVID-19%20Data%20Hub%20-%202020-07-21.svg)](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
+[<img src="COVID-19 Data Hub - CONTRIBUTOR COVID-19 Data Hub - 2020-07-21.svg" width="100" align="right"/>](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
 
 Motivación
 ----------
