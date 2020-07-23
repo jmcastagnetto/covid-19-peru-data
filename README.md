@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-22 23:40:33 UTC
+**Última actualización**: 2020-07-23 00:28:09 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -123,6 +123,11 @@ de la visualización publicada.
 **2020-07-20**: Hoy tampoco han publicado archivos con datos en la Sala
 Situacional (hasta las 20:00h), por lo que los datos han sido extraídos
 de la visualización publicada.
+
+**2020-07-22**: En el comunicado 180 del MINSA se indica que se ha
+revisado el número de fallecimientos para incluir a 3,688 casos
+comprobados de COVID-19, pero esto no se refleja aún en los datos
+publicados.
 
 Fuentes
 -------

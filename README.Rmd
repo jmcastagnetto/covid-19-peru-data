@@ -73,6 +73,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-07-20**: Hoy tampoco han publicado archivos con datos en la Sala Situacional (hasta las 20:00h), por lo que los datos han sido extraídos de la visualización publicada.
 
+**2020-07-22**: En el comunicado 180 del MINSA se indica que se ha revisado el número de fallecimientos para incluir a 3,688 casos comprobados de COVID-19, pero esto no se refleja aún en los datos publicados.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
