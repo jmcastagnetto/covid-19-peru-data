@@ -75,6 +75,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-07-22**: En el comunicado 180 del MINSA se indica que se ha revisado el número de fallecimientos para incluir a 3,688 casos comprobados de COVID-19, pero esto no se refleja aún en los datos publicados.
 
+**2020-07-25**: Hoy, hasta las 20:35h, no se han publicado datos ni actualizado la Sala Situacional, y el comunicado 183 no contine información por departamento. MINSA indica que han tenido problemas técnicos (ref: https://twitter.com/Minsa_Peru/status/1287111345024925697)
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

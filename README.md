@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-25 02:14:08 UTC
+**Última actualización**: 2020-07-26 01:47:24 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -128,6 +128,12 @@ de la visualización publicada.
 revisado el número de fallecimientos para incluir a 3,688 casos
 comprobados de COVID-19, pero esto no se refleja aún en los datos
 publicados.
+
+**2020-07-25**: Hoy, hasta las 20:35h, no se han publicado datos ni
+actualizado la Sala Situacional, y el comunicado 183 no contine
+información por departamento. MINSA indica que han tenido problemas
+técnicos (ref:
+<a href="https://twitter.com/Minsa_Peru/status/1287111345024925697" class="uri">https://twitter.com/Minsa_Peru/status/1287111345024925697</a>)
 
 Fuentes
 -------
@@ -822,6 +828,10 @@ Casos confirmados
     375,961 en el Perú (Comunicado
     N° 182)](https://www.gob.pe/institucion/minsa/noticias/215609-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-375-961-en-el-peru-comunicado-n-182)
     2020-07-24
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
+    379,884 en el Perú (Comunicado
+    N° 183)](https://www.gob.pe/institucion/minsa/noticias/215997-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-379-884-en-el-peru-comunicado-n-183)
+    2020-07-25
 
 Recuperados
 -----------
