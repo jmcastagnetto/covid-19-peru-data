@@ -79,6 +79,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-07-26**: Hoy, hasta las 22:50h, no se han publicado datos ni actualizado las Sala Situacional, y el comunicado 186 no contiene información por departamento, ni los detalles de las pruebas que usualmente se publican. (ref: https://twitter.com/Minsa_Peru/status/1287587172892246016)
 
+**2020-07-27**: Tampoco hoy se ha actualizado la "Sala Situacional...", y el comunicado 187 ya no contiene la información por departamente, pero volvieron los detalle generales por tipo de prueba. (ref: https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187 y https://twitter.com/Minsa_Peru/status/1287917699474042887)
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

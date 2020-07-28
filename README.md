@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-27 04:07:41 UTC
+**Última actualización**: 2020-07-28 03:41:31 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -140,6 +140,13 @@ actualizado las Sala Situacional, y el comunicado 186 no contiene
 información por departamento, ni los detalles de las pruebas que
 usualmente se publican. (ref:
 <a href="https://twitter.com/Minsa_Peru/status/1287587172892246016" class="uri">https://twitter.com/Minsa_Peru/status/1287587172892246016</a>)
+
+**2020-07-27**: Tampoco hoy se ha actualizado la “Sala Situacional…”, y
+el comunicado 187 ya no contiene la información por departamente, pero
+volvieron los detalle generales por tipo de prueba. (ref:
+<a href="https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187" class="uri">https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187</a>
+y
+<a href="https://twitter.com/Minsa_Peru/status/1287917699474042887" class="uri">https://twitter.com/Minsa_Peru/status/1287917699474042887</a>)
 
 Fuentes
 -------
@@ -842,6 +849,10 @@ Casos confirmados
     384,797 en el Perú (Comunicado
     N° 186)](https://www.gob.pe/institucion/minsa/noticias/216085-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-384-797-en-el-peru-comunicado-n-186)
     2020-07-26
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
+    389,717 en el Perú (Comunicado
+    N° 187)](https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187)
+    2020-07-27
 
 Recuperados
 -----------
