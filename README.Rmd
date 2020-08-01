@@ -83,6 +83,10 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-07-28**: Sala Situacional ha sido actualizada con datos al 2020-07-27, nuevamente los datos están disponibles en https://covid19.minsa.gob.pe/sala_situacional.asp
 
+**2020-07-30**: La "Sala Situacional..." no ha sido actualizada hasta las 23:30h de hoy. (Nota del 2020-07-31, 19:00h: aún se observan los datos del 2020-07-29)
+
+**2020-08-01**: Hoy se observan publicados los datos del 2020-07-30 en la "Sala Situacional ...". El comunicado con información del 2020-07-31 fue publicado sin numeración, a las 00:15h del 2020-08-01, y sin información por departamento. No hay datos en la "Sala Situacional..." del 2020-07-31.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

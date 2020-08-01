@@ -1,4 +1,4 @@
-**Última actualización**: 2020-07-31 04:45:39 UTC
+**Última actualización**: 2020-08-01 19:39:38 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -152,6 +152,16 @@ y
 **2020-07-28**: Sala Situacional ha sido actualizada con datos al
 2020-07-27, nuevamente los datos están disponibles en
 <a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>
+
+**2020-07-30**: La “Sala Situacional…” no ha sido actualizada hasta las
+23:30h de hoy. (Nota del 2020-07-31, 19:00h: aún se observan los datos
+del 2020-07-29)
+
+**2020-08-01**: Hoy se observan publicados los datos del 2020-07-30 en
+la “Sala Situacional …”. El comunicado con información del 2020-07-31
+fue publicado sin numeración, a las 00:15h del 2020-08-01, y sin
+información por departamento. No hay datos en la “Sala Situacional…” del
+2020-07-31.
 
 Fuentes
 -------
@@ -870,6 +880,10 @@ Casos confirmados
     407,492 en el Perú (Comunicado
     N° 191)](https://www.gob.pe/institucion/minsa/noticias/218573-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-407-492-en-el-peru-comunicado-n-191)
     2020-07-30
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
+    414,735 en el
+    Perú](https://www.gob.pe/institucion/minsa/noticias/232456-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-414-735-en-el-peru)
+    2020-07-31
 
 Recuperados
 -----------
