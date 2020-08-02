@@ -455,7 +455,11 @@ fecha,personas,resultado,tipo_prueba
 2020-07-30,298067,positivo,serológicas
 2020-07-30,267324,negativo,moleculares
 2020-07-30,1643438,negativo,serológicas
-2020-07-31,NA,positivo,moleculares
-2020-07-31,NA,positivo,serológicas
+2020-07-31,110404,positivo,moleculares
+2020-07-31,304331,positivo,serológicas
 2020-07-31,NA,negativo,moleculares
 2020-07-31,NA,negativo,serológicas
+2020-08-01,112221,positivo,moleculares
+2020-08-01,309962,positivo,serológicas
+2020-08-01,NA,negativo,moleculares
+2020-08-01,NA,negativo,serológicas

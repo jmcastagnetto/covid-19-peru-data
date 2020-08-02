@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-01 19:39:38 UTC
+**Última actualización**: 2020-08-02 22:18:05 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -159,9 +159,11 @@ del 2020-07-29)
 
 **2020-08-01**: Hoy se observan publicados los datos del 2020-07-30 en
 la “Sala Situacional …”. El comunicado con información del 2020-07-31
-fue publicado sin numeración, a las 00:15h del 2020-08-01, y sin
-información por departamento. No hay datos en la “Sala Situacional…” del
-2020-07-31.
+fue publicado sin información por departamento. No hay datos en la “Sala
+Situacional…” del 2020-07-31.
+
+**2020-08-02**: Los datos del 2020-08-01 fueron publicdos hoy en la
+“Sala Situacional…”
 
 Fuentes
 -------
@@ -881,9 +883,13 @@ Casos confirmados
     N° 191)](https://www.gob.pe/institucion/minsa/noticias/218573-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-407-492-en-el-peru-comunicado-n-191)
     2020-07-30
 -   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
-    414,735 en el
-    Perú](https://www.gob.pe/institucion/minsa/noticias/232456-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-414-735-en-el-peru)
+    414,735 en el Perú (Comunicado
+    N° 192)](https://www.gob.pe/institucion/minsa/noticias/232456-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-414-735-en-el-peru-comunicado-n-192)
     2020-07-31
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
+    422,183 en el Perú (Comunicado
+    N° 193)](https://www.gob.pe/institucion/minsa/noticias/285675-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-422-183-en-el-peru-comunicado-n-193)
+    2020-07-01
 
 Recuperados
 -----------
