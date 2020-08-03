@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-02 22:18:05 UTC
+**Última actualización**: 2020-08-03 02:59:57 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -162,8 +162,9 @@ la “Sala Situacional …”. El comunicado con información del 2020-07-31
 fue publicado sin información por departamento. No hay datos en la “Sala
 Situacional…” del 2020-07-31.
 
-**2020-08-02**: Los datos del 2020-08-01 fueron publicdos hoy en la
-“Sala Situacional…”
+**2020-08-02**: Los datos del 2020-08-01 fueron publicados hoy en la
+“Sala Situacional…”. Hoy salió el comunicado 194, con información
+general, sin detalles por tipo de prueba ni por departamento.
 
 Fuentes
 -------
@@ -890,6 +891,10 @@ Casos confirmados
     422,183 en el Perú (Comunicado
     N° 193)](https://www.gob.pe/institucion/minsa/noticias/285675-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-422-183-en-el-peru-comunicado-n-193)
     2020-07-01
+-   \[Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 428
+    850 en el Perú (Comunicado N°
+    194)(<a href="https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194" class="uri">https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194</a>)
+    2020-07-02
 
 Recuperados
 -----------
