@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-03 02:59:57 UTC
+**Última actualización**: 2020-08-03 21:06:08 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -165,6 +165,9 @@ Situacional…” del 2020-07-31.
 **2020-08-02**: Los datos del 2020-08-01 fueron publicados hoy en la
 “Sala Situacional…”. Hoy salió el comunicado 194, con información
 general, sin detalles por tipo de prueba ni por departamento.
+
+**2020-08-03**: Hoy salieron publicados en la “Sala Situacional…” los
+datos del 2020-08-02.
 
 Fuentes
 -------
