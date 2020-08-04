@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-03 21:06:08 UTC
+**Última actualización**: 2020-08-04 05:14:06 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -166,8 +166,11 @@ Situacional…” del 2020-07-31.
 “Sala Situacional…”. Hoy salió el comunicado 194, con información
 general, sin detalles por tipo de prueba ni por departamento.
 
-**2020-08-03**: Hoy salieron publicados en la “Sala Situacional…” los
-datos del 2020-08-02.
+**2020-08-03**: Hoy en la mañana salieron publicados en la “Sala
+Situacional…” los datos del 2020-08-02, y por la noche los datos de hoy
+(2020-08-03). Por tercer día consecutivo la información de camas UCI no
+ha variado (los datos son los mismos para el 2020-08-01, el 2020-08-02 y
+el 2020-08-03)
 
 Fuentes
 -------
@@ -898,6 +901,10 @@ Casos confirmados
     850 en el Perú (Comunicado N°
     194)(<a href="https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194" class="uri">https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194</a>)
     2020-07-02
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 433
+    100 en el Perú (Comunicado
+    N° 195)](https://www.gob.pe/institucion/minsa/noticias/286023-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-433-100-en-el-peru-comunicado-n-195)
+    2020-08-03
 
 Recuperados
 -----------

@@ -89,7 +89,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-08-02**: Los datos del 2020-08-01 fueron publicados hoy en la "Sala Situacional...". Hoy salió el comunicado 194, con información general, sin detalles por tipo de prueba ni por departamento.
 
-**2020-08-03**: Hoy salieron publicados en la "Sala Situacional..." los datos del 2020-08-02.
+**2020-08-03**: Hoy en la mañana salieron publicados en la "Sala Situacional..." los datos del 2020-08-02, y por la noche los datos de hoy (2020-08-03). Por tercer día consecutivo la información de camas UCI no ha variado (los datos son los mismos para el 2020-08-01, el 2020-08-02 y el 2020-08-03)
 
 ## Fuentes
 
