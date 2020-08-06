@@ -93,6 +93,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-08-04**: Los datos de la "Sala Situacional ..." fueron publicados, pero el comunicado 196 tiene menos detalles que antes.
 
+**2020-08-05**: Por quinto dia, ya no hay detalles sobre el número de pruebas por tipo (moleculares o serológica), dejaré de actualizar esa parte de la información por ahora.
 
 ## Fuentes
 

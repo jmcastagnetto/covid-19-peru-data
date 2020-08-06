@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-05 16:40:24 UTC
+**Última actualización**: 2020-08-06 03:19:54 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -174,6 +174,10 @@ el 2020-08-03)
 
 **2020-08-04**: Los datos de la “Sala Situacional …” fueron publicados,
 pero el comunicado 196 tiene menos detalles que antes.
+
+**2020-08-05**: Por quinto dia, ya no hay detalles sobre el número de
+pruebas por tipo (moleculares o serológica), dejaré de actualizar esa
+parte de la información por ahora.
 
 Fuentes
 -------
@@ -912,6 +916,10 @@ Casos confirmados
     890 en el Perú (Comunicado
     N° 196)](https://www.gob.pe/institucion/minsa/noticias/286196-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-439-890-en-el-peru-comunicado-n-196)
     2020-08-04
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 447
+    624 en el Perú (Comunicado
+    N°197)](https://www.gob.pe/institucion/minsa/noticias/286399-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-447-624-en-el-peru-comunicado-n-197)
+    2020-08-05
 
 Recuperados
 -----------
