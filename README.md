@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-06 03:19:54 UTC
+**Última actualización**: 2020-08-07 15:44:10 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -178,6 +178,9 @@ pero el comunicado 196 tiene menos detalles que antes.
 **2020-08-05**: Por quinto dia, ya no hay detalles sobre el número de
 pruebas por tipo (moleculares o serológica), dejaré de actualizar esa
 parte de la información por ahora.
+
+**2020-08-06**: Los datos de UCI y de altas médicas se están repitiendo
+con frecuencia de un día al siguiente.
 
 Fuentes
 -------
@@ -920,6 +923,10 @@ Casos confirmados
     624 en el Perú (Comunicado
     N°197)](https://www.gob.pe/institucion/minsa/noticias/286399-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-447-624-en-el-peru-comunicado-n-197)
     2020-08-05
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 455
+    409 en el Perú (Comunicado
+    N° 198)](https://www.gob.pe/institucion/minsa/noticias/286697-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-455-409-en-el-peru-comunicado-n-198)
+    2020-08-06
 
 Recuperados
 -----------

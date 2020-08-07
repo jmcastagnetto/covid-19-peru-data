@@ -95,6 +95,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-08-05**: Por quinto dia, ya no hay detalles sobre el número de pruebas por tipo (moleculares o serológica), dejaré de actualizar esa parte de la información por ahora.
 
+**2020-08-06**: Los datos de UCI y de altas médicas se están repitiendo con frecuencia de un día al siguiente.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
