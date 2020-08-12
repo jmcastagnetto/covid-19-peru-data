@@ -97,6 +97,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-08-06**: Los datos de UCI y de altas médicas se están repitiendo con frecuencia de un día al siguiente.
 
+**2020-08-11**: Desde el 2020-08-01, los datos de UCI y de altas médicas no han cambiado, son exactamente los mismos.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

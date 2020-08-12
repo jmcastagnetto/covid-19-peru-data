@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-11 04:33:27 UTC
+**Última actualización**: 2020-08-12 13:20:02 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -181,6 +181,9 @@ parte de la información por ahora.
 
 **2020-08-06**: Los datos de UCI y de altas médicas se están repitiendo
 con frecuencia de un día al siguiente.
+
+**2020-08-11**: Desde el 2020-08-01, los datos de UCI y de altas médicas
+no han cambiado, son exactamente los mismos.
 
 Fuentes
 -------
@@ -943,6 +946,10 @@ Casos confirmados
     133 en el Perú (Comunicado
     N° 202)](https://www.gob.pe/institucion/minsa/noticias/287217-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-483-133-en-el-peru-comunicado-n-202)
     2020-08-10
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 489
+    680 en el Perú (Comunicado
+    N° 203)](https://www.gob.pe/institucion/minsa/noticias/287394-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-489-680-en-el-peru-comunicado-n-203)
+    2020-08-11
 
 Recuperados
 -----------
