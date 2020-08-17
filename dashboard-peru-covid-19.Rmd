@@ -342,9 +342,9 @@ valueBox(beds_icu[3,]$en_uso, icon = "fa-procedures", color = "#e57373")
 valueBox(beds_icu[3,]$disponible, icon = "fa-bed", color = "#4dd0e1")
 ```
 
-## Test results and hospitalizados
 
-```{r}
+```{r eval=FALSE}
+## Test results and hospitalizados
 tests_raw <- read_csv("datos/covid-19-peru-test-results.csv") %>% 
   pivot_wider(
     names_from = c(resultado, tipo_prueba),
@@ -360,9 +360,9 @@ tests_table <- data.frame(
 ```
 
 
-### Resultados de pruebas por tipo, al `r tests_last$fecha` 
 
-```{r}
+```{r eval=FALSE}
+### Resultados de pruebas por tipo, al `r tests_last$fecha` 
 knitr::kable(
   tests_table,
   format = "html", 
@@ -488,18 +488,29 @@ max_doubling_time = floor(max(pe_dt3$doubling_time, na.rm = TRUE))
 
 dt_plot <- ggplot(pe_dt3, aes(x = date, y = doubling_time)) +
   #geom_line(color = "blue") +
-  geom_smooth(alpha = 0.5) +
+  geom_smooth(alpha = 0.5, method = "gam") +
   geom_point() +
-  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.3, size = 2) +
+  geom_vline(xintercept = as.Date("2020-03-16"), color = "blue", alpha = 0.6, size = 2) +
+  geom_vline(xintercept = as.Date("2020-06-30"), color = "red", alpha = 0.6, size = 2) +
+  geom_vline(xintercept = as.Date("2020-07-14"), color = "grey50", linetype = "dashed", alpha = 0.6, size = 2) +
   ggrepel::geom_text_repel(aes(label = round(doubling_time, 1)), size = 3.5) +
   theme_minimal(18) +
   annotate(geom = "text", x = as.Date("2020-03-20"), size = 6, hjust = 0,
            y = 0.8*max_doubling_time, label = TeX(dt_eq)) +
+  annotate(geom = "text", x = as.Date("2020-03-17"), size = 6, hjust = 0,
+           color = "blue",
+           y = 0.45*max_doubling_time, label = "Inicio de cuarentena") +
+  annotate(geom = "text", x = as.Date("2020-07-01"), size = 6, hjust = 0,
+           color = "red",
+           y = 0.25*max_doubling_time, label = "Fin de cuarentena") +
+  annotate(geom = "text", x = as.Date("2020-07-15"), size = 6, hjust = 0,
+           color = "grey50",
+           y = 0.45*max_doubling_time, label = "14 días luego del\nfin de la cuarentena") +
   labs(
     y = "Tiempo de duplicación (días)",
     x = "",
     title = "Cambio en el periodo de duplicación de casos confirmados",
-    subtitle = "Evaluado usando una ventana móvil de 14 días desde el primer caso",
+    subtitle = "Evaluado usando una ventana móvil de 14 días desde el primer caso\nCurva aproximada con GAM: y ~ s(x, bs = 'cs')",
     caption = paste0(last_updated, " // ", jmc)
   ) +
   cur_theme
