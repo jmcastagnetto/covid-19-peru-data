@@ -342,9 +342,9 @@ valueBox(beds_icu[3,]$en_uso, icon = "fa-procedures", color = "#e57373")
 valueBox(beds_icu[3,]$disponible, icon = "fa-bed", color = "#4dd0e1")
 ```
 
-
-```{r eval=FALSE}
 ## Test results and hospitalizados
+
+```{r}
 tests_raw <- read_csv("datos/covid-19-peru-test-results.csv") %>% 
   pivot_wider(
     names_from = c(resultado, tipo_prueba),
@@ -360,9 +360,9 @@ tests_table <- data.frame(
 ```
 
 
-
-```{r eval=FALSE}
 ### Resultados de pruebas por tipo, al `r tests_last$fecha` 
+
+```{r}
 knitr::kable(
   tests_table,
   format = "html", 
