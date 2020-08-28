@@ -1,4 +1,4 @@
-**Última actualización**: 2020-08-27 17:13:14 UTC
+**Última actualización**: 2020-08-28 00:48:44 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -197,6 +197,9 @@ Fuentes
     MINSA](https://www.gob.pe/busquedas?contenido%5B%5D=noticias&institucion%5B%5D=minsa&reason=sheet&sheet=1)
     -   [RSS de Noticias del
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
+-   [Reportes del Centro Nacional de Epidemiología, Prevención y control
+    de
+    enfermedades](https://www.dge.gob.pe/portal/index.php?option=com_content&view=article&id=678)
 
 Notas
 -----
@@ -913,11 +916,11 @@ Casos confirmados
 -   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a
     422,183 en el Perú (Comunicado
     N° 193)](https://www.gob.pe/institucion/minsa/noticias/285675-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-422-183-en-el-peru-comunicado-n-193)
-    2020-07-01
--   \[Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 428
-    850 en el Perú (Comunicado N°
-    194)(<a href="https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194" class="uri">https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194</a>)
-    2020-07-02
+    2020-08-01
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 428
+    850 en el Perú (Comunicado
+    N° 194)](https://www.gob.pe/institucion/minsa/noticias/285932-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-428-850-en-el-peru-comunicado-n-194)
+    2020-08-02
 -   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 433
     100 en el Perú (Comunicado
     N° 195)](https://www.gob.pe/institucion/minsa/noticias/286023-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-433-100-en-el-peru-comunicado-n-195)
