@@ -1,4 +1,4 @@
-**Última actualización**: 2020-09-02 14:28:30 UTC
+**Última actualización**: 2020-09-04 04:19:15 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -188,6 +188,9 @@ no han cambiado, son exactamente los mismos.
 **2020-08-17**: Los datos de UCI se están actualizando nuevamente, pero
 la cifre de altas médicas en la Sala Situacional permanece inalterada
 desde el 2020-08-02
+
+**2020-09-03**: No se publicaron datos del 2020-09-02 en la Sala
+Situacional, que permanece hasta hoy (22:45PET) con datos del 2020-09-01
 
 Fuentes
 -------
@@ -1041,6 +1044,14 @@ Casos confirmados
     129 en el Perú (Comunicado
     N°226)](https://www.gob.pe/institucion/minsa/noticias/297365-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-657-129-en-el-peru-comunicado-n-226))
     2020-09-01
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 663
+    437 en el Perú (Comunicado
+    N°227)](https://www.gob.pe/institucion/minsa/noticias/297602-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-663-437-en-el-peru-comunicado-n-227)
+    2020-09-02
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 670
+    145 en el Perú (Comunicado
+    N°228)](https://www.gob.pe/institucion/minsa/noticias/299532-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-670-145-en-el-peru-comunicado-n-228)
+    2020-09-03
 
 Recuperados
 -----------
