@@ -255,5 +255,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-09-02,disponible,NA,NA,NA,NA,NA,NA
 2020-09-03,en uso,536,291,338,285,56,1506
 2020-09-03,disponible,54,9,18,110,12,203
-2020-09-04,en uso,526,290,340,285,56,NA
-2020-09-04,disponible,73,8,16,103,11,NA
+2020-09-04,en uso,526,290,340,285,56,1497
+2020-09-04,disponible,73,8,16,103,11,211
+2020-09-05,en uso,533,289,339,278,53,1492
+2020-09-05,disponible,57,10,15,106,14,202
