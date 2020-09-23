@@ -1,4 +1,4 @@
-**Última actualización**: 2020-09-21 15:46:52 UTC
+**Última actualización**: 2020-09-23 02:44:42 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -191,6 +191,10 @@ desde el 2020-08-02
 
 **2020-09-03**: No se publicaron datos del 2020-09-02 en la Sala
 Situacional, que permanece hasta hoy (22:45PET) con datos del 2020-09-01
+
+**2020-09-22**: No se publicaron datos del 2020-09-21 en la Sala
+Situacional. Hasta hoy (2020-09-22, 21:45PET) aparecen los datos del 20
+de setiembre del 2020.
 
 Fuentes
 -------
@@ -1119,6 +1123,14 @@ Casos confirmados
     895 en el Perú (Comunicado
     N°245)](https://www.gob.pe/institucion/minsa/noticias/303309-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-768-895-en-el-peru-comunicado-n-245)
     2020-09-20
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 772
+    896 en el Perú (Comunicado
+    N°247)](https://www.gob.pe/institucion/minsa/noticias/303420-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-772-896-en-el-peru-comunicado-n-247)
+    2020-09-21
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 776
+    546 en el Perú (Comunicado
+    N°248)](https://www.gob.pe/institucion/minsa/noticias/303819-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-776-546-en-el-peru-comunicado-n-248)
+    2020-09-22
 
 Recuperados
 -----------
