@@ -156,7 +156,9 @@ sit_pe <- covid_pe %>%
   arrange(date) %>% 
   mutate_at(
     2:6,
-    scales::comma
+    format,
+	big.mark = ",",
+	nsmall = 0
   )
 
 ```
@@ -867,16 +869,16 @@ rmap_2 <- map_df %>%
 #e_arrange(rmap_1, rmap_2, rows = 1, cols = 2)
 ```
 
-### Número de casos por región
-
-```{r}
-rmap_1
-```
-
 ### Densidad (casos por millón de habitantes) por región
 
 ```{r}
 rmap_2
+```
+
+### Número de casos por región
+
+```{r}
+rmap_1
 ```
 
 ## plots {.tabset data-width="60%"}
