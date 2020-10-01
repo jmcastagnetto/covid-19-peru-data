@@ -1,4 +1,4 @@
-**Última actualización**: 2020-09-30 21:15:52 UTC
+**Última actualización**: 2020-10-01 23:03:37 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -1150,10 +1150,19 @@ Casos confirmados
 -   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 805
     302 en el Perú (Comunicado
     N°253)](https://www.gob.pe/institucion/minsa/noticias/304800-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-805-302-en-el-peru-comunicado-n-253)
-    2020-09-27 -[Minsa: Casos confirmados por coronavirus Covid-19
-    ascienden a 808 714 en el Perú (Comunicado
+    2020-09-27
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 808
+    714 en el Perú (Comunicado
     N°255)](https://www.gob.pe/institucion/minsa/noticias/304927-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-808-714-en-el-peru-comunicado-n-255)
     2020-09-28
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 811
+    768 en el Perú (Comunicado
+    N°256)](https://www.gob.pe/institucion/minsa/noticias/305113-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-811-768-en-el-peru-comunicado-n-256)
+    2020-09-29
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 814
+    829 en el Perú (Comunicado
+    N°257)](https://www.gob.pe/institucion/minsa/noticias/305261-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-814-829-en-el-peru-comunicado-n-257)
+    2020-09-30
 
 Recuperados
 -----------
