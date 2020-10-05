@@ -105,6 +105,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 
 **2020-09-22**: No se publicaron datos del 2020-09-21 en la Sala Situacional. Hasta hoy (2020-09-22, 21:45PET) aparecen los datos del 20 de setiembre del 2020.
 
+**2020-10-04**: Hasta las 23:50h de hoy no se han publicado los datoe del 2020-10-03 en la Sala Situacional, pero si los del 2020-10-04
+
 
 ## Fuentes
 

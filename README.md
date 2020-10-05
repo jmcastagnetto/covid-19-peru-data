@@ -1,4 +1,4 @@
-**Última actualización**: 2020-10-03 19:00:36 UTC
+**Última actualización**: 2020-10-05 04:53:28 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -195,6 +195,9 @@ Situacional, que permanece hasta hoy (22:45PET) con datos del 2020-09-01
 **2020-09-22**: No se publicaron datos del 2020-09-21 en la Sala
 Situacional. Hasta hoy (2020-09-22, 21:45PET) aparecen los datos del 20
 de setiembre del 2020.
+
+**2020-10-04**: Hasta las 23:50h de hoy no se han publicado los datoe
+del 2020-10-03 en la Sala Situacional, pero si los del 2020-10-04
 
 Fuentes
 -------
@@ -1171,6 +1174,14 @@ Casos confirmados
     564 en el Perú (Comunicado
     N°259)](https://www.gob.pe/institucion/minsa/noticias/305650-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-821-564-en-el-peru-comunicado-n-259)
     2020-10-02
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 824
+    985 en el Perú (Comunicado
+    N°260)](https://www.gob.pe/institucion/minsa/noticias/305728-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-824-985-en-el-peru-comunicado-n-260)
+    2020-10-03
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 828
+    169 en el Perú (Comunicado
+    N°261)](https://www.gob.pe/institucion/minsa/noticias/305764-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-828-169-en-el-peru-comunicado-n-261)
+    2020-10-04
 
 Recuperados
 -----------
