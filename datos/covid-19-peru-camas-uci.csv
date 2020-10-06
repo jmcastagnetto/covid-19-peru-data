@@ -313,7 +313,9 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-10-01,disponible,130,37,25,122,20,334
 2020-10-02,en uso,510,202,326,255,38,1331
 2020-10-02,disponible,127,41,26,112,21,327
-2020-10-03,en uso,NA,NA,NA,NA,NA,0
-2020-10-03,disponible,NA,NA,NA,NA,NA,0
+2020-10-03,en uso,NA,NA,NA,NA,NA,NA
+2020-10-03,disponible,NA,NA,NA,NA,NA,NA
 2020-10-04,en uso,495,199,308,247,38,1287
 2020-10-04,disponible,140,45,25,132,21,363
+2020-10-05,en uso,490,192,308,241,38,1269
+2020-10-05,disponible,145,54,26,136,21,382
