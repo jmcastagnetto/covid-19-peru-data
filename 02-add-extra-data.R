@@ -144,6 +144,6 @@ pe <- read_csv(
 
 write_csv(
   pe,
-  path = "datos/covid-19-peru-data-augmented.csv"
+  file = "datos/covid-19-peru-data-augmented.csv"
 )
 

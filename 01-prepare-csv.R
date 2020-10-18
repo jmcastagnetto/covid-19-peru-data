@@ -11,5 +11,5 @@ archivos <- c(
 for (f in archivos) {
   fout <- str_replace(f, fixed(".ods"), ".csv")
   d <- read_ods(f)
-  write_csv(d, path = fout)
+  write_csv(d, file = fout)
 }
