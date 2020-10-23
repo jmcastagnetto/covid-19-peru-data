@@ -1,4 +1,4 @@
-**Última actualización**: 2020-10-22 17:33:15 UTC
+**Última actualización**: 2020-10-23 03:17:13 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -1250,6 +1250,10 @@ Casos confirmados
     885 en el Perú (Comunicado
     N°279)](https://www.gob.pe/institucion/minsa/noticias/309280-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-876-885-en-el-peru-comunicado-n-279)
     2020-10-21
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 879
+    876 en el Perú (Comunicado
+    N°280)](https://www.gob.pe/institucion/minsa/noticias/309407-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-879-876-en-el-peru-comunicado-n-280)
+    2020-10-2
 
 Recuperados
 -----------
