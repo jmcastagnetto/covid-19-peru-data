@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-01 22:33:39 UTC
+**Última actualización**: 2020-11-04 19:44:12 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -198,6 +198,24 @@ de setiembre del 2020.
 
 **2020-10-04**: Hasta las 23:50h de hoy no se han publicado los datoe
 del 2020-10-03 en la Sala Situacional, pero si los del 2020-10-04
+
+**2020-11-02**: Hasta las 20:00h de hoy, no han publicado en la Sala
+Situacional, los datos del 2020-11-01
+
+**2020-11-03**: Hasta las 23:10h de hoy, no han publicado en la Sala
+Situacional, los datos del 2020-11-02
+
+**2020-11-04**: Datos de casos, fallecimientos confirmados y pruebas por
+departamento para 2020-11-01,02,03 han sido obtenidos de otra fuente,
+pues la Sala Situacional del MINSA no ha sido actualizada en varios
+dias. Debido a esto, los datos de “Lima Región” contienen el total del
+departamento de Lima, y no se han desdoblado los valores para Lima
+Metropolitana. - Datos del 2020-11-01: del documento
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311020.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311020.pdf</a>
+- Datos del 2020-11-02: del documento
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf</a>
+- Datos del 2020-11-03: del documento
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf</a>
 
 Fuentes
 -------
@@ -1286,6 +1304,22 @@ Casos confirmados
     180 en el Perú (Comunicado
     N°288)](https://www.gob.pe/institucion/minsa/noticias/311909-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-900-180-en-el-peru-comunicado-n-288)
     2020-10-30
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 902
+    503 en el Perú (Comunicado
+    N°289)](Minsa:%20Casos%20confirmados%20por%20coronavirus%20Covid-19%20ascienden%20a%20902%20503%20en%20el%20Perú%20(Comunicado%20N°289))
+    2020-10-31
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 904
+    911 en el Perú (Comunicado
+    N°290)](https://www.gob.pe/institucion/minsa/noticias/312015-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-904-911-en-el-peru-comunicado-n-290)
+    2020-11-01
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 906
+    545 en el Perú (Comunicado
+    N°291)](https://www.gob.pe/institucion/minsa/noticias/312156-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-906-545-en-el-peru-comunicado-n-291)
+    2020-11-02
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 908
+    902 en el Perú (Comunicado
+    N°292)](https://www.gob.pe/institucion/minsa/noticias/312319-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-908-902-en-el-peru-comunicado-n-292)
+    2020-11-03
 
 Recuperados
 -----------

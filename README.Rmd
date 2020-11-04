@@ -107,6 +107,15 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 
 **2020-10-04**: Hasta las 23:50h de hoy no se han publicado los datoe del 2020-10-03 en la Sala Situacional, pero si los del 2020-10-04
 
+**2020-11-02**: Hasta las 20:00h de hoy, no han publicado en la Sala Situacional, los datos del 2020-11-01
+
+**2020-11-03**: Hasta las 23:10h de hoy, no han publicado en la Sala Situacional, los datos del 2020-11-02
+
+**2020-11-04**: Datos de casos, fallecimientos confirmados y pruebas por departamento para 2020-11-01,02,03 han sido obtenidos de otra fuente, pues la Sala Situacional del MINSA no ha sido actualizada en varios dias. Debido a esto, los datos de "Lima Regi√≥n" contienen el total del departamento de Lima, y no se han desdoblado los valores para Lima Metropolitana.
+- Datos del 2020-11-01: del documento https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311020.pdf
+- Datos del 2020-11-02: del documento https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf
+- Datos del 2020-11-03: del documento https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf
+
 
 ## Fuentes
 
