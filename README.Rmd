@@ -116,6 +116,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 - Datos del 2020-11-02: del documento https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf
 - Datos del 2020-11-03: del documento https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf
 
+**2020-11-04**: A aproximadamente 18:50h, se actualiz√≥ la Sala Situacional con datos de hoy
 
 ## Fuentes
 

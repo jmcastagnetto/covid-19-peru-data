@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-05 02:57:57 UTC
+**Última actualización**: 2020-11-05 03:00:58 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -216,6 +216,9 @@ Metropolitana. - Datos del 2020-11-01: del documento
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf</a>
 - Datos del 2020-11-03: del documento
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf</a>
+
+**2020-11-04**: A aproximadamente 18:50h, se actualizó la Sala
+Situacional con datos de hoy
 
 Fuentes
 -------
