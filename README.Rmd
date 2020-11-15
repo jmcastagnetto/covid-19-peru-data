@@ -118,6 +118,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 
 **2020-11-04**: A aproximadamente 18:50h, se actualiz√≥ la Sala Situacional con datos de hoy
 
+**2020-11-14**: Los datos de uso de UCI del 2020-11-13 son los mismos que los del dia 2020-11-12
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

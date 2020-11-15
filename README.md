@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-13 20:12:51 UTC
+**Última actualización**: 2020-11-15 02:21:31 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -219,6 +219,9 @@ Metropolitana. - Datos del 2020-11-01: del documento
 
 **2020-11-04**: A aproximadamente 18:50h, se actualizó la Sala
 Situacional con datos de hoy
+
+**2020-11-14**: Los datos de uso de UCI del 2020-11-13 son los mismos
+que los del dia 2020-11-12
 
 Fuentes
 -------
@@ -1359,6 +1362,10 @@ Casos confirmados
     237 en el Perú (Comunicado
     N°304)](https://www.gob.pe/institucion/minsa/noticias/314248-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-930-237-en-el-peru-comunicado-n-304)
     2020-11-12
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 932
+    650 en el Perú (Comunicado
+    N°305)](https://www.gob.pe/institucion/minsa/noticias/314348-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-932-650-en-el-peru-comunicado-n-305)
+    2020-11-13
 
 Recuperados
 -----------
