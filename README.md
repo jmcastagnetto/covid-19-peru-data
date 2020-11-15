@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-15 07:24:00 UTC
+**Última actualización**: 2020-11-15 17:12:46 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -222,6 +222,11 @@ Situacional con datos de hoy
 
 **2020-11-14**: Los datos de uso de UCI del 2020-11-13 son los mismos
 que los del dia 2020-11-12
+
+**2020-11-15**: Hasta las 12:10h de hoy, no se ha publicado el
+Comunicado usual por parte del MINSA. El último ha sido el
+[N°305](https://www.gob.pe/institucion/minsa/noticias/314348-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-932-650-en-el-peru-comunicado-n-305)acerca
+de los datos del 2020-11-13
 
 Fuentes
 -------
