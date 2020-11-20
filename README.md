@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-18 21:17:46 UTC
+**Última actualización**: 2020-11-20 05:28:51 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -229,6 +229,10 @@ Comunicado usual por parte del MINSA. El último ha sido el
 de los datos del 2020-11-13. - El comunicado 306, apareció mas tarde
 publicado en:
 <a href="https://www.gob.pe/institucion/minsa/noticias/314403-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-934-899-en-el-peru-comunicado-n-306" class="uri">https://www.gob.pe/institucion/minsa/noticias/314403-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-934-899-en-el-peru-comunicado-n-306</a>
+
+**2020-11-19**: No se publicaron en la Sala Situacional los datos para
+el 2020-11-18, por lo que datos parciales se obtuvieron del reporte
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus181120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus181120.pdf</a>.
 
 Fuentes
 -------
@@ -1389,6 +1393,14 @@ Casos confirmados
     931 en el Perú (Comunicado
     N°314)](https://www.gob.pe/institucion/minsa/noticias/314629-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-939-931-en-el-peru-comunicado-n-314)
     2020-11-17
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 941
+    951 en el Perú (Comunicado
+    N°316)](https://www.gob.pe/institucion/minsa/noticias/314817-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-941-951-en-el-peru-comunicado-n-316)
+    2020-11-18
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 943
+    917 en el Perú (Comunicado
+    N°318)](https://www.gob.pe/institucion/minsa/noticias/315025-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-943-917-en-el-peru-comunicado-n-318)
+    2020-11-19
 
 Recuperados
 -----------

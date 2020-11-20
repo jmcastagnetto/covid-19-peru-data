@@ -124,6 +124,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 - El comunicado 306, apareci√≥ mas tarde publicado en: https://www.gob.pe/institucion/minsa/noticias/314403-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-934-899-en-el-peru-comunicado-n-306
 
 
+**2020-11-19**: No se publicaron en la Sala Situacional los datos para el 2020-11-18, por lo que datos parciales se obtuvieron del reporte https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus181120.pdf.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

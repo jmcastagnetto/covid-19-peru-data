@@ -262,6 +262,8 @@
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 937 011 en el Perú (Comunicado N°310)](https://www.gob.pe/institucion/minsa/noticias/314435-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-937-011-en-el-peru-comunicado-n-310) 2020-11-15
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 938 268 en el Perú (Comunicado N°311)](https://www.gob.pe/institucion/minsa/noticias/314470-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-938-268-en-el-peru-comunicado-n-311) 2020-11-16
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 939 931 en el Perú (Comunicado N°314)](https://www.gob.pe/institucion/minsa/noticias/314629-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-939-931-en-el-peru-comunicado-n-314) 2020-11-17
+- [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 941 951 en el Perú (Comunicado N°316)](https://www.gob.pe/institucion/minsa/noticias/314817-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-941-951-en-el-peru-comunicado-n-316) 2020-11-18
+- [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 943 917 en el Perú (Comunicado N°318)](https://www.gob.pe/institucion/minsa/noticias/315025-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-943-917-en-el-peru-comunicado-n-318) 2020-11-19
 
 ## Recuperados
 
