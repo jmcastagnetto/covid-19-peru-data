@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-25 14:34:03 UTC
+**Última actualización**: 2020-11-27 18:43:04 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -232,7 +232,12 @@ publicado en:
 
 **2020-11-19**: No se publicaron en la Sala Situacional los datos para
 el 2020-11-18, por lo que datos parciales se obtuvieron del reporte
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus181120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus181120.pdf</a>.
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171120.pdf</a>.
+
+**2020-11-26**: No se publicaron los datos en la Sala Situacional,
+correspondientes al 2020-11-25, los datos parciales se han obtenido del
+reporte:
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf</a>.
 
 Fuentes
 -------
@@ -1421,6 +1426,14 @@ Casos confirmados
     439 en el Perú (Comunicado
     N°327)](https://www.gob.pe/institucion/minsa/noticias/316917-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-952-439-en-el-peru-comunicado-n-327)
     2020-11-24
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 954
+    459 en el Perú (Comunicado
+    N°329)](https://www.gob.pe/institucion/minsa/noticias/317926-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-954-459-en-el-peru-comunicado-n-329)
+    2020-11-25
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 956
+    347 en el Perú (Comunicado
+    N°330)](https://www.gob.pe/institucion/minsa/noticias/318131-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-956-347-en-el-peru-comunicado-n-330)
+    2020-11-26
 
 Recuperados
 -----------
