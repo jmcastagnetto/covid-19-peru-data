@@ -1,3 +1,14 @@
 *.csv diff=daff-csv
 *.csv merge=daff-csv
 viz/* linguist-documentation
+# some patterns from https://github.com/alexkaratarakis/gitattributes/
+*.Rdata binary
+*.RData binary
+*.rda   binary
+*.rdb   binary
+*.rds   binary
+*.Rd    text
+*.Rdx   binary
+*.Rmd	  text
+*.R  	  text
+*.Rproj text
