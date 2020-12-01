@@ -274,7 +274,7 @@
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 958 324 en el Perú (Comunicado N°331)](https://www.gob.pe/institucion/minsa/noticias/318308-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-958-324-en-el-peru-comunicado-n-331) 2020-11-27
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 960 368 en el Perú (Comunicado N°332)](https://www.gob.pe/institucion/minsa/noticias/318372-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-960-368-en-el-peru-comunicado-n-332) 2020-11-28
 - [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 962 530 en el Perú (Comunicado N°333)](https://www.gob.pe/institucion/minsa/noticias/318414-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-962-530-en-el-peru-comunicado-n-333) 2020-11-29
-
+- [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 963 605 en el Perú (Comunicado N°335)](https://www.gob.pe/institucion/minsa/noticias/318559-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-963-605-en-el-peru-comunicado-n-335) 2020-11-30
 ## Recuperados
 
 - [Paciente cero con coronavirus fue dado de alta tras respetar aislamiento domiciliario recomendado](https://www.gob.pe/institucion/minsa/noticias/108961-paciente-cero-con-coronavirus-fue-dado-de-alta-tras-respetar-aislamiento-domiciliario-recomendado) 2020-03-16

@@ -1,4 +1,4 @@
-**Última actualización**: 2020-11-30 04:38:17 UTC
+**Última actualización**: 2020-12-01 23:54:01 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -1446,9 +1446,10 @@ Casos confirmados
     530 en el Perú (Comunicado
     N°333)](https://www.gob.pe/institucion/minsa/noticias/318414-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-962-530-en-el-peru-comunicado-n-333)
     2020-11-29
-
-Recuperados
------------
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 963
+    605 en el Perú (Comunicado
+    N°335)](https://www.gob.pe/institucion/minsa/noticias/318559-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-963-605-en-el-peru-comunicado-n-335)
+    2020-11-30 \#\# Recuperados
 
 -   [Paciente cero con coronavirus fue dado de alta tras respetar
     aislamiento domiciliario
