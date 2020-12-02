@@ -1,6 +1,12 @@
+# daff
 *.csv diff=daff-csv
 *.csv merge=daff-csv
-viz/* linguist-documentation
+# to ignore the generated artifacts
+viz/* linguist-generated
+*.html linguist-generated -linguist-detectable
+*.js linguist-vendored -linguist-detectable
+*.css linguist-vendored -linguist-detectable
+*.scss linguist-vendored -linguist-detectable
 # some patterns from https://github.com/alexkaratarakis/gitattributes/
 *.Rdata binary
 *.RData binary
@@ -9,6 +15,6 @@ viz/* linguist-documentation
 *.rds   binary
 *.Rd    text
 *.Rdx   binary
-*.Rmd	  text
-*.R  	  text
+*.Rmd	  text linguist-detectable
+*.R  	  text linguist-detectable
 *.Rproj text
