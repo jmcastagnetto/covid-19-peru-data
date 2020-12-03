@@ -1,4 +1,4 @@
-**Última actualización**: 2020-12-01 23:54:01 UTC
+**Última actualización**: 2020-12-03 01:22:04 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -238,6 +238,10 @@ el 2020-11-18, por lo que datos parciales se obtuvieron del reporte
 correspondientes al 2020-11-25, los datos parciales se han obtenido del
 reporte:
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf</a>.
+
+**2020-12-02**: No se publicaron los datos del 2020-12-01 en la Sala
+Situacional, y se han obtenido datos parciales del reporte:
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus301120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus301120.pdf</a>
 
 Fuentes
 -------
@@ -1449,7 +1453,14 @@ Casos confirmados
 -   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 963
     605 en el Perú (Comunicado
     N°335)](https://www.gob.pe/institucion/minsa/noticias/318559-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-963-605-en-el-peru-comunicado-n-335)
-    2020-11-30 \#\# Recuperados
+    2020-11-30
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 965
+    228 en el Perú (Comunicado
+    N°338)](https://www.gob.pe/institucion/minsa/noticias/318728-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-965-228-en-el-peru-comunicado-n-338)
+    2020-12-01
+
+Recuperados
+-----------
 
 -   [Paciente cero con coronavirus fue dado de alta tras respetar
     aislamiento domiciliario
