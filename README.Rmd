@@ -129,6 +129,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 
 **2020-12-02**: No se publicaron los datos del 2020-12-01 en la Sala Situacional, y se han obtenido datos parciales del reporte: https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus301120.pdf
 
+**2020-12-04**: No se publicaron los datos del 2020-12-03 en la Sala Situacional, los datos parciales se han obtenido de https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus021220.pdf
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
