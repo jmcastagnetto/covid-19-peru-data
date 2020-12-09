@@ -1,4 +1,4 @@
-**Última actualización**: 2020-12-07 15:54:20 UTC
+**Última actualización**: 2020-12-09 02:05:25 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -246,6 +246,11 @@ Situacional, y se han obtenido datos parciales del reporte:
 **2020-12-04**: No se publicaron los datos del 2020-12-03 en la Sala
 Situacional, los datos parciales se han obtenido de
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus021220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus021220.pdf</a>
+
+**2020-12-08**: Hasta las 20:55h de hoy, no se han publicado los datos
+del 2020-12-07 en la Sala Situacional, por lo que se han obtenido datos
+parciales de
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus071220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus071220.pdf</a>
 
 Fuentes
 -------
@@ -1482,6 +1487,10 @@ Casos confirmados
     912 en el Perú (Comunicado
     N°346)](https://www.gob.pe/institucion/minsa/noticias/319523-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-973-912-en-el-peru-comunicado-n-346)
     2020-12-06
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 975
+    116 en el Perú (Comunicado
+    N°347)](https://www.gob.pe/institucion/minsa/noticias/319674-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-975-116-en-el-peru-comunicado-n-347)
+    2020-12-07
 
 Recuperados
 -----------
