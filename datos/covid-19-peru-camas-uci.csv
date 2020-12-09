@@ -95,7 +95,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-06-14,disponible,55,25,18,74,9,181
 2020-06-15,en uso,397,237,240,207,40,1121
 2020-06-15,disponible,49,23,17,71,9,169
-2020-06-16,en uso,NA,NA,NA,NA,NA,NA
+2020-06-16,en uso,NA,NA,NA,NA,NA,1112
 2020-06-16,disponible,NA,NA,NA,NA,NA,NA
 2020-06-17,en uso,390,238,247,197,39,1111
 2020-06-17,disponible,63,23,16,86,9,197
@@ -173,9 +173,9 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-07-23,disponible,26,20,6,71,12,135
 2020-07-24,en uso,492,273,289,287,48,1389
 2020-07-24,disponible,34,17,13,63,11,138
-2020-07-25,en uso,NA,NA,NA,NA,NA,NA
+2020-07-25,en uso,NA,NA,NA,NA,NA,1402
 2020-07-25,disponible,NA,NA,NA,NA,NA,NA
-2020-07-26,en uso,NA,NA,NA,NA,NA,NA
+2020-07-26,en uso,NA,NA,NA,NA,NA,1424
 2020-07-26,disponible,NA,NA,NA,NA,NA,NA
 2020-07-27,en uso,500,278,298,314,49,1439
 2020-07-27,disponible,28,15,12,68,10,133
@@ -251,7 +251,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-08-31,disponible,51,9,8,94,11,173
 2020-09-01,en uso,531,296,328,284,54,1493
 2020-09-01,disponible,55,8,17,108,14,202
-2020-09-02,en uso,NA,NA,NA,NA,NA,NA
+2020-09-02,en uso,NA,NA,NA,NA,NA,1500
 2020-09-02,disponible,NA,NA,NA,NA,NA,NA
 2020-09-03,en uso,536,291,338,285,56,1506
 2020-09-03,disponible,54,9,18,110,12,203
@@ -289,7 +289,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-09-19,disponible,106,35,21,117,23,302
 2020-09-20,en uso,520,253,332,269,47,1421
 2020-09-20,disponible,106,35,21,117,23,302
-2002-09-21,en uso,NA,NA,NA,NA,NA,NA
+2002-09-21,en uso,NA,NA,NA,NA,NA,1415
 2002-09-21,disponible,NA,NA,NA,NA,NA,NA
 2020-09-22,en uso,510,250,327,269,49,1405
 2020-09-22,disponible,130,32,22,118,21,323
@@ -313,7 +313,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-10-01,disponible,130,37,25,122,20,334
 2020-10-02,en uso,510,202,326,255,38,1331
 2020-10-02,disponible,127,41,26,112,21,327
-2020-10-03,en uso,NA,NA,NA,NA,NA,NA
+2020-10-03,en uso,NA,NA,NA,NA,NA,1311
 2020-10-03,disponible,NA,NA,NA,NA,NA,NA
 2020-10-04,en uso,495,199,308,247,38,1287
 2020-10-04,disponible,140,45,25,132,21,363
@@ -371,11 +371,11 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-10-30,disponible,176,51,49,167,30,473
 2020-10-31,en uso,460,115,271,181,26,1053
 2020-10-31,disponible,164,56,40,171,33,464
-2020-11-01,en uso,NA,NA,NA,NA,NA,NA
+2020-11-01,en uso,NA,NA,NA,NA,NA,1041
 2020-11-01,disponible,NA,NA,NA,NA,NA,NA
-2020-11-02,en uso,NA,NA,NA,NA,NA,NA
+2020-11-02,en uso,NA,NA,NA,NA,NA,1043
 2020-11-02,disponible,NA,NA,NA,NA,NA,NA
-2020-11-03,en uso,NA,NA,NA,NA,NA,NA
+2020-11-03,en uso,NA,NA,NA,NA,NA,1023
 2020-11-03,disponible,NA,NA,NA,NA,NA,NA
 2020-11-04,en uso,463,109,259,176,30,1037
 2020-11-04,disponible,170,64,44,173,29,480
@@ -405,7 +405,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-11-16,disponible,185,64,46,164,27,486
 2020-11-17,en uso,453,82,241,171,28,975
 2020-11-17,disponible,177,67,59,169,33,505
-2020-11-18,en uso,NA,NA,NA,NA,NA,NA
+2020-11-18,en uso,NA,NA,NA,NA,NA,968
 2020-11-18,disponible,NA,NA,NA,NA,NA,NA
 2020-11-19,en uso,448,81,242,176,26,973
 2020-11-19,disponible,190,68,60,161,28,507
@@ -419,7 +419,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-11-23,disponible,190,61,57,162,30,500
 2020-11-24,en uso,453,84,241,180,25,983
 2020-11-24,disponible,179,70,61,164,30,504
-2020-11-25,en uso,NA,NA,NA,NA,NA,NA
+2020-11-25,en uso,NA,NA,NA,NA,NA,985
 2020-11-25,disponible,NA,NA,NA,NA,NA,NA
 2020-11-26,en uso,449,84,236,172,25,966
 2020-11-26,disponible,166,65,62,168,30,491
@@ -431,11 +431,11 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-11-29,disponible,170,64,64,153,29,480
 2020-11-30,en uso,439,81,178,167,25,890
 2020-11-30,disponible,165,67,52,146,29,459
-2020-12-01,en uso,NA,NA,NA,NA,NA,NA
+2020-12-01,en uso,NA,NA,NA,NA,NA,958
 2020-12-01,disponible,NA,NA,NA,NA,NA,NA
 2020-12-02,en uso,452,85,236,167,21,961
 2020-12-02,disponible,149,66,60,167,33,475
-2020-12-03,en uso,NA,NA,NA,NA,NA,NA
+2020-12-03,en uso,NA,NA,NA,NA,NA,957
 2020-12-03,disponible,NA,NA,NA,NA,NA,NA
 2020-12-04,en uso,447,87,235,175,21,965
 2020-12-04,disponible,148,60,56,165,33,462
@@ -443,5 +443,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2020-12-05,disponible,136,53,54,171,34,448
 2020-12-06,en uso,247,92,246,181,21,787
 2020-12-06,disponible,146,52,56,166,33,453
-2020-12-07,en uso,NA,NA,NA,NA,NA,NA
+2020-12-07,en uso,NA,NA,NA,NA,NA,1012
 2020-12-07,disponible,NA,NA,NA,NA,NA,NA
+2020-12-08,en uso,452,95,248,191,24,1010
+2020-12-08,disponible,132,50,50,168,30,430
