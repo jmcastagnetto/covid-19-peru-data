@@ -1,4 +1,4 @@
-**Última actualización**: 2020-12-17 15:45:34 UTC
+**Última actualización**: 2020-12-19 02:34:02 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -266,6 +266,11 @@ parciales de
 del 2020-12-15 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus141220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus141220.pdf</a>
+
+**2020-12-18**: Hasta las 21:20h de hoy, no se han publicado los datos
+del 2020-12-17 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus161220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus161220.pdf</a>
 
 Fuentes
 -------
@@ -1542,6 +1547,10 @@ Casos confirmados
     457 en el Perú (Comunicado
     N°357)](https://www.gob.pe/institucion/minsa/noticias/321136-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-989-457-en-el-peru-comunicado-n-357)
     2020-12-16
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 991
+    518 en el Perú (Comunicado
+    N°358)](https://www.gob.pe/institucion/minsa/noticias/321347-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-991-518-en-el-peru-comunicado-n-358)
+    2020-12-17
 
 Recuperados
 -----------
