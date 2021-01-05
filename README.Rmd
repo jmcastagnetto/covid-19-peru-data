@@ -151,7 +151,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-01-02**: Hasta las 20:30 de hoy, no se han publicado los datos del 2021-01-01 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311220.pdf
 
-**2021-01-03**: Por algún motivo, el comunicado del MINSA publicado el 2021-01-01 y el publicado el 2021-01-02, tienen el mismo número (N° 375)
+**2021-01-03**: Por algún motivo, el comunicado del MINSA publicado el 2021-01-01 y el publicado el 2021-01-02, tienen el mismo número (N° 375). *Nota de las 23:00h*: el número del comunicado fue corregido a 376, pero el URL se mantiene el mismo.
 
 ## Fuentes
 
