@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-05 01:05:43 UTC
+**Última actualización**: 2021-01-06 01:00:42 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -301,6 +301,11 @@ usando
 2021-01-01 y el publicado el 2021-01-02, tienen el mismo número (N°
 375). *Nota de las 23:00h*: el número del comunicado fue corregido a
 376, pero el URL se mantiene el mismo.
+
+**2021-01-05**: Hasta las 20:00 de hoy, no se han publicado los datos
+del 2021-01-04 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus03012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus03012021.pdf</a>
 
 Fuentes
 -------
@@ -1644,7 +1649,15 @@ Casos confirmados
 -   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1 018
     099 en el Perú (Comunicado
     N°376)](https://www.gob.pe/institucion/minsa/noticias/322994-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-018-099-en-el-peru-comunicado-n-375)
-    2020-01-02
+    2021-01-02
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1 019
+    475 en el Perú (Comunicado
+    N°377)](https://www.gob.pe/institucion/minsa/noticias/323015-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-019-475-en-el-peru-comunicado-n-377)
+    2021-01-03
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1 021
+    058 en el Perú (Comunicado
+    N°378)](https://www.gob.pe/institucion/minsa/noticias/323464-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-021-058-en-el-peru-comunicado-n-378)
+    2021-01-04
 
 Recuperados
 -----------
