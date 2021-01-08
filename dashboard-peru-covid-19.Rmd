@@ -66,6 +66,7 @@ covid_pe <- read_csv(
     negative_tests = col_double(),
     pcr_test_positive = col_double(),
     serological_test_positive = col_double(),
+    ag_test_positive = col_double(),
     pcr_serological_test_positive = col_double()
   )
 ) %>% 
@@ -89,6 +90,7 @@ covid_regions_pe <- read_csv(
     negative_tests = col_double(),
     pcr_test_positive = col_double(),
     serological_test_positive = col_double(),
+    ag_test_positive = col_double(),
     pcr_serological_test_positive = col_double(),
     zone = col_character(),
     pop2019 = col_double(),
@@ -130,6 +132,7 @@ covid_regions_pe <- read_csv(
     negative_tests = sum(negative_tests, na.rm = TRUE),
     pcr_test_positive = sum(pcr_test_positive, na.rm = TRUE),
     serological_test_positive = sum(serological_test_positive, na.rm = TRUE),
+    ag_test_positive = sum(ag_test_positive, na.rm = TRUE),
     pcr_serological_test_positive = sum(pcr_serological_test_positive, na.rm = TRUE)
   ) %>%
   distinct() %>% 

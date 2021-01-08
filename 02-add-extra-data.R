@@ -132,6 +132,7 @@ pe <- read_csv(
     negative_tests,
     pcr_test_positive,
     serological_test_positive,
+    ag_test_positive,
     pcr_serological_test_positive,
     zone,
     pop2019,
