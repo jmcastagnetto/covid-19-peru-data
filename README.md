@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-10 03:14:46 UTC
+**Última actualización**: 2021-01-11 18:05:22 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -318,6 +318,11 @@ contiene el número de pruebas antigénicas positivas (`ag_test_positive`)
 del 2021-01-08 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus07012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus07012021.pdf</a>
+
+**2021-01-10**: Hasta las 23:00 de hoy, no se han publicado los datos
+del 2021-01-09 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus08012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus08012021.pdf</a>
 
 Fuentes
 -------
@@ -1686,6 +1691,10 @@ Casos confirmados
     471 en el Perú (Comunicado
     N°382)](https://www.gob.pe/institucion/minsa/noticias/324100-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-029-471-en-el-peru-comunicado-n-382)
     2021-01-08
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 032
+    275 en el Perú (Comunicado
+    N°383)](https://www.gob.pe/institucion/minsa/noticias/324145-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-032-275-en-el-peru-comunicado-n-383)
+    2021-01-09
 
 Recuperados
 -----------
