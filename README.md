@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-15 03:50:22 UTC
+**Última actualización**: 2021-01-15 18:02:07 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -1716,9 +1716,10 @@ Casos confirmados
     640 en el Perú (Comunicado
     N°388)](https://www.gob.pe/institucion/minsa/noticias/324640-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-043-640-en-el-peru-comunicado-n-388)
     2021-01-13
-
-Recuperados
------------
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 048
+    662 en el Perú (Comunicado
+    N°389)](https://www.gob.pe/institucion/minsa/noticias/324791-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-048-662-en-el-peru-comunicado-n-389)
+    2021-01-14 \#\# Recuperados
 
 -   [Paciente cero con coronavirus fue dado de alta tras respetar
     aislamiento domiciliario
