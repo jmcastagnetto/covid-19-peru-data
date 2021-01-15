@@ -161,6 +161,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci√
 
 **2021-01-10**: Hasta las 23:00 de hoy, no se han publicado los datos del 2021-01-09 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus08012021.pdf
 
+**2021-01-14**: Hasta las 22:45 de hoy, no se han publicado los datos del 2021-01-13 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus12012021.pdf
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
