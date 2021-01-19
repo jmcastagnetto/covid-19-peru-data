@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-17 22:58:40 UTC
+**Última actualización**: 2021-01-19 01:03:54 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -328,6 +328,11 @@ usando
 del 2021-01-13 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus12012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus12012021.pdf</a>
+
+**2021-01-18**: Hasta las 20:00 de hoy, no se han publicado los datos
+del 2021-01-17 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus16012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus16012021.pdf</a>
 
 Fuentes
 -------
@@ -1728,6 +1733,10 @@ Casos confirmados
     567 en el Perú (Comunicado
     N°391)](https://www.gob.pe/institucion/minsa/noticias/325023-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-060-567-en-el-peru-comunicado-n-391)
     2021-01-16
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 064
+    909 en el Perú (Comunicado
+    N° 392)](https://www.gob.pe/institucion/minsa/noticias/325061-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-064-909-en-el-peru-comunicado-n-392)
+    2021-01-17
 
 Recuperados
 -----------
