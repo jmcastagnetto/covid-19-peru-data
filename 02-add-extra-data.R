@@ -30,7 +30,6 @@ ceplan_datos <- read_csv(
     zona,
     ubigeo,
     lugar,
-    pob2019,
     superficie,
     capital_legal,
     altitud,
@@ -50,29 +49,22 @@ ceplan_datos <- read_csv(
     )
   )
 
-# inei_poblacion <- read_csv("datos/inei-pob_03.csv") %>%
-#   filter(!is.na(Departamento)) %>%
-#   filter(!Departamento %in% c("Total", "Provincia de Lima 3/", "Región Lima 4/")) %>%
-#   select("Departamento", "2017") %>%
-#   mutate(
-#     Departamento = str_remove(Departamento, " \\d/") %>%
-#       str_trim(),
-#     Departamento = if_else(Departamento == "Prov. Const. del Callao", "Callao", Departamento),
-#     Departamento = str_to_upper(iconv(Departamento, to='ASCII//TRANSLIT'))
-#   ) %>%
-#   rename(
-#     pob_2017 = `2017`
-#   ) %>%
-#   mutate(
-#     pob_2017 = str_trim(pob_2017) %>% str_remove_all(" ") %>% as.numeric()
-#   ) %>%
-#   left_join(
-#     ubigeos %>%
-#       filter(!is.na(desc_dep_inei) & !is.na(cod_dep_inei) & !is.na(cod_dep_reniec)) %>%
-#       select(desc_dep_inei, cod_dep_inei) %>%
-#       distinct(),
-#     by = c("Departamento" = "desc_dep_inei")
-#   )
+# MINSA/INEI población al 2020, fuente: https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp
+
+pob2020 <- readRDS("datos/peru-pob2020-departamentos.rds") %>%
+  filter(departamento != "PERU") %>%
+  select(
+    departamento,
+    total
+  ) %>%
+  rename(
+    region = departamento,
+    pop2020 = total
+  )
+
+pe_totpop2020 <- readRDS("datos/peru-pob2020-departamentos.rds") %>%
+  filter(departamento == "PERU") %>%
+  pull(total)
 
 pe <- read_csv(
   "datos/covid-19-peru-data.csv",
@@ -102,7 +94,6 @@ pe <- read_csv(
   ) %>%
   rename(
     zone = zona,
-    pop2019 = pob2019,
     surface = superficie,
     capital = capital_legal,
     altitude = altitud,
@@ -116,6 +107,17 @@ pe <- read_csv(
         iso_3166_2_code = Code
       ),
     by = c("region" = "Name")
+  ) %>%
+  left_join(
+    pob2020,
+    by = "region"
+  ) %>%
+  mutate(
+    pop2020 = if_else(
+      is.na(pop2020),
+      pe_totpop2020,
+      pop2020
+    )
   ) %>%
   select(
     country,
@@ -135,7 +137,7 @@ pe <- read_csv(
     ag_test_positive,
     pcr_serological_test_positive,
     zone,
-    pop2019,
+    pop2020,
     surface,
     capital,
     altitude,

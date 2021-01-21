@@ -167,6 +167,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-01-19**: Hasta las 20:30 de hoy, no se han publicado los datos del 2021-01-18 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus17012021.pdf
 
+**2021-01-21**: Hasta las 18:30 de hoy, no se han publicado los datos del 2021-01-20 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus19012021.pdf
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
@@ -183,6 +185,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - El [reporte N°29 del MINSA](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29) corrige el número de casos confirmados en Huánuco del [reporte N° 28](https://www.gob.pe/institucion/minsa/noticias/109810-minsa-casos-confirmados-por-coronavirus-covid-19-son-363-en-peru-comunicado-n-28)
 - El dataset de JHU (https://github.com/CSSEGISandData/COVID-19), indica que Perú tiene 14 recuperados el día 2020-03-26
 - En el dashboard se han agregado gráficos de la trayectoria total de casos, gráficos del número de recuperados y fallecidos, y un mapa con la densidad (casos por millón de personas) por región.
+- El 2021-01-21, se reemplazaron los estimados poblaciones para usar los valores al 2020 (antes 2019). Fuente: https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp
 
 ## Visualizaciones
 

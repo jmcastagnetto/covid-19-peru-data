@@ -31,7 +31,7 @@
 - serological_test_positive: Casos detectados con pruebas serológicas ("pruebas rápidas")
 - pcr_serological_test_positive: Casos detectados con pruebas moleculares y serológicas ("pruebas rápidas")
 - zone: Zona geográfica: Centro, Norte ó Sur (CEPLAN)
-- pop2019: Población por departamento al 2019 (CEPLAN)
+- pop2020: Población por departamento al 2020 (INEI/MINSA)
 - surface: Superficie en Km² (CEPLAN)
 - capital: Capital de Departamento (CEPLAN)
 - altitude: Altitude de la capital de departamento (CEPLAN)

@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-21 15:31:43 UTC
+**Última actualización**: 2021-01-21 23:39:42 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -339,6 +339,11 @@ del 2021-01-18 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus17012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus17012021.pdf</a>
 
+**2021-01-21**: Hasta las 18:30 de hoy, no se han publicado los datos
+del 2021-01-20 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus19012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus19012021.pdf</a>
+
 Fuentes
 -------
 
@@ -375,6 +380,9 @@ Notas
 -   En el dashboard se han agregado gráficos de la trayectoria total de
     casos, gráficos del número de recuperados y fallecidos, y un mapa
     con la densidad (casos por millón de personas) por región.
+-   El 2021-01-21, se reemplazaron los estimados poblaciones para usar
+    los valores al 2020 (antes 2019). Fuente:
+    <a href="https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp" class="uri">https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp</a>
 
 Visualizaciones
 ---------------
@@ -430,7 +438,7 @@ Estructura de los archivos CSV
 -   pcr\_serological\_test\_positive: Casos detectados con pruebas
     moleculares y serológicas (“pruebas rápidas”)
 -   zone: Zona geográfica: Centro, Norte ó Sur (CEPLAN)
--   pop2019: Población por departamento al 2019 (CEPLAN)
+-   pop2020: Población por departamento al 2020 (INEI/MINSA)
 -   surface: Superficie en Km² (CEPLAN)
 -   capital: Capital de Departamento (CEPLAN)
 -   altitude: Altitude de la capital de departamento (CEPLAN)

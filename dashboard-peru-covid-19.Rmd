@@ -93,7 +93,7 @@ covid_regions_pe <- read_csv(
     ag_test_positive = col_double(),
     pcr_serological_test_positive = col_double(),
     zone = col_character(),
-    pop2019 = col_double(),
+    pop2020 = col_double(),
     surface = col_double(),
     capital = col_character(),
     altitude = col_double(),
@@ -119,12 +119,12 @@ covid_regions_pe <- read_csv(
   #   pcr_test_positive = col_double(),
   #   serological_test_positive = col_double(),
   #   pcr_serological_test_positive = col_double(),
-  #   pop2019 = col_double()
+  #   pop2020 = col_double()
   # )
 ) %>%
   filter(!is.na(region)) %>% 
   group_by(region, ubigeo,
-           iso_3166_2_code, date, pop2019) %>% 
+           iso_3166_2_code, date, pop2020) %>% 
   summarise(
     confirmed = sum(confirmed, na.rm = TRUE),
     deaths = sum(deaths, na.rm = TRUE),
@@ -137,7 +137,7 @@ covid_regions_pe <- read_csv(
   ) %>%
   distinct() %>% 
   mutate(
-    confirmed_per_million = round(confirmed * 1e6 / pop2019, 1)
+    confirmed_per_million = round(confirmed * 1e6 / pop2020, 1)
   )
 
 cur_theme <- theme(
@@ -1057,7 +1057,7 @@ datatable(
       deaths,
       negative_tests,
       total_tests,
-      pop2019
+      pop2020
     ) %>% 
     arrange(desc(date), region),
   colnames = c("Departamento", 
