@@ -658,10 +658,12 @@ pt2 <- ggplot(df2, aes(x = date, y = new_disc)) +
     #y = "Número de casos",
     y = "",
     x = "",
-    title = "Nuevos casos negativos"
+    title = "Nuevos casos negativos",
+    caption = "Truncado a 50,000"
     #subtitle = minsa,
     #caption = paste0(last_updated, " // ", jmc)
   ) +
+  coord_cartesian(ylim = c(0, 50000)) +
   cur_theme
 
 pt3 <- ggplot(df2, aes(x = date, y = new_death)) +
@@ -673,10 +675,12 @@ pt3 <- ggplot(df2, aes(x = date, y = new_death)) +
     #y = "Número de fallecidos",
     y = "",
     x = "",
-    title = "Nuevos fallecimientos"
+    title = "Nuevos fallecimientos",
+    caption = "Truncado a 5,000"
     #subtitle = minsa,
     #aption = paste0(last_updated, " // ", jmc)
   ) +
+  coord_cartesian(ylim = c(0, 300)) +
   cur_theme
 
 pt4 <- ggplot(df2, aes(x = date, y = new_tot)) +
@@ -688,10 +692,12 @@ pt4 <- ggplot(df2, aes(x = date, y = new_tot)) +
     #y = "Número de casos",
     y = "",
     x = "",
-    title = "Nuevos casos tamizados"
+    title = "Nuevos casos tamizados",
+    caption = "Truncado a 50,000"
     #subtitle = minsa,
     #caption = paste0(last_updated, " // ", jmc)
   ) +
+  coord_cartesian(ylim = c(0, 50000)) +
   cur_theme
 
 comb_plot <- (pt1 + pt2) / (pt3 + pt4)
