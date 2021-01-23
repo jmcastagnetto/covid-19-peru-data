@@ -613,12 +613,14 @@ rd_plot
 
 ```{r fig.width=16, fig.height=9}
 df2 <- covid_pe %>% 
+  arrange(date) %>% 
   mutate(
     new_conf = confirmed - lag(confirmed),
     new_death = deaths - lag(deaths),
-	new_death = ifelse(new_death < 0, 0, new_death),
+    new_death = ifelse(new_death < 0, 0, new_death), # fix outliers from the start of the epidemic
     new_disc = negative_tests - lag(negative_tests),
-    new_tot = new_conf + new_disc
+    new_tot = new_conf + new_disc,
+    new_tot = ifelse(new_tot < 0, 0, new_tot) # fix outliers from the start of the epidemic
   ) %>%
   filter(!is.na(new_conf))
 
@@ -636,6 +638,7 @@ df2 <- covid_pe %>%
 
 pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
   geom_col(fill = "darkgrey", alpha = 0.5) +
+  geom_smooth(method = "gam") +
   # geom_point() +
   # geom_segment(aes(xend = date, yend = 0)) +
   theme_minimal(14) +
@@ -643,7 +646,8 @@ pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
     #y = "Número de casos",
     y = "",
     x = "",
-    title = "Nuevos casos confirmados"
+    title = "Nuevos casos confirmados",
+    caption = "Curva: aproximación GAM [y ~ s(x, bs = 'cs')]"
     #subtitle = minsa,
     #caption = paste0(last_updated, " // ", jmc)
   ) +
@@ -651,6 +655,7 @@ pt1 <- ggplot(df2, aes(x = date, y = new_conf)) +
 
 pt2 <- ggplot(df2, aes(x = date, y = new_disc)) +
   geom_col(fill = "green", alpha = 0.5) +
+  geom_smooth(method = "gam") +
   # geom_point(color = "blue") +
   # geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal(14) +
@@ -659,15 +664,15 @@ pt2 <- ggplot(df2, aes(x = date, y = new_disc)) +
     y = "",
     x = "",
     title = "Nuevos casos negativos",
-    caption = "Truncado a 50,000"
+    caption = "Curva: aproximación GAM [y ~ s(x, bs = 'cs')]"
     #subtitle = minsa,
     #caption = paste0(last_updated, " // ", jmc)
   ) +
-  coord_cartesian(ylim = c(0, 50000)) +
   cur_theme
 
 pt3 <- ggplot(df2, aes(x = date, y = new_death)) +
   geom_col(fill = "red", alpha = 0.5) +
+  geom_smooth(method = "gam") +
   # geom_point(color = "blue") +
   # geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal(14) +
@@ -676,15 +681,16 @@ pt3 <- ggplot(df2, aes(x = date, y = new_death)) +
     y = "",
     x = "",
     title = "Nuevos fallecimientos",
-    caption = "Truncado a 5,000"
+    caption = "Curva: aproximación GAM [y ~ s(x, bs = 'cs')] // Truncado en 250"
     #subtitle = minsa,
     #aption = paste0(last_updated, " // ", jmc)
   ) +
-  coord_cartesian(ylim = c(0, 300)) +
+  scale_y_continuous(limits = c(0, 250)) +
   cur_theme
 
 pt4 <- ggplot(df2, aes(x = date, y = new_tot)) +
   geom_col(fill = "blue", alpha = 0.5) +
+  geom_smooth(method = "gam") +
   # geom_point(color = "blue") +
   # geom_segment(aes(xend = date, yend = 0), color = "blue") +
   theme_minimal(14) +
@@ -693,11 +699,10 @@ pt4 <- ggplot(df2, aes(x = date, y = new_tot)) +
     y = "",
     x = "",
     title = "Nuevos casos tamizados",
-    caption = "Truncado a 50,000"
+    caption = "Curva: aproximación GAM [y ~ s(x, bs = 'cs')]"
     #subtitle = minsa,
     #caption = paste0(last_updated, " // ", jmc)
   ) +
-  coord_cartesian(ylim = c(0, 50000)) +
   cur_theme
 
 comb_plot <- (pt1 + pt2) / (pt3 + pt4)
