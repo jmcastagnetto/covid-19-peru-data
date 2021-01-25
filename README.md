@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-25 01:44:36 UTC
+**Última actualización**: 2021-01-25 22:09:38 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -353,6 +353,12 @@ usando
 del 2021-01-23 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus22012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus22012021.pdf</a>
+
+**2021-01-25**: Los datos de la Sala Situacional publicados para el
+2021-01-24, parecent tener información del 2021-01-23 al menos en las
+secciones de UCI y Hospitalización. Se están usando los XLSX publicados
+por ser los datos oficiales, pero no coincides con las cifras del
+comunicado 399 del MINSA.
 
 Fuentes
 -------
@@ -1784,6 +1790,10 @@ Casos confirmados
     938 en el Perú (Comunicado
     N°398)](https://www.gob.pe/institucion/minsa/noticias/326178-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-093-938-en-el-peru-comunicado-n-398)
     2021-01-23
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 099
+    013 en el Perú (Comunicado
+    N°399)](https://www.gob.pe/institucion/minsa/noticias/326215-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-099-013-en-el-peru-comunicado-n-399)
+    2021-01-24
 
 Recuperados
 -----------

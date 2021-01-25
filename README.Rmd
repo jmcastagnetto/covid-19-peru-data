@@ -173,6 +173,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-01-24**: Hasta las 20:40 de hoy, no se han publicado los datos del 2021-01-23 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus22012021.pdf
 
+**2021-01-25**: Los datos de la Sala Situacional publicados para el 2021-01-24, parecent tener información del 2021-01-23 al menos en las secciones de UCI y Hospitalización. Se están usando los XLSX publicados por ser los datos oficiales, pero no coincides con las cifras del comunicado 399 del MINSA.
 
 ## Fuentes
 
