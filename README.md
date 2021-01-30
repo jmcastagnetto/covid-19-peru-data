@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-29 23:07:03 UTC
+**Última actualización**: 2021-01-30 23:19:43 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -369,6 +369,16 @@ usando
 del 2021-01-28 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus27012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus27012021.pdf</a>
+
+**2021-01-30**: Los datos de UCI publicados en la Sala Situacional, que
+estoy usando para tener un conteo del uso de UCIs, en las últimas
+semanas no es muy confiable, pues discrepa en totales de los valores que
+se publican tanto en la sección “Hospitalizados” de la Sala Situacional,
+como en el comunicado oficial del MINSA. Sugiero cuidado al interpretar
+esos valores de UCI pues la fuente parece estar defectuosa. También,
+desde el 2020-08-03 el valor de altas médicas no ha cambiado, por lo que
+voy a dejar de registrar dicho valor pues es imposible que se quedara en
+15,066 altas médicas sin cambio alguno.
 
 Fuentes
 -------
@@ -1820,6 +1830,10 @@ Casos confirmados
     685 en el Perú (Comunicado
     N°406)](https://www.gob.pe/institucion/minsa/noticias/340000-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-119-685-en-el-peru-comunicado-n-406)
     2021-01-28
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 125
+    875 en el Perú (Comunicado
+    N°407)](https://www.gob.pe/institucion/minsa/noticias/340173-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-125-875-en-el-peru-comunicado-n-407)
+    2021-01-29
 
 Recuperados
 -----------

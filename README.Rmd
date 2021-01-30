@@ -4,7 +4,6 @@ output: md_document
 
 **Última actualización**: `r lubridate::now(tzone = "UTC")` UTC
 
-
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
 [<img src="COVID-19 Data Hub - CONTRIBUTOR COVID-19 Data Hub - 2020-07-21.svg" width="100" align="right"/>](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
@@ -178,6 +177,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 **2021-01-27**: Hasta las 20:45 de hoy, no se han publicado los datos del 2021-01-26 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus25012021.pdf
 
 **2021-01-29**: Hasta las 18:00 de hoy, no se han publicado los datos del 2021-01-28 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus27012021.pdf
+
+**2021-01-30**: Los datos de UCI publicados en la Sala Situacional, que estoy usando para tener un conteo del uso de UCIs, en las últimas semanas no es muy confiable, pues discrepa en totales de los valores que se publican tanto en la sección "Hospitalizados" de la Sala Situacional, como en el comunicado oficial del MINSA. Sugiero cuidado al interpretar esos valores de UCI pues la fuente parece estar defectuosa. También, desde el 2020-08-03 el valor de altas médicas no ha cambiado, por lo que voy a dejar de registrar dicho valor pues es imposible que se quedara en 15,066 altas médicas sin cambio alguno.
 
 ## Fuentes
 
