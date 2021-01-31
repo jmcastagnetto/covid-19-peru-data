@@ -1,5 +1,7 @@
 ---
-output: md_document
+output: 
+  md_document:
+    toc: true
 ---
 
 **Última actualización**: `r lubridate::now(tzone = "UTC")` UTC
@@ -16,7 +18,7 @@ Seguiré actualizando diariamente mientras esta información se encuentre dispon
 
 Espero que pronto MINSA ponga un repositorio de datos abiertos con la información nececasaria, y cuando eso ocurra, este repositorio ya no se actualzará.
 
-## Importante
+## Información importante sobre los datos publicados
 
 **2020-03-03**: A partir de hoy, MINSA ha puesto una "Sala situacional" oficial en https://covid19.minsa.gob.pe/sala_situacional.asp. Los datos de este día fueron tomados de las "Sala Situacional" del MINSA, el cual no tiene información (al día de hoy) acerca del número de recuperados
 

@@ -1,4 +1,19 @@
-**Última actualización**: 2021-01-31 17:29:42 UTC
+-   [Motivación](#motivación)
+-   [Información importante sobre los datos
+    publicados](#información-importante-sobre-los-datos-publicados)
+-   [Fuentes](#fuentes)
+-   [Notas](#notas)
+-   [Visualizaciones](#visualizaciones)
+-   [Formato de datos](#formato-de-datos)
+-   [Estructura de los archivos CSV](#estructura-de-los-archivos-csv)
+-   [Información empleada para recolectar los
+    datos](#información-empleada-para-recolectar-los-datos)
+-   [Generales](#generales)
+-   [Casos confirmados](#casos-confirmados)
+-   [Recuperados](#recuperados)
+-   [Fallecimientos](#fallecimientos)
+
+**Última actualización**: 2021-01-31 17:32:37 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -19,8 +34,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la
 información nececasaria, y cuando eso ocurra, este repositorio ya no se
 actualzará.
 
-Importante
-----------
+Información importante sobre los datos publicados
+-------------------------------------------------
 
 **2020-03-03**: A partir de hoy, MINSA ha puesto una “Sala situacional”
 oficial en
