@@ -190,7 +190,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
 - [Noticias del MINSA](https://www.gob.pe/busquedas?contenido[]=noticias&institucion[]=minsa&reason=sheet&sheet=1)
   - [RSS de Noticias del MINSA](https://www.gob.pe/busquedas.rss?contenido[]=noticias&institucion[]=minsa)
-- [Reportes del Centro Nacional de Epidemiología, Prevención y control de enfermedades](https://www.dge.gob.pe/portal/index.php?option=com_content&view=article&id=678)
+- [Reportes del Centro Nacional de Epidemiología, Prevención y control de enfermedades](https://www.dge.gob.pe/portalnuevo/covid-19/covid-cajas/situacion-del-covid-19-en-el-peru/)
 
 ## Notas
 

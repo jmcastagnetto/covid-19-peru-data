@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-31 17:22:31 UTC
+**Última actualización**: 2021-01-31 17:29:42 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -399,7 +399,7 @@ Fuentes
         MINSA](https://www.gob.pe/busquedas.rss?contenido%5B%5D=noticias&institucion%5B%5D=minsa)
 -   [Reportes del Centro Nacional de Epidemiología, Prevención y control
     de
-    enfermedades](https://www.dge.gob.pe/portal/index.php?option=com_content&view=article&id=678)
+    enfermedades](https://www.dge.gob.pe/portalnuevo/covid-19/covid-cajas/situacion-del-covid-19-en-el-peru/)
 
 Notas
 -----
