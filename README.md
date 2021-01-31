@@ -1,4 +1,4 @@
-**Última actualización**: 2021-01-30 23:19:43 UTC
+**Última actualización**: 2021-01-31 17:22:31 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -379,6 +379,15 @@ esos valores de UCI pues la fuente parece estar defectuosa. También,
 desde el 2020-08-03 el valor de altas médicas no ha cambiado, por lo que
 voy a dejar de registrar dicho valor pues es imposible que se quedara en
 15,066 altas médicas sin cambio alguno.
+
+**2021-01-31**: Los datos de UCI publicados en la Sala Situacional
+siguen incorrectos, en este caso, no sólo no coinciden con los
+publicados en el comunicado oficial del 2021-01-30, sino que son los
+mismos datos que el 2021-01-29 (que también estaban incorrectos)
+
+![Comparación de datos de UCI 2021-01-29 y 2021-01-30 de la Sala
+Situacional del
+MINSA](minsa-datos/20210130/comparacion-uci-sala-situacional-20210129-20210130.png)
 
 Fuentes
 -------
@@ -1834,6 +1843,10 @@ Casos confirmados
     875 en el Perú (Comunicado
     N°407)](https://www.gob.pe/institucion/minsa/noticias/340173-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-125-875-en-el-peru-comunicado-n-407)
     2021-01-29
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 133
+    022 en el
+    Perú](https://www.gob.pe/institucion/minsa/noticias/340254-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-133-022-en-el-peru)
+    2021-01-30
 
 Recuperados
 -----------

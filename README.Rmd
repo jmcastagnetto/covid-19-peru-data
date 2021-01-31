@@ -180,6 +180,11 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-01-30**: Los datos de UCI publicados en la Sala Situacional, que estoy usando para tener un conteo del uso de UCIs, en las últimas semanas no es muy confiable, pues discrepa en totales de los valores que se publican tanto en la sección "Hospitalizados" de la Sala Situacional, como en el comunicado oficial del MINSA. Sugiero cuidado al interpretar esos valores de UCI pues la fuente parece estar defectuosa. También, desde el 2020-08-03 el valor de altas médicas no ha cambiado, por lo que voy a dejar de registrar dicho valor pues es imposible que se quedara en 15,066 altas médicas sin cambio alguno.
 
+**2021-01-31**: Los datos de UCI publicados en la Sala Situacional siguen incorrectos, en este caso, no sólo no coinciden con los publicados en el comunicado oficial del 2021-01-30, sino que son los mismos datos que el 2021-01-29 (que también estaban incorrectos)
+
+![Comparación de datos de UCI 2021-01-29 y 2021-01-30 de la Sala Situacional del MINSA](minsa-datos/20210130/comparacion-uci-sala-situacional-20210129-20210130.png)
+
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
