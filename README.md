@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-02 05:43:39 UTC
+**Última actualización**: 2021-02-03 16:11:46 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -399,6 +399,11 @@ voy a dejar de registrar dicho valor pues es imposible que se quedara en
 siguen incorrectos, en este caso, no sólo no coinciden con los
 publicados en el comunicado oficial del 2021-01-30, sino que son los
 mismos datos que el 2021-01-29 (que también estaban incorrectos)
+
+**2021-02-03**: Inconsistencias en los datos de UCI publicados en la
+Sala Situacional, en la visualización UCI se indican *1,943* personas,
+pero tanto en la tabla de hospitalizaciones como en el comunicado 412
+del MINSA, se indica que el número es **1,956**.
 
 ![Comparación de datos de UCI 2021-01-29 y 2021-01-30 de la Sala
 Situacional del
@@ -1870,6 +1875,10 @@ Casos confirmados
     716 en el Perú (Comunicado
     N°411)](https://www.gob.pe/institucion/minsa/noticias/340444-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-142-716-en-el-peru-comunicado-n-411)
     2021-02-01
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 149
+    764 en el Perú (Comunicado
+    N°412)](https://www.gob.pe/institucion/minsa/noticias/340748-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-149-764-en-el-peru-comunicado-n-412)
+    2021-02-02
 
 Recuperados
 -----------

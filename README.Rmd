@@ -184,6 +184,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-01-31**: Los datos de UCI publicados en la Sala Situacional siguen incorrectos, en este caso, no sólo no coinciden con los publicados en el comunicado oficial del 2021-01-30, sino que son los mismos datos que el 2021-01-29 (que también estaban incorrectos)
 
+**2021-02-03**: Inconsistencias en los datos de UCI publicados en la Sala Situacional, en la visualización UCI se indican *1,943* personas, pero tanto en la tabla de hospitalizaciones como en el comunicado 412 del MINSA, se indica que el número es **1,956**.
+
 ![Comparación de datos de UCI 2021-01-29 y 2021-01-30 de la Sala Situacional del MINSA](minsa-datos/20210130/comparacion-uci-sala-situacional-20210129-20210130.png)
 
 
