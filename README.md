@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-05 03:08:49 UTC
+**Última actualización**: 2021-02-05 20:48:39 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -320,7 +320,7 @@ usando
 **2021-01-05**: Hasta las 20:00 de hoy, no se han publicado los datos
 del 2021-01-04 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus03012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus03012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030121.pdf</a>
 
 **2021-01-07**: Hasta las 20:40 de hoy, no se han publicado los datos
 del 2021-01-06 en la Sala Situacional, se han extraido datos parciales
@@ -332,32 +332,32 @@ contiene el número de pruebas antigénicas positivas (`ag_test_positive`)
 **2021-01-09**: Hasta las 22:00 de hoy, no se han publicado los datos
 del 2021-01-08 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus07012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus07012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070121.pdf</a>
 
 **2021-01-10**: Hasta las 23:00 de hoy, no se han publicado los datos
 del 2021-01-09 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus08012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus08012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus080121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus080121.pdf</a>
 
 **2021-01-14**: Hasta las 22:45 de hoy, no se han publicado los datos
 del 2021-01-13 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus12012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus12012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus120121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus120121.pdf</a>
 
 **2021-01-18**: Hasta las 20:00 de hoy, no se han publicado los datos
 del 2021-01-17 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus16012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus16012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus160121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus160121.pdf</a>
 
 **2021-01-19**: Hasta las 20:30 de hoy, no se han publicado los datos
 del 2021-01-18 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus17012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus17012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170121.pdf</a>
 
 **2021-01-21**: Hasta las 18:30 de hoy, no se han publicado los datos
 del 2021-01-20 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus19012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus19012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus190121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus190121.pdf</a>
 
 **2021-01-23**: Hasta las 23:20 de hoy, no se han publicado los datos
 del 2021-01-22 en la Sala Situacional, se han extraido datos parciales
@@ -367,7 +367,7 @@ usando
 **2021-01-24**: Hasta las 20:40 de hoy, no se han publicado los datos
 del 2021-01-23 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus22012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus22012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220121.pdf</a>
 
 **2021-01-25**: Los datos de la Sala Situacional publicados para el
 2021-01-24, parecent tener información del 2021-01-23 al menos en las
@@ -378,12 +378,12 @@ comunicado 399 del MINSA.
 **2021-01-27**: Hasta las 20:45 de hoy, no se han publicado los datos
 del 2021-01-26 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus25012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus25012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250121.pdf</a>
 
 **2021-01-29**: Hasta las 18:00 de hoy, no se han publicado los datos
 del 2021-01-28 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus27012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus27012021.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270121.pdf</a>
 
 **2021-01-30**: Los datos de UCI publicados en la Sala Situacional, que
 estoy usando para tener un conteo del uso de UCIs, en las últimas
@@ -413,6 +413,11 @@ del MINSA, se indica que el número es **1,956**.
 publicados en la Sala Situacional, en la visualización UCI se indican
 *1,512* personas, pero tanto en la tabla de hospitalizaciones como en el
 comunicado 413 del MINSA, se indica que el número es **1,961**.
+
+**2020-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos
+del 2021-02-04 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf</a>
 
 Fuentes
 -------
@@ -1888,6 +1893,10 @@ Casos confirmados
     337 en el Perú (Comunicado
     N°413)](https://www.gob.pe/institucion/minsa/noticias/340933-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-158-337-en-el-peru-comunicado-n-413)
     2021-02-03
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 165
+    052 en el Perú (Comunicado
+    N°414)](https://www.gob.pe/institucion/minsa/noticias/341095-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-165-052-en-el-peru-comunicado-n-414)
+    2021-02-04
 
 Recuperados
 -----------

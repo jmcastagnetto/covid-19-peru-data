@@ -154,31 +154,31 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-01-03**: Por algún motivo, el comunicado del MINSA publicado el 2021-01-01 y el publicado el 2021-01-02, tienen el mismo número (N° 375). *Nota de las 23:00h*: el número del comunicado fue corregido a 376, pero el URL se mantiene el mismo.
 
-**2021-01-05**: Hasta las 20:00 de hoy, no se han publicado los datos del 2021-01-04 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus03012021.pdf
+**2021-01-05**: Hasta las 20:00 de hoy, no se han publicado los datos del 2021-01-04 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030121.pdf
 
 **2021-01-07**: Hasta las 20:40 de hoy, no se han publicado los datos del 2021-01-06 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050121.pdf. Usando la información de DGE/MINSA, se está incluyendo una columna que contiene el número de pruebas antigénicas positivas (`ag_test_positive`)
 
-**2021-01-09**: Hasta las 22:00 de hoy, no se han publicado los datos del 2021-01-08 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus07012021.pdf
+**2021-01-09**: Hasta las 22:00 de hoy, no se han publicado los datos del 2021-01-08 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070121.pdf
 
-**2021-01-10**: Hasta las 23:00 de hoy, no se han publicado los datos del 2021-01-09 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus08012021.pdf
+**2021-01-10**: Hasta las 23:00 de hoy, no se han publicado los datos del 2021-01-09 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus080121.pdf
 
-**2021-01-14**: Hasta las 22:45 de hoy, no se han publicado los datos del 2021-01-13 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus12012021.pdf
+**2021-01-14**: Hasta las 22:45 de hoy, no se han publicado los datos del 2021-01-13 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus120121.pdf
 
-**2021-01-18**: Hasta las 20:00 de hoy, no se han publicado los datos del 2021-01-17 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus16012021.pdf
+**2021-01-18**: Hasta las 20:00 de hoy, no se han publicado los datos del 2021-01-17 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus160121.pdf
 
-**2021-01-19**: Hasta las 20:30 de hoy, no se han publicado los datos del 2021-01-18 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus17012021.pdf
+**2021-01-19**: Hasta las 20:30 de hoy, no se han publicado los datos del 2021-01-18 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170121.pdf
 
-**2021-01-21**: Hasta las 18:30 de hoy, no se han publicado los datos del 2021-01-20 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus19012021.pdf
+**2021-01-21**: Hasta las 18:30 de hoy, no se han publicado los datos del 2021-01-20 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus190121.pdf
 
 **2021-01-23**: Hasta las 23:20 de hoy, no se han publicado los datos del 2021-01-22 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus21012021.pdf
 
-**2021-01-24**: Hasta las 20:40 de hoy, no se han publicado los datos del 2021-01-23 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus22012021.pdf
+**2021-01-24**: Hasta las 20:40 de hoy, no se han publicado los datos del 2021-01-23 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220121.pdf
 
 **2021-01-25**: Los datos de la Sala Situacional publicados para el 2021-01-24, parecent tener información del 2021-01-23 al menos en las secciones de UCI y Hospitalización. Se están usando los XLSX publicados por ser los datos oficiales, pero no coincides con las cifras del comunicado 399 del MINSA.
 
-**2021-01-27**: Hasta las 20:45 de hoy, no se han publicado los datos del 2021-01-26 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus25012021.pdf
+**2021-01-27**: Hasta las 20:45 de hoy, no se han publicado los datos del 2021-01-26 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250121.pdf
 
-**2021-01-29**: Hasta las 18:00 de hoy, no se han publicado los datos del 2021-01-28 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus27012021.pdf
+**2021-01-29**: Hasta las 18:00 de hoy, no se han publicado los datos del 2021-01-28 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270121.pdf
 
 **2021-01-30**: Los datos de UCI publicados en la Sala Situacional, que estoy usando para tener un conteo del uso de UCIs, en las últimas semanas no es muy confiable, pues discrepa en totales de los valores que se publican tanto en la sección "Hospitalizados" de la Sala Situacional, como en el comunicado oficial del MINSA. Sugiero cuidado al interpretar esos valores de UCI pues la fuente parece estar defectuosa. También, desde el 2020-08-03 el valor de altas médicas no ha cambiado, por lo que voy a dejar de registrar dicho valor pues es imposible que se quedara en 15,066 altas médicas sin cambio alguno.
 
@@ -189,6 +189,8 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 **2021-02-03**: Inconsistencias en los datos de UCI publicados en la Sala Situacional, en la visualización UCI se indican *1,943* personas, pero tanto en la tabla de hospitalizaciones como en el comunicado 412 del MINSA, se indica que el número es **1,956**.
 
 **2021-02-04**: Nuevamente hay inconsistencias en los datos de UCI publicados en la Sala Situacional, en la visualización UCI se indican *1,512* personas, pero tanto en la tabla de hospitalizaciones como en el comunicado 413 del MINSA, se indica que el número es **1,961**.
+
+**2020-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos del 2021-02-04 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf
 
 ## Fuentes
 
