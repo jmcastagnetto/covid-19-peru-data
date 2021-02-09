@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-08 17:48:26 UTC
+**Última actualización**: 2021-02-09 15:14:24 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -418,6 +418,10 @@ comunicado 413 del MINSA, se indica que el número es **1,961**.
 del 2021-02-04 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf</a>
+
+**2020-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado
+para el 2021-02-08, pero si datos en la Sala Situacional y reportes del
+DGE/MINSA
 
 Fuentes
 -------
