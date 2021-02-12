@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-10 14:17:06 UTC
+**Última actualización**: 2021-02-12 01:08:55 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -422,6 +422,11 @@ usando
 **2020-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado
 para el 2021-02-08, pero si datos en la Sala Situacional y reportes del
 DGE/MINSA
+
+**2020-02-05**: Hasta las 18:30 de hoy, no se han publicado los datos
+del 2021-02-10 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf</a>
 
 Fuentes
 -------
@@ -1921,6 +1926,10 @@ Casos confirmados
     778 en el Perú (Comunicado
     N°420)](https://www.gob.pe/institucion/minsa/noticias/341728-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-196-778-en-el-peru-comunicado-n-420)
     2021-02-09
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 203
+    502 en el Perú (Comunicado
+    N°421)](https://www.gob.pe/institucion/minsa/noticias/341869-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-203-502-en-el-peru-comunicado-n-421)
+    2021-02-10
 
 Recuperados
 -----------
