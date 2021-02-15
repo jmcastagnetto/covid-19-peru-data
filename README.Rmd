@@ -190,11 +190,13 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2021-02-04**: Nuevamente hay inconsistencias en los datos de UCI publicados en la Sala Situacional, en la visualización UCI se indican *1,512* personas, pero tanto en la tabla de hospitalizaciones como en el comunicado 413 del MINSA, se indica que el número es **1,961**.
 
-**2020-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos del 2021-02-04 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf
+**2021-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos del 2021-02-04 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf
 
-**2020-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado para el 2021-02-08, pero si datos en la Sala Situacional y reportes del DGE/MINSA
+**2021-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado para el 2021-02-08, pero si datos en la Sala Situacional y reportes del DGE/MINSA
 
-**2020-02-05**: Hasta las 18:30 de hoy, no se han publicado los datos del 2021-02-10 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf
+**2021-02-05**: Hasta las 18:30 de hoy, no se han publicado los datos del 2021-02-10 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf
+
+**2021-02-15**: Los datos publicados en la Sala Situacional para el 2021-02-10 para el número de camas UCI en uso (2,052), no coinciden con lo publicado en el comunicado 425 (que indica 2,083)
 
 ## Fuentes
 

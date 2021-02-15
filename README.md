@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-14 19:20:35 UTC
+**Última actualización**: 2021-02-15 14:12:45 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -414,19 +414,23 @@ publicados en la Sala Situacional, en la visualización UCI se indican
 *1,512* personas, pero tanto en la tabla de hospitalizaciones como en el
 comunicado 413 del MINSA, se indica que el número es **1,961**.
 
-**2020-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos
+**2021-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos
 del 2021-02-04 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf</a>
 
-**2020-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado
+**2021-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado
 para el 2021-02-08, pero si datos en la Sala Situacional y reportes del
 DGE/MINSA
 
-**2020-02-05**: Hasta las 18:30 de hoy, no se han publicado los datos
+**2021-02-05**: Hasta las 18:30 de hoy, no se han publicado los datos
 del 2021-02-10 en la Sala Situacional, se han extraido datos parciales
 usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf</a>
+
+**2021-02-15**: Los datos publicados en la Sala Situacional para el
+2021-02-10 para el número de camas UCI en uso (2,052), no coinciden con
+lo publicado en el comunicado 425 (que indica 2,083)
 
 Fuentes
 -------
@@ -1942,6 +1946,10 @@ Casos confirmados
     205 en el Perú (Comunicado
     N°424)](https://www.gob.pe/institucion/minsa/noticias/342336-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-227-205-en-el-peru-comunicado-n-424)
     2021-02-13
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 235
+    298 en el Perú (Comunicado
+    N°425)](https://www.gob.pe/institucion/minsa/noticias/342367-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-235-298-en-el-peru-comunicado-n-425)
+    2021-02-14
 
 Recuperados
 -----------
