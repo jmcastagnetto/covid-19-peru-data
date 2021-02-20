@@ -209,6 +209,7 @@ Mientras que en la sección de "UCI", se muestra una cifra de 1,512
 ![UCI, Sala Situacional, 2021-02-17](minsa-datos/20210217/2021-02-18_10-38-02.png)
 
 
+**2021-02-19**: Hasta las 17:45 de hoy, no se han publicado los datos del 2021-02-18 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170221.pdf
 
 ## Fuentes
 

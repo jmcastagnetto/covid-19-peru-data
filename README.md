@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-18 15:49:27 UTC
+**Última actualización**: 2021-02-19 22:51:43 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -445,6 +445,11 @@ Mientras que en la sección de “UCI”, se muestra una cifra de 1,512
 
 ![UCI, Sala Situacional,
 2021-02-17](minsa-datos/20210217/2021-02-18_10-38-02.png)
+
+**2021-02-19**: Hasta las 17:45 de hoy, no se han publicado los datos
+del 2021-02-18 en la Sala Situacional, se han extraido datos parciales
+usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170221.pdf</a>
 
 Fuentes
 -------
@@ -1976,6 +1981,10 @@ Casos confirmados
     137 en el Perú (Comunicado
     N°428)](https://www.gob.pe/institucion/minsa/noticias/342846-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-252-137-en-el-peru-comunicado-n-428)
     2021-02-17
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 261
+    804 en el Perú (Comunicado
+    N°429)](https://www.gob.pe/institucion/minsa/noticias/343021-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-261-804-en-el-peru-comunicado-n-429)
+    2021-02-18
 
 Recuperados
 -----------
