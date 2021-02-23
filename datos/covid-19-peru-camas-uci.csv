@@ -595,5 +595,7 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2021-02-19,disponible,61,12,12,46,0,131
 2021-02-20,en uso,805,352,402,439,70,2068
 2021-02-20,disponible,62,10,12,45,0,129
-2021-02-21,en uso,804,352,402,438,70,2066
-2021-02-21,disponible,55,10,12,46,0,123
+2021-02-21,en uso,NA,NA,NA,NA,NA,2080
+2021-02-21,disponible,NA,NA,NA,NA,NA,NA
+2021-02-22,en uso,813,351,405,447,67,2083
+2021-02-22,disponible,54,11,12,42,0,119

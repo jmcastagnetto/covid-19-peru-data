@@ -1104,7 +1104,7 @@ datatable(
 Esta visualización esta hecha usando el lenguaje de programación [R](https://www.r-project.org/),
 y hace uso de una serie de librerías ([flexdashboard](https://rmarkdown.rstudio.com/flexdashboard), [ggplot2](https://ggplot2.tidyverse.org/), [echarts4r](https://echarts4r.john-coene.com/), [DT](https://rstudio.github.io/DT/)), para producir los distintos gráficos y tablas.
 
-[`r icon::fa("twitter")`](https://twitter.com/jmcastagnetto)
-[`r icon::fa("github")`](https://github.com/jmcastagnetto')
-[`r icon::fa("home")`](https://castagnetto.site')
+[`r fontawesome::fa("twitter")`](https://twitter.com/jmcastagnetto)
+[`r fontawesome::fa("github")`](https://github.com/jmcastagnetto')
+[`r fontawesome::fa("home")`](https://castagnetto.site')
 Jesús M. Castagnetto, Ph.D.
