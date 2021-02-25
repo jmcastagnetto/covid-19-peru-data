@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-02-24 17:39:00 UTC
+**Última actualización**: 2021-02-25 16:48:58 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -466,6 +466,10 @@ Pero, en la sección de “UCI” de la misma visualización, el valor es de
 
 ![UCI, Sala Situacional,
 2021-02-21](minsa-reportes/imgs/screenshot-covid19.minsa.gob.pe-2021-02-22_08-39-24.png)
+
+**2021-02-24**: Los XLSX publicados en la Sala Situacional no coinciden
+con los datos de las visualizaciones, y no se ha publicado comunicado
+del MINSA aún
 
 Fuentes
 -------
