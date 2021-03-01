@@ -223,6 +223,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,066.
 
 **2021-02-24**: Los XLSX publicados en la Sala Situacional no coinciden con los datos de las visualizaciones, y no se ha publicado comunicado del MINSA aún
 
+**2021-02-28**: Hasta las 18:30h de hoy no se han publicado datos del 2021-02-27 en la Sala Situacional.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
