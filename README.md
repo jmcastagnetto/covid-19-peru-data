@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-04 18:10:05 UTC
+**Última actualización**: 2021-03-05 02:55:54 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -473,6 +473,30 @@ del MINSA aún
 
 **2021-02-28**: Hasta las 18:30h de hoy no se han publicado datos del
 2021-02-27 en la Sala Situacional.
+
+**2021-03-04**: Se ha detectado una inconsistencia en los datos de los
+comunicados N° 441 y 442
+(<a href="https://www.gob.pe/institucion/minsa/noticias/344816-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-344-969-en-el-peru-comunicado-n-441" class="uri">https://www.gob.pe/institucion/minsa/noticias/344816-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-344-969-en-el-peru-comunicado-n-441</a>
+y
+<a href="https://www.gob.pe/institucion/minsa/noticias/345003-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-349-847-en-el-peru-comunicado-n-442" class="uri">https://www.gob.pe/institucion/minsa/noticias/345003-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-349-847-en-el-peru-comunicado-n-442</a>)
+
+En el Comunicado N° 441 del MINSA dice:
+
+> **5. Del total de casos confirmados, a la fecha, 1 250 047 personas
+> cumplieron su período de aislamiento domiciliario o fueron dados de
+> alta de un establecimiento de salud.**
+
+[Ver captura parcial del Comunicado N°
+441](minsa-reportes/img/screenshot-www.gob.pe-reporte-441.png)
+
+Mientras que en el Comunicado N° 442, se tiene lo siguiente:
+
+> **5. Del total de casos confirmados, a la fecha, 1 248 642 personas
+> cumplieron su período de aislamiento domiciliario o fueron dados de
+> alta de un establecimiento de salud.**
+
+[Ver captura parcial del Comunicado N°
+442](minsa-reportes/img/screenshot-www.gob.pe-reporte-442.png)
 
 Fuentes
 -------
