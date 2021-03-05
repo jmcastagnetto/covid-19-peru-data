@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-05 02:59:47 UTC
+**Última actualización**: 2021-03-05 22:25:25 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -497,6 +497,11 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 [Ver captura parcial del Comunicado N°
 442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
+
+**2021-03-05**: Hasta las 17:30 de hoy, no se han publicados datos del
+2021-03-04 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf</a>
 
 Fuentes
 -------

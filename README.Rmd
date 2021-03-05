@@ -239,6 +239,8 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 [Ver captura parcial del Comunicado N° 442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
 
+**2021-03-05**: Hasta las 17:30 de hoy, no se han publicados datos del 2021-03-04 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
