@@ -231,13 +231,13 @@ En el Comunicado N° 441 del MINSA dice:
 
 > **5. Del total de casos confirmados, a la fecha, 1 250 047 personas cumplieron su período de aislamiento domiciliario o fueron dados de alta de un establecimiento de salud.**
 
-[Ver captura parcial del Comunicado N° 441](minsa-reportes/img/screenshot-www.gob.pe-reporte-441.png)
+[Ver captura parcial del Comunicado N° 441](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-441.png)
 
 Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 > **5. Del total de casos confirmados, a la fecha, 1 248 642 personas cumplieron su período de aislamiento domiciliario o fueron dados de alta de un establecimiento de salud.**
 
-[Ver captura parcial del Comunicado N° 442](minsa-reportes/img/screenshot-www.gob.pe-reporte-442.png)
+[Ver captura parcial del Comunicado N° 442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
 
 ## Fuentes
 

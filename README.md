@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-05 02:55:54 UTC
+**Última actualización**: 2021-03-05 02:59:47 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -487,7 +487,7 @@ En el Comunicado N° 441 del MINSA dice:
 > alta de un establecimiento de salud.**
 
 [Ver captura parcial del Comunicado N°
-441](minsa-reportes/img/screenshot-www.gob.pe-reporte-441.png)
+441](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-441.png)
 
 Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
@@ -496,7 +496,7 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 > alta de un establecimiento de salud.**
 
 [Ver captura parcial del Comunicado N°
-442](minsa-reportes/img/screenshot-www.gob.pe-reporte-442.png)
+442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
 
 Fuentes
 -------
