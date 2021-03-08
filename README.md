@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-06 20:57:52 UTC
+**Última actualización**: 2021-03-07 21:28:23 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -502,6 +502,11 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 2021-03-04 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf</a>
+
+**2021-03-07**: Hasta las 16:30 de hoy, no se han publicados datos del
+2021-03-06 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf</a>
 
 Fuentes
 -------
@@ -2093,6 +2098,10 @@ Casos confirmados
     294 en el Perú (Comunicado
     N°443)](https://www.gob.pe/institucion/minsa/noticias/345139-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-358-294-en-el-peru-comunicado-n-443)
     2021-03-05
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 364
+    964 en el Perú (Comunicado
+    N°445)](https://www.gob.pe/institucion/minsa/noticias/345210-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-364-964-en-el-peru-comunicado-n-445)
+    2021-03-06
 
 Recuperados
 -----------
