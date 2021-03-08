@@ -243,6 +243,17 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 **2021-03-07**: Hasta las 16:30 de hoy, no se han publicados datos del 2021-03-06 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf
 
+**2021-03-08**: Inconsistencias, en el número de camas UCI en la Sala Situacional:
+
+La sección de "Hospitalizados" muestra 2,184 camas UCI con ventilación mecánica en uso, que es el número publicado en el comunicado N° 446 del MINSA
+
+![Hospitalizados, Sala Situacional, 2021-03-07](minsa-reportes/imgs/hospitalizados-sala-situacional-2021-03-08_09-20-54.png)
+
+Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, como se ve en la captura de pantalla siguiente
+
+![UCI, Sala Situacional, 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
+
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
