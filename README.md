@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-08 14:28:51 UTC
+**Última actualización**: 2021-03-09 20:07:08 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -523,6 +523,11 @@ Pero, en la sección de “UCI” de la misma visualización, el valor es de
 
 ![UCI, Sala Situacional,
 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
+
+**2021-03-09**: Hasta las 15:00 de hoy, no se han publicados datos del
+2021-03-08 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf</a>
 
 Fuentes
 -------
@@ -2122,6 +2127,10 @@ Casos confirmados
     176 en el Perú (Comunicado
     N°446)](https://www.gob.pe/institucion/minsa/noticias/345262-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-371-176-en-el-peru-comunicado-n-446)
     2021-03-07
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 374
+    467 en el Perú (Comunicado
+    N°447)](%5Bhttps://www.gob.pe/institucion/minsa/noticias/345520-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-374-467-en-el-peru-comunicado-n-447)
+    2021-03-08
 
 Recuperados
 -----------
