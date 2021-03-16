@@ -239,9 +239,9 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 [Ver captura parcial del Comunicado N° 442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
 
-**2021-03-05**: Hasta las 17:30 de hoy, no se han publicados datos del 2021-03-04 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf
+**2021-03-05**: Hasta las 17:30 de hoy, no se han publicado datos del 2021-03-04 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf
 
-**2021-03-07**: Hasta las 16:30 de hoy, no se han publicados datos del 2021-03-06 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf
+**2021-03-07**: Hasta las 16:30 de hoy, no se han publicado datos del 2021-03-06 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf
 
 **2021-03-08**: Inconsistencias, en el número de camas UCI en la Sala Situacional:
 
@@ -253,9 +253,11 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, 
 
 ![UCI, Sala Situacional, 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
 
-**2021-03-09**: Hasta las 15:00 de hoy, no se han publicados datos del 2021-03-08 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf
+**2021-03-09**: Hasta las 15:00 de hoy, no se han publicado datos del 2021-03-08 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf
 
-**2021-03-15**: Hasta las 19:30 de hoy, no se han publicados datos del 2021-03-14 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf
+**2021-03-15**: Hasta las 19:30 de hoy, no se han publicado datos del 2021-03-14 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf
+
+**2021-03-16**: Hasta las 16:15 de hoy, no se han publicado datos del 2021-03-15 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus140321.pdf
 
 ## Fuentes
 

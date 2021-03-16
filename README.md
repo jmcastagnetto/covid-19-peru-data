@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-16 00:32:08 UTC
+**Última actualización**: 2021-03-16 21:25:19 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -498,12 +498,12 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 [Ver captura parcial del Comunicado N°
 442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
 
-**2021-03-05**: Hasta las 17:30 de hoy, no se han publicados datos del
+**2021-03-05**: Hasta las 17:30 de hoy, no se han publicado datos del
 2021-03-04 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf</a>
 
-**2021-03-07**: Hasta las 16:30 de hoy, no se han publicados datos del
+**2021-03-07**: Hasta las 16:30 de hoy, no se han publicado datos del
 2021-03-06 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf</a>
@@ -524,15 +524,20 @@ Pero, en la sección de “UCI” de la misma visualización, el valor es de
 ![UCI, Sala Situacional,
 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
 
-**2021-03-09**: Hasta las 15:00 de hoy, no se han publicados datos del
+**2021-03-09**: Hasta las 15:00 de hoy, no se han publicado datos del
 2021-03-08 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf</a>
 
-**2021-03-15**: Hasta las 19:30 de hoy, no se han publicados datos del
+**2021-03-15**: Hasta las 19:30 de hoy, no se han publicado datos del
 2021-03-14 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf</a>
+
+**2021-03-16**: Hasta las 16:15 de hoy, no se han publicado datos del
+2021-03-15 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus140321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus140321.pdf</a>
 
 Fuentes
 -------
@@ -2160,6 +2165,10 @@ Casos confirmados
     406 en el Perú (Comunicado
     N°453)](https://www.gob.pe/institucion/minsa/noticias/348084-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-412-406-en-el-peru-comunicado-n-453)
     2021-03-14
+-   [Minsa: Casos confirmados por coronavirus COVID-19 Ascienden a 1 418
+    974 en el Perú (Comunicado
+    N°454)](https://www.gob.pe/institucion/minsa/noticias/348264-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-418-974-en-el-peru-comunicado-n-454)
+    2021-03-15
 
 Recuperados
 -----------
