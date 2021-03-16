@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-15 15:32:51 UTC
+**Última actualización**: 2021-03-16 00:32:08 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -528,6 +528,11 @@ Pero, en la sección de “UCI” de la misma visualización, el valor es de
 2021-03-08 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf</a>
+
+**2021-03-15**: Hasta las 19:30 de hoy, no se han publicados datos del
+2021-03-14 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf</a>
 
 Fuentes
 -------
