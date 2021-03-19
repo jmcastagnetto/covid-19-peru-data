@@ -261,6 +261,7 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, 
 
 **2021-03-18**: Valores inconsistentes en la Sala Situacional para camas UCI, en la sección de "Hospitalización", se indican 2,251 en uso, pero en la sección de "UCI" se indican 2,227 camas en uso.
 
+**2021-03-19**: Hasta las 18:30 de hoy, no se han publicado datos del 2021-03-18 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170321.pdf
 
 ## Fuentes
 
