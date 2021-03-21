@@ -43,4 +43,4 @@ synctoaws.sh
 *.backup
 *-orig
 experiments/
-get-dge.sh
+proc-local.sh
