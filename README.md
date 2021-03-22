@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-20 22:39:49 UTC
+**Última actualización**: 2021-03-22 00:00:04 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -2199,6 +2199,10 @@ Casos confirmados
     645 en el Perú (Comunicado
     N°458)](https://www.gob.pe/institucion/minsa/noticias/349148-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-451-645-en-el-peru-comunicado-n-458)
     2021-03-19
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 460
+    779 en el Perú (Comunicado
+    N°459)](https://www.gob.pe/institucion/minsa/noticias/349235-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-460-779-en-el-peru-comunicado-n-459)
+    2021-03-20
 
 Recuperados
 -----------
