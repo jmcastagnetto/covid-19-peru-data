@@ -265,6 +265,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, 
 
 **2021-03-20**: Hasta las 16:30 de hoy, no se han publicado datos del 2021-03-19 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus180321.pdf
 
+**2021-03-20**: Hasta las 18:15 de hoy, no se han publicado datos del 2021-03-22 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)

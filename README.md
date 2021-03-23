@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-22 21:55:53 UTC
+**Última actualización**: 2021-03-23 23:28:50 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -552,6 +552,11 @@ parciales usando
 2021-03-19 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus180321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus180321.pdf</a>
+
+**2021-03-20**: Hasta las 18:15 de hoy, no se han publicado datos del
+2021-03-22 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf</a>
 
 Fuentes
 -------
@@ -2207,6 +2212,10 @@ Casos confirmados
     326 en el Perú (Comunicado
     N°460)](https://www.gob.pe/institucion/minsa/noticias/349307-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-466-326-en-el-peru-comunicado-n-460)
     2021-03-21
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 472
+    790 en el Perú (Comunicado
+    N°461)](https://www.gob.pe/institucion/minsa/noticias/349522-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-472-790-en-el-peru-comunicado-n-461)
+    2021-03-22
 
 Recuperados
 -----------
