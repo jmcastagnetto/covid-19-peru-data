@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-26 02:28:35 UTC
+**Última actualización**: 2021-03-26 13:58:51 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -557,6 +557,10 @@ parciales usando
 2021-03-22 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf</a>
+
+**2021-03-26**: Hay inconsistencia en el número de camas UCI publicadas
+en la Sala Situacional al 2021-03-25, en la sección de “Hospitalización”
+se indican 2,276 camas, mientras que en la sección UCI se indican 2,249
 
 Fuentes
 -------
