@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-27 22:23:42 UTC
+**Última actualización**: 2021-03-28 14:07:45 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -566,6 +566,10 @@ se indican 2,276 camas, mientras que en la sección UCI se indican 2,249
 2021-03-26 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250321.pdf</a>
+
+**2021-03-28**: Los datos publicados en la Sala Situacional para el
+2021-03-28 para el número de camas UCI en uso (2,227), no coinciden con
+lo publicado en el comunicado 466 (que indica 2,301)
 
 Fuentes
 -------
@@ -2241,6 +2245,10 @@ Casos confirmados
     384 en el Perú (Comunicado
     N°467)](https://www.gob.pe/institucion/minsa/noticias/350381-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-512-384-en-el-peru-comunicado-n-467)
     2021-03-26
+-   [Minsa: Casos confirmados por coronavirus COVID-19 Ascienden a 1 520
+    973 en el Perú (Comunicado
+    N°468)](https://www.gob.pe/institucion/minsa/noticias/350443-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-520-973-en-el-peru-comunicado-n-468)
+    2021-03-27
 
 Recuperados
 -----------
