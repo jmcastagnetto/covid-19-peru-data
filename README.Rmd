@@ -269,6 +269,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, 
 
 **2021-03-26**: Hay inconsistencia en el número de camas UCI publicadas en la Sala Situacional al 2021-03-25, en la sección de "Hospitalización" se indican 2,276 camas, mientras que en la sección UCI se indican 2,249
 
+**2021-03-27**: Hasta las 17:15 de hoy, no se han publicado datos del 2021-03-26 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250321.pdf
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
