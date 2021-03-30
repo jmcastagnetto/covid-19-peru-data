@@ -391,6 +391,8 @@
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 500 465 en el Perú (Comunicado N°466)](https://www.gob.pe/institucion/minsa/noticias/350170-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-500-465-en-el-peru-comunicado-n-466) 2021-03-25
 - [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 512 384 en el Perú (Comunicado N°467)](https://www.gob.pe/institucion/minsa/noticias/350381-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-512-384-en-el-peru-comunicado-n-467) 2021-03-26
 - [Minsa: Casos confirmados por coronavirus COVID-19 Ascienden a 1 520 973 en el Perú (Comunicado N°468)](https://www.gob.pe/institucion/minsa/noticias/350443-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-520-973-en-el-peru-comunicado-n-468) 2021-03-27
+- [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 529 882 en el Perú (Comunicado N°469)](https://www.gob.pe/institucion/minsa/noticias/350483-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-529-882-en-el-peru-comunicado-n-469) 2021-03-28
+- [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 533 121 en el Perú (Comunicado N°470)](https://www.gob.pe/institucion/minsa/noticias/350650-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-533-121-en-el-peru-comunicado-n-470) 2021-03-29
 
 ## Recuperados
 
