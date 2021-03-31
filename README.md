@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-03-30 13:45:12 UTC
+**Última actualización**: 2021-03-31 16:04:11 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -575,6 +575,22 @@ lo publicado en el comunicado 466 (que indica 2,301)
 2021-03-28 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
 <a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270321.pdf</a>
+
+**2021-03-30**: Inconsistencias, en el número de camas UCI en la Sala
+Situacional para el 2021-03-29:
+
+La sección de “Hospitalizados” muestra 2,278 camas UCI con ventilación
+mecánica en uso, que es el número publicado en el comunicado N° 470 del
+MINSA
+
+![Hospitalizados, Sala Situacional,
+2021-03-29](minsa-reportes/imgs/uci-screenshot-covid19.minsa.gob.pe-2021.03.29.png)
+
+Pero, en la sección de “UCI” de la misma visualización, el valor es de
+1,512, como se ve en la captura de pantalla siguiente
+
+![UCI, Sala Situacional,
+2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
 
 Fuentes
 -------
