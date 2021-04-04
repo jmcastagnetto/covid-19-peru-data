@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-04 16:14:25 UTC
+**Última actualización**: 2021-04-04 19:54:55 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -592,20 +592,25 @@ Pero, en la sección de “UCI” de la misma visualización, el valor es de
 ![UCI, Sala Situacional,
 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
 
-**2021-03-31**: Inconsistencias, en el número de camas UCI en la Sala
+**2021-03-31**: Inconsistencia en el número de camas UCI en la Sala
 Situacional para el 2021-03-30, en la sección de Hospitalización se
 indica 2,290 camas UCI con respirador, pero en la sección de “UCI”, se
 indica 2,288.
 
-**2021-04-02**: Inconsistencias, en el número de camas UCI en la Sala
+**2021-04-02**: Inconsistencia en el número de camas UCI en la Sala
 Situacional para el 2021-04-01, en la sección de Hospitalización se
 indica 2,065 camas UCI con respirador, pero en la sección de “UCI”, se
 indica 2,327.
 
-**2021-04-03**: Inconsistencias, en el número de camas UCI en la Sala
+**2021-04-03**: Inconsistencia en el número de camas UCI en la Sala
 Situacional para el 2021-04-02, en la sección de Hospitalización se
 indica 2,357 camas UCI con respirador, pero en la sección de “UCI”, se
 indica 2,327 (igual que para el 2021-04-01)
+
+**2021-04-04**: Inconsistencia en el número de camas UCI en la Sala
+Situacional para el 2021-04-03, en la sección de Hospitalización se
+indica 2,373 camas UCI con respirador, pero en la sección de “UCI”, se
+indica 2,375.
 
 Fuentes
 -------
