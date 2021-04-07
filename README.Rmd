@@ -295,7 +295,9 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-04-05**: Inconsistencia en el número de camas UCI en la Sala Situacional para el 2021-04-04, en la sección de Hospitalización se indica 2,307 camas UCI con respirador, pero en la sección de "UCI", se indica 2,373.
 
-**2021-04-06**: Inconsistencia en el número de camas UCI en la Sala Situacional para el 2021-04-06, en la sección de Hospitalización se indica 2,348 camas UCI con respirador, pero en la sección de "UCI", se indica 2,380.
+**2021-04-06**: Inconsistencia en el número de camas UCI en la Sala Situacional para el 2021-04-05, en la sección de Hospitalización se indica 2,348 camas UCI con respirador, pero en la sección de "UCI", se indica 2,380.
+
+**2021-04-07**: Inconsistencia en el número de camas UCI en la Sala Situacional para el 2021-04-06, en la sección de Hospitalización se indica 2,452 camas UCI con respirador, pero en la sección de "UCI", se indica 2,454.
 
 ## Fuentes
 
