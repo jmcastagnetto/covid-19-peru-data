@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-08 17:37:51 UTC
+**Última actualización**: 2021-04-09 03:40:45 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -626,6 +626,15 @@ indica 2,380.
 Situacional para el 2021-04-06, en la sección de Hospitalización se
 indica 2,452 camas UCI con respirador, pero en la sección de “UCI”, se
 indica 2,454.
+
+**2021-04-08**: Hasta las 22:00 de hoy, no se han publicado datos del
+2021-04-07 en la Sala Situacional, por lo que se han extraido datos
+parciales usando
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus060421.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus060421.pdf</a>.
+Además, existe inconsistencia en el número de camas UCI en la Sala
+Situacional para el 2021-04-08, en la sección de Hospitalización se
+indica 2,246 camas UCI con respirador, pero en la sección de “UCI”, se
+indica 2,520.
 
 Fuentes
 -------
@@ -2345,6 +2354,14 @@ Casos confirmados
     593 209 en el Perú (Comunicado
     N°481)](https://www.gob.pe/institucion/minsa/noticias/396759-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-598-593-209-en-el-peru-comunicado-n-481)
     2021-04-06
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 607
+    898 en el Perú (Comunicado
+    N°482)](https://www.gob.pe/institucion/minsa/noticias/396928-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-607-898-en-el-peru-comunicado-n-482)
+    2021-04-07
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 617
+    864 en el Perú (Comunicado
+    N°483)](https://www.gob.pe/institucion/minsa/noticias/419082-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-617-864-en-el-peru-comunicado-n-483)
+    2021-04-08
 
 Recuperados
 -----------
