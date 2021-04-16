@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-16 01:39:23 UTC
+**Última actualización**: 2021-04-16 18:43:51 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -658,14 +658,19 @@ indica 2,592.
 
 **2021-04-14**: Inconsistencia en el número de camas UCI entre el
 comunicado N° 489 (que indica 2,599 camas), la Sala Situacional para el
-2021-04-13, que muestra en la sección de Hospitalizacióni: 2,406 camas
+2021-04-13, que muestra en la sección de Hospitalización: 2,406 camas
 UCI con respirador, y en la sección de “UCI”, se indica 2,601.
 
 **2021-04-15**: Inconsistencia en el número de camas UCI entre el
 comunicado N° 490 (que indica 2,615 camas) y la Sala Situacional para el
-2021-04-14, que muestra en la sección de Hospitalizacióni: 2,405 camas
+2021-04-14, que muestra en la sección de Hospitalización: 2,405 camas
 UCI con respirador (la sección de “UCI”, muestra, consistentemente,
 2,615 camas).
+
+**2021-04-16**: Inconsistencia en el número de camas UCI entre el
+comunicado N° 492 (que indica 2,603 camas), la Sala Situacional para el
+2021-04-15, que muestra en la sección de Hospitalización: 2,409 camas
+UCI con respirador, y en la sección de “UCI”, se indica 2,604.
 
 Fuentes
 -------
