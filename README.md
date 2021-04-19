@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-19 19:01:20 UTC
+**Última actualización**: 2021-04-19 23:17:00 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -681,6 +681,11 @@ UCI con respirador.
 comunicado N° 495 (que indica 2,616 camas) y la Sala Situacional para el
 2021-04-17, que muestra en la sección de Hospitalización: 2,439 camas
 UCI con respirador, asi como 2,629 camas en la sección de UCI.
+
+**2021-04-19**: Inconsistencia en el número de camas UCI entre el
+comunicado N° 496 (que indica 2,636 camas) y la Sala Situacional para el
+2021-04-18, que muestra en la sección de Hospitalización: 2,432 camas
+UCI con respirador.
 
 Fuentes
 -------
