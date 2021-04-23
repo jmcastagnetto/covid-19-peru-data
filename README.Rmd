@@ -327,6 +327,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-04-22**: Hasta las 17:35 de hoy, no se han publicado datos del 2021-04-21 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus200421.pdf
 
+**2021-04-22**: Inconsistencia en el número de camas UCI entre el comunicado N° 500 (que indica 2,614 camas) y la Sala Situacional para el 2021-04-22, que muestra en la sección de Hospitalización: 2,489 camas UCI con respirador, asi como 2,622 camas en la sección de UCI.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
