@@ -329,7 +329,9 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-04-22**: Inconsistencia en el número de camas UCI entre el comunicado N° 500 (que indica 2,614 camas) y la Sala Situacional para el 2021-04-22, que muestra en la sección de Hospitalización: 2,489 camas UCI con respirador, asi como 2,622 camas en la sección de UCI.
 
-**2021-04-24**: Hasta las 12:30 de hoy, no se han publicado datos del 2021-04-23 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf
+**2021-04-24**: Hasta las 12:30 de hoy, no se han publicado datos del 2021-04-23 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf. Se actualizó la Sala Situacional en la tarde, con inconsistencia entre los datos de camas UCI del comunicado N° 501 (2,642 camas UCI), y la secciones UCI (2,641 camas) y de Hospitalización (2,515 camas) de la Sala Situacional.
+
+**2021-04-24**: Inconsistencia en el número de camas UCI entre el comunicado N° 503 (que indica 2,646 camas) y la Sala Situacional para el 2021-04-24, que muestra en la sección de Hospitalización: 2,534 camas UCI con respirador. También no hay concordancia entre el número de hospitalizados, que es de 15,258 en el comunicado, y 15,248 en la Sala Situacional.
 
 ## Fuentes
 

@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-24 17:31:08 UTC
+**Última actualización**: 2021-04-25 02:47:24 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -710,7 +710,18 @@ UCI con respirador, asi como 2,622 camas en la sección de UCI.
 **2021-04-24**: Hasta las 12:30 de hoy, no se han publicado datos del
 2021-04-23 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf</a>
+<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf</a>.
+Se actualizó la Sala Situacional en la tarde, con inconsistencia entre
+los datos de camas UCI del comunicado N° 501 (2,642 camas UCI), y la
+secciones UCI (2,641 camas) y de Hospitalización (2,515 camas) de la
+Sala Situacional.
+
+**2021-04-24**: Inconsistencia en el número de camas UCI entre el
+comunicado N° 503 (que indica 2,646 camas) y la Sala Situacional para el
+2021-04-24, que muestra en la sección de Hospitalización: 2,534 camas
+UCI con respirador. También no hay concordancia entre el número de
+hospitalizados, que es de 15,258 en el comunicado, y 15,248 en la Sala
+Situacional.
 
 Fuentes
 -------
@@ -2498,6 +2509,10 @@ Casos confirmados
     655 en el Perú (Comunicado
     N°501)](https://www.gob.pe/institucion/minsa/noticias/485996-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-745-655-en-el-peru-comunicado-n-501)
     2021-04-23
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 754
+    150 en el Perú (Comunicado
+    N°503)](https://www.gob.pe/institucion/minsa/noticias/487553-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-754-150-en-el-peru-comunicado-n-503)
+    2021-04-24
 
 Recuperados
 -----------
