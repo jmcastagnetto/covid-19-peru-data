@@ -80,6 +80,7 @@ pe <- read_csv(
     negative_tests = col_double(),
     pcr_test_positive = col_double(),
     serological_test_positive = col_double(),
+    ag_test_positive = col_double(),
     pcr_serological_test_positive = col_double()
   )
 ) %>%

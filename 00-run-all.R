@@ -1,5 +1,5 @@
 source("01-prepare-csv.R")
 source("02-add-extra-data.R")
-source("03-csv-to-json.R")
+#source("03-csv-to-json.R")
 source("04-build-dashboard.R")
 source("05-build-readme.R")
