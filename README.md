@@ -15,7 +15,8 @@
 
 **Última actualización**: 2021-04-25 02:47:24 UTC
 
-[![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
+<a href="https://zenodo.org/badge/latestdoi/247552256"><img src="https://zenodo.org/badge/247552256.svg" alt="DOI"></a>
+
 
 [<img src="COVID-19 Data Hub - CONTRIBUTOR COVID-19 Data Hub - 2020-07-21.svg" width="100" align="right"/>](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
 
