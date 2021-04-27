@@ -13,10 +13,9 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-26 17:23:52 UTC
+**Última actualización**: 2021-04-27 02:21:17 UTC
 
-<a href="https://zenodo.org/badge/latestdoi/247552256"><img src="https://zenodo.org/badge/247552256.svg" alt="DOI"></a>
-
+[![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
 [<img src="COVID-19 Data Hub - CONTRIBUTOR COVID-19 Data Hub - 2020-07-21.svg" width="100" align="right"/>](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
 
@@ -2523,6 +2522,10 @@ Casos confirmados
     575 en el Perú (Comunicado
     N°504)](https://www.gob.pe/institucion/minsa/noticias/487591-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-761-575-en-el-peru-comunicado-n-504)
     2021-04-25
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 768
+    186 en el Perú (Comunicado
+    N°505)](https://www.gob.pe/institucion/minsa/noticias/487804-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-768-186-en-el-peru-comunicado-n-505)
+    2021-04-26
 
 Recuperados
 -----------
