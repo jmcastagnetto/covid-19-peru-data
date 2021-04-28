@@ -791,6 +791,61 @@ ggplot(
   ) 
 ```
 
+### Casos activos
+
+```{r fig.width=16, fig.height=9}
+subset_df <- covid_pe %>%
+  select(
+    date,
+    confirmed,
+    deaths,
+    recovered,
+    total_tests
+  ) %>%
+  drop_na() %>% # get all rows with complete data
+  mutate(
+    active_cases = confirmed - (recovered + deaths),
+    outofbounds = (active_cases < 0)
+  )
+
+ggplot(
+  subset_df,
+  aes(x = date, y = active_cases)
+) +
+  geom_point(
+    aes(
+      color = outofbounds,
+      shape = outofbounds
+    ),
+    show.legend = FALSE) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  ggforce::geom_mark_ellipse(
+    data = subset_df %>% filter(outofbounds),
+    aes(group = outofbounds),
+    color = "peru"
+  ) +
+  scale_color_manual(
+    values = c("purple", "peru")
+  ) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    x = "",
+    y = "Número de casos",
+    title = "COVID-19 - Perú: Casos activos estimados",
+    subtitle = "Usando datos históricos publicados por MINSA - [Activos = Positivos - (Fallecidos + Recuperados)]\nDatos del repositorio: https://github.com/jmcastagnetto/covid-19-peru-data/",
+    caption = "@jmcastagnetto, Jesus M. Castagnetto"
+  ) +
+  theme_minimal(18) +
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_text(size = 24, face = "bold"),
+    plot.subtitle = element_text(color = "gray50"),
+    plot.caption = element_text(family = "Inconsolata", size = 16)
+  )
+
+```
+
+
 
 # Por Regiones
 
