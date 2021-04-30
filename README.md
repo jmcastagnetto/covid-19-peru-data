@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-04-29 03:29:57 UTC
+**Última actualización**: 2021-04-30 03:26:51 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -737,6 +737,9 @@ UCI con respirador.
 comunicado N° 506 (que indica 2,642 camas) y la Sala Situacional para el
 2021-04-27, que muestra en la sección de Hospitalización: 2,531 camas
 UCI con respirador, y en la sección UCI: 2,641 camas.
+
+**2021-04-29**: Hasta las 17:30h de hoy no se han publicado en la Sala
+Situacional los datos del 2021-04-28.
 
 Fuentes
 -------
@@ -2544,6 +2547,10 @@ Casos confirmados
     339 en el Perú (Comunicado
     N°507)](https://www.gob.pe/institucion/minsa/noticias/489780-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-783-339-en-el-peru-comunicado-n-507)
     2021-04-28
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 791
+    998 en el Perú (Comunicado
+    N°508)](https://www.gob.pe/institucion/minsa/noticias/490194-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-791-998-en-el-peru-comunicado-n-508)
+    2021-04-29
 
 Recuperados
 -----------
