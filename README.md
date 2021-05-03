@@ -1,7 +1,6 @@
 -   [Motivación](#motivación)
 -   [Información importante sobre los datos
     publicados](#información-importante-sobre-los-datos-publicados)
--   [Fuentes](#fuentes)
 -   [Notas](#notas)
 -   [Visualizaciones](#visualizaciones)
 -   [Formato de datos](#formato-de-datos)
@@ -13,7 +12,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-03 03:40:16 UTC
+**Última actualización**: 2021-05-03 13:21:44 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -756,8 +755,10 @@ comunicado N° 510 (que indica 2,667 camas) y la Sala Situacional para el
 2021-05-01, que muestra en la sección de Hospitalización: 2,567 camas
 UCI con respirador.
 
-Fuentes
--------
+**2021-05-02**: Inconsistencia en el número de camas UCI entre el
+comunicado N° 512 (que indica 2,654 camas) y la Sala Situacional para el
+2021-05-01, que muestra en la sección de Hospitalización: 2,558 camas
+UCI con respirador y la sección de UCI: 2,680 camas. \#\# Fuentes
 
 -   [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
 -   [Noticias del
