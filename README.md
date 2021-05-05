@@ -1,6 +1,7 @@
 -   [Motivación](#motivación)
 -   [Información importante sobre los datos
     publicados](#información-importante-sobre-los-datos-publicados)
+-   [Fuentes](#fuentes)
 -   [Notas](#notas)
 -   [Visualizaciones](#visualizaciones)
 -   [Formato de datos](#formato-de-datos)
@@ -12,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-03 13:21:44 UTC
+**Última actualización**: 2021-05-05 01:33:17 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -755,10 +756,16 @@ comunicado N° 510 (que indica 2,667 camas) y la Sala Situacional para el
 2021-05-01, que muestra en la sección de Hospitalización: 2,567 camas
 UCI con respirador.
 
-**2021-05-02**: Inconsistencia en el número de camas UCI entre el
+**2021-05-03**: Inconsistencia en el número de camas UCI entre el
 comunicado N° 512 (que indica 2,654 camas) y la Sala Situacional para el
-2021-05-01, que muestra en la sección de Hospitalización: 2,558 camas
-UCI con respirador y la sección de UCI: 2,680 camas. \#\# Fuentes
+2021-05-02, que muestra en la sección de Hospitalización: 2,558 camas
+UCI con respirador y la sección de UCI: 2,680 camas.
+
+**2021-05-04**: Nunca se publicó ni reporte de DGE/MINSA ni Sala
+Situacional para el 2021-05-03.
+
+Fuentes
+-------
 
 -   [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
 -   [Noticias del
@@ -2579,6 +2586,10 @@ Casos confirmados
     998 en el Perú (Comunicado
     N°512)](https://www.gob.pe/institucion/minsa/noticias/490515-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-810-998-en-el-peru-comunicado-n-512)
     2021-05-02
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 814
+    127 en el perú (Comunicado
+    N°514)](https://www.gob.pe/institucion/minsa/noticias/490794-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-814-127-en-el-peru-comunicado-n-514)
+    2021-05-03
 
 Recuperados
 -----------

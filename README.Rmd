@@ -347,7 +347,11 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-05-02**: Inconsistencia en el número de camas UCI entre el comunicado N° 510 (que indica 2,667 camas) y la Sala Situacional para el 2021-05-01, que muestra en la sección de Hospitalización: 2,567 camas UCI con respirador. 
 
-**2021-05-02**: Inconsistencia en el número de camas UCI entre el comunicado N° 512 (que indica 2,654 camas) y la Sala Situacional para el 2021-05-01, que muestra en la sección de Hospitalización: 2,558 camas UCI con respirador y la sección de UCI: 2,680 camas. 
+**2021-05-03**: Inconsistencia en el número de camas UCI entre el comunicado N° 512 (que indica 2,654 camas) y la Sala Situacional para el 2021-05-02, que muestra en la sección de Hospitalización: 2,558 camas UCI con respirador y la sección de UCI: 2,680 camas. 
+
+**2021-05-04**: Nunca se publicó ni reporte de DGE/MINSA ni Sala Situacional para el 2021-05-03.
+
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
