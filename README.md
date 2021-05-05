@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-05 01:59:08 UTC
+**Última actualización**: 2021-05-05 05:07:37 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -769,6 +769,10 @@ comunicado N° 515 (que indica 2,657 camas) y la Sala Situacional para el
 2021-05-04, que muestra en la sección de Hospitalización: 2,566 camas
 UCI con respirador, y en la sección UCI: 2,701 camas. No se ha publicado
 aún el reporte de DGE/MINSA.
+
+**2021-05-04**: Aproxmadamente a las 21:15h de hoy se publicaron los
+reportes de DGE/MINSA coronavirus020521.pdf (datos del 2021-05-03), y
+coronavirus030521.pdf (datos del 2021-05-04)
 
 Fuentes
 -------
