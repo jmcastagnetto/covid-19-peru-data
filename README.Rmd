@@ -361,6 +361,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-05-08**: Hasta las 15:20h de hoy, se han publicado los reportes de DGE/MINSA para el 2021-05-06 y 2021-05-07, asi como la Sala Situacional de ayer. Hay inconsistencia en el número de camas UCI, el comunicado N° 518 indica 2,666, mientras que en la Sala Situacinal, en la sección de Hospitalización se tiene 2,560 y en la de UCI 2,667.
 
+**2021-05-09**: Inconsistencia en el número de camas UCI entre el comunicado N° 520 (que indica 2,669 camas) y la Sala Situacional para el 2021-05-08, que muestra en la sección de Hospitalización: 2,582.
+
 
 ## Fuentes
 
