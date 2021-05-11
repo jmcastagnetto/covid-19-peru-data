@@ -363,6 +363,7 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-05-09**: Inconsistencia en el número de camas UCI entre el comunicado N° 520 (que indica 2,669 camas) y la Sala Situacional para el 2021-05-08, que muestra en la sección de Hospitalización: 2,582.
 
+**2021-05-09**: Como las inconsistencias en el número de camas UCI entre los comunicados y la Sala Situacional, son muy prevalentes. Se van a usar en los datos recolectados, las cifras consignadas en los comunicados de ahora en adelante, y no se van a registrar diferencias aqui.
 
 ## Fuentes
 

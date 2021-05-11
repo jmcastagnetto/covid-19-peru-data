@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-10 19:34:56 UTC
+**Última actualización**: 2021-05-11 20:02:57 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -791,6 +791,12 @@ la sección de Hospitalización se tiene 2,560 y en la de UCI 2,667.
 **2021-05-09**: Inconsistencia en el número de camas UCI entre el
 comunicado N° 520 (que indica 2,669 camas) y la Sala Situacional para el
 2021-05-08, que muestra en la sección de Hospitalización: 2,582.
+
+**2021-05-09**: Como las inconsistencias en el número de camas UCI entre
+los comunicados y la Sala Situacional, son muy prevalentes. Se van a
+usar en los datos recolectados, las cifras consignadas en los
+comunicados de ahora en adelante, y no se van a registrar diferencias
+aqui.
 
 Fuentes
 -------
