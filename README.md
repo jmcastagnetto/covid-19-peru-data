@@ -13,14 +13,13 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-19 20:16:36 UTC
+**Última actualización**: 2021-05-20 23:07:56 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
 [<img src="COVID-19 Data Hub - CONTRIBUTOR COVID-19 Data Hub - 2020-07-21.svg" width="100" align="right"/>](https://eu.badgr.com/public/assertions/nmrQrfZnQPmsV-ZcG8nrLA)
 
-Motivación
-----------
+## Motivación
 
 MINSA está publicando en su cuenta de Twitter y en la sección de
 “Noticias” del portal del gobierno peruano, comunicados con información
@@ -34,14 +33,12 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la
 información nececasaria, y cuando eso ocurra, este repositorio ya no se
 actualzará.
 
-Información importante sobre los datos publicados
--------------------------------------------------
+## Información importante sobre los datos publicados
 
 **2020-03-03**: A partir de hoy, MINSA ha puesto una “Sala situacional”
-oficial en
-<a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>.
-Los datos de este día fueron tomados de las “Sala Situacional” del
-MINSA, el cual no tiene información (al día de hoy) acerca del número de
+oficial en <https://covid19.minsa.gob.pe/sala_situacional.asp>. Los
+datos de este día fueron tomados de las “Sala Situacional” del MINSA, el
+cual no tiene información (al día de hoy) acerca del número de
 recuperados
 
 **2020-04-08**: A partir de hoy, en la “Sala situacional” se comenzaron
@@ -90,7 +87,7 @@ la “Sala Situacional” del MINSA en formato XLSX
 
 **2020-05-18**: Desde hoy hay un API que han construído tomando este
 repositorio como una fuente:
-<a href="https://github.com/DataScienceResearchPeru/covid-19_latinoamerica" class="uri">https://github.com/DataScienceResearchPeru/covid-19_latinoamerica</a>
+<https://github.com/DataScienceResearchPeru/covid-19_latinoamerica>
 
 **2020-05-22**: El presidente anunció que el estado de emergencia se
 extenderá hasta el 2020-06-30
@@ -148,25 +145,24 @@ publicados.
 actualizado la Sala Situacional, y el comunicado 183 no contiene
 información por departamento. MINSA indica que han tenido problemas
 técnicos (ref:
-<a href="https://twitter.com/Minsa_Peru/status/1287111345024925697" class="uri">https://twitter.com/Minsa_Peru/status/1287111345024925697</a>)
+<https://twitter.com/Minsa_Peru/status/1287111345024925697>)
 
 **2020-07-26**: Hoy, hasta las 22:50h, no se han publicado datos ni
 actualizado las Sala Situacional, y el comunicado 186 no contiene
 información por departamento, ni los detalles de las pruebas que
 usualmente se publican. (ref:
-<a href="https://twitter.com/Minsa_Peru/status/1287587172892246016" class="uri">https://twitter.com/Minsa_Peru/status/1287587172892246016</a>)
+<https://twitter.com/Minsa_Peru/status/1287587172892246016>)
 
 **2020-07-27**: Tampoco hoy se ha actualizado (hasta las 20:00h) la
 “Sala Situacional…”, y el comunicado 187 ya no contiene la información
 por departamente, pero volvieron los detalle generales por tipo de
 prueba. (ref:
-<a href="https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187" class="uri">https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187</a>
-y
-<a href="https://twitter.com/Minsa_Peru/status/1287917699474042887" class="uri">https://twitter.com/Minsa_Peru/status/1287917699474042887</a>)
+<https://www.gob.pe/institucion/minsa/noticias/216606-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-389-717-en-el-peru-comunicado-n-187>
+y <https://twitter.com/Minsa_Peru/status/1287917699474042887>)
 
 **2020-07-28**: Sala Situacional ha sido actualizada con datos al
 2020-07-27, nuevamente los datos están disponibles en
-<a href="https://covid19.minsa.gob.pe/sala_situacional.asp" class="uri">https://covid19.minsa.gob.pe/sala_situacional.asp</a>
+<https://covid19.minsa.gob.pe/sala_situacional.asp>
 
 **2020-07-30**: La “Sala Situacional…” no ha sido actualizada hasta las
 23:30h de hoy. (Nota del 2020-07-31, 19:00h: aún se observan los datos
@@ -226,11 +222,11 @@ pues la Sala Situacional del MINSA no ha sido actualizada en varios
 dias. Debido a esto, los datos de “Lima Región” contienen el total del
 departamento de Lima, y no se han desdoblado los valores para Lima
 Metropolitana. - Datos del 2020-11-01: del documento
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311020.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311020.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311020.pdf>
 - Datos del 2020-11-02: del documento
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0111120.pdf>
 - Datos del 2020-11-03: del documento
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus0211120.pdf>
 
 **2020-11-04**: A aproximadamente 18:50h, se actualizó la Sala
 Situacional con datos de hoy
@@ -243,74 +239,74 @@ Comunicado usual por parte del MINSA. El último ha sido el
 [N°305](https://www.gob.pe/institucion/minsa/noticias/314348-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-932-650-en-el-peru-comunicado-n-305)acerca
 de los datos del 2020-11-13. - El comunicado 306, apareció mas tarde
 publicado en:
-<a href="https://www.gob.pe/institucion/minsa/noticias/314403-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-934-899-en-el-peru-comunicado-n-306" class="uri">https://www.gob.pe/institucion/minsa/noticias/314403-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-934-899-en-el-peru-comunicado-n-306</a>
+<https://www.gob.pe/institucion/minsa/noticias/314403-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-934-899-en-el-peru-comunicado-n-306>
 
 **2020-11-19**: No se publicaron en la Sala Situacional los datos para
 el 2020-11-18, por lo que datos parciales se obtuvieron del reporte
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171120.pdf</a>.
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171120.pdf>.
 
 **2020-11-26**: No se publicaron los datos en la Sala Situacional,
 correspondientes al 2020-11-25, los datos parciales se han obtenido del
 reporte:
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf</a>.
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241120.pdf>.
 
 **2020-12-02**: No se publicaron los datos del 2020-12-01 en la Sala
 Situacional, y se han obtenido datos parciales del reporte:
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus301120.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus301120.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus301120.pdf>
 
 **2020-12-04**: No se publicaron los datos del 2020-12-03 en la Sala
 Situacional, los datos parciales se han obtenido de
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus021220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus021220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus021220.pdf>
 
 **2020-12-08**: Hasta las 20:55h de hoy, no se han publicado los datos
 del 2020-12-07 en la Sala Situacional, por lo que se han obtenido datos
 parciales de
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus061220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus061220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus061220.pdf>
 
 **2020-12-10**: Hasta las 15:00h de hoy, no se han publicado los datos
 del 2020-12-09 en la Sala Situacional, y se han obtenido datos parciales
 de
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus081220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus081220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus081220.pdf>
 
 **2020-12-13**: Hasta las 23:00h de hoy, no se han publicado los datos
 del 2020-12-12 en la Sala Situacional, de manera que he obtenido datos
 parciales de
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus111220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus111220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus111220.pdf>
 
 **2020-12-16**: Hasta las 21:00h de hoy, no se han publicado los datos
 del 2020-12-15 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus141220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus141220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus141220.pdf>
 
 **2020-12-18**: Hasta las 21:20h de hoy, no se han publicado los datos
 del 2020-12-17 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus161220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus161220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus161220.pdf>
 
 **2020-12-19**: Hasta las 20:30h de hoy, no se han publicado los datos
 del 2020-12-18 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus171220.pdf>
 
 **2020-12-24**: Hasta las 18:00h de hoy, no se han publicado los datos
 del 2020-12-23 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus221220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus221220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus221220.pdf>
 
 **2020-12-27**: Hasta las 18:45h de hoy, no se han publicado los datos
 del 2020-12-26 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus251220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus251220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus251220.pdf>
 
 **2020-12-31**: Hasta las 21:00 de hoy, no se han publicado los datos
 del 2020-12-30 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus291220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus291220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus291220.pdf>
 
 **2021-01-02**: Hasta las 20:30 de hoy, no se han publicado los datos
 del 2021-01-01 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311220.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311220.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311220.pdf>
 
 **2021-01-03**: Por algún motivo, el comunicado del MINSA publicado el
 2021-01-01 y el publicado el 2021-01-02, tienen el mismo número (N°
@@ -320,54 +316,54 @@ usando
 **2021-01-05**: Hasta las 20:00 de hoy, no se han publicado los datos
 del 2021-01-04 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030121.pdf>
 
 **2021-01-07**: Hasta las 20:40 de hoy, no se han publicado los datos
 del 2021-01-06 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050121.pdf</a>.
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050121.pdf>.
 Usando la información de DGE/MINSA, se está incluyendo una columna que
 contiene el número de pruebas antigénicas positivas (`ag_test_positive`)
 
 **2021-01-09**: Hasta las 22:00 de hoy, no se han publicado los datos
 del 2021-01-08 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070121.pdf>
 
 **2021-01-10**: Hasta las 23:00 de hoy, no se han publicado los datos
 del 2021-01-09 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus080121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus080121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus080121.pdf>
 
 **2021-01-14**: Hasta las 22:45 de hoy, no se han publicado los datos
 del 2021-01-13 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus120121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus120121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus120121.pdf>
 
 **2021-01-18**: Hasta las 20:00 de hoy, no se han publicado los datos
 del 2021-01-17 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus160121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus160121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus160121.pdf>
 
 **2021-01-19**: Hasta las 20:30 de hoy, no se han publicado los datos
 del 2021-01-18 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170121.pdf>
 
 **2021-01-21**: Hasta las 18:30 de hoy, no se han publicado los datos
 del 2021-01-20 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus190121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus190121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus190121.pdf>
 
 **2021-01-23**: Hasta las 23:20 de hoy, no se han publicado los datos
 del 2021-01-22 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus21012021.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus21012021.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus21012021.pdf>
 
 **2021-01-24**: Hasta las 20:40 de hoy, no se han publicado los datos
 del 2021-01-23 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220121.pdf>
 
 **2021-01-25**: Los datos de la Sala Situacional publicados para el
 2021-01-24, parecent tener información del 2021-01-23 al menos en las
@@ -378,12 +374,12 @@ comunicado 399 del MINSA.
 **2021-01-27**: Hasta las 20:45 de hoy, no se han publicado los datos
 del 2021-01-26 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250121.pdf>
 
 **2021-01-29**: Hasta las 18:00 de hoy, no se han publicado los datos
 del 2021-01-28 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270121.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270121.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270121.pdf>
 
 **2021-01-30**: Los datos de UCI publicados en la Sala Situacional, que
 estoy usando para tener un conteo del uso de UCIs, en las últimas
@@ -417,7 +413,7 @@ comunicado 413 del MINSA, se indica que el número es **1,961**.
 **2021-02-05**: Hasta las 15:45 de hoy, no se han publicado los datos
 del 2021-02-04 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030221.pdf>
 
 **2021-02-09**: Hasta las 09:30 de hoy, no se ha publicado comunicado
 para el 2021-02-08, pero si datos en la Sala Situacional y reportes del
@@ -426,7 +422,7 @@ DGE/MINSA
 **2021-02-05**: Hasta las 18:30 de hoy, no se han publicado los datos
 del 2021-02-10 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090221.pdf>
 
 **2021-02-15**: Los datos publicados en la Sala Situacional para el
 2021-02-10 para el número de camas UCI en uso (2,052), no coinciden con
@@ -449,7 +445,7 @@ Mientras que en la sección de “UCI”, se muestra una cifra de 1,512
 **2021-02-19**: Hasta las 17:45 de hoy, no se han publicado los datos
 del 2021-02-18 en la Sala Situacional, se han extraido datos parciales
 usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170221.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170221.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170221.pdf>
 
 **2021-02-22**: Inconsistencias, nuevamente, en el número de camas UCI
 en la Sala Situacional:
@@ -476,9 +472,9 @@ del MINSA aún
 
 **2021-03-04**: Se ha detectado una inconsistencia en los datos de los
 comunicados N° 441 y 442
-(<a href="https://www.gob.pe/institucion/minsa/noticias/344816-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-344-969-en-el-peru-comunicado-n-441" class="uri">https://www.gob.pe/institucion/minsa/noticias/344816-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-344-969-en-el-peru-comunicado-n-441</a>
+(<https://www.gob.pe/institucion/minsa/noticias/344816-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-344-969-en-el-peru-comunicado-n-441>
 y
-<a href="https://www.gob.pe/institucion/minsa/noticias/345003-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-349-847-en-el-peru-comunicado-n-442" class="uri">https://www.gob.pe/institucion/minsa/noticias/345003-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-349-847-en-el-peru-comunicado-n-442</a>)
+<https://www.gob.pe/institucion/minsa/noticias/345003-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-349-847-en-el-peru-comunicado-n-442>)
 
 En el Comunicado N° 441 del MINSA dice:
 
@@ -501,12 +497,12 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 **2021-03-05**: Hasta las 17:30 de hoy, no se han publicado datos del
 2021-03-04 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf>
 
 **2021-03-07**: Hasta las 16:30 de hoy, no se han publicado datos del
 2021-03-06 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus050321.pdf>
 
 **2021-03-08**: Inconsistencias, en el número de camas UCI en la Sala
 Situacional:
@@ -527,17 +523,17 @@ Pero, en la sección de “UCI” de la misma visualización, el valor es de
 **2021-03-09**: Hasta las 15:00 de hoy, no se han publicado datos del
 2021-03-08 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf>
 
 **2021-03-15**: Hasta las 19:30 de hoy, no se han publicado datos del
 2021-03-14 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus130321.pdf>
 
 **2021-03-16**: Hasta las 16:15 de hoy, no se han publicado datos del
 2021-03-15 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus140321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus140321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus140321.pdf>
 
 **2021-03-18**: Valores inconsistentes en la Sala Situacional para camas
 UCI, en la sección de “Hospitalización”, se indican 2,251 en uso, pero
@@ -546,17 +542,17 @@ en la sección de “UCI” se indican 2,227 camas en uso.
 **2021-03-19**: Hasta las 18:30 de hoy, no se han publicado datos del
 2021-03-18 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus170321.pdf>
 
 **2021-03-20**: Hasta las 16:30 de hoy, no se han publicado datos del
 2021-03-19 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus180321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus180321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus180321.pdf>
 
 **2021-03-20**: Hasta las 18:15 de hoy, no se han publicado datos del
 2021-03-22 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus210321.pdf>
 
 **2021-03-26**: Hay inconsistencia en el número de camas UCI publicadas
 en la Sala Situacional al 2021-03-25, en la sección de “Hospitalización”
@@ -565,7 +561,7 @@ se indican 2,276 camas, mientras que en la sección UCI se indican 2,249
 **2021-03-27**: Hasta las 17:15 de hoy, no se han publicado datos del
 2021-03-26 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus250321.pdf>
 
 **2021-03-28**: Los datos publicados en la Sala Situacional para el
 2021-03-28 para el número de camas UCI en uso (2,227), no coinciden con
@@ -574,7 +570,7 @@ lo publicado en el comunicado 466 (que indica 2,301)
 **2021-03-29**: Hasta las 12:40 de hoy, no se han publicado datos del
 2021-03-28 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270321.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270321.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus270321.pdf>
 
 **2021-03-30**: Inconsistencias, en el número de camas UCI en la Sala
 Situacional para el 2021-03-29:
@@ -630,7 +626,7 @@ indica 2,454.
 **2021-04-08**: Hasta las 22:00 de hoy, no se han publicado datos del
 2021-04-07 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus060421.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus060421.pdf</a>.
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus060421.pdf>.
 Además, existe inconsistencia en el número de camas UCI en la Sala
 Situacional para el 2021-04-08, en la sección de Hospitalización se
 indica 2,246 camas UCI con respirador, pero en la sección de “UCI”, se
@@ -700,7 +696,7 @@ UCI con respirador.
 **2021-04-22**: Hasta las 17:35 de hoy, no se han publicado datos del
 2021-04-21 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus200421.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus200421.pdf</a>
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus200421.pdf>
 
 **2021-04-22**: Inconsistencia en el número de camas UCI entre el
 comunicado N° 500 (que indica 2,614 camas) y la Sala Situacional para el
@@ -710,7 +706,7 @@ UCI con respirador, asi como 2,622 camas en la sección de UCI.
 **2021-04-24**: Hasta las 12:30 de hoy, no se han publicado datos del
 2021-04-23 en la Sala Situacional, por lo que se han extraido datos
 parciales usando
-<a href="https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf" class="uri">https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf</a>.
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus220421.pdf>.
 Se actualizó la Sala Situacional en la tarde, con inconsistencia entre
 los datos de camas UCI del comunicado N° 501 (2,642 camas UCI), y la
 secciones UCI (2,641 camas) y de Hospitalización (2,515 camas) de la
@@ -798,8 +794,7 @@ usar en los datos recolectados, las cifras consignadas en los
 comunicados de ahora en adelante, y no se van a registrar diferencias
 aqui.
 
-Fuentes
--------
+## Fuentes
 
 -   [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
 -   [Noticias del
@@ -810,49 +805,43 @@ Fuentes
     de
     enfermedades](https://www.dge.gob.pe/portalnuevo/covid-19/covid-cajas/situacion-del-covid-19-en-el-peru/)
 
-Notas
------
+## Notas
 
--   Códigos de UBIGEO de
-    <a href="https://github.com/CONCYTEC/ubigeo-peru" class="uri">https://github.com/CONCYTEC/ubigeo-peru</a>
+-   Códigos de UBIGEO de <https://github.com/CONCYTEC/ubigeo-peru>
 -   Códigos ISO-3166-2, usando el paquete en R `ISOcodes`:
-    <a href="https://cran.r-project.org/package=ISOcodes" class="uri">https://cran.r-project.org/package=ISOcodes</a>
+    <https://cran.r-project.org/package=ISOcodes>
 -   A partir del 2020-07-21, estoy usando los datos de población al
     2019, así como latitud y longitud de las capitales de departamento
     reportados por CEPLAN en:
-    <a href="https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/" class="uri">https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/</a>
+    <https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/>
     -   Anteriormente se emplearon los datos de población por
         departamento (al 2017):
-        <a href="https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/" class="uri">https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/</a>
+        <https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/>
 -   El [reporte N°29 del
     MINSA](https://www.gob.pe/institucion/minsa/noticias/109838-minsa-casos-confirmados-por-coronavirus-covid-19-son-395-en-peru-comunicado-n-29)
     corrige el número de casos confirmados en Huánuco del [reporte N°
     28](https://www.gob.pe/institucion/minsa/noticias/109810-minsa-casos-confirmados-por-coronavirus-covid-19-son-363-en-peru-comunicado-n-28)
--   El dataset de JHU
-    (<a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>),
+-   El dataset de JHU (<https://github.com/CSSEGISandData/COVID-19>),
     indica que Perú tiene 14 recuperados el día 2020-03-26
 -   En el dashboard se han agregado gráficos de la trayectoria total de
     casos, gráficos del número de recuperados y fallecidos, y un mapa
     con la densidad (casos por millón de personas) por región.
 -   El 2021-01-21, se reemplazaron los estimados poblaciones para usar
     los valores al 2020 (antes 2019). Fuente:
-    <a href="https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp" class="uri">https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp</a>
+    <https://www.minsa.gob.pe/reunis/data/poblacion_estimada.asp>
 
-Visualizaciones
----------------
+## Visualizaciones
 
 -   [Dashboard interactivo sobre COVID-19 en el
     Perú](https://castagnetto.site/peru/dashboard-peru-covid-19.html)
 
-Formato de datos
-----------------
+## Formato de datos
 
 -   Los datos se están guardando en formatos abiertos exclusivamente,
     para asegurar la mayor compatibilidad posible: CSV y OpenDocument
     (ISO/IEC 26300-1:2015, ISO/IEC 26300-2:2015, ISO/IEC 26300-3:2015)
 
-Estructura de los archivos CSV
-------------------------------
+## Estructura de los archivos CSV
 
 **`covid-19-peru-data.csv`**
 
@@ -920,11 +909,9 @@ Estructura de los archivos CSV
 -   misc: otra información
 -   comunicado\_minsa: número del comunicado del MINSA
 
-Información empleada para recolectar los datos
-----------------------------------------------
+## Información empleada para recolectar los datos
 
-Generales
----------
+## Generales
 
 -   [Ministra de Salud exhortó a directores regionales implementar Plan
     Nacional por alerta mundial ante el
@@ -958,8 +945,7 @@ Generales
     Covid-19](https://www.gob.pe/institucion/minsa/noticias/163853-minsa-pone-al-alcance-de-la-ciudadania-datos-abiertos-relacionados-a-la-pandemia-por-covid-19)
     2020-05-22
 
-Casos confirmados
------------------
+## Casos confirmados
 
 -   [Minsa procesó 155 muestras por coronavirus COVID-19 y una resultó
     positivo](https://www.gob.pe/institucion/minsa/noticias/108937-minsa-proceso-155-muestras-por-coronavirus-covid-19-y-una-resulto-positivo)
@@ -2683,9 +2669,12 @@ Casos confirmados
     900 en el Perú (Comunicado
     N°535)](https://www.gob.pe/institucion/minsa/noticias/493747-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-897-900-en-el-peru-comunicado-n-535)
     2021-05-18
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 1 903
+    615 en el Perú (Comunicado
+    N°536)](https://www.gob.pe/institucion/minsa/noticias/493985-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-903-615-en-el-peru-comunicado-n-536)\](<https://www.gob.pe/institucion/minsa/noticias/493985-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-903-615-en-el-peru-comunicado-n-536>)
+    2021-05-19
 
-Recuperados
------------
+## Recuperados
 
 -   [Paciente cero con coronavirus fue dado de alta tras respetar
     aislamiento domiciliario
@@ -2699,8 +2688,7 @@ Recuperados
     Covid-19](https://www.gob.pe/institucion/minsa/noticias/111581-minsa-anuncia-que-16-pacientes-ya-se-han-recuperado-del-covid-19)
     2020-03-28
 
-Fallecimientos
---------------
+## Fallecimientos
 
 -   [Minsa lamenta el sensible fallecimiento del primer paciente a causa
     de infección COVID-19 (Comunicado
