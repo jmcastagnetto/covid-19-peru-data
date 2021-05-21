@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-21 05:06:54 UTC
+**Última actualización**: 2021-05-21 19:28:48 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
