@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-30 00:51:17 UTC
+**Última actualización**: 2021-05-31 03:56:08 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -793,6 +793,10 @@ los comunicados y la Sala Situacional, son muy prevalentes. Se van a
 usar en los datos recolectados, las cifras consignadas en los
 comunicados de ahora en adelante, y no se van a registrar diferencias
 aqui.
+
+**2021-05-29**: Hasta las 20:00h del 2021-05-30, no se han publicado
+datos del 2021-05-29 ni en la Sala Situacional, ni mediante reporte de
+DGE/MINSA
 
 ## Fuentes
 
@@ -2709,6 +2713,14 @@ aqui.
     555 en el Perú (Comunicado
     N°554)](https://www.gob.pe/institucion/minsa/noticias/497600-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-947-555-en-el-peru-comunicado-n-554)
     2021-05-28
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 951
+    651 en el Perú (Comunicado
+    N°555)](https://www.gob.pe/institucion/minsa/noticias/497678-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-951-651-en-el-peru-comunicado-n-555)
+    2021-05-29
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 955
+    469 en el Perú (Comunicado
+    N°556)](https://www.gob.pe/institucion/minsa/noticias/497762-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-955-469-en-el-peru-comunicado-n-556)
+    2021-05-30
 
 ## Recuperados
 
