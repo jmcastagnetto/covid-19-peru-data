@@ -365,8 +365,9 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-05-09**: Como las inconsistencias en el número de camas UCI entre los comunicados y la Sala Situacional, son muy prevalentes. Se van a usar en los datos recolectados, las cifras consignadas en los comunicados de ahora en adelante, y no se van a registrar diferencias aqui.
 
-**2021-05-29**: Hasta las 20:00h del 2021-05-30, no se han publicado datos del 2021-05-29 ni en la Sala Situacional, ni mediante reporte de DGE/MINSA
+**2021-05-30**: Hasta las 20:00h del 2021-05-30, no se han publicado datos del 2021-05-29 ni en la Sala Situacional, ni mediante reporte de DGE/MINSA
 
+**2021-06-01**: Hasta las 18:20h de hoy, no se ha publicado nada sobre el 2021-05-30, ni comunicado del MINSA, ni Sala Situacional, ni reporte de DGE/MINSA.
 
 ## Fuentes
 

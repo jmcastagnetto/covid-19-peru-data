@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-05-31 16:35:43 UTC
+**Última actualización**: 2021-06-01 23:22:48 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -794,9 +794,13 @@ usar en los datos recolectados, las cifras consignadas en los
 comunicados de ahora en adelante, y no se van a registrar diferencias
 aqui.
 
-**2021-05-29**: Hasta las 20:00h del 2021-05-30, no se han publicado
+**2021-05-30**: Hasta las 20:00h del 2021-05-30, no se han publicado
 datos del 2021-05-29 ni en la Sala Situacional, ni mediante reporte de
 DGE/MINSA
+
+**2021-06-01**: Hasta las 18:20h de hoy, no se ha publicado nada sobre
+el 2021-05-30, ni comunicado del MINSA, ni Sala Situacional, ni reporte
+de DGE/MINSA.
 
 ## Fuentes
 
