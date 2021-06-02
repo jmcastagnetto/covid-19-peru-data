@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-06-01 23:22:48 UTC
+**Última actualización**: 2021-06-02 17:21:53 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -801,6 +801,14 @@ DGE/MINSA
 **2021-06-01**: Hasta las 18:20h de hoy, no se ha publicado nada sobre
 el 2021-05-30, ni comunicado del MINSA, ni Sala Situacional, ni reporte
 de DGE/MINSA.
+
+**2021-06-02**: El reporte de DGE correspondiente a los datos
+publicitados el 2021-06-01, ya está usando el nuevo criterio definido en
+[Criterios técnicos para actualizar la cifra de fallecidos por COVID-19
+en el
+Perú](https://www.gob.pe/institucion/pcm/informes-publicaciones/1943691-criterios-tecnicos-para-actualizar-la-cifra-de-fallecidos-por-covid-19-en-el-peru),
+por tanto el número de fallecimientos ha subido de 69,342 (al
+2021-05-30) a 184,507 (al 2021-06-01)
 
 ## Fuentes
 
@@ -2725,6 +2733,10 @@ de DGE/MINSA.
     469 en el Perú (Comunicado
     N°556)](https://www.gob.pe/institucion/minsa/noticias/497762-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-955-469-en-el-peru-comunicado-n-556)
     2021-05-30
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 961
+    087 en el Perú (Comunicado
+    N°557)](https://www.gob.pe/institucion/minsa/noticias/498209-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-961-087-en-el-peru-comunicado-n-557)
+    2021-06-01
 
 ## Recuperados
 
