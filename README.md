@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-06-05 19:41:32 UTC
+**Última actualización**: 2021-06-06 04:51:56 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -2749,6 +2749,10 @@ por tanto el número de fallecimientos ha subido de 69,342 (al
     166 en el Perú (Comunicado
     N°560)](https://www.gob.pe/institucion/minsa/noticias/499028-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-976-166-en-el-peru-comunicado-n-560)
     2021-06-04
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 1 980
+    391 en el Perú (Comunicado
+    N°561)](https://www.gob.pe/institucion/minsa/noticias/499160-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-1-980-391-en-el-peru-comunicado-n-561)
+    2021-06-05
 
 ## Recuperados
 
