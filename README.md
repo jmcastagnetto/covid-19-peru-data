@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-07-02 13:54:42 UTC
+**Última actualización**: 2021-07-02 20:48:50 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -812,7 +812,8 @@ por tanto el número de fallecimientos ha subido de 69,342 (al
 
 **2021-07-02**: Hasta el día de hoy, no hay datos de ninguna fuente
 (comunicado de MINSA, twitter de MINSA o reporte de DGE/MINSA) para el
-2021-06-30.
+2021-06-30. (Nota de las 15:45h, acaban de publicar el reporte de DGE
+correspondiente)
 
 ## Fuentes
 

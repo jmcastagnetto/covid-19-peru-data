@@ -371,7 +371,7 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-06-02**: El reporte de DGE correspondiente a los datos publicitados el 2021-06-01, ya está usando el nuevo criterio definido en [Criterios técnicos para actualizar la cifra de fallecidos por COVID-19 en el Perú](https://www.gob.pe/institucion/pcm/informes-publicaciones/1943691-criterios-tecnicos-para-actualizar-la-cifra-de-fallecidos-por-covid-19-en-el-peru), por tanto el número de fallecimientos ha subido de 69,342 (al 2021-05-30) a 184,507 (al 2021-06-01)
 
-**2021-07-02**: Hasta el día de hoy, no hay datos de ninguna fuente (comunicado de MINSA, twitter de MINSA o reporte de DGE/MINSA) para el 2021-06-30.
+**2021-07-02**: Hasta el día de hoy, no hay datos de ninguna fuente (comunicado de MINSA, twitter de MINSA o reporte de DGE/MINSA) para el 2021-06-30. (Nota de las 15:45h, acaban de publicar el reporte de DGE correspondiente)
 
 ## Fuentes
 
