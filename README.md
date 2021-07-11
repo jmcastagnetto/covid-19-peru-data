@@ -13,7 +13,7 @@
 -   [Recuperados](#recuperados)
 -   [Fallecimientos](#fallecimientos)
 
-**Última actualización**: 2021-07-08 14:09:52 UTC
+**Última actualización**: 2021-07-11 14:20:52 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -2882,6 +2882,18 @@ correspondiente)
     637 en el Perú (Comunicado
     N°601)](https://www.gob.pe/institucion/minsa/noticias/504998-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-071-637-en-el-peru-comunicado-n-601)
     2021-07-07
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 074
+    186 en el Perú (Comunicado
+    N°602)](https://www.gob.pe/institucion/minsa/noticias/505201-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-074-186-en-el-peru-comunicado-n-602)
+    2021-07-08
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 076
+    530 en el Perú (Comunicado
+    N°603)](https://www.gob.pe/institucion/minsa/noticias/505444-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-076-530-en-el-peru-comunicado-n-603)
+    2021-07-09
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 078
+    815 en el Perú (Comunicado
+    N°604)](https://www.gob.pe/institucion/minsa/noticias/505496-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-078-815-en-el-peru-comunicado-n-604)
+    2021-07-10
 
 ## Recuperados
 
