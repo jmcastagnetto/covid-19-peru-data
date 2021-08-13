@@ -1,19 +1,4 @@
--   [Motivación](#motivación)
--   [Información importante sobre los datos
-    publicados](#información-importante-sobre-los-datos-publicados)
--   [Fuentes](#fuentes)
--   [Notas](#notas)
--   [Visualizaciones](#visualizaciones)
--   [Formato de datos](#formato-de-datos)
--   [Estructura de los archivos CSV](#estructura-de-los-archivos-csv)
--   [Información empleada para recolectar los
-    datos](#información-empleada-para-recolectar-los-datos)
--   [Generales](#generales)
--   [Casos confirmados](#casos-confirmados)
--   [Recuperados](#recuperados)
--   [Fallecimientos](#fallecimientos)
-
-**Última actualización**: 2021-08-12 03:45:41 UTC
+**Última actualización**: 2021-08-13 02:42:12 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3022,6 +3007,10 @@ correspondiente)
     516 en el Perú (Comunicado
     N°641)](https://www.gob.pe/institucion/minsa/noticias/510867-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-128-516-en-el-peru-comunicado-n-641)
     2021-08-11
+-   [Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 2 130
+    018 en el Perú (Comunicado
+    N°642)](https://www.gob.pe/institucion/minsa/noticias/511190-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-130-018-en-el-peru-comunicado-n-642)
+    2021-08-12
 
 ## Recuperados
 
