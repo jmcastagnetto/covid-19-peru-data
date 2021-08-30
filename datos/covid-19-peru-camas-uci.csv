@@ -959,8 +959,8 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2021-08-20,disponible,NA,NA,NA,NA,NA,NA
 2021-08-21,en uso,NA,NA,NA,NA,NA,1467
 2021-08-21,disponible,NA,NA,NA,NA,NA,NA
-2021-08-22,en uso,NA,NA,NA,NA,NA,1459
-2021-08-22,disponible,NA,NA,NA,NA,NA,NA
+2021-08-22,en uso,598,142,294,423,19,1459
+2021-08-22,disponible,224,210,101,239,17,NA
 2021-08-23,en uso,NA,NA,NA,NA,NA,1458
 2021-08-23,disponible,NA,NA,NA,NA,NA,NA
 2021-08-24,en uso,NA,NA,NA,NA,NA,1404
@@ -973,3 +973,5 @@ fecha,estado,essalud,privado,minsa,gob_regional,ffaa_pnp,total
 2021-08-27,disponible,NA,NA,NA,NA,NA,NA
 2021-08-28,en uso,NA,NA,NA,NA,NA,1344
 2021-08-28,disponible,NA,NA,NA,NA,NA,NA
+2021-08-29,en uso,NA,NA,NA,NA,NA,1324
+2021-08-29,disponible,NA,NA,NA,NA,NA,NA
