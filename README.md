@@ -1,4 +1,4 @@
-**Última actualización**: 2021-09-10 04:03:25 UTC
+**Última actualización**: 2021-09-11 19:41:36 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -799,6 +799,12 @@ por tanto el número de fallecimientos ha subido de 69,342 (al
 (comunicado de MINSA, twitter de MINSA o reporte de DGE/MINSA) para el
 2021-06-30. (Nota de las 15:45h, acaban de publicar el reporte de DGE
 correspondiente)
+
+**2021-09-11**: El reporte del DGE correspondiente al 2021-09-10
+(<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090921.pdf>),
+tiene datos incluídos en formato de imágen, por lo que se ha necesitado
+transcribirlos. Además se ha detectado errores en los totales mostrados
+en al menos una tabla (pruebas positivas totales).
 
 ## Fuentes
 
@@ -3123,6 +3129,10 @@ correspondiente)
     493 en el Perú (Comunicado
     N°676)](https://www.gob.pe/institucion/minsa/noticias/521341-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-158-493-en-el-peru-comunicado-n-676)
     2021-09-09
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 159
+    306 en el Perú (Comunicado Oficial de Prensa
+    N°678)](https://www.gob.pe/institucion/minsa/noticias/521626-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-159-306-en-el-peru-comunicado-oficial-de-prensa-n-678)
+    2021-09-10
 
 ## Recuperados
 

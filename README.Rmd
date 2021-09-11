@@ -373,6 +373,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-07-02**: Hasta el día de hoy, no hay datos de ninguna fuente (comunicado de MINSA, twitter de MINSA o reporte de DGE/MINSA) para el 2021-06-30. (Nota de las 15:45h, acaban de publicar el reporte de DGE correspondiente)
 
+**2021-09-11**: El reporte del DGE correspondiente al 2021-09-10 (https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090921.pdf), tiene datos incluídos en formato de imágen, por lo que se ha necesitado transcribirlos. Además se ha detectado errores en los totales mostrados en al menos una tabla (pruebas positivas totales).
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
