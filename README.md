@@ -1,4 +1,4 @@
-**Última actualización**: 2021-10-01 17:08:03 UTC
+**Última actualización**: 2021-10-04 17:52:46 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -68,7 +68,7 @@ actualizada, incluyendo información de camas UCI.
 la “Sala Situacional” del MINSA en formato XLSX
 
 **2020-05-16**: He añadido los datos en formato JSON comprimido
-(.json.gz) convertidos a partir de los CSV (Issue \#2)
+(.json.gz) convertidos a partir de los CSV (Issue #2)
 
 **2020-05-18**: Desde hoy hay un API que han construído tomando este
 repositorio como una fuente:
