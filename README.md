@@ -1,4 +1,4 @@
-**Última actualización**: 2021-10-15 23:46:41 UTC
+**Última actualización**: 2021-10-18 00:09:48 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3269,6 +3269,14 @@ en al menos una tabla (pruebas positivas totales).
     368 en el Perú (Comunicado
     N° 715)](https://www.gob.pe/institucion/minsa/noticias/545144-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-187-368-en-el-peru-comunicado-n-715)
     2021-10-14
+-   [Minsa: Casos confirmados de COVID-19 ascienden a 2 188 351 en el
+    Perú (Comunicado Oficial
+    N°716)](https://www.gob.pe/institucion/minsa/noticias/545445-minsa-casos-confirmados-de-covid-19-ascienden-a-2-188-351-en-el-peru-comunicado-oficial-n-716)
+    2021-10-15
+-   [Minsa: Casos confirmados de COVID-19 ascienden a 2 189 165 en el
+    Perú (Comunicado Oficial
+    N°717)](https://www.gob.pe/institucion/minsa/noticias/545612-minsa-casos-confirmados-de-covid-19-ascienden-a-2-189-165-en-el-peru-comunicado-oficial-n-717)
+    2021-10-16
 
 ## Recuperados
 
