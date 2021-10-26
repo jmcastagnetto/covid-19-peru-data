@@ -375,6 +375,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-09-11**: El reporte del DGE correspondiente al 2021-09-10 (https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus090921.pdf), tiene datos incluídos en formato de imágen, por lo que se ha necesitado transcribirlos. Además se ha detectado errores en los totales mostrados en al menos una tabla (pruebas positivas totales).
 
+**2021-10-24**: El reporte del DGE correspondiente al 2021-10-25 (https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241021.pdf), tiene la misma tabla para fallecimientos por COVID-19 que el reporte del día previo (2021-10-24)
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
