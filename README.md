@@ -1,4 +1,4 @@
-**Última actualización**: 2021-10-26 16:53:27 UTC
+**Última actualización**: 2021-10-27 16:10:51 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -806,10 +806,14 @@ tiene datos incluídos en formato de imágen, por lo que se ha necesitado
 transcribirlos. Además se ha detectado errores en los totales mostrados
 en al menos una tabla (pruebas positivas totales).
 
-**2021-10-24**: El reporte del DGE correspondiente al 2021-10-25
+**2021-10-26**: El reporte del DGE correspondiente al 2021-10-25
 (<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241021.pdf>),
 tiene la misma tabla para fallecimientos por COVID-19 que el reporte del
 día previo (2021-10-24)
+
+**2021-10-27**: Aparentemente, corrigieron el reporte contenido en
+<https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241021.pdf>,
+ahora tiene los datos correctos y no están repetidos.
 
 ## Fuentes
 
@@ -3318,6 +3322,10 @@ día previo (2021-10-24)
     259 en el Perú (Comunicado
     N°727)](https://www.gob.pe/institucion/minsa/noticias/548666-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-196-259-en-el-peru-comunicado-n-727)
     2021-10-25
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 197
+    052 en el Perú (Comunicado
+    N°728)](https://www.gob.pe/institucion/minsa/noticias/549471-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-197-052-en-el-peru-comunicado-n-728)
+    2021-10-26
 
 ## Recuperados
 
