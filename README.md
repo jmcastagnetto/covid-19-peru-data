@@ -1,4 +1,4 @@
-**Última actualización**: 2021-10-27 16:10:51 UTC
+**Última actualización**: 2021-10-28 21:51:14 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3326,6 +3326,10 @@ ahora tiene los datos correctos y no están repetidos.
     052 en el Perú (Comunicado
     N°728)](https://www.gob.pe/institucion/minsa/noticias/549471-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-197-052-en-el-peru-comunicado-n-728)
     2021-10-26
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 198
+    038 en el Perú (Comunicado
+    N°729)](https://www.gob.pe/institucion/minsa/noticias/549794-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-198-038-en-el-peru-comunicado-n-729)
+    2021-10-27
 
 ## Recuperados
 
