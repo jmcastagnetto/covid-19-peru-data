@@ -1,4 +1,4 @@
-**Última actualización**: 2021-11-03 14:05:18 UTC
+**Última actualización**: 2021-11-04 04:36:03 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -814,6 +814,12 @@ día previo (2021-10-24)
 **2021-10-27**: Aparentemente, corrigieron el reporte contenido en
 <https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241021.pdf>,
 ahora tiene los datos correctos y no están repetidos.
+
+**2021-11-02**: Segundo día (2021-11-01 y 2021-11-02) que los reportes
+en PDF de DGE, contienen tablas como imágenes incrustadas, lo cual las
+hacen no extraíbles. Si esto va a ser la forma de publicación futura,
+implica un retroceso en la apertura de dato (no que tablas en PDF sean
+datos abiertos, pero es algo).
 
 ## Fuentes
 
@@ -3353,7 +3359,11 @@ ahora tiene los datos correctos y no están repetidos.
 -   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 202
     671 en el Perú (Comunicado
     N°735)](https://www.gob.pe/institucion/minsa/noticias/551250-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-202-671-en-el-peru-comunicado-n-735)
-    2021-10-02
+    2021-11-02
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 203
+    310 en el Perú (Comunicado
+    N°736)](https://www.gob.pe/institucion/minsa/noticias/551534-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-203-310-en-el-peru-comunicado-n-736)
+    2021-11-03
 
 ## Recuperados
 

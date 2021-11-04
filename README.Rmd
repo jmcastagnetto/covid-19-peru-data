@@ -379,6 +379,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-10-27**: Aparentemente, corrigieron el reporte contenido en https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus241021.pdf, ahora tiene los datos correctos y no están repetidos.
 
+**2021-11-02**: Segundo día (2021-11-01 y 2021-11-02) que los reportes en PDF de DGE, contienen tablas como imágenes incrustadas, lo cual las hacen no extraíbles. Si esto va a ser la forma de publicación futura, implica un retroceso en la apertura de dato (no que tablas en PDF sean datos abiertos, pero es algo).
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
