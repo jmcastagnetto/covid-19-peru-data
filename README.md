@@ -1,4 +1,4 @@
-**Última actualización**: 2021-11-05 13:24:33 UTC
+**Última actualización**: 2021-11-06 12:24:09 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -820,6 +820,12 @@ en PDF de DGE, contienen tablas como imágenes incrustadas, lo cual las
 hacen no extraíbles. Si esto va a ser la forma de publicación futura,
 implica un retroceso en la apertura de dato (no que tablas en PDF sean
 datos abiertos, pero es algo).
+
+**2021-11-04**: Aún los reportes de DGE siguen llegando con tablas
+incluídas como imágenes.
+
+**2021-11-05**: Todavía, los reportes de DGE siguen llegando con tablas
+incluídas como imágenes.
 
 ## Fuentes
 
@@ -3368,6 +3374,10 @@ datos abiertos, pero es algo).
     424 en el Perú (Comunicado
     N°737)](https://www.gob.pe/institucion/minsa/noticias/551752-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-204-424-en-el-peru-comunicado-n-737)
     2021-11-04
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 205
+    486 en el Perú (Comunicado
+    N°738)](https://www.gob.pe/institucion/minsa/noticias/552029-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-205-486-en-el-peru-comunicado-n-738)
+    2021-11-05
 
 ## Recuperados
 
