@@ -1,4 +1,4 @@
-**Última actualización**: 2021-11-26 19:53:44 UTC
+**Última actualización**: 2021-11-27 18:36:09 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -826,6 +826,10 @@ incluídas como imágenes.
 
 **2021-11-05**: Todavía, los reportes de DGE siguen llegando con tablas
 incluídas como imágenes.
+
+**2021-11-27**: Casi la totalidad de reportes de DGE desde inicios de
+Noviembre tienen algunas tablas incluídas como imágenes, por lo que he
+estado usando OCR.
 
 ## Fuentes
 
@@ -3458,6 +3462,10 @@ incluídas como imágenes.
     741 en el Perú (Comunicado
     N°759)](https://www.gob.pe/institucion/minsa/noticias/563866-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-229-741-en-el-peru-comunicado-n-759)
     2021-11-25
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 231
+    175 en el Perú (Comunicado
+    N°760)](https://www.gob.pe/institucion/minsa/noticias/564146)
+    2021-11-26
 
 ## Recuperados
 

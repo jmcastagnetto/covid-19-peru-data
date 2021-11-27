@@ -385,6 +385,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-11-05**: Todavía, los reportes de DGE siguen llegando con tablas incluídas como imágenes.
 
+**2021-11-27**: Casi la totalidad de reportes de DGE desde inicios de Noviembre tienen algunas tablas incluídas como imágenes, por lo que he estado usando OCR.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
