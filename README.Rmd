@@ -389,6 +389,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-11-28**: El reporte de DGE publicado anoche (para el 2021-11-27), nuevamente retornó a tener tablas textuales. Ojalá no vuelvan a revertir a imágenes.
 
+**2021-11-30**: El reporte de DGE para el 2021-11-29, otra vez regresó a emplear imágenes para las tablas. Un retroceso.
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
