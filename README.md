@@ -1,4 +1,4 @@
-**Última actualización**: 2021-12-07 14:46:54 UTC
+**Última actualización**: 2021-12-08 16:21:35 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3513,6 +3513,10 @@ emplear imágenes para las tablas. Un retroceso.
     146 en el Perú (Comunicado
     N°770)](https://www.gob.pe/institucion/minsa/noticias/567889-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-245-146-en-el-peru-comunicado-n-770)
     2021-12-06
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 246
+    633 en el Perú (Comunicado
+    N°771)](https://www.gob.pe/institucion/minsa/noticias/568300-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-246-633-en-el-peru-comunicado-n-771)
+    2021-12-07
 
 ## Recuperados
 
