@@ -1,4 +1,4 @@
-**Última actualización**: 2021-12-14 17:06:40 UTC
+**Última actualización**: 2021-12-16 13:04:47 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3541,6 +3541,14 @@ emplear imágenes para las tablas. Un retroceso.
     318 en el Perú (Comunicado
     N°778)](https://www.gob.pe/institucion/minsa/noticias/569828-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-255-318-en-el-peru-comunicado-n-778)
     2021-12-13
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 256
+    796 en el Perú (Comunicado
+    N°780)](https://www.gob.pe/institucion/minsa/noticias/570137-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-256-796-en-el-peru-comunicado-n-780)
+    2021-12-14
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 258
+    456 en el Perú (Comunicado
+    N°781)](https://www.gob.pe/institucion/minsa/noticias/570452-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-258-456-en-el-peru-comunicado-n-781)
+    2021-12-15
 
 ## Recuperados
 
