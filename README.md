@@ -1,4 +1,4 @@
-**Última actualización**: 2021-12-23 17:09:29 UTC
+**Última actualización**: 2021-12-23 17:29:39 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3573,6 +3573,10 @@ emplear imágenes para las tablas. Un retroceso.
     (Comunicado Oficial
     N°788)](https://www.gob.pe/institucion/minsa/noticias/571984-minsa-casos-confirmados-por-covid-19-ascienden-a-2-267-715-comunicado-oficial-n-788)
     2021-12-21
+-   [Minsa: Casos confirmados por COVID-19 ascienden a 2 269 497
+    (Comunicado Oficial
+    N°789)](https://www.gob.pe/institucion/minsa/noticias/572232-minsa-casos-confirmados-por-covid-19-ascienden-a-2-269-497-comunicado-oficial-n-789)
+    2021-12-22
 
 ## Recuperados
 
