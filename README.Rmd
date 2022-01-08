@@ -38,7 +38,7 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 **2020-05-03**: MINSA no publicó hoy información acerca de las camas UCI.
 
-**2020-05-04**: MINSA no actualizó su "Sala Situacional" hoy [Captura de pantalla del 2020-05-04](minsa-reportes/screenshot-covid19.minsa.gob.pe-2020.05.05-00_15_53.png), de manera que no se ha actualizado ni el número de fallecimientos por región, ni el número de positivos por tipo de prueba.
+**2020-05-04**: MINSA no actualizó su "Sala Situacional" hoy [Captura de pantalla del 2020-05-04](minsa-reportes/screenshots/screenshot-covid19.minsa.gob.pe-2020.05.05-00_15_53.png), de manera que no se ha actualizado ni el número de fallecimientos por región, ni el número de positivos por tipo de prueba.
 
 **2020-05-05**: MINSA nuevamente publicó su "Sala Situacional" actualizada, incluyendo información de camas UCI.
 
@@ -215,11 +215,11 @@ Mientras que en la sección de "UCI", se muestra una cifra de 1,512
 
 La sección de "Hospitalizados" muestra 2,080 camas UCI con ventilación mecánica en uso, que es el número publicado en el comunicado N° 432 del MINSA
 
-![Hospitalizados, Sala Situacional, 2021-02-21](minsa-reportes/imgs/screenshot-covid19.minsa.gob.pe-2021-02-22_08-38-14.png)
+![Hospitalizados, Sala Situacional, 2021-02-21](minsa-reportes/screenshots/screenshot-covid19.minsa.gob.pe-2021-02-22_08-38-14.png)
 
 Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,066.
 
-![UCI, Sala Situacional, 2021-02-21](minsa-reportes/imgs/screenshot-covid19.minsa.gob.pe-2021-02-22_08-39-24.png)
+![UCI, Sala Situacional, 2021-02-21](minsa-reportes/screenshots/screenshot-covid19.minsa.gob.pe-2021-02-22_08-39-24.png)
 
 **2021-02-24**: Los XLSX publicados en la Sala Situacional no coinciden con los datos de las visualizaciones, y no se ha publicado comunicado del MINSA aún
 
@@ -231,13 +231,13 @@ En el Comunicado N° 441 del MINSA dice:
 
 > **5. Del total de casos confirmados, a la fecha, 1 250 047 personas cumplieron su período de aislamiento domiciliario o fueron dados de alta de un establecimiento de salud.**
 
-[Ver captura parcial del Comunicado N° 441](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-441.png)
+[Ver captura parcial del Comunicado N° 441](minsa-reportes/screenshots/screenshot-www.gob.pe-reporte-441.png)
 
 Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 > **5. Del total de casos confirmados, a la fecha, 1 248 642 personas cumplieron su período de aislamiento domiciliario o fueron dados de alta de un establecimiento de salud.**
 
-[Ver captura parcial del Comunicado N° 442](minsa-reportes/imgs/screenshot-www.gob.pe-reporte-442.png)
+[Ver captura parcial del Comunicado N° 442](minsa-reportes/screenshots/screenshot-www.gob.pe-reporte-442.png)
 
 **2021-03-05**: Hasta las 17:30 de hoy, no se han publicado datos del 2021-03-04 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus030321.pdf
 
@@ -247,11 +247,11 @@ Mientras que en el Comunicado N° 442, se tiene lo siguiente:
 
 La sección de "Hospitalizados" muestra 2,184 camas UCI con ventilación mecánica en uso, que es el número publicado en el comunicado N° 446 del MINSA
 
-![Hospitalizados, Sala Situacional, 2021-03-07](minsa-reportes/imgs/hospitalizados-sala-situacional-2021-03-08_09-20-54.png)
+![Hospitalizados, Sala Situacional, 2021-03-07](minsa-reportes/screenshots/hospitalizados-sala-situacional-2021-03-08_09-20-54.png)
 
 Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, como se ve en la captura de pantalla siguiente
 
-![UCI, Sala Situacional, 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
+![UCI, Sala Situacional, 2021-03-07](minsa-reportes/screenshots/uci-sala-situacional-2021-03-08_09-22-09.png)
 
 **2021-03-09**: Hasta las 15:00 de hoy, no se han publicado datos del 2021-03-08 en la Sala Situacional, por lo que se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus070321.pdf
 
@@ -279,11 +279,11 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 2,144, 
 
 La sección de "Hospitalizados" muestra 2,278 camas UCI con ventilación mecánica en uso, que es el número publicado en el comunicado N° 470 del MINSA
 
-![Hospitalizados, Sala Situacional, 2021-03-29](minsa-reportes/imgs/uci-screenshot-covid19.minsa.gob.pe-2021.03.29.png)
+![Hospitalizados, Sala Situacional, 2021-03-29](minsa-reportes/screenshots/uci-screenshot-covid19.minsa.gob.pe-2021.03.29.png)
 
 Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, como se ve en la captura de pantalla siguiente
 
-![UCI, Sala Situacional, 2021-03-07](minsa-reportes/imgs/uci-sala-situacional-2021-03-08_09-22-09.png)
+![UCI, Sala Situacional, 2021-03-07](minsa-reportes/screenshots/uci-sala-situacional-2021-03-08_09-22-09.png)
 
 **2021-03-31**: Inconsistencia en el número de camas UCI en la Sala Situacional para el 2021-03-30, en la sección de Hospitalización se indica 2,290 camas UCI con respirador, pero en la sección de "UCI", se indica 2,288.
 
