@@ -435,12 +435,10 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 ```{r child="datos/README.md"}
 ```
 
-<details>
-<summary>
-
 ## Información empleada para recolectar los datos
 
-</summary>
+<details>
+<summary>Fuentes específicas</summary>
 
 
 ```{r child="minsa-reportes/notas-de-prensa.md"}

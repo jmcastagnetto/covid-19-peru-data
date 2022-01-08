@@ -1,4 +1,4 @@
-**Última actualización**: 2022-01-08 23:22:36 UTC
+**Última actualización**: 2022-01-08 23:24:26 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -967,11 +967,11 @@ emplear imágenes para las tablas. Un retroceso.
 -   misc: otra información
 -   comunicado\_minsa: número del comunicado del MINSA
 
-<details>
-<summary>
-
 ## Información empleada para recolectar los datos
 
+<details>
+<summary>
+Fuentes específicas
 </summary>
 
 ## Generales
