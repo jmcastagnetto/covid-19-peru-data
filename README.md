@@ -1,4 +1,4 @@
-**Última actualización**: 2022-01-08 22:56:41 UTC
+**Última actualización**: 2022-01-08 23:22:36 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -19,6 +19,11 @@ información nececasaria, y cuando eso ocurra, este repositorio ya no se
 actualzará.
 
 ## Información importante sobre los datos publicados
+
+<details>
+<summary>
+2020
+</summary>
 
 **2020-03-03**: A partir de hoy, MINSA ha puesto una “Sala situacional”
 oficial en <https://covid19.minsa.gob.pe/sala_situacional.asp>. Los
@@ -287,6 +292,12 @@ usando
 del 2020-12-30 en la Sala Situacional, se han extraido datos parciales
 usando
 <https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus291220.pdf>
+
+</details>
+<details>
+<summary>
+2021
+</summary>
 
 **2021-01-02**: Hasta las 20:30 de hoy, no se han publicado los datos
 del 2021-01-01 en la Sala Situacional, se han extraido datos parciales
@@ -838,6 +849,8 @@ a imágenes.
 **2021-11-30**: El reporte de DGE para el 2021-11-29, otra vez regresó a
 emplear imágenes para las tablas. Un retroceso.
 
+</details>
+
 ## Fuentes
 
 -   [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
@@ -851,7 +864,8 @@ emplear imágenes para las tablas. Un retroceso.
 
 ## Notas
 
--   Códigos de UBIGEO de <https://github.com/CONCYTEC/ubigeo-peru>
+-   Códigos de UBIGEO de
+    <https://github.com/jmcastagnetto/ubigeo-peru-aumentado>
 -   Códigos ISO-3166-2, usando el paquete en R `ISOcodes`:
     <https://cran.r-project.org/package=ISOcodes>
 -   A partir del 2020-07-21, estoy usando los datos de población al
@@ -953,7 +967,12 @@ emplear imágenes para las tablas. Un retroceso.
 -   misc: otra información
 -   comunicado\_minsa: número del comunicado del MINSA
 
+<details>
+<summary>
+
 ## Información empleada para recolectar los datos
+
+</summary>
 
 ## Generales
 
@@ -3836,3 +3855,5 @@ emplear imágenes para las tablas. Un retroceso.
         hospital el 2020-04-01, Lima.
     -   Mujer, 67 años, insuficiencia respiratoria aguda, obesidad,
         falleció en el hospital el 2020-04-01, Lima.
+
+</summary>

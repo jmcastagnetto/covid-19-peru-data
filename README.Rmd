@@ -20,6 +20,9 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 
 ## Información importante sobre los datos publicados
 
+<details>
+<summary>2020</summary>
+
 **2020-03-03**: A partir de hoy, MINSA ha puesto una "Sala situacional" oficial en https://covid19.minsa.gob.pe/sala_situacional.asp. Los datos de este día fueron tomados de las "Sala Situacional" del MINSA, el cual no tiene información (al día de hoy) acerca del número de recuperados
 
 **2020-04-08**: A partir de hoy, en la "Sala situacional" se comenzaron a publicar el número de casos confirmados por pruebas moleculares (PCR), y por "pruebas rápidas" (serológicas) por cada región. Esto se ha agregado a los datos.
@@ -149,6 +152,11 @@ Espero que pronto MINSA ponga un repositorio de datos abiertos con la informaci�
 **2020-12-27**: Hasta las 18:45h de hoy, no se han publicado los datos del 2020-12-26 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus251220.pdf
 
 **2020-12-31**: Hasta las 21:00 de hoy, no se han publicado los datos del 2020-12-30 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus291220.pdf
+
+</details>
+
+<details>
+<summary>2021</summary>
 
 **2021-01-02**: Hasta las 20:30 de hoy, no se han publicado los datos del 2021-01-01 en la Sala Situacional, se han extraido datos parciales usando https://www.dge.gob.pe/portal/docs/tools/coronavirus/coronavirus311220.pdf
 
@@ -391,6 +399,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2021-11-30**: El reporte de DGE para el 2021-11-29, otra vez regresó a emplear imágenes para las tablas. Un retroceso.
 
+</details>
+
 ## Fuentes
 
 - [Cuenta de twitter del MINSA](https://twitter.com/Minsa_Peru)
@@ -403,7 +413,7 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 ## Notas
 
-- Códigos de UBIGEO de https://github.com/CONCYTEC/ubigeo-peru
+- Códigos de UBIGEO de https://github.com/jmcastagnetto/ubigeo-peru-aumentado
 - Códigos ISO-3166-2, usando el paquete en R `ISOcodes`: https://cran.r-project.org/package=ISOcodes
 - A partir del 2020-07-21, estoy usando los datos de población al 2019, así como latitud y longitud de las capitales de departamento reportados por CEPLAN en: https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/
 	- Anteriormente se emplearon los datos de población por departamento (al 2017): https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/
@@ -425,7 +435,15 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 ```{r child="datos/README.md"}
 ```
 
+<details>
+<summary>
+
 ## Información empleada para recolectar los datos
+
+</summary>
+
 
 ```{r child="minsa-reportes/notas-de-prensa.md"}
 ```
+
+</summary>
