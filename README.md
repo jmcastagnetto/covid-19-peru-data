@@ -1,4 +1,4 @@
-**Última actualización**: 2022-01-08 23:24:26 UTC
+**Última actualización**: 2022-01-09 13:21:53 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3660,6 +3660,10 @@ Fuentes específicas
     (Comunicado Oficial
     N°806)](https://www.gob.pe/institucion/minsa/noticias/574784-minsa-casos-confirmados-por-covid-19-ascienden-a-2-342-550-comunicado-oficial-n-806)
     2022-01-07
+-   [Minsa: Casos confirmados por COVID-19 ascienden a 2 358 685
+    (Comunicado Oficial
+    N°807)](https://www.gob.pe/institucion/minsa/noticias/574836-minsa-casos-confirmados-por-covid-19-ascienden-a-2-358-685-comunicado-oficial-n-807)
+    2022-01-08
 
 ## Recuperados
 
