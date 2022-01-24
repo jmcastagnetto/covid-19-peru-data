@@ -1,4 +1,4 @@
-**Última actualización**: 2022-01-23 03:56:47 UTC
+**Última actualización**: 2022-01-24 05:37:53 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 
@@ -3720,6 +3720,10 @@ Fuentes específicas
     215 en el Perú (Comunicado N°
     825)](https://www.gob.pe/institucion/minsa/noticias/578662-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-894-215-en-el-peru-comunicado-n-825)
     2022-01-22
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 2 946
+    151 en el Perú (Comunicado N°
+    826)](https://www.gob.pe/institucion/minsa/noticias/578725-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-946-151-en-el-peru-comunicado-n-826)
+    2022-01-23
 
 ## Recuperados
 
