@@ -1,4 +1,4 @@
-**Última actualización**: 2022-01-25 23:49:29 UTC
+**Última actualización**: 2022-01-26 14:03:46 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -851,6 +851,21 @@ a imágenes.
 emplear imágenes para las tablas. Un retroceso.
 
 </details>
+<details>
+<summary>
+2022
+</summary>
+
+**2022-01-26**: El reporte de DGE para el 2022-01-25, contiene una tabla
+de “Casos Totales” cuyo total no corresponde a la suma de los valores,
+parciales. Por ejemplo, para Amazonas: PR + PCR + AG &lt; Total, en
+dicha tabla: PR = 6976, PCR = 18720, AG = 10388, que suman 36084,
+mientras que DGE indica Total = 37200. En los datos extraídos estoy
+preservando los valores publicados, no los correctos, por consistencia.
+En este repositorio hay una copia del [PDF de DGE del
+2022-01-24](minsa-datos/20220125/coronavirus240122.pdf).
+
+</details>
 
 ## Fuentes
 
@@ -946,6 +961,9 @@ emplear imágenes para las tablas. Un retroceso.
 -   altitude: Altitude de la capital de departamento (CEPLAN)
 -   lat: Latitud de la capital de departamento (CEPLAN)
 -   lon: Longitud de la capital de departamento (CEPLAN)
+
+*Los datos en el siguiente archivo no se están actualizando pues la
+fuente de información original (MINSA) ya no publica esos detalles*
 
 **`covid-19-peru-fallecimientos.csv`**
 
@@ -3729,6 +3747,10 @@ Fuentes específicas
     260 en el Perú (Comunicado N°
     827)](https://www.gob.pe/institucion/minsa/noticias/578942-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-2-976-260-en-el-peru-comunicado-n-827)
     2022-01-24
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 3 020
+    756 en el Perú (Comunicado N°
+    828)](https://www.gob.pe/institucion/minsa/noticias/579190-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-020-756-en-el-peru-comunicado-n-828)
+    2022-01-25
 
 ## Recuperados
 

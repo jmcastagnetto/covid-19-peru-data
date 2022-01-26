@@ -38,6 +38,8 @@
 - lat: Latitud de la capital de departamento (CEPLAN)
 - lon: Longitud de la capital de departamento (CEPLAN)
 
+_Los datos en el siguiente archivo no se están actualizando pues la fuente de información original (MINSA) ya no publica esos detalles_
+
 **`covid-19-peru-fallecimientos.csv`**
 
 - fecha_anuncio: Fecha en formato ISO (YYYY-MM-DD)
