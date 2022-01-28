@@ -408,6 +408,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2022-01-26**: El reporte de DGE para el 2022-01-25, contiene una tabla de "Casos Totales" cuyo total no corresponde a la suma de los valores, parciales. Por ejemplo, para Amazonas: PR + PCR + AG < Total, en dicha tabla: PR = 6976, PCR = 18720, AG = 10388, que suman 36084, mientras que DGE indica Total = 37200. En los datos extraídos estoy preservando los valores publicados, no los correctos, por consistencia. En este repositorio hay una copia del [PDF de DGE del 2022-01-24](minsa-datos/20220125/coronavirus240122.pdf).
 
+**2022-01-27**: Nuevamente, los valores publicados en la tabla de "Casos Totales", no son consistentes. En este repositorio hay una copia del [PDF de DGE del 2022-01-27](minsa-datos/20220127/coronavirus260122.pdf).
+
 </details>
 
 ## Fuentes

@@ -1,4 +1,4 @@
-**Última actualización**: 2022-01-27 14:07:11 UTC
+**Última actualización**: 2022-01-28 04:36:27 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -864,6 +864,10 @@ mientras que DGE indica Total = 37200. En los datos extraídos estoy
 preservando los valores publicados, no los correctos, por consistencia.
 En este repositorio hay una copia del [PDF de DGE del
 2022-01-24](minsa-datos/20220125/coronavirus240122.pdf).
+
+**2022-01-27**: Nuevamente, los valores publicados en la tabla de “Casos
+Totales”, no son consistentes. En este repositorio hay una copia del
+[PDF de DGE del 2022-01-27](minsa-datos/20220127/coronavirus260122.pdf).
 
 </details>
 
@@ -3755,6 +3759,10 @@ Fuentes específicas
     357 en el Perú (Comunicado N°
     829)](https://www.gob.pe/institucion/minsa/noticias/579478-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-070-357-en-el-peru-comunicado-n-829)
     2022-01-26
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 3 120
+    401 en el Perú (Comunicado N°
+    830)](https://www.gob.pe/institucion/minsa/noticias/579776-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-120-401-en-el-peru-comunicado-n-830)
+    2022-01-27
 
 ## Recuperados
 
