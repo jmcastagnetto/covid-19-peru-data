@@ -410,6 +410,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2022-01-27**: Nuevamente, los valores publicados en la tabla de "Casos Totales", no son consistentes. En este repositorio hay una copia del [PDF de DGE del 2022-01-27](minsa-datos/20220127/coronavirus260122.pdf).
 
+**2022-01-02**: Como hace muchas semanas no se actualiza la "Sala Situacional", dejaré de usar ese recurso como fuente de datos.
+
 </details>
 
 ## Fuentes
