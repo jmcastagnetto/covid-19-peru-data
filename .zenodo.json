@@ -10,5 +10,9 @@
 
     "title": "Datos sobre COVID-19 en el Peru, recopilados de los reportes diarios del MINSA y DGE",
 
-    "keywords": ["COVID-19", "Peru", "Vaccination"]
+    "keywords": ["COVID-19", "Peru"],
+
+	"communities": [ 
+		{"identifier": "covid-19"}
+	]
 }
