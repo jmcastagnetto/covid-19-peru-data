@@ -1,5 +1,5 @@
 -   **Repositorio creado el 2020-03-15 21:11:32 UTC**
--   **Última actualización**: 2022-02-24 00:26:47 UTC
+-   **Última actualización**: 2022-02-24 23:54:25 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -3888,6 +3888,10 @@ Fuentes específicas
     880 en el Perú (Comunicado
     N°861)](https://www.gob.pe/institucion/minsa/noticias/585595-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-500-880-en-el-peru-comunicado-n-861)
     2022-02-22
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 3 503
+    892 en el Perú (Comunicado
+    N°863)](https://www.gob.pe/institucion/minsa/noticias/585895-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-503-892-en-el-peru-comunicado-n-863)
+    2022-02-23
 
 </details>
 
