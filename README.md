@@ -1,5 +1,5 @@
 -   **Repositorio creado el 2020-03-15 21:11:32 UTC**
--   **Última actualización**: 2022-02-24 23:54:25 UTC
+-   **Última actualización**: 2022-02-25 13:16:20 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -872,6 +872,11 @@ Totales”, no son consistentes. En este repositorio hay una copia del
 
 **2022-01-02**: Como hace muchas semanas no se actualiza la “Sala
 Situacional”, dejaré de usar ese recurso como fuente de datos.
+
+**2022-02-25**: Desde hace semanas el reporte de DGE tiene errores de
+suma en los totales de las tablas, en particular en las tablas en la
+página 3. He usado y seguiré usando el total correcto en los datos
+recopilados, no los incorrectos de la tabla.
 
 </details>
 
@@ -3892,6 +3897,10 @@ Fuentes específicas
     892 en el Perú (Comunicado
     N°863)](https://www.gob.pe/institucion/minsa/noticias/585895-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-503-892-en-el-peru-comunicado-n-863)
     2022-02-23
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 3 506
+    075 en el Perú (Comunicado
+    N°864)](https://www.gob.pe/institucion/minsa/noticias/586196-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-506-075-en-el-peru-comunicado-n-864)
+    2022-02-24
 
 </details>
 

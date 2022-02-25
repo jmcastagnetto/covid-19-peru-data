@@ -413,6 +413,8 @@ Pero, en la sección de "UCI" de la misma visualización, el valor es de 1,512, 
 
 **2022-01-02**: Como hace muchas semanas no se actualiza la "Sala Situacional", dejaré de usar ese recurso como fuente de datos.
 
+**2022-02-25**: Desde hace semanas el reporte de DGE tiene errores de suma en los totales de las tablas, en particular en las tablas en la página 3. He usado y seguiré usando el total correcto en los datos recopilados, no los incorrectos de la tabla.
+
 </details>
 
 ## Fuentes
