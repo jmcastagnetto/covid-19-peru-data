@@ -1,5 +1,20 @@
+-   [Motivación](#motivación)
+-   [Información importante sobre los datos
+    publicados](#información-importante-sobre-los-datos-publicados)
+-   [Fuentes](#fuentes)
+-   [Notas](#notas)
+-   [Visualizaciones](#visualizaciones)
+-   [Formato de datos](#formato-de-datos)
+-   [Estructura de los archivos CSV](#estructura-de-los-archivos-csv)
+-   [Información empleada para recolectar los
+    datos](#información-empleada-para-recolectar-los-datos)
+-   [Generales](#generales)
+-   [Casos confirmados](#casos-confirmados)
+-   [Recuperados](#recuperados)
+-   [Fallecimientos](#fallecimientos)
+
 -   **Repositorio creado el 2020-03-15 21:11:32 UTC**
--   **Última actualización**: 2022-03-14 18:54:42 UTC
+-   **Última actualización**: 2022-03-15 14:40:27 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -3969,6 +3984,10 @@ Fuentes específicas
     (Comunicado Oficial
     N°881)](https://www.gob.pe/institucion/minsa/noticias/589833-minsa-casos-confirmados-por-covid-19-ascienden-a-3-536-496-comunicado-oficial-n-881)
     2022-03-13
+-   [Minsa: Casos confirmados por COVID-19 ascienden a 3 536 842
+    (Comunicado Oficial
+    N°883)](https://www.gob.pe/institucion/minsa/noticias/590192-minsa-casos-confirmados-por-covid-19-ascienden-a-3-536-842-comunicado-oficial-n-883)
+    2022-03-14
 
 </details>
 

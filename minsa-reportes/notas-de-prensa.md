@@ -755,6 +755,7 @@
 - [Minsa: Casos confirmados por COVID-19 ascienden a 3 534 687 (Comunicado Oficial N°879)](https://www.gob.pe/institucion/minsa/noticias/589700-minsa-casos-confirmados-por-covid-19-ascienden-a-3-534-687-comunicado-oficial-n-879) 2022-03-11
 - [Minsa: Casos confirmados por COVID-19 ascienden a 3 535 726 (Comunicado Oficial N°880)](https://www.gob.pe/institucion/minsa/noticias/589755-minsa-casos-confirmados-por-covid-19-ascienden-a-3-535-726-comunicado-oficial-n-880) 2022-03-12
 - [Minsa: Casos confirmados por COVID-19 ascienden a 3 536 496 (Comunicado Oficial N°881)](https://www.gob.pe/institucion/minsa/noticias/589833-minsa-casos-confirmados-por-covid-19-ascienden-a-3-536-496-comunicado-oficial-n-881) 2022-03-13
+- [Minsa: Casos confirmados por COVID-19 ascienden a 3 536 842 (Comunicado Oficial N°883)](https://www.gob.pe/institucion/minsa/noticias/590192-minsa-casos-confirmados-por-covid-19-ascienden-a-3-536-842-comunicado-oficial-n-883) 2022-03-14
 
 </details>
 
