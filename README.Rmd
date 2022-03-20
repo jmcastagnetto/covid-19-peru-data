@@ -18,7 +18,7 @@ MINSA está publicando en su cuenta de Twitter y en la sección de "Noticias" de
 
 Seguiré actualizando diariamente mientras esta información se encuentre disponible.
 
-Espero que pronto MINSA ponga un repositorio de datos abiertos con la información nececasaria, y cuando eso ocurra, este repositorio ya no se actualzará.
+Espero que pronto MINSA ponga un repositorio de datos abiertos con la información necesaria, y cuando eso ocurra, este repositorio ya no se actualzará.
 
 ## Información importante sobre los datos publicados
 
