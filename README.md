@@ -14,7 +14,7 @@
 -   [Fallecimientos](#fallecimientos)
 
 -   **Repositorio creado el 2020-03-15 21:11:32 UTC**
--   **Última actualización**: 2022-03-20 05:03:09 UTC
+-   **Última actualización**: 2022-03-21 12:48:41 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -4008,6 +4008,10 @@ Fuentes específicas
     793 en el Perú (Comunicado Oficial
     N°888)](Minsa:%20Casos%20confirmados%20por%20coronavirus%20COVID-19%20ascienden%20a%203%20540%20793%20en%20el%20Perú%20(Comunicado%20Oficial%20N°888))
     2022-03-19
+-   [Minsa: Casos confirmados por coronavirus COVID-19 ascienden a 3 541
+    397 en el Perú (Comunicado Oficial
+    N°889)](https://www.gob.pe/institucion/minsa/noticias/593353-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-541-397-en-el-peru-comunicado-oficial-n-889)
+    2022-03-20
 
 </details>
 
