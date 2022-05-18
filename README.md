@@ -14,7 +14,7 @@
 -   [Fallecimientos](#fallecimientos)
 
 -   **Repositorio creado el 2020-03-15 21:11:32 UTC**
--   **Última actualización**: 2022-05-18 05:11:11 UTC
+-   **Última actualización**: 2022-05-18 17:00:15 UTC
 
 [![DOI](https://zenodo.org/badge/247552256.svg)](https://zenodo.org/badge/latestdoi/247552256)
 [![License](https://img.shields.io/github/license/jmcastagnetto/covid-19-peru-data)](LICENSE)
@@ -4056,10 +4056,26 @@ Fuentes específicas
     125 en el Perú (Comunicado Oficial
     N°903)](https://www.gob.pe/institucion/minsa/noticias/596595-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-547-125-en-el-peru-comunicado-oficial-n-903)
     2022-03-31
+-   [Minsa: Casos confirmados de COVID-19 ascienden a 3 547 606 en el
+    Perú (Comunicado de Prensa
+    Nº906)](https://www.gob.pe/institucion/minsa/noticias/597226-minsa-casos-confirmados-de-covid-19-ascienden-a-3-547-606-en-el-peru-comunicado-de-prensa-n-906)
+    2022-04-01
 -   [Minsa: Casos confirmados de COVID-19 ascienden a 3 548 088 en el
     Perú (Comunicado de Prensa
     Nº907)](https://www.gob.pe/institucion/minsa/noticias/597300-minsa-casos-confirmados-de-covid-19-ascienden-a-3-548-088-en-el-peru-comunicado-de-prensa-n-907)
     2022-04-02
+-   [Minsa: Casos confirmados de COVID-19 ascienden a 3 548 559 en el
+    Perú (Comunicado de Prensa
+    Nº908)](https://www.gob.pe/institucion/minsa/noticias/597386-minsa-casos-confirmados-de-covid-19-ascienden-a-3-548-559-en-el-peru-comunicado-de-prensa-n-908)
+    2022-04-03
+-   [Minsa: Casos confirmados de COVID-19 ascienden a 3 548 717 en el
+    Perú (Comunicado de Prensa Nº
+    909)](https://www.gob.pe/institucion/minsa/noticias/597697-minsa-casos-confirmados-de-covid-19-ascienden-a-3-548-717-en-el-peru-comunicado-de-prensa-n-909)
+    2022-04-04
+-   \[Minsa: Casos confirmados por coronavirus Covid-19 ascienden a 3
+    549 028 en el Perú (Comunicado N°
+    910)\]<https://www.gob.pe/institucion/minsa/noticias/597956-minsa-casos-confirmados-por-coronavirus-covid-19-ascienden-a-3-549-028-en-el-peru-comunicado-n-910>)
+    2022-04-05
 
 </details>
 
